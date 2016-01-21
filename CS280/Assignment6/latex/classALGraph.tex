@@ -1,0 +1,210 @@
+\hypertarget{classALGraph}{\section{A\-L\-Graph Class Reference}
+\label{classALGraph}\index{A\-L\-Graph@{A\-L\-Graph}}
+}
+
+
+grapgh object  
+
+
+
+
+{\ttfamily \#include $<$A\-L\-Graph.\-h$>$}
+
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{classALGraph_a7680b77bf39c4dd40bc75b5b579306b3}{T\-R\-A\-V\-E\-R\-S\-A\-L\-\_\-\-M\-E\-T\-H\-O\-D} \{ {\bfseries D\-E\-P\-T\-H\-\_\-\-F\-I\-R\-S\-T}, 
+{\bfseries B\-R\-E\-A\-D\-T\-H\-\_\-\-F\-I\-R\-S\-T}
+ \}
+\begin{DoxyCompactList}\small\item\em traversal method for extra credit \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classALGraph_a1176cab0d831343860c4d647974d0bf4}{A\-L\-Graph} (unsigned size)
+\begin{DoxyCompactList}\small\item\em constructor \end{DoxyCompactList}\item 
+void \hyperlink{classALGraph_a0f30e56002d326cd7c9eeecd17169d74}{Add\-D\-Edge} (unsigned source, unsigned destination, unsigned weight)
+\begin{DoxyCompactList}\small\item\em add a directed edge between two nodes \end{DoxyCompactList}\item 
+void \hyperlink{classALGraph_ae9feb4e1f0c550897e511426a82a6dca}{Add\-U\-Edge} (unsigned node1, unsigned node2, unsigned weight)
+\begin{DoxyCompactList}\small\item\em add undirected edge between nodes \end{DoxyCompactList}\item 
+std\-::vector$<$ unsigned $>$ \hyperlink{classALGraph_af2530fe313efaf095abe815307f5ad84}{Search\-From} (unsigned start\-\_\-node, \hyperlink{classALGraph_a7680b77bf39c4dd40bc75b5b579306b3}{T\-R\-A\-V\-E\-R\-S\-A\-L\-\_\-\-M\-E\-T\-H\-O\-D} method) const 
+\begin{DoxyCompactList}\small\item\em search method (extra credit) \end{DoxyCompactList}\item 
+std\-::vector$<$ \hyperlink{structDijkstraInfo}{Dijkstra\-Info} $>$ \hyperlink{classALGraph_a99cdf6e2e9f62314ec6494e23c976bec}{Dijkstra} (unsigned start\-\_\-node) const 
+\begin{DoxyCompactList}\small\item\em dijkstra method from specific starting node \end{DoxyCompactList}\item 
+\hyperlink{ALGraph_8h_a1f16d160191420f6fe90229eabb6c48a}{A\-L\-I\-S\-T} \hyperlink{classALGraph_a875ad536b3dd0825f22440a6631cf836}{Get\-A\-List} () const 
+\begin{DoxyCompactList}\small\item\em get adjacency list for the graph \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \hyperlink{classALGraph_a29e4d51112b5817f8bac93f3b217d3e8}{Implemented\-Searches} ()
+\begin{DoxyCompactList}\small\item\em implmeneted extra credti \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classALGraph_a8360670feeb2451c782272936b538efa}{const unsigned \hyperlink{classALGraph_a8360670feeb2451c782272936b538efa}{I\-N\-F\-I\-N\-I\-T\-Y\-\_\-} = static\-\_\-cast$<$unsigned$>$(-\/1)}\label{classALGraph_a8360670feeb2451c782272936b538efa}
+
+\begin{DoxyCompactList}\small\item\em definition of inifinty fo robject \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classALGraph_a208283c21d926750ab605dcdfa55c0ee}{std\-::vector$<$ std\-::list\\*
+$<$ \hyperlink{structAdjacencyInfo}{Adjacency\-Info} $>$ $>$ \hyperlink{classALGraph_a208283c21d926750ab605dcdfa55c0ee}{graph}}\label{classALGraph_a208283c21d926750ab605dcdfa55c0ee}
+
+\begin{DoxyCompactList}\small\item\em adjacency list of the graph \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+grapgh object 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classALGraph_a1176cab0d831343860c4d647974d0bf4}{\index{A\-L\-Graph@{A\-L\-Graph}!A\-L\-Graph@{A\-L\-Graph}}
+\index{A\-L\-Graph@{A\-L\-Graph}!ALGraph@{A\-L\-Graph}}
+\subsubsection[{A\-L\-Graph}]{\setlength{\rightskip}{0pt plus 5cm}A\-L\-Graph\-::\-A\-L\-Graph (
+\begin{DoxyParamCaption}
+\item[{unsigned}]{size}
+\end{DoxyParamCaption}
+)}}\label{classALGraph_a1176cab0d831343860c4d647974d0bf4}
+
+
+constructor 
+
+Constructor for \hyperlink{classALGraph}{A\-L\-Graph}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em size} & How many nodes will be in the graph \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classALGraph_a0f30e56002d326cd7c9eeecd17169d74}{\index{A\-L\-Graph@{A\-L\-Graph}!Add\-D\-Edge@{Add\-D\-Edge}}
+\index{Add\-D\-Edge@{Add\-D\-Edge}!ALGraph@{A\-L\-Graph}}
+\subsubsection[{Add\-D\-Edge}]{\setlength{\rightskip}{0pt plus 5cm}void A\-L\-Graph\-::\-Add\-D\-Edge (
+\begin{DoxyParamCaption}
+\item[{unsigned}]{source, }
+\item[{unsigned}]{destination, }
+\item[{unsigned}]{weight}
+\end{DoxyParamCaption}
+)}}\label{classALGraph_a0f30e56002d326cd7c9eeecd17169d74}
+
+
+add a directed edge between two nodes 
+
+Addsa directed edge between two nodes.
+
+
+\begin{DoxyParams}{Parameters}
+{\em source} & Starting node\\
+\hline
+{\em destination} & destination node\\
+\hline
+{\em weight} & Cost to get from source -\/$>$ destination \\
+\hline
+\end{DoxyParams}
+\hypertarget{classALGraph_ae9feb4e1f0c550897e511426a82a6dca}{\index{A\-L\-Graph@{A\-L\-Graph}!Add\-U\-Edge@{Add\-U\-Edge}}
+\index{Add\-U\-Edge@{Add\-U\-Edge}!ALGraph@{A\-L\-Graph}}
+\subsubsection[{Add\-U\-Edge}]{\setlength{\rightskip}{0pt plus 5cm}void A\-L\-Graph\-::\-Add\-U\-Edge (
+\begin{DoxyParamCaption}
+\item[{unsigned}]{node1, }
+\item[{unsigned}]{node2, }
+\item[{unsigned}]{weight}
+\end{DoxyParamCaption}
+)}}\label{classALGraph_ae9feb4e1f0c550897e511426a82a6dca}
+
+
+add undirected edge between nodes 
+
+Adds undirected node between two nodes.
+
+
+\begin{DoxyParams}{Parameters}
+{\em node1} & first node\\
+\hline
+{\em node2} & second node\\
+\hline
+{\em weight} & cost to get from node1 -\/$>$ node 2 \& node2 -\/$>$ node 1 \\
+\hline
+\end{DoxyParams}
+\hypertarget{classALGraph_a99cdf6e2e9f62314ec6494e23c976bec}{\index{A\-L\-Graph@{A\-L\-Graph}!Dijkstra@{Dijkstra}}
+\index{Dijkstra@{Dijkstra}!ALGraph@{A\-L\-Graph}}
+\subsubsection[{Dijkstra}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<$ {\bf Dijkstra\-Info} $>$ A\-L\-Graph\-::\-Dijkstra (
+\begin{DoxyParamCaption}
+\item[{unsigned}]{start\-\_\-node}
+\end{DoxyParamCaption}
+) const}}\label{classALGraph_a99cdf6e2e9f62314ec6494e23c976bec}
+
+
+dijkstra method from specific starting node 
+
+Performs Dijkstra's algorithm on the graph to find shortest path from a starting node to every other possible node.
+
+
+\begin{DoxyParams}{Parameters}
+{\em start\-\_\-node} & What node we are starting at.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Results of Dijkstra algorithm. 
+\end{DoxyReturn}
+\hypertarget{classALGraph_a875ad536b3dd0825f22440a6631cf836}{\index{A\-L\-Graph@{A\-L\-Graph}!Get\-A\-List@{Get\-A\-List}}
+\index{Get\-A\-List@{Get\-A\-List}!ALGraph@{A\-L\-Graph}}
+\subsubsection[{Get\-A\-List}]{\setlength{\rightskip}{0pt plus 5cm}{\bf A\-L\-I\-S\-T} A\-L\-Graph\-::\-Get\-A\-List (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classALGraph_a875ad536b3dd0825f22440a6631cf836}
+
+
+get adjacency list for the graph 
+
+Gets adjacency matrix for the graph.
+
+\begin{DoxyReturn}{Returns}
+Adjacency matrix of the graph. 
+\end{DoxyReturn}
+\hypertarget{classALGraph_a29e4d51112b5817f8bac93f3b217d3e8}{\index{A\-L\-Graph@{A\-L\-Graph}!Implemented\-Searches@{Implemented\-Searches}}
+\index{Implemented\-Searches@{Implemented\-Searches}!ALGraph@{A\-L\-Graph}}
+\subsubsection[{Implemented\-Searches}]{\setlength{\rightskip}{0pt plus 5cm}bool A\-L\-Graph\-::\-Implemented\-Searches (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classALGraph_a29e4d51112b5817f8bac93f3b217d3e8}
+
+
+implmeneted extra credti 
+
+Whether extra credit is implemented.
+
+\begin{DoxyReturn}{Returns}
+True/\-False 
+\end{DoxyReturn}
+\hypertarget{classALGraph_af2530fe313efaf095abe815307f5ad84}{\index{A\-L\-Graph@{A\-L\-Graph}!Search\-From@{Search\-From}}
+\index{Search\-From@{Search\-From}!ALGraph@{A\-L\-Graph}}
+\subsubsection[{Search\-From}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<$ unsigned $>$ A\-L\-Graph\-::\-Search\-From (
+\begin{DoxyParamCaption}
+\item[{unsigned}]{start\-\_\-node, }
+\item[{{\bf T\-R\-A\-V\-E\-R\-S\-A\-L\-\_\-\-M\-E\-T\-H\-O\-D}}]{method}
+\end{DoxyParamCaption}
+) const}}\label{classALGraph_af2530fe313efaf095abe815307f5ad84}
+
+
+search method (extra credit) 
+
+Searches the graph from a certain node.
+
+
+\begin{DoxyParams}{Parameters}
+{\em start\-\_\-node} & Starting node of the search\\
+\hline
+{\em method} & method of searching\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Vector information from searching 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{ALGraph_8h}{A\-L\-Graph.\-h}\item 
+\hyperlink{ALGraph_8cpp}{A\-L\-Graph.\-cpp}\end{DoxyCompactItemize}

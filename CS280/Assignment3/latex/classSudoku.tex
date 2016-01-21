@@ -1,0 +1,352 @@
+\hypertarget{classSudoku}{\section{Sudoku Class Reference}
+\label{classSudoku}\index{Sudoku@{Sudoku}}
+}
+
+
+{\ttfamily \#include $<$Sudoku.\-h$>$}
+
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structSudoku_1_1SudokuStats}{Sudoku\-Stats}
+\end{DoxyCompactItemize}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{classSudoku_aefec02cf42686a826d35086979afba62}{Message\-Type} \{ \\*
+\hyperlink{classSudoku_aefec02cf42686a826d35086979afba62a317c7191f8f325bf5d2374d421d237bd}{M\-S\-G\-\_\-\-S\-T\-A\-R\-T\-I\-N\-G}, 
+\hyperlink{classSudoku_aefec02cf42686a826d35086979afba62a238f9c3e901ca474f3240d4d494cdea9}{M\-S\-G\-\_\-\-F\-I\-N\-I\-S\-H\-E\-D\-\_\-\-O\-K}, 
+\hyperlink{classSudoku_aefec02cf42686a826d35086979afba62a0d80c90a2855bfe71eada099907aa9c0}{M\-S\-G\-\_\-\-F\-I\-N\-I\-S\-H\-E\-D\-\_\-\-F\-A\-I\-L}, 
+\hyperlink{classSudoku_aefec02cf42686a826d35086979afba62a81b3af563a631c4d44661eb5f3deee68}{M\-S\-G\-\_\-\-A\-B\-O\-R\-T\-\_\-\-C\-H\-E\-C\-K}, 
+\\*
+\hyperlink{classSudoku_aefec02cf42686a826d35086979afba62adfc3bf46903901085cb0faaa25455b13}{M\-S\-G\-\_\-\-P\-L\-A\-C\-I\-N\-G}, 
+\hyperlink{classSudoku_aefec02cf42686a826d35086979afba62ab14ccf4c6ab43633bb9a5a4dc7e13bd6}{M\-S\-G\-\_\-\-R\-E\-M\-O\-V\-I\-N\-G}
+ \}
+\item 
+enum \hyperlink{classSudoku_ae58a74aa553563f6db22b82329631838}{Symbol\-Type} \{ {\bfseries S\-Y\-M\-\_\-\-N\-U\-M\-B\-E\-R}, 
+{\bfseries S\-Y\-M\-\_\-\-L\-E\-T\-T\-E\-R}
+ \}
+\item 
+typedef bool($\ast$ \hyperlink{classSudoku_ab9d5a4c123c93f3afb066e5f83149c57}{S\-U\-D\-O\-K\-U\-\_\-\-C\-A\-L\-L\-B\-A\-C\-K} )(const \hyperlink{classSudoku}{Sudoku} \&sudoku, const char $\ast$\hyperlink{classSudoku_a2c25d58e03cdc46ec8774a449fd32d81}{board}, \hyperlink{classSudoku_aefec02cf42686a826d35086979afba62}{Message\-Type} message, size\-\_\-t move, int basesize, int index, char value, int $\ast$dup\-\_\-indexes)
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classSudoku_a3e44afdd5799061b976bd643e3186ca4}{Sudoku} (int basesize, \hyperlink{classSudoku_ae58a74aa553563f6db22b82329631838}{Symbol\-Type} stype=S\-Y\-M\-\_\-\-N\-U\-M\-B\-E\-R, \hyperlink{classSudoku_ab9d5a4c123c93f3afb066e5f83149c57}{S\-U\-D\-O\-K\-U\-\_\-\-C\-A\-L\-L\-B\-A\-C\-K} \hyperlink{classSudoku_a276e4848efaf2ab0738752016059bd4d}{callback}=0)
+\begin{DoxyCompactList}\small\item\em Constructor for \hyperlink{classSudoku}{Sudoku} solver object. \end{DoxyCompactList}\item 
+\hypertarget{classSudoku_a9c949b824fa3d98d3515dbecb8cf413e}{\hyperlink{classSudoku_a9c949b824fa3d98d3515dbecb8cf413e}{$\sim$\-Sudoku} ()}\label{classSudoku_a9c949b824fa3d98d3515dbecb8cf413e}
+
+\begin{DoxyCompactList}\small\item\em Destructor for obect. \end{DoxyCompactList}\item 
+void \hyperlink{classSudoku_aeb8c521f92f73bbe277d2f6b2c40522b}{Setup\-Board} (const char $\ast$values, int size)
+\begin{DoxyCompactList}\small\item\em Load in the board values from text file provided. \end{DoxyCompactList}\item 
+\hypertarget{classSudoku_a0a46370670ce20e8d56a77b38abddc96}{void \hyperlink{classSudoku_a0a46370670ce20e8d56a77b38abddc96}{Solve} ()}\label{classSudoku_a0a46370670ce20e8d56a77b38abddc96}
+
+\begin{DoxyCompactList}\small\item\em Solves the board by caliing place value to recursively finish the board. \end{DoxyCompactList}\item 
+const char $\ast$ \hyperlink{classSudoku_a898d752757dfa7617ae7e44f839032aa}{Get\-Board} () const 
+\begin{DoxyCompactList}\small\item\em Returns the board in its current state. \end{DoxyCompactList}\item 
+\hyperlink{structSudoku_1_1SudokuStats}{Sudoku\-Stats} \hyperlink{classSudoku_ab4cb2465e3fdd17a87f815ee67def231}{Get\-Stats} () const 
+\begin{DoxyCompactList}\small\item\em Returns statistics of this object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static const char \hyperlink{classSudoku_a86b04a41ba0123d8b64a662087f9657d}{E\-M\-P\-T\-Y\-\_\-\-C\-H\-A\-R} = ' '
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classSudoku_a7ad0edcccfe6ac726e2d0a96a1a1bc31}{conflict} (int index)
+\begin{DoxyCompactList}\small\item\em Given an index check for conflicts around it (duplicate values). No specific return value but it will fill out member dupe\-\_\-index with the results. \end{DoxyCompactList}\item 
+int \hyperlink{classSudoku_ae0ca49e4fde30d74161b57f0add5a2f9}{find\-\_\-next\-\_\-empty} (int index)
+\begin{DoxyCompactList}\small\item\em Finds the next blank spot on the board. \end{DoxyCompactList}\item 
+void \hyperlink{classSudoku_a144ea29388385b796dd8e45c6cf297f4}{place\-\_\-value} (int index)
+\begin{DoxyCompactList}\small\item\em Recursively solves the sudoku board by brute force. This function assumes the board is solvable. If given an impossible board it 'should' work but will take length$^\wedge$(\# of empty spots at the start) to realize it, (will never finish). \end{DoxyCompactList}\item 
+int \hyperlink{classSudoku_af2bb86df1d5b8c0597adf2de7a025b56}{check\-\_\-row} (int index)
+\begin{DoxyCompactList}\small\item\em Check the values in a row of a given index for duplicates. \end{DoxyCompactList}\item 
+int \hyperlink{classSudoku_aa082f759b9ef10262eeb39291bfc5d62}{check\-\_\-column} (int index)
+\begin{DoxyCompactList}\small\item\em Checks the column of the board of a certain index. \end{DoxyCompactList}\item 
+int \hyperlink{classSudoku_ab1e1e8701c9a1b89e16c876c4a01c033}{check\-\_\-neighbors} (int index)
+\begin{DoxyCompactList}\small\item\em Checks the neighbors of an index, the square around it, for duplicates. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{structSudoku_1_1SudokuStats}{Sudoku\-Stats} \hyperlink{classSudoku_a4e3db7bee575395d9336b78963b8d426}{stats}
+\item 
+int \hyperlink{classSudoku_a80bd89d6732a9c2eae7acec7bacd18c6}{length}
+\item 
+char $\ast$ \hyperlink{classSudoku_a2c25d58e03cdc46ec8774a449fd32d81}{board}
+\item 
+int \hyperlink{classSudoku_a0287c0bedbbcac2944df596d5aa11248}{dupe\-\_\-index} \mbox{[}3\mbox{]}
+\item 
+\hyperlink{classSudoku_ab9d5a4c123c93f3afb066e5f83149c57}{S\-U\-D\-O\-K\-U\-\_\-\-C\-A\-L\-L\-B\-A\-C\-K} \hyperlink{classSudoku_a276e4848efaf2ab0738752016059bd4d}{callback}
+\item 
+bool \hyperlink{classSudoku_a21c5551563e8963784c949772b2bc684}{finished}
+\item 
+char \hyperlink{classSudoku_a5a3590e872546b88aab9057476c8c78d}{starting\-\_\-value}
+\item 
+char \hyperlink{classSudoku_a303d3b9e8bf9ae3f2733648cb2e85c09}{ending\-\_\-value}
+\item 
+int \hyperlink{classSudoku_ac25a6f7bcd1b179b63d4d14a111fcfca}{first\-\_\-empty}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+sudoku solver class 
+
+\subsection{Member Typedef Documentation}
+\hypertarget{classSudoku_ab9d5a4c123c93f3afb066e5f83149c57}{\index{Sudoku@{Sudoku}!S\-U\-D\-O\-K\-U\-\_\-\-C\-A\-L\-L\-B\-A\-C\-K@{S\-U\-D\-O\-K\-U\-\_\-\-C\-A\-L\-L\-B\-A\-C\-K}}
+\index{S\-U\-D\-O\-K\-U\-\_\-\-C\-A\-L\-L\-B\-A\-C\-K@{S\-U\-D\-O\-K\-U\-\_\-\-C\-A\-L\-L\-B\-A\-C\-K}!Sudoku@{Sudoku}}
+\subsubsection[{S\-U\-D\-O\-K\-U\-\_\-\-C\-A\-L\-L\-B\-A\-C\-K}]{\setlength{\rightskip}{0pt plus 5cm}typedef bool($\ast$ Sudoku\-::\-S\-U\-D\-O\-K\-U\-\_\-\-C\-A\-L\-L\-B\-A\-C\-K)(const {\bf Sudoku} \&sudoku,const char $\ast${\bf board},{\bf Message\-Type} message,size\-\_\-t move,int basesize,int index,char value,int $\ast$dup\-\_\-indexes)}}\label{classSudoku_ab9d5a4c123c93f3afb066e5f83149c57}
+Implemented in the client and called during the search for a solution 
+
+\subsection{Member Enumeration Documentation}
+\hypertarget{classSudoku_aefec02cf42686a826d35086979afba62}{\index{Sudoku@{Sudoku}!Message\-Type@{Message\-Type}}
+\index{Message\-Type@{Message\-Type}!Sudoku@{Sudoku}}
+\subsubsection[{Message\-Type}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf Sudoku\-::\-Message\-Type}}}\label{classSudoku_aefec02cf42686a826d35086979afba62}
+Used by the callback function \begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{M\-S\-G\-\_\-\-S\-T\-A\-R\-T\-I\-N\-G@{M\-S\-G\-\_\-\-S\-T\-A\-R\-T\-I\-N\-G}!Sudoku@{Sudoku}}\index{Sudoku@{Sudoku}!M\-S\-G\-\_\-\-S\-T\-A\-R\-T\-I\-N\-G@{M\-S\-G\-\_\-\-S\-T\-A\-R\-T\-I\-N\-G}}\item[{\em 
+\hypertarget{classSudoku_aefec02cf42686a826d35086979afba62a317c7191f8f325bf5d2374d421d237bd}{M\-S\-G\-\_\-\-S\-T\-A\-R\-T\-I\-N\-G}\label{classSudoku_aefec02cf42686a826d35086979afba62a317c7191f8f325bf5d2374d421d237bd}
+}]the board is setup, ready to go \index{M\-S\-G\-\_\-\-F\-I\-N\-I\-S\-H\-E\-D\-\_\-\-O\-K@{M\-S\-G\-\_\-\-F\-I\-N\-I\-S\-H\-E\-D\-\_\-\-O\-K}!Sudoku@{Sudoku}}\index{Sudoku@{Sudoku}!M\-S\-G\-\_\-\-F\-I\-N\-I\-S\-H\-E\-D\-\_\-\-O\-K@{M\-S\-G\-\_\-\-F\-I\-N\-I\-S\-H\-E\-D\-\_\-\-O\-K}}\item[{\em 
+\hypertarget{classSudoku_aefec02cf42686a826d35086979afba62a238f9c3e901ca474f3240d4d494cdea9}{M\-S\-G\-\_\-\-F\-I\-N\-I\-S\-H\-E\-D\-\_\-\-O\-K}\label{classSudoku_aefec02cf42686a826d35086979afba62a238f9c3e901ca474f3240d4d494cdea9}
+}]finished and found a solution \index{M\-S\-G\-\_\-\-F\-I\-N\-I\-S\-H\-E\-D\-\_\-\-F\-A\-I\-L@{M\-S\-G\-\_\-\-F\-I\-N\-I\-S\-H\-E\-D\-\_\-\-F\-A\-I\-L}!Sudoku@{Sudoku}}\index{Sudoku@{Sudoku}!M\-S\-G\-\_\-\-F\-I\-N\-I\-S\-H\-E\-D\-\_\-\-F\-A\-I\-L@{M\-S\-G\-\_\-\-F\-I\-N\-I\-S\-H\-E\-D\-\_\-\-F\-A\-I\-L}}\item[{\em 
+\hypertarget{classSudoku_aefec02cf42686a826d35086979afba62a0d80c90a2855bfe71eada099907aa9c0}{M\-S\-G\-\_\-\-F\-I\-N\-I\-S\-H\-E\-D\-\_\-\-F\-A\-I\-L}\label{classSudoku_aefec02cf42686a826d35086979afba62a0d80c90a2855bfe71eada099907aa9c0}
+}]finished but no solution found \index{M\-S\-G\-\_\-\-A\-B\-O\-R\-T\-\_\-\-C\-H\-E\-C\-K@{M\-S\-G\-\_\-\-A\-B\-O\-R\-T\-\_\-\-C\-H\-E\-C\-K}!Sudoku@{Sudoku}}\index{Sudoku@{Sudoku}!M\-S\-G\-\_\-\-A\-B\-O\-R\-T\-\_\-\-C\-H\-E\-C\-K@{M\-S\-G\-\_\-\-A\-B\-O\-R\-T\-\_\-\-C\-H\-E\-C\-K}}\item[{\em 
+\hypertarget{classSudoku_aefec02cf42686a826d35086979afba62a81b3af563a631c4d44661eb5f3deee68}{M\-S\-G\-\_\-\-A\-B\-O\-R\-T\-\_\-\-C\-H\-E\-C\-K}\label{classSudoku_aefec02cf42686a826d35086979afba62a81b3af563a631c4d44661eb5f3deee68}
+}]checking to see if algorithm should continue \index{M\-S\-G\-\_\-\-P\-L\-A\-C\-I\-N\-G@{M\-S\-G\-\_\-\-P\-L\-A\-C\-I\-N\-G}!Sudoku@{Sudoku}}\index{Sudoku@{Sudoku}!M\-S\-G\-\_\-\-P\-L\-A\-C\-I\-N\-G@{M\-S\-G\-\_\-\-P\-L\-A\-C\-I\-N\-G}}\item[{\em 
+\hypertarget{classSudoku_aefec02cf42686a826d35086979afba62adfc3bf46903901085cb0faaa25455b13}{M\-S\-G\-\_\-\-P\-L\-A\-C\-I\-N\-G}\label{classSudoku_aefec02cf42686a826d35086979afba62adfc3bf46903901085cb0faaa25455b13}
+}]placing a symbol on the board \index{M\-S\-G\-\_\-\-R\-E\-M\-O\-V\-I\-N\-G@{M\-S\-G\-\_\-\-R\-E\-M\-O\-V\-I\-N\-G}!Sudoku@{Sudoku}}\index{Sudoku@{Sudoku}!M\-S\-G\-\_\-\-R\-E\-M\-O\-V\-I\-N\-G@{M\-S\-G\-\_\-\-R\-E\-M\-O\-V\-I\-N\-G}}\item[{\em 
+\hypertarget{classSudoku_aefec02cf42686a826d35086979afba62ab14ccf4c6ab43633bb9a5a4dc7e13bd6}{M\-S\-G\-\_\-\-R\-E\-M\-O\-V\-I\-N\-G}\label{classSudoku_aefec02cf42686a826d35086979afba62ab14ccf4c6ab43633bb9a5a4dc7e13bd6}
+}]removing a symbol (back-\/tracking) \end{description}
+\end{Desc}
+\hypertarget{classSudoku_ae58a74aa553563f6db22b82329631838}{\index{Sudoku@{Sudoku}!Symbol\-Type@{Symbol\-Type}}
+\index{Symbol\-Type@{Symbol\-Type}!Sudoku@{Sudoku}}
+\subsubsection[{Symbol\-Type}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf Sudoku\-::\-Symbol\-Type}}}\label{classSudoku_ae58a74aa553563f6db22b82329631838}
+1-\/9 for 9x9, A-\/\-P for 16x16, A-\/\-Y for 25x25 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classSudoku_a3e44afdd5799061b976bd643e3186ca4}{\index{Sudoku@{Sudoku}!Sudoku@{Sudoku}}
+\index{Sudoku@{Sudoku}!Sudoku@{Sudoku}}
+\subsubsection[{Sudoku}]{\setlength{\rightskip}{0pt plus 5cm}Sudoku\-::\-Sudoku (
+\begin{DoxyParamCaption}
+\item[{int}]{basesize, }
+\item[{{\bf Symbol\-Type}}]{stype = {\ttfamily SYM\-\_\-NUMBER}, }
+\item[{{\bf S\-U\-D\-O\-K\-U\-\_\-\-C\-A\-L\-L\-B\-A\-C\-K}}]{callback = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{classSudoku_a3e44afdd5799061b976bd643e3186ca4}
+
+
+Constructor for \hyperlink{classSudoku}{Sudoku} solver object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em basesize} & The number of elements per square. N\-O\-T entire length\\
+\hline
+{\em stype} & The type of symbol being used for this object. Either numbers or letters.\\
+\hline
+{\em callback} & Callback function defined by the client for debugging purposes. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classSudoku_aa082f759b9ef10262eeb39291bfc5d62}{\index{Sudoku@{Sudoku}!check\-\_\-column@{check\-\_\-column}}
+\index{check\-\_\-column@{check\-\_\-column}!Sudoku@{Sudoku}}
+\subsubsection[{check\-\_\-column}]{\setlength{\rightskip}{0pt plus 5cm}int Sudoku\-::check\-\_\-column (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classSudoku_aa082f759b9ef10262eeb39291bfc5d62}
+
+
+Checks the column of the board of a certain index. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & The index of the board to check the column.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The index of the first duplicate found. -\/1 if none were found. 
+\end{DoxyReturn}
+\hypertarget{classSudoku_ab1e1e8701c9a1b89e16c876c4a01c033}{\index{Sudoku@{Sudoku}!check\-\_\-neighbors@{check\-\_\-neighbors}}
+\index{check\-\_\-neighbors@{check\-\_\-neighbors}!Sudoku@{Sudoku}}
+\subsubsection[{check\-\_\-neighbors}]{\setlength{\rightskip}{0pt plus 5cm}int Sudoku\-::check\-\_\-neighbors (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classSudoku_ab1e1e8701c9a1b89e16c876c4a01c033}
+
+
+Checks the neighbors of an index, the square around it, for duplicates. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & Index to check around.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The index of the first duplicate found. -\/1 if none were found. 
+\end{DoxyReturn}
+\hypertarget{classSudoku_af2bb86df1d5b8c0597adf2de7a025b56}{\index{Sudoku@{Sudoku}!check\-\_\-row@{check\-\_\-row}}
+\index{check\-\_\-row@{check\-\_\-row}!Sudoku@{Sudoku}}
+\subsubsection[{check\-\_\-row}]{\setlength{\rightskip}{0pt plus 5cm}int Sudoku\-::check\-\_\-row (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classSudoku_af2bb86df1d5b8c0597adf2de7a025b56}
+
+
+Check the values in a row of a given index for duplicates. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & The index of the board to check the row in.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The index of the first duplicate found. -\/1 if none were found. 
+\end{DoxyReturn}
+\hypertarget{classSudoku_a7ad0edcccfe6ac726e2d0a96a1a1bc31}{\index{Sudoku@{Sudoku}!conflict@{conflict}}
+\index{conflict@{conflict}!Sudoku@{Sudoku}}
+\subsubsection[{conflict}]{\setlength{\rightskip}{0pt plus 5cm}void Sudoku\-::conflict (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classSudoku_a7ad0edcccfe6ac726e2d0a96a1a1bc31}
+
+
+Given an index check for conflicts around it (duplicate values). No specific return value but it will fill out member dupe\-\_\-index with the results. 
+
+find conflicts for this index and value
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & The index to check. \\
+\hline
+\end{DoxyParams}
+\hypertarget{classSudoku_ae0ca49e4fde30d74161b57f0add5a2f9}{\index{Sudoku@{Sudoku}!find\-\_\-next\-\_\-empty@{find\-\_\-next\-\_\-empty}}
+\index{find\-\_\-next\-\_\-empty@{find\-\_\-next\-\_\-empty}!Sudoku@{Sudoku}}
+\subsubsection[{find\-\_\-next\-\_\-empty}]{\setlength{\rightskip}{0pt plus 5cm}int Sudoku\-::find\-\_\-next\-\_\-empty (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classSudoku_ae0ca49e4fde30d74161b57f0add5a2f9}
+
+
+Finds the next blank spot on the board. 
+
+find the next empty cell
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & Index to start looking from.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Index of the next open cell. 
+\end{DoxyReturn}
+\hypertarget{classSudoku_a898d752757dfa7617ae7e44f839032aa}{\index{Sudoku@{Sudoku}!Get\-Board@{Get\-Board}}
+\index{Get\-Board@{Get\-Board}!Sudoku@{Sudoku}}
+\subsubsection[{Get\-Board}]{\setlength{\rightskip}{0pt plus 5cm}const char $\ast$ Sudoku\-::\-Get\-Board (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classSudoku_a898d752757dfa7617ae7e44f839032aa}
+
+
+Returns the board in its current state. 
+
+\begin{DoxyReturn}{Returns}
+Pointer to the board 
+\end{DoxyReturn}
+\hypertarget{classSudoku_ab4cb2465e3fdd17a87f815ee67def231}{\index{Sudoku@{Sudoku}!Get\-Stats@{Get\-Stats}}
+\index{Get\-Stats@{Get\-Stats}!Sudoku@{Sudoku}}
+\subsubsection[{Get\-Stats}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Sudoku\-::\-Sudoku\-Stats} Sudoku\-::\-Get\-Stats (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classSudoku_ab4cb2465e3fdd17a87f815ee67def231}
+
+
+Returns statistics of this object. 
+
+\begin{DoxyReturn}{Returns}
+Statistics of the object. 
+\end{DoxyReturn}
+\hypertarget{classSudoku_a144ea29388385b796dd8e45c6cf297f4}{\index{Sudoku@{Sudoku}!place\-\_\-value@{place\-\_\-value}}
+\index{place\-\_\-value@{place\-\_\-value}!Sudoku@{Sudoku}}
+\subsubsection[{place\-\_\-value}]{\setlength{\rightskip}{0pt plus 5cm}void Sudoku\-::place\-\_\-value (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classSudoku_a144ea29388385b796dd8e45c6cf297f4}
+
+
+Recursively solves the sudoku board by brute force. This function assumes the board is solvable. If given an impossible board it 'should' work but will take length$^\wedge$(\# of empty spots at the start) to realize it, (will never finish). 
+
+recursively solve the board
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & Index to start testing values. \\
+\hline
+\end{DoxyParams}
+\hypertarget{classSudoku_aeb8c521f92f73bbe277d2f6b2c40522b}{\index{Sudoku@{Sudoku}!Setup\-Board@{Setup\-Board}}
+\index{Setup\-Board@{Setup\-Board}!Sudoku@{Sudoku}}
+\subsubsection[{Setup\-Board}]{\setlength{\rightskip}{0pt plus 5cm}void Sudoku\-::\-Setup\-Board (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{values, }
+\item[{int}]{size}
+\end{DoxyParamCaption}
+)}}\label{classSudoku_aeb8c521f92f73bbe277d2f6b2c40522b}
+
+
+Load in the board values from text file provided. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em values} & Pointer to values of the atarting board\\
+\hline
+{\em size} & size of the board (basesize$^\wedge$4) \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classSudoku_a2c25d58e03cdc46ec8774a449fd32d81}{\index{Sudoku@{Sudoku}!board@{board}}
+\index{board@{board}!Sudoku@{Sudoku}}
+\subsubsection[{board}]{\setlength{\rightskip}{0pt plus 5cm}char$\ast$ Sudoku\-::board\hspace{0.3cm}{\ttfamily [private]}}}\label{classSudoku_a2c25d58e03cdc46ec8774a449fd32d81}
+create one dimensional array for the board for use in callback \hypertarget{classSudoku_a276e4848efaf2ab0738752016059bd4d}{\index{Sudoku@{Sudoku}!callback@{callback}}
+\index{callback@{callback}!Sudoku@{Sudoku}}
+\subsubsection[{callback}]{\setlength{\rightskip}{0pt plus 5cm}{\bf S\-U\-D\-O\-K\-U\-\_\-\-C\-A\-L\-L\-B\-A\-C\-K} Sudoku\-::callback\hspace{0.3cm}{\ttfamily [private]}}}\label{classSudoku_a276e4848efaf2ab0738752016059bd4d}
+callback function \hypertarget{classSudoku_a0287c0bedbbcac2944df596d5aa11248}{\index{Sudoku@{Sudoku}!dupe\-\_\-index@{dupe\-\_\-index}}
+\index{dupe\-\_\-index@{dupe\-\_\-index}!Sudoku@{Sudoku}}
+\subsubsection[{dupe\-\_\-index}]{\setlength{\rightskip}{0pt plus 5cm}int Sudoku\-::dupe\-\_\-index\mbox{[}3\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}}\label{classSudoku_a0287c0bedbbcac2944df596d5aa11248}
+array to hold duplicates \hypertarget{classSudoku_a86b04a41ba0123d8b64a662087f9657d}{\index{Sudoku@{Sudoku}!E\-M\-P\-T\-Y\-\_\-\-C\-H\-A\-R@{E\-M\-P\-T\-Y\-\_\-\-C\-H\-A\-R}}
+\index{E\-M\-P\-T\-Y\-\_\-\-C\-H\-A\-R@{E\-M\-P\-T\-Y\-\_\-\-C\-H\-A\-R}!Sudoku@{Sudoku}}
+\subsubsection[{E\-M\-P\-T\-Y\-\_\-\-C\-H\-A\-R}]{\setlength{\rightskip}{0pt plus 5cm}const char Sudoku\-::\-E\-M\-P\-T\-Y\-\_\-\-C\-H\-A\-R = ' '\hspace{0.3cm}{\ttfamily [static]}}}\label{classSudoku_a86b04a41ba0123d8b64a662087f9657d}
+what to replace '.' with when filling out the board \hypertarget{classSudoku_a303d3b9e8bf9ae3f2733648cb2e85c09}{\index{Sudoku@{Sudoku}!ending\-\_\-value@{ending\-\_\-value}}
+\index{ending\-\_\-value@{ending\-\_\-value}!Sudoku@{Sudoku}}
+\subsubsection[{ending\-\_\-value}]{\setlength{\rightskip}{0pt plus 5cm}char Sudoku\-::ending\-\_\-value\hspace{0.3cm}{\ttfamily [private]}}}\label{classSudoku_a303d3b9e8bf9ae3f2733648cb2e85c09}
+ending value for the board \hypertarget{classSudoku_a21c5551563e8963784c949772b2bc684}{\index{Sudoku@{Sudoku}!finished@{finished}}
+\index{finished@{finished}!Sudoku@{Sudoku}}
+\subsubsection[{finished}]{\setlength{\rightskip}{0pt plus 5cm}bool Sudoku\-::finished\hspace{0.3cm}{\ttfamily [private]}}}\label{classSudoku_a21c5551563e8963784c949772b2bc684}
+flag to indicate solution was found \hypertarget{classSudoku_ac25a6f7bcd1b179b63d4d14a111fcfca}{\index{Sudoku@{Sudoku}!first\-\_\-empty@{first\-\_\-empty}}
+\index{first\-\_\-empty@{first\-\_\-empty}!Sudoku@{Sudoku}}
+\subsubsection[{first\-\_\-empty}]{\setlength{\rightskip}{0pt plus 5cm}int Sudoku\-::first\-\_\-empty\hspace{0.3cm}{\ttfamily [private]}}}\label{classSudoku_ac25a6f7bcd1b179b63d4d14a111fcfca}
+index of the first empty cell \hypertarget{classSudoku_a80bd89d6732a9c2eae7acec7bacd18c6}{\index{Sudoku@{Sudoku}!length@{length}}
+\index{length@{length}!Sudoku@{Sudoku}}
+\subsubsection[{length}]{\setlength{\rightskip}{0pt plus 5cm}int Sudoku\-::length\hspace{0.3cm}{\ttfamily [private]}}}\label{classSudoku_a80bd89d6732a9c2eae7acec7bacd18c6}
+length of the sides of the board (basesize$^\wedge$2) \hypertarget{classSudoku_a5a3590e872546b88aab9057476c8c78d}{\index{Sudoku@{Sudoku}!starting\-\_\-value@{starting\-\_\-value}}
+\index{starting\-\_\-value@{starting\-\_\-value}!Sudoku@{Sudoku}}
+\subsubsection[{starting\-\_\-value}]{\setlength{\rightskip}{0pt plus 5cm}char Sudoku\-::starting\-\_\-value\hspace{0.3cm}{\ttfamily [private]}}}\label{classSudoku_a5a3590e872546b88aab9057476c8c78d}
+starting value for the board (1 or A) \hypertarget{classSudoku_a4e3db7bee575395d9336b78963b8d426}{\index{Sudoku@{Sudoku}!stats@{stats}}
+\index{stats@{stats}!Sudoku@{Sudoku}}
+\subsubsection[{stats}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Sudoku\-Stats} Sudoku\-::stats\hspace{0.3cm}{\ttfamily [private]}}}\label{classSudoku_a4e3db7bee575395d9336b78963b8d426}
+stats of the object 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{Sudoku_8h}{Sudoku.\-h}\item 
+\hyperlink{Sudoku_8cpp}{Sudoku.\-cpp}\end{DoxyCompactItemize}

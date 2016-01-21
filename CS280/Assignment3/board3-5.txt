@@ -1,0 +1,3 @@
+# Will Shortz's puzzle 301 listed as very challenging.
+# basesize: 3, moves: 4924633, backtracks: 547150
+.395........8...7.....1.9.41..4....3...........7...86...67.82...1..9...5.....1..8

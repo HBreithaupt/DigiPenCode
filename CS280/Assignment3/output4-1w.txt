@@ -1,0 +1,59 @@
+
+==================== Board: [4x4]board4-1.txt ====================
+Moves: 0
++---------+---------+---------+---------+
+|   B   O |     P H |   M N C | I E     |
+|   M D L | G A F C |   I K   | J       |
+| E       | N J M I |     A P | G D   B |
+| I A P   |   B     | J     G | C     M |
++---------+---------+---------+---------+
+| K       |   N O L | A G     |       I |
+| H   A C |       M |   E D   | L     G |
+|   D L   |   H K   | F       |   P A O |
+| G I   N |   D   E |   B P   | H F     |
++---------+---------+---------+---------+
+|     H B |   I G   | C   O   | P   E D |
+| L E C   |       F |   P I   |   B N   |
+| P     G |   L N   | K       | F M   C |
+| D       |     H A | B J E   |       L |
++---------+---------+---------+---------+
+| O     K | D     P |     C   |   L I N |
+| B   E P | K M     | I H G D |       F |
+|       D |   C I   | N K B J | M G P   |
+|     M I | F E B   | P A     | D   H   |
++---------+---------+---------+---------+
+  Basesize: 4
+     Moves: 0
+    Placed: 0
+Backtracks: 0
+  Filename: board4-1.txt
+
+Solution found in 60837 moves.
+Moves: 60837
++---------+---------+---------+---------+
+| J B G O | L K P H | D M N C | I E F A |
+| N M D L | G A F C | E I K B | J H O P |
+| E C K F | N J M I | H O A P | G D L B |
+| I A P H | O B E D | J L F G | C N K M |
++---------+---------+---------+---------+
+| K F B J | P N O L | A G M H | E C D I |
+| H P A C | I F J M | O E D N | L K B G |
+| M D L E | B H K G | F C J I | N P A O |
+| G I O N | A D C E | L B P K | H F M J |
++---------+---------+---------+---------+
+| F J H B | M I G K | C N O L | P A E D |
+| L E C A | J O D F | G P I M | K B N H |
+| P O I G | E L N B | K D H A | F M J C |
+| D K N M | C P H A | B J E F | O I G L |
++---------+---------+---------+---------+
+| O H J K | D G A P | M F C E | B L I N |
+| B N E P | K M L J | I H G D | A O C F |
+| A L F D | H C I O | N K B J | M G P E |
+| C G M I | F E B N | P A L O | D J H K |
++---------+---------+---------+---------+
+  Basesize: 4
+     Moves: 60837
+    Placed: 118
+Backtracks: 3738
+  Filename: board4-1.txt
+

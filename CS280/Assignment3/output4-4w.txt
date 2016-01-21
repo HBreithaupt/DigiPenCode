@@ -1,0 +1,57 @@
+Moves: 0
++---------+---------+---------+---------+
+|         |         |         |         |
+|         |         |         |         |
+|         |         |         |         |
+|         |         |         |         |
++---------+---------+---------+---------+
+|         |         |         |         |
+|         |         |         |         |
+|         |         |         |         |
+|         |         |         |         |
++---------+---------+---------+---------+
+|         |         |         |         |
+|         |         |         |         |
+|         |         |         |         |
+|         |         |         |         |
++---------+---------+---------+---------+
+|         |         |         |         |
+|         |         |         |         |
+|         |         |         |         |
+|         |         |         |         |
++---------+---------+---------+---------+
+  Basesize: 4
+     Moves: 0
+    Placed: 0
+Backtracks: 0
+  Filename: board4-4.txt
+
+Solution found in 2176 moves.
+Moves: 2176
++---------+---------+---------+---------+
+| A B C D | E F G H | I J K L | M N O P |
+| E F G H | A B C D | M N O P | I J K L |
+| I J K L | M N O P | A B C D | E F G H |
+| M N O P | I J K L | E F G H | A B C D |
++---------+---------+---------+---------+
+| B A D C | F E H G | J I L K | N M P O |
+| F E H G | B A D C | N M P O | J I L K |
+| J I L K | N M P O | B A D C | F E H G |
+| N M P O | J I L K | F E H G | B A D C |
++---------+---------+---------+---------+
+| C D A B | G H E F | K L I J | O P M N |
+| G H E F | C D A B | O P M N | K L I J |
+| K L I J | O P M N | C D A B | G H E F |
+| O P M N | K L I J | G H E F | C D A B |
++---------+---------+---------+---------+
+| D C B A | H G F E | L K J I | P O N M |
+| H G F E | D C B A | P O N M | L K J I |
+| L K J I | P O N M | D C B A | H G F E |
+| P O N M | L K J I | H G F E | D C B A |
++---------+---------+---------+---------+
+  Basesize: 4
+     Moves: 2176
+    Placed: 256
+Backtracks: 0
+  Filename: board4-4.txt
+

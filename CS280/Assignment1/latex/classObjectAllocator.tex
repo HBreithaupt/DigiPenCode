@@ -1,0 +1,255 @@
+\hypertarget{classObjectAllocator}{\section{Object\-Allocator Class Reference}
+\label{classObjectAllocator}\index{Object\-Allocator@{Object\-Allocator}}
+}
+
+
+{\ttfamily \#include $<$Object\-Allocator.\-h$>$}
+
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classObjectAllocator_a24de32ff63104b1c2c69bc03356eb736}{typedef void($\ast$ \hyperlink{classObjectAllocator_a24de32ff63104b1c2c69bc03356eb736}{D\-U\-M\-P\-C\-A\-L\-L\-B\-A\-C\-K} )(const void $\ast$, size\-\_\-t)}\label{classObjectAllocator_a24de32ff63104b1c2c69bc03356eb736}
+
+\begin{DoxyCompactList}\small\item\em client defined callback function \end{DoxyCompactList}\item 
+\hypertarget{classObjectAllocator_aca4db22d00e33e35292aca076d3942ac}{typedef void($\ast$ \hyperlink{classObjectAllocator_aca4db22d00e33e35292aca076d3942ac}{V\-A\-L\-I\-D\-A\-T\-E\-C\-A\-L\-L\-B\-A\-C\-K} )(const void $\ast$, size\-\_\-t)}\label{classObjectAllocator_aca4db22d00e33e35292aca076d3942ac}
+
+\begin{DoxyCompactList}\small\item\em client defined callback function \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classObjectAllocator_a8f579b514d1fe072f6dc54491868289a}{Object\-Allocator} (size\-\_\-t Object\-Size, const \hyperlink{structOAConfig}{O\-A\-Config} \&config)
+\begin{DoxyCompactList}\small\item\em Constructor for the class. \end{DoxyCompactList}\item 
+\hypertarget{classObjectAllocator_a54f72cc0c3da36db8d59ca4ab54e6ecc}{\hyperlink{classObjectAllocator_a54f72cc0c3da36db8d59ca4ab54e6ecc}{$\sim$\-Object\-Allocator} ()}\label{classObjectAllocator_a54f72cc0c3da36db8d59ca4ab54e6ecc}
+
+\begin{DoxyCompactList}\small\item\em Destructor for the class. \end{DoxyCompactList}\item 
+void $\ast$ \hyperlink{classObjectAllocator_a9b102fa9a71e7db59f0915f693133622}{Allocate} (const char $\ast$label=0)
+\begin{DoxyCompactList}\small\item\em Hands a free node to the client from the manager. \end{DoxyCompactList}\item 
+void \hyperlink{classObjectAllocator_aa0bfa44d53482b826be0f09ee1bb970c}{Free} (void $\ast$Object)
+\begin{DoxyCompactList}\small\item\em Client uses this to return a node to the manager. \end{DoxyCompactList}\item 
+unsigned \hyperlink{classObjectAllocator_a4a5523642f3de6d21755e164b05beca6}{Dump\-Memory\-In\-Use} (\hyperlink{classObjectAllocator_a24de32ff63104b1c2c69bc03356eb736}{D\-U\-M\-P\-C\-A\-L\-L\-B\-A\-C\-K} fn) const 
+\begin{DoxyCompactList}\small\item\em Dumps the memory that is currently in use by the client. \end{DoxyCompactList}\item 
+unsigned \hyperlink{classObjectAllocator_add5aa5865150e33943d7cdeee11d3bcf}{Validate\-Pages} (\hyperlink{classObjectAllocator_aca4db22d00e33e35292aca076d3942ac}{V\-A\-L\-I\-D\-A\-T\-E\-C\-A\-L\-L\-B\-A\-C\-K} fn) const 
+\begin{DoxyCompactList}\small\item\em Checks for corruption over the entire manager. Checks O\-N\-L\-Y pad bytes for corruption. \end{DoxyCompactList}\item 
+unsigned \hyperlink{classObjectAllocator_aef24417a325b4a6a151177a2de192f99}{Free\-Empty\-Pages} (void)
+\begin{DoxyCompactList}\small\item\em Frees empty pages, part of extra credit. \end{DoxyCompactList}\item 
+\hypertarget{classObjectAllocator_a0d921f5d6ae2a300feb18c7efa874ad3}{void \hyperlink{classObjectAllocator_a0d921f5d6ae2a300feb18c7efa874ad3}{Set\-Debug\-State} (bool State)}\label{classObjectAllocator_a0d921f5d6ae2a300feb18c7efa874ad3}
+
+\begin{DoxyCompactList}\small\item\em true=enable, false=disable \end{DoxyCompactList}\item 
+\hypertarget{classObjectAllocator_a17b005cd19c2a298a1040cc781b74fb4}{const void $\ast$ \hyperlink{classObjectAllocator_a17b005cd19c2a298a1040cc781b74fb4}{Get\-Free\-List} (void) const }\label{classObjectAllocator_a17b005cd19c2a298a1040cc781b74fb4}
+
+\begin{DoxyCompactList}\small\item\em returns a pointer to the internal free list \end{DoxyCompactList}\item 
+const void $\ast$ \hyperlink{classObjectAllocator_a15f86d201856ee1b42d0821e6ba2b2d3}{Get\-Page\-List} (void) const 
+\begin{DoxyCompactList}\small\item\em returns a pointer to the internal page list \end{DoxyCompactList}\item 
+\hyperlink{structOAConfig}{O\-A\-Config} \hyperlink{classObjectAllocator_ac662e8a5094e33423f3210962aa3f8e6}{Get\-Config} (void) const 
+\begin{DoxyCompactList}\small\item\em returns the configuration parameters \end{DoxyCompactList}\item 
+\hyperlink{structOAStats}{O\-A\-Stats} \hyperlink{classObjectAllocator_a40fd74c78e2712e3b85be0868309fbb3}{Get\-Stats} (void) const 
+\begin{DoxyCompactList}\small\item\em returns the statistics for the allocator \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \hyperlink{classObjectAllocator_ad1780fd354ced99e57eb79ee719b95b6}{Implemented\-Extra\-Credit} (void)
+\begin{DoxyCompactList}\small\item\em Returns whether or not the extra credit portions are implemented. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classObjectAllocator_a41c6ff61d0f553ddb7ee1942ff02752b}{static const unsigned char \hyperlink{classObjectAllocator_a41c6ff61d0f553ddb7ee1942ff02752b}{U\-N\-A\-L\-L\-O\-C\-A\-T\-E\-D\-\_\-\-P\-A\-T\-T\-E\-R\-N} = 0x\-A\-A}\label{classObjectAllocator_a41c6ff61d0f553ddb7ee1942ff02752b}
+
+\begin{DoxyCompactList}\small\item\em unallocated nodes \end{DoxyCompactList}\item 
+\hypertarget{classObjectAllocator_aef36599808e28924faa018bc08435ca0}{static const unsigned char \hyperlink{classObjectAllocator_aef36599808e28924faa018bc08435ca0}{A\-L\-L\-O\-C\-A\-T\-E\-D\-\_\-\-P\-A\-T\-T\-E\-R\-N} = 0x\-B\-B}\label{classObjectAllocator_aef36599808e28924faa018bc08435ca0}
+
+\begin{DoxyCompactList}\small\item\em allocated node \end{DoxyCompactList}\item 
+\hypertarget{classObjectAllocator_ad0a3b63c24b19422109ee940cdfc0475}{static const unsigned char \hyperlink{classObjectAllocator_ad0a3b63c24b19422109ee940cdfc0475}{F\-R\-E\-E\-D\-\_\-\-P\-A\-T\-T\-E\-R\-N} = 0x\-C\-C}\label{classObjectAllocator_ad0a3b63c24b19422109ee940cdfc0475}
+
+\begin{DoxyCompactList}\small\item\em freed node \end{DoxyCompactList}\item 
+\hypertarget{classObjectAllocator_a81447b175985013c4339c42f6adc42aa}{static const unsigned char \hyperlink{classObjectAllocator_a81447b175985013c4339c42f6adc42aa}{P\-A\-D\-\_\-\-P\-A\-T\-T\-E\-R\-N} = 0x\-D\-D}\label{classObjectAllocator_a81447b175985013c4339c42f6adc42aa}
+
+\begin{DoxyCompactList}\small\item\em padding \end{DoxyCompactList}\item 
+\hypertarget{classObjectAllocator_ac4e9b2ce134baaafc6eb82b6e0dfeb44}{static const unsigned char \hyperlink{classObjectAllocator_ac4e9b2ce134baaafc6eb82b6e0dfeb44}{A\-L\-I\-G\-N\-\_\-\-P\-A\-T\-T\-E\-R\-N} = 0x\-E\-E}\label{classObjectAllocator_ac4e9b2ce134baaafc6eb82b6e0dfeb44}
+
+\begin{DoxyCompactList}\small\item\em alignment \end{DoxyCompactList}\item 
+\hypertarget{classObjectAllocator_aece660e981ff33c92e87be834e029b3a}{static const unsigned char \hyperlink{classObjectAllocator_aece660e981ff33c92e87be834e029b3a}{H\-E\-A\-D\-E\-R\-\_\-\-P\-A\-T\-T\-E\-R\-N} = 0x\-F\-F}\label{classObjectAllocator_aece660e981ff33c92e87be834e029b3a}
+
+\begin{DoxyCompactList}\small\item\em headers \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This memory manager class 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classObjectAllocator_a8f579b514d1fe072f6dc54491868289a}{\index{Object\-Allocator@{Object\-Allocator}!Object\-Allocator@{Object\-Allocator}}
+\index{Object\-Allocator@{Object\-Allocator}!ObjectAllocator@{Object\-Allocator}}
+\subsubsection[{Object\-Allocator}]{\setlength{\rightskip}{0pt plus 5cm}Object\-Allocator\-::\-Object\-Allocator (
+\begin{DoxyParamCaption}
+\item[{size\-\_\-t}]{Object\-Size, }
+\item[{const {\bf O\-A\-Config} \&}]{config}
+\end{DoxyParamCaption}
+)}}\label{classObjectAllocator_a8f579b514d1fe072f6dc54491868289a}
+
+
+Constructor for the class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Object\-Size} & Size of the objects used in this manager.\\
+\hline
+{\em config} & A configuration struct for this manager \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classObjectAllocator_a9b102fa9a71e7db59f0915f693133622}{\index{Object\-Allocator@{Object\-Allocator}!Allocate@{Allocate}}
+\index{Allocate@{Allocate}!ObjectAllocator@{Object\-Allocator}}
+\subsubsection[{Allocate}]{\setlength{\rightskip}{0pt plus 5cm}void $\ast$ Object\-Allocator\-::\-Allocate (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{label = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{classObjectAllocator_a9b102fa9a71e7db59f0915f693133622}
+
+
+Hands a free node to the client from the manager. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em label} & A label for the node they want to use. Label is O\-N\-L\-Y used when external headers are used.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classObjectAllocator_a4a5523642f3de6d21755e164b05beca6}{\index{Object\-Allocator@{Object\-Allocator}!Dump\-Memory\-In\-Use@{Dump\-Memory\-In\-Use}}
+\index{Dump\-Memory\-In\-Use@{Dump\-Memory\-In\-Use}!ObjectAllocator@{Object\-Allocator}}
+\subsubsection[{Dump\-Memory\-In\-Use}]{\setlength{\rightskip}{0pt plus 5cm}unsigned Object\-Allocator\-::\-Dump\-Memory\-In\-Use (
+\begin{DoxyParamCaption}
+\item[{{\bf D\-U\-M\-P\-C\-A\-L\-L\-B\-A\-C\-K}}]{fn}
+\end{DoxyParamCaption}
+) const}}\label{classObjectAllocator_a4a5523642f3de6d21755e164b05beca6}
+
+
+Dumps the memory that is currently in use by the client. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em fn} & A callback function defined by the client.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+How many nodes were dumped. 
+\end{DoxyReturn}
+\hypertarget{classObjectAllocator_aa0bfa44d53482b826be0f09ee1bb970c}{\index{Object\-Allocator@{Object\-Allocator}!Free@{Free}}
+\index{Free@{Free}!ObjectAllocator@{Object\-Allocator}}
+\subsubsection[{Free}]{\setlength{\rightskip}{0pt plus 5cm}void Object\-Allocator\-::\-Free (
+\begin{DoxyParamCaption}
+\item[{void $\ast$}]{Object}
+\end{DoxyParamCaption}
+)}}\label{classObjectAllocator_aa0bfa44d53482b826be0f09ee1bb970c}
+
+
+Client uses this to return a node to the manager. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Object} & Object being released by the client. \\
+\hline
+\end{DoxyParams}
+\hypertarget{classObjectAllocator_aef24417a325b4a6a151177a2de192f99}{\index{Object\-Allocator@{Object\-Allocator}!Free\-Empty\-Pages@{Free\-Empty\-Pages}}
+\index{Free\-Empty\-Pages@{Free\-Empty\-Pages}!ObjectAllocator@{Object\-Allocator}}
+\subsubsection[{Free\-Empty\-Pages}]{\setlength{\rightskip}{0pt plus 5cm}unsigned Object\-Allocator\-::\-Free\-Empty\-Pages (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{classObjectAllocator_aef24417a325b4a6a151177a2de192f99}
+
+
+Frees empty pages, part of extra credit. 
+
+\begin{DoxyReturn}{Returns}
+How many pages were freed. 
+\end{DoxyReturn}
+\hypertarget{classObjectAllocator_ac662e8a5094e33423f3210962aa3f8e6}{\index{Object\-Allocator@{Object\-Allocator}!Get\-Config@{Get\-Config}}
+\index{Get\-Config@{Get\-Config}!ObjectAllocator@{Object\-Allocator}}
+\subsubsection[{Get\-Config}]{\setlength{\rightskip}{0pt plus 5cm}{\bf O\-A\-Config} Object\-Allocator\-::\-Get\-Config (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+) const}}\label{classObjectAllocator_ac662e8a5094e33423f3210962aa3f8e6}
+
+
+returns the configuration parameters 
+
+Gets the configuration information for this manager.
+
+\begin{DoxyReturn}{Returns}
+Returns the configuration struct for this manager. 
+\end{DoxyReturn}
+\hypertarget{classObjectAllocator_a15f86d201856ee1b42d0821e6ba2b2d3}{\index{Object\-Allocator@{Object\-Allocator}!Get\-Page\-List@{Get\-Page\-List}}
+\index{Get\-Page\-List@{Get\-Page\-List}!ObjectAllocator@{Object\-Allocator}}
+\subsubsection[{Get\-Page\-List}]{\setlength{\rightskip}{0pt plus 5cm}const void $\ast$ Object\-Allocator\-::\-Get\-Page\-List (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+) const}}\label{classObjectAllocator_a15f86d201856ee1b42d0821e6ba2b2d3}
+
+
+returns a pointer to the internal page list 
+
+Returns the Page\-List pointer for all the pages used by this manager.
+
+\begin{DoxyReturn}{Returns}
+Pointer to the internal page list. 
+\end{DoxyReturn}
+\hypertarget{classObjectAllocator_a40fd74c78e2712e3b85be0868309fbb3}{\index{Object\-Allocator@{Object\-Allocator}!Get\-Stats@{Get\-Stats}}
+\index{Get\-Stats@{Get\-Stats}!ObjectAllocator@{Object\-Allocator}}
+\subsubsection[{Get\-Stats}]{\setlength{\rightskip}{0pt plus 5cm}{\bf O\-A\-Stats} Object\-Allocator\-::\-Get\-Stats (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+) const}}\label{classObjectAllocator_a40fd74c78e2712e3b85be0868309fbb3}
+
+
+returns the statistics for the allocator 
+
+Gets statistics for this manager ( how many allocations, how many frees, etc).
+
+\begin{DoxyReturn}{Returns}
+Returns the statistics struct for this manager. 
+\end{DoxyReturn}
+\hypertarget{classObjectAllocator_ad1780fd354ced99e57eb79ee719b95b6}{\index{Object\-Allocator@{Object\-Allocator}!Implemented\-Extra\-Credit@{Implemented\-Extra\-Credit}}
+\index{Implemented\-Extra\-Credit@{Implemented\-Extra\-Credit}!ObjectAllocator@{Object\-Allocator}}
+\subsubsection[{Implemented\-Extra\-Credit}]{\setlength{\rightskip}{0pt plus 5cm}bool Object\-Allocator\-::\-Implemented\-Extra\-Credit (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classObjectAllocator_ad1780fd354ced99e57eb79ee719b95b6}
+
+
+Returns whether or not the extra credit portions are implemented. 
+
+\begin{DoxyReturn}{Returns}
+A bool if the extra credit is implemented or not. 
+\end{DoxyReturn}
+\hypertarget{classObjectAllocator_add5aa5865150e33943d7cdeee11d3bcf}{\index{Object\-Allocator@{Object\-Allocator}!Validate\-Pages@{Validate\-Pages}}
+\index{Validate\-Pages@{Validate\-Pages}!ObjectAllocator@{Object\-Allocator}}
+\subsubsection[{Validate\-Pages}]{\setlength{\rightskip}{0pt plus 5cm}unsigned Object\-Allocator\-::\-Validate\-Pages (
+\begin{DoxyParamCaption}
+\item[{{\bf V\-A\-L\-I\-D\-A\-T\-E\-C\-A\-L\-L\-B\-A\-C\-K}}]{fn}
+\end{DoxyParamCaption}
+) const}}\label{classObjectAllocator_add5aa5865150e33943d7cdeee11d3bcf}
+
+
+Checks for corruption over the entire manager. Checks O\-N\-L\-Y pad bytes for corruption. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em fn} & A callback function defined by the client to be used when a corrupted object is found.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+How many corrupted objects were found. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{ObjectAllocator_8h}{Object\-Allocator.\-h}\item 
+\hyperlink{ObjectAllocator_8cpp}{Object\-Allocator.\-cpp}\end{DoxyCompactItemize}

@@ -1,0 +1,15 @@
+============================== Employees...
+Object size = 40, Page size = 168, Pad bytes = 0, ObjectsPerPage = 4, MaxPages = 2, MaxObjects = 8
+Alignment = 0, LeftAlign = 0, InterAlign = 0, HeaderBlocks = None, Header size = 0
+Pages in use: 1, Objects in use: 0, Available objects: 4, Allocs: 0, Frees: 0
+Pages in use: 1, Objects in use: 1, Available objects: 3, Allocs: 1, Frees: 0
+Pages in use: 1, Objects in use: 2, Available objects: 2, Allocs: 2, Frees: 0
+Pages in use: 1, Objects in use: 3, Available objects: 1, Allocs: 3, Frees: 0
+Exception thrown from Allocate (2) in DoEmployees.
+Pages in use: 2, Objects in use: 8, Available objects: 0, Allocs: 8, Frees: 0
+Pages in use: 2, Objects in use: 7, Available objects: 1, Allocs: 8, Frees: 1
+Pages in use: 2, Objects in use: 6, Available objects: 2, Allocs: 8, Frees: 2
+Pages in use: 2, Objects in use: 5, Available objects: 3, Allocs: 8, Frees: 3
+Exception thrown from Free (Freeing object twice) in DoEmployees.
+Exception thrown from Free (Freeing address on bad boundary) in DoEmployees.
+Most employees in use: 8

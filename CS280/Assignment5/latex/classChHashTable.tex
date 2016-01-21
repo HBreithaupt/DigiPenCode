@@ -1,0 +1,267 @@
+\hypertarget{classChHashTable}{\section{Ch\-Hash\-Table$<$ T $>$ Class Template Reference}
+\label{classChHashTable}\index{Ch\-Hash\-Table$<$ T $>$@{Ch\-Hash\-Table$<$ T $>$}}
+}
+
+
+hash table class  
+
+
+
+
+{\ttfamily \#include $<$Ch\-Hash\-Table.\-h$>$}
+
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structChHashTable_1_1ChHTHeadNode}{Ch\-H\-T\-Head\-Node}
+\begin{DoxyCompactList}\small\item\em Each list has a special head pointer. \end{DoxyCompactList}\item 
+struct \hyperlink{structChHashTable_1_1ChHTNode}{Ch\-H\-T\-Node}
+\begin{DoxyCompactList}\small\item\em Nodes that will hold the key/data pairs. \end{DoxyCompactList}\item 
+struct \hyperlink{structChHashTable_1_1HTConfig}{H\-T\-Config}
+\begin{DoxyCompactList}\small\item\em configuration struct to use for the hash tab;e \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classChHashTable_a4cdeb8c440ef53bf15304c154f2ca950}{typedef void($\ast$ \hyperlink{classChHashTable_a4cdeb8c440ef53bf15304c154f2ca950}{F\-R\-E\-E\-P\-R\-O\-C} )(T)}\label{classChHashTable_a4cdeb8c440ef53bf15304c154f2ca950}
+
+\begin{DoxyCompactList}\small\item\em function provided by client to free their data \end{DoxyCompactList}\item 
+\hypertarget{classChHashTable_a3fbb8fddd32b61fba7814d6a90d2dedc}{typedef \hyperlink{structChHashTable_1_1ChHTNode}{Ch\-H\-T\-Node} $\ast$ \hyperlink{classChHashTable_a3fbb8fddd32b61fba7814d6a90d2dedc}{Data\-Node}}\label{classChHashTable_a3fbb8fddd32b61fba7814d6a90d2dedc}
+
+\begin{DoxyCompactList}\small\item\em pointer to a \hyperlink{structChHashTable_1_1ChHTNode}{Ch\-H\-T\-Node} \end{DoxyCompactList}\item 
+\hypertarget{classChHashTable_ab30f44a92efea296a6af396e9f583ab4}{typedef \hyperlink{structChHashTable_1_1ChHTHeadNode}{Ch\-H\-T\-Head\-Node} $\ast$ \hyperlink{classChHashTable_ab30f44a92efea296a6af396e9f583ab4}{Head\-Node}}\label{classChHashTable_ab30f44a92efea296a6af396e9f583ab4}
+
+\begin{DoxyCompactList}\small\item\em pointer to a \hyperlink{structChHashTable_1_1ChHTHeadNode}{Ch\-H\-T\-Head\-Node} node \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classChHashTable_a565a189ec63f7ceb60e392774fc1d8dc}{Ch\-Hash\-Table} (const \hyperlink{structChHashTable_1_1HTConfig}{H\-T\-Config} \&Config, Object\-Allocator $\ast$\hyperlink{classChHashTable_a1c00c732ff4947ce2f79a6371db663c3}{allocator}=0)
+\begin{DoxyCompactList}\small\item\em condstructor \end{DoxyCompactList}\item 
+\hyperlink{classChHashTable_ac83930d62d0500c6d1f25d0a521d4ed5}{$\sim$\-Ch\-Hash\-Table} ()
+\begin{DoxyCompactList}\small\item\em destructor \end{DoxyCompactList}\item 
+void \hyperlink{classChHashTable_ae9cc59e33adcd5ad57f27aca449efd1b}{insert} (const char $\ast$Key, const T \&Data)
+\begin{DoxyCompactList}\small\item\em Inserts s key/data pair into the hash table. \end{DoxyCompactList}\item 
+void \hyperlink{classChHashTable_a3b0283888a3614af9a287da1ec84683b}{remove} (const char $\ast$Key)
+\begin{DoxyCompactList}\small\item\em Delete an item by key. Throws an exception if the key doesn't exist. \end{DoxyCompactList}\item 
+const T \& \hyperlink{classChHashTable_a07668ac0e4c2699fdd36b14fd123c36d}{find} (const char $\ast$Key) const 
+\begin{DoxyCompactList}\small\item\em Finds a node in the hash table. \end{DoxyCompactList}\item 
+void \hyperlink{classChHashTable_a30190d2a5a7644659d57ccc137c85181}{clear} ()
+\begin{DoxyCompactList}\small\item\em Removes all items from the table (Doesn't deallocate table) \end{DoxyCompactList}\item 
+\hyperlink{structHTStats}{H\-T\-Stats} \hyperlink{classChHashTable_afba4de84c186cd7392478f63ea76036e}{Get\-Stats} () const 
+\begin{DoxyCompactList}\small\item\em Allow the client to peer into the data. \end{DoxyCompactList}\item 
+const \hyperlink{structChHashTable_1_1ChHTHeadNode}{Ch\-H\-T\-Head\-Node} $\ast$ \hyperlink{classChHashTable_aa48fb6a3c6ec9bf5a0e94d23fe0b81bc}{Get\-Table} () const 
+\begin{DoxyCompactList}\small\item\em allow the client to peer into the hash table \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classChHashTable_a3fbb8fddd32b61fba7814d6a90d2dedc}{Data\-Node} \hyperlink{classChHashTable_a25085c87c3fa50e56845176fcdd4416d}{make\-\_\-node} (const T \&Data)
+\begin{DoxyCompactList}\small\item\em Makes a node to be inserted into the hash table. \end{DoxyCompactList}\item 
+void \hyperlink{classChHashTable_a5fbc7e3701ad8203a344e4f71df50072}{remove\-\_\-node} (\hyperlink{classChHashTable_a3fbb8fddd32b61fba7814d6a90d2dedc}{Data\-Node} \&removal)
+\begin{DoxyCompactList}\small\item\em Given a node, removes it from the hash table and deallocates memory. \end{DoxyCompactList}\item 
+\hypertarget{classChHashTable_a888807d343a537be7ff44713a2a56813}{void \hyperlink{classChHashTable_a888807d343a537be7ff44713a2a56813}{grow\-\_\-table} ()}\label{classChHashTable_a888807d343a537be7ff44713a2a56813}
+
+\begin{DoxyCompactList}\small\item\em Grows the hash table when load factor reaches the maximum allowed. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classChHashTable_a1c00c732ff4947ce2f79a6371db663c3}{Object\-Allocator $\ast$ \hyperlink{classChHashTable_a1c00c732ff4947ce2f79a6371db663c3}{allocator}}\label{classChHashTable_a1c00c732ff4947ce2f79a6371db663c3}
+
+\begin{DoxyCompactList}\small\item\em allocator for object \end{DoxyCompactList}\item 
+\hypertarget{classChHashTable_a81f3ca7a454daaef74c0a63c73ba842f}{\hyperlink{structChHashTable_1_1HTConfig}{H\-T\-Config} \hyperlink{classChHashTable_a81f3ca7a454daaef74c0a63c73ba842f}{config}}\label{classChHashTable_a81f3ca7a454daaef74c0a63c73ba842f}
+
+\begin{DoxyCompactList}\small\item\em configuration for this hash table \end{DoxyCompactList}\item 
+\hypertarget{classChHashTable_addc00bf3961d7a26c916a5fddbb7a822}{\hyperlink{classChHashTable_ab30f44a92efea296a6af396e9f583ab4}{Head\-Node} \hyperlink{classChHashTable_addc00bf3961d7a26c916a5fddbb7a822}{table}}\label{classChHashTable_addc00bf3961d7a26c916a5fddbb7a822}
+
+\begin{DoxyCompactList}\small\item\em array of head pointers (the hash table itself) \end{DoxyCompactList}\item 
+\hypertarget{classChHashTable_ac83bf0220f36893daa8e5afef17d1d2d}{\hyperlink{structHTStats}{H\-T\-Stats} \hyperlink{classChHashTable_ac83bf0220f36893daa8e5afef17d1d2d}{stats}}\label{classChHashTable_ac83bf0220f36893daa8e5afef17d1d2d}
+
+\begin{DoxyCompactList}\small\item\em stats of the object \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$typename T$>$class Ch\-Hash\-Table$<$ T $>$}
+
+hash table class 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classChHashTable_a565a189ec63f7ceb60e392774fc1d8dc}{\index{Ch\-Hash\-Table@{Ch\-Hash\-Table}!Ch\-Hash\-Table@{Ch\-Hash\-Table}}
+\index{Ch\-Hash\-Table@{Ch\-Hash\-Table}!ChHashTable@{Ch\-Hash\-Table}}
+\subsubsection[{Ch\-Hash\-Table}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ {\bf Ch\-Hash\-Table}$<$ T $>$\-::{\bf Ch\-Hash\-Table} (
+\begin{DoxyParamCaption}
+\item[{const {\bf H\-T\-Config} \&}]{Config, }
+\item[{Object\-Allocator $\ast$}]{allocator = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)}}\label{classChHashTable_a565a189ec63f7ceb60e392774fc1d8dc}
+
+
+condstructor 
+
+constructor
+
+
+\begin{DoxyParams}{Parameters}
+{\em Config} & Congifuration struct for thhis object\\
+\hline
+{\em allocator} & Object allocator to manage memory for us, if provided. \\
+\hline
+\end{DoxyParams}
+\hypertarget{classChHashTable_ac83930d62d0500c6d1f25d0a521d4ed5}{\index{Ch\-Hash\-Table@{Ch\-Hash\-Table}!$\sim$\-Ch\-Hash\-Table@{$\sim$\-Ch\-Hash\-Table}}
+\index{$\sim$\-Ch\-Hash\-Table@{$\sim$\-Ch\-Hash\-Table}!ChHashTable@{Ch\-Hash\-Table}}
+\subsubsection[{$\sim$\-Ch\-Hash\-Table}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ {\bf Ch\-Hash\-Table}$<$ T $>$\-::$\sim${\bf Ch\-Hash\-Table} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classChHashTable_ac83930d62d0500c6d1f25d0a521d4ed5}
+
+
+destructor 
+
+Destructor. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classChHashTable_a30190d2a5a7644659d57ccc137c85181}{\index{Ch\-Hash\-Table@{Ch\-Hash\-Table}!clear@{clear}}
+\index{clear@{clear}!ChHashTable@{Ch\-Hash\-Table}}
+\subsubsection[{clear}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ void {\bf Ch\-Hash\-Table}$<$ T $>$\-::clear (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classChHashTable_a30190d2a5a7644659d57ccc137c85181}
+
+
+Removes all items from the table (Doesn't deallocate table) 
+
+Deletes all nodes from the hash table, D\-O\-E\-S N\-O\-T delete hash table itself. \hypertarget{classChHashTable_a07668ac0e4c2699fdd36b14fd123c36d}{\index{Ch\-Hash\-Table@{Ch\-Hash\-Table}!find@{find}}
+\index{find@{find}!ChHashTable@{Ch\-Hash\-Table}}
+\subsubsection[{find}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ const T \& {\bf Ch\-Hash\-Table}$<$ T $>$\-::find (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{Key}
+\end{DoxyParamCaption}
+) const}}\label{classChHashTable_a07668ac0e4c2699fdd36b14fd123c36d}
+
+
+Finds a node in the hash table. 
+
+Find and return data by key. Throws an exception if the key doesn't exist.
+
+
+\begin{DoxyParams}{Parameters}
+{\em Key} & I\-D of the node requested.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Reference to the node requested 
+\end{DoxyReturn}
+\hypertarget{classChHashTable_afba4de84c186cd7392478f63ea76036e}{\index{Ch\-Hash\-Table@{Ch\-Hash\-Table}!Get\-Stats@{Get\-Stats}}
+\index{Get\-Stats@{Get\-Stats}!ChHashTable@{Ch\-Hash\-Table}}
+\subsubsection[{Get\-Stats}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ {\bf H\-T\-Stats} {\bf Ch\-Hash\-Table}$<$ T $>$\-::Get\-Stats (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classChHashTable_afba4de84c186cd7392478f63ea76036e}
+
+
+Allow the client to peer into the data. 
+
+Get statistics about this hash table.
+
+\begin{DoxyReturn}{Returns}
+Statistics of this hash table 
+\end{DoxyReturn}
+\hypertarget{classChHashTable_aa48fb6a3c6ec9bf5a0e94d23fe0b81bc}{\index{Ch\-Hash\-Table@{Ch\-Hash\-Table}!Get\-Table@{Get\-Table}}
+\index{Get\-Table@{Get\-Table}!ChHashTable@{Ch\-Hash\-Table}}
+\subsubsection[{Get\-Table}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ const {\bf Ch\-Hash\-Table}$<$ T $>$\-::{\bf Ch\-H\-T\-Head\-Node} $\ast$ {\bf Ch\-Hash\-Table}$<$ T $>$\-::Get\-Table (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{classChHashTable_aa48fb6a3c6ec9bf5a0e94d23fe0b81bc}
+
+
+allow the client to peer into the hash table 
+
+Returns reference to the hash table.
+
+\begin{DoxyReturn}{Returns}
+Reference to the hash table. 
+\end{DoxyReturn}
+\hypertarget{classChHashTable_ae9cc59e33adcd5ad57f27aca449efd1b}{\index{Ch\-Hash\-Table@{Ch\-Hash\-Table}!insert@{insert}}
+\index{insert@{insert}!ChHashTable@{Ch\-Hash\-Table}}
+\subsubsection[{insert}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T$>$ void {\bf Ch\-Hash\-Table}$<$ T $>$\-::insert (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{Key, }
+\item[{const T \&}]{Data}
+\end{DoxyParamCaption}
+)}}\label{classChHashTable_ae9cc59e33adcd5ad57f27aca449efd1b}
+
+
+Inserts s key/data pair into the hash table. 
+
+Insert a key/data pair into table. Throws an exception if the insertion is unsuccessful.
+
+
+\begin{DoxyParams}{Parameters}
+{\em Key} & Key to use in hashing function to determine place in the hash table\\
+\hline
+{\em Data} & Information being stored in the hash table\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classChHashTable_a25085c87c3fa50e56845176fcdd4416d}{\index{Ch\-Hash\-Table@{Ch\-Hash\-Table}!make\-\_\-node@{make\-\_\-node}}
+\index{make\-\_\-node@{make\-\_\-node}!ChHashTable@{Ch\-Hash\-Table}}
+\subsubsection[{make\-\_\-node}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T$>$ {\bf Ch\-Hash\-Table}$<$ T $>$\-::{\bf Data\-Node} {\bf Ch\-Hash\-Table}$<$ T $>$\-::make\-\_\-node (
+\begin{DoxyParamCaption}
+\item[{const T \&}]{Data}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classChHashTable_a25085c87c3fa50e56845176fcdd4416d}
+
+
+Makes a node to be inserted into the hash table. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Data} & Data to be stored in the node\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Pointer to the node created 
+\end{DoxyReturn}
+\hypertarget{classChHashTable_a3b0283888a3614af9a287da1ec84683b}{\index{Ch\-Hash\-Table@{Ch\-Hash\-Table}!remove@{remove}}
+\index{remove@{remove}!ChHashTable@{Ch\-Hash\-Table}}
+\subsubsection[{remove}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ void {\bf Ch\-Hash\-Table}$<$ T $>$\-::remove (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{Key}
+\end{DoxyParamCaption}
+)}}\label{classChHashTable_a3b0283888a3614af9a287da1ec84683b}
+
+
+Delete an item by key. Throws an exception if the key doesn't exist. 
+
+Removes a node form the hash table.
+
+
+\begin{DoxyParams}{Parameters}
+{\em Key} & I\-D of the data requested to be removed \\
+\hline
+\end{DoxyParams}
+\hypertarget{classChHashTable_a5fbc7e3701ad8203a344e4f71df50072}{\index{Ch\-Hash\-Table@{Ch\-Hash\-Table}!remove\-\_\-node@{remove\-\_\-node}}
+\index{remove\-\_\-node@{remove\-\_\-node}!ChHashTable@{Ch\-Hash\-Table}}
+\subsubsection[{remove\-\_\-node}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ void {\bf Ch\-Hash\-Table}$<$ T $>$\-::remove\-\_\-node (
+\begin{DoxyParamCaption}
+\item[{{\bf Data\-Node} \&}]{removal}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classChHashTable_a5fbc7e3701ad8203a344e4f71df50072}
+
+
+Given a node, removes it from the hash table and deallocates memory. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em removal} & The node being removed \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{ChHashTable_8h}{Ch\-Hash\-Table.\-h}\item 
+\hyperlink{ChHashTable_8cpp}{Ch\-Hash\-Table.\-cpp}\end{DoxyCompactItemize}

@@ -1,0 +1,116 @@
+\hypertarget{structOAConfig}{\section{O\-A\-Config Struct Reference}
+\label{structOAConfig}\index{O\-A\-Config@{O\-A\-Config}}
+}
+
+
+{\ttfamily \#include $<$Object\-Allocator.\-h$>$}
+
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structOAConfig_1_1HeaderBlockInfo}{Header\-Block\-Info}
+\end{DoxyCompactItemize}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{structOAConfig_a741c6dd161c0174180cc17f9a697b123}{H\-B\-L\-O\-C\-K\-\_\-\-T\-Y\-P\-E} \{ {\bfseries hb\-None}, 
+{\bfseries hb\-Basic}, 
+{\bfseries hb\-Extended}, 
+{\bfseries hb\-External}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{structOAConfig_a036df6b3c5cefef38274637926155397}{O\-A\-Config} (bool Use\-C\-P\-P\-Mem\-Manager=false, unsigned Objects\-Per\-Page=D\-E\-F\-A\-U\-L\-T\-\_\-\-O\-B\-J\-E\-C\-T\-S\-\_\-\-P\-E\-R\-\_\-\-P\-A\-G\-E, unsigned Max\-Pages=D\-E\-F\-A\-U\-L\-T\-\_\-\-M\-A\-X\-\_\-\-P\-A\-G\-E\-S, bool Debug\-On=false, unsigned Pad\-Bytes=0, const \hyperlink{structOAConfig_1_1HeaderBlockInfo}{Header\-Block\-Info} \&H\-B\-Info=\hyperlink{structOAConfig_1_1HeaderBlockInfo}{Header\-Block\-Info}(), unsigned Alignment=0)
+\begin{DoxyCompactList}\small\item\em Constructor for config struct for memory manager. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structOAConfig_a864194ead28278f7907d50115c926050}{bool \hyperlink{structOAConfig_a864194ead28278f7907d50115c926050}{Use\-C\-P\-P\-Mem\-Manager\-\_\-}}\label{structOAConfig_a864194ead28278f7907d50115c926050}
+
+\begin{DoxyCompactList}\small\item\em by-\/pass the functionality of the O\-A and use new/delete \end{DoxyCompactList}\item 
+\hypertarget{structOAConfig_a22f5e834a557272ed3fdf3c7a77f2073}{unsigned \hyperlink{structOAConfig_a22f5e834a557272ed3fdf3c7a77f2073}{Objects\-Per\-Page\-\_\-}}\label{structOAConfig_a22f5e834a557272ed3fdf3c7a77f2073}
+
+\begin{DoxyCompactList}\small\item\em number of objects on each page \end{DoxyCompactList}\item 
+\hypertarget{structOAConfig_a345e27c350d84f467952bca70d3c14c1}{unsigned \hyperlink{structOAConfig_a345e27c350d84f467952bca70d3c14c1}{Max\-Pages\-\_\-}}\label{structOAConfig_a345e27c350d84f467952bca70d3c14c1}
+
+\begin{DoxyCompactList}\small\item\em maximum number of pages the O\-A can allocate (0=unlimited) \end{DoxyCompactList}\item 
+\hypertarget{structOAConfig_a0d0250be37964f50c3015b53fa0740d2}{bool \hyperlink{structOAConfig_a0d0250be37964f50c3015b53fa0740d2}{Debug\-On\-\_\-}}\label{structOAConfig_a0d0250be37964f50c3015b53fa0740d2}
+
+\begin{DoxyCompactList}\small\item\em enable/disable debugging code (signatures, checks, etc.) \end{DoxyCompactList}\item 
+\hypertarget{structOAConfig_a3b470e4ab11955cbdc2b0c2df5cf19ba}{unsigned \hyperlink{structOAConfig_a3b470e4ab11955cbdc2b0c2df5cf19ba}{Pad\-Bytes\-\_\-}}\label{structOAConfig_a3b470e4ab11955cbdc2b0c2df5cf19ba}
+
+\begin{DoxyCompactList}\small\item\em size of the left/right padding for each block \end{DoxyCompactList}\item 
+\hypertarget{structOAConfig_a1035d7e9e4addd8b58eacc88dca876cd}{\hyperlink{structOAConfig_1_1HeaderBlockInfo}{Header\-Block\-Info} \hyperlink{structOAConfig_a1035d7e9e4addd8b58eacc88dca876cd}{H\-Block\-Info\-\_\-}}\label{structOAConfig_a1035d7e9e4addd8b58eacc88dca876cd}
+
+\begin{DoxyCompactList}\small\item\em size of the header for each block (0=no headers) \end{DoxyCompactList}\item 
+\hypertarget{structOAConfig_a633e04ed09fb16dd216d20abff4b9ffc}{unsigned \hyperlink{structOAConfig_a633e04ed09fb16dd216d20abff4b9ffc}{Alignment\-\_\-}}\label{structOAConfig_a633e04ed09fb16dd216d20abff4b9ffc}
+
+\begin{DoxyCompactList}\small\item\em address alignment of each block \end{DoxyCompactList}\item 
+\hypertarget{structOAConfig_af12cbdd25e5c6666c86e55cbcaffbdd8}{unsigned \hyperlink{structOAConfig_af12cbdd25e5c6666c86e55cbcaffbdd8}{Left\-Align\-Size\-\_\-}}\label{structOAConfig_af12cbdd25e5c6666c86e55cbcaffbdd8}
+
+\begin{DoxyCompactList}\small\item\em number of alignment bytes required to align first block \end{DoxyCompactList}\item 
+\hypertarget{structOAConfig_a5dc031628a98d0e68795a0bb68bc53ee}{unsigned \hyperlink{structOAConfig_a5dc031628a98d0e68795a0bb68bc53ee}{Inter\-Align\-Size\-\_\-}}\label{structOAConfig_a5dc031628a98d0e68795a0bb68bc53ee}
+
+\begin{DoxyCompactList}\small\item\em number of alignment bytes required between remaining blocks \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structOAConfig_a4474c8412a0fc66a4d990dcb6b544299}{static const size\-\_\-t \hyperlink{structOAConfig_a4474c8412a0fc66a4d990dcb6b544299}{B\-A\-S\-I\-C\-\_\-\-H\-E\-A\-D\-E\-R\-\_\-\-S\-I\-Z\-E} = sizeof(unsigned) + 1}\label{structOAConfig_a4474c8412a0fc66a4d990dcb6b544299}
+
+\begin{DoxyCompactList}\small\item\em allocation number + flags \end{DoxyCompactList}\item 
+\hypertarget{structOAConfig_a6da9f1d439103801855d9053107a6410}{static const size\-\_\-t \hyperlink{structOAConfig_a6da9f1d439103801855d9053107a6410}{E\-X\-T\-E\-R\-N\-A\-L\-\_\-\-H\-E\-A\-D\-E\-R\-\_\-\-S\-I\-Z\-E} = sizeof(void$\ast$)}\label{structOAConfig_a6da9f1d439103801855d9053107a6410}
+
+\begin{DoxyCompactList}\small\item\em just a pointer \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classObjectAllocator}{Object\-Allocator} configuration parameters 
+
+\subsection{Member Enumeration Documentation}
+\hypertarget{structOAConfig_a741c6dd161c0174180cc17f9a697b123}{\index{O\-A\-Config@{O\-A\-Config}!H\-B\-L\-O\-C\-K\-\_\-\-T\-Y\-P\-E@{H\-B\-L\-O\-C\-K\-\_\-\-T\-Y\-P\-E}}
+\index{H\-B\-L\-O\-C\-K\-\_\-\-T\-Y\-P\-E@{H\-B\-L\-O\-C\-K\-\_\-\-T\-Y\-P\-E}!OAConfig@{O\-A\-Config}}
+\subsubsection[{H\-B\-L\-O\-C\-K\-\_\-\-T\-Y\-P\-E}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf O\-A\-Config\-::\-H\-B\-L\-O\-C\-K\-\_\-\-T\-Y\-P\-E}}}\label{structOAConfig_a741c6dd161c0174180cc17f9a697b123}
+types of headers to choose from 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{structOAConfig_a036df6b3c5cefef38274637926155397}{\index{O\-A\-Config@{O\-A\-Config}!O\-A\-Config@{O\-A\-Config}}
+\index{O\-A\-Config@{O\-A\-Config}!OAConfig@{O\-A\-Config}}
+\subsubsection[{O\-A\-Config}]{\setlength{\rightskip}{0pt plus 5cm}O\-A\-Config\-::\-O\-A\-Config (
+\begin{DoxyParamCaption}
+\item[{bool}]{Use\-C\-P\-P\-Mem\-Manager = {\ttfamily false}, }
+\item[{unsigned}]{Objects\-Per\-Page = {\ttfamily DEFAULT\-\_\-OBJECTS\-\_\-PER\-\_\-PAGE}, }
+\item[{unsigned}]{Max\-Pages = {\ttfamily DEFAULT\-\_\-MAX\-\_\-PAGES}, }
+\item[{bool}]{Debug\-On = {\ttfamily false}, }
+\item[{unsigned}]{Pad\-Bytes = {\ttfamily 0}, }
+\item[{const {\bf Header\-Block\-Info} \&}]{H\-B\-Info = {\ttfamily {\bf Header\-Block\-Info}()}, }
+\item[{unsigned}]{Alignment = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{structOAConfig_a036df6b3c5cefef38274637926155397}
+
+
+Constructor for config struct for memory manager. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Use\-C\-P\-P\-Mem\-Manager} & Bool to optionally turn off the memory manager and use new/delete directly\\
+\hline
+{\em Objects\-Per\-Page} & how many objects desired for each page\\
+\hline
+{\em Max\-Pages} & Max pages this allocator should create if needed\\
+\hline
+{\em Debug\-On} & Turns on/off debug features\\
+\hline
+{\em Pad\-Bytes} & Number of bytes for padding\\
+\hline
+{\em H\-B\-Info} & Header block information for this manager\\
+\hline
+{\em Alignment} & Address alignment of each block \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this struct was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{ObjectAllocator_8h}{Object\-Allocator.\-h}\end{DoxyCompactItemize}

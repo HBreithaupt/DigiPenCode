@@ -1,0 +1,252 @@
+
+****************************** TestDijkstra10 ******************************
+Cost to reach all nodes from node 1:
+------------------------------------
+Node:  1:  Cost:   0  Path:  1 
+Node:  2:  Cost:  70  Path:  1  2 
+Node:  3:  Cost: 101  Path:  1  2  3 
+Node:  4:  Cost: 180  Path:  1  2  4 
+Node:  5:  Cost:  61  Path:  1  5 
+Node:  6:  Cost: 149  Path:  1  5  6 
+Node:  7:  Cost: 210  Path:  1  2  4  7 
+Node:  8:  Cost: 146  Path:  1  5 10  8 
+Node:  9:  Cost: 246  Path:  1  5 10  8 11 12 13  9 
+Node: 10:  Cost: 120  Path:  1  5 10 
+Node: 11:  Cost: 158  Path:  1  5 10  8 11 
+Node: 12:  Cost: 177  Path:  1  5 10  8 11 12 
+Node: 13:  Cost: 216  Path:  1  5 10  8 11 12 13 
+Node: 14:  Cost: 260  Path:  1  5 10 14 
+
+****************************** TestDijkstra10 ******************************
+Cost to reach all nodes from node 2:
+------------------------------------
+Node:  1:  Cost:  70  Path:  2  1 
+Node:  2:  Cost:   0  Path:  2 
+Node:  3:  Cost:  31  Path:  2  3 
+Node:  4:  Cost: 110  Path:  2  4 
+Node:  5:  Cost: 131  Path:  2  1  5 
+Node:  6:  Cost: 101  Path:  2  3  6 
+Node:  7:  Cost: 140  Path:  2  4  7 
+Node:  8:  Cost:  96  Path:  2  3  8 
+Node:  9:  Cost: 196  Path:  2  3  8 11 12 13  9 
+Node: 10:  Cost: 122  Path:  2  3  8 10 
+Node: 11:  Cost: 108  Path:  2  3  8 11 
+Node: 12:  Cost: 127  Path:  2  3  8 11 12 
+Node: 13:  Cost: 166  Path:  2  3  8 11 12 13 
+Node: 14:  Cost: 212  Path:  2  3  8 11 12 14 
+
+****************************** TestDijkstra10 ******************************
+Cost to reach all nodes from node 3:
+------------------------------------
+Node:  1:  Cost: 101  Path:  3  2  1 
+Node:  2:  Cost:  31  Path:  3  2 
+Node:  3:  Cost:   0  Path:  3 
+Node:  4:  Cost: 132  Path:  3  8  4 
+Node:  5:  Cost: 150  Path:  3  8 10  5 
+Node:  6:  Cost:  70  Path:  3  6 
+Node:  7:  Cost: 162  Path:  3  8  4  7 
+Node:  8:  Cost:  65  Path:  3  8 
+Node:  9:  Cost: 165  Path:  3  8 11 12 13  9 
+Node: 10:  Cost:  91  Path:  3  8 10 
+Node: 11:  Cost:  77  Path:  3  8 11 
+Node: 12:  Cost:  96  Path:  3  8 11 12 
+Node: 13:  Cost: 135  Path:  3  8 11 12 13 
+Node: 14:  Cost: 181  Path:  3  8 11 12 14 
+
+****************************** TestDijkstra10 ******************************
+Cost to reach all nodes from node 4:
+------------------------------------
+Node:  1:  Cost: 180  Path:  4  2  1 
+Node:  2:  Cost: 110  Path:  4  2 
+Node:  3:  Cost: 132  Path:  4  8  3 
+Node:  4:  Cost:   0  Path:  4 
+Node:  5:  Cost: 152  Path:  4  8 10  5 
+Node:  6:  Cost: 158  Path:  4  8 10  6 
+Node:  7:  Cost:  30  Path:  4  7 
+Node:  8:  Cost:  67  Path:  4  8 
+Node:  9:  Cost: 104  Path:  4  7  9 
+Node: 10:  Cost:  93  Path:  4  8 10 
+Node: 11:  Cost:  79  Path:  4  8 11 
+Node: 12:  Cost:  98  Path:  4  8 11 12 
+Node: 13:  Cost: 134  Path:  4  7  9 13 
+Node: 14:  Cost: 183  Path:  4  8 11 12 14 
+
+****************************** TestDijkstra10 ******************************
+Cost to reach all nodes from node 5:
+------------------------------------
+Node:  1:  Cost:  61  Path:  5  1 
+Node:  2:  Cost: 131  Path:  5  1  2 
+Node:  3:  Cost: 150  Path:  5 10  8  3 
+Node:  4:  Cost: 152  Path:  5 10  8  4 
+Node:  5:  Cost:   0  Path:  5 
+Node:  6:  Cost:  88  Path:  5  6 
+Node:  7:  Cost: 182  Path:  5 10  8  4  7 
+Node:  8:  Cost:  85  Path:  5 10  8 
+Node:  9:  Cost: 185  Path:  5 10  8 11 12 13  9 
+Node: 10:  Cost:  59  Path:  5 10 
+Node: 11:  Cost:  97  Path:  5 10  8 11 
+Node: 12:  Cost: 116  Path:  5 10  8 11 12 
+Node: 13:  Cost: 155  Path:  5 10  8 11 12 13 
+Node: 14:  Cost: 199  Path:  5 10 14 
+
+****************************** TestDijkstra10 ******************************
+Cost to reach all nodes from node 6:
+------------------------------------
+Node:  1:  Cost: 149  Path:  6  5  1 
+Node:  2:  Cost: 101  Path:  6  3  2 
+Node:  3:  Cost:  70  Path:  6  3 
+Node:  4:  Cost: 158  Path:  6 10  8  4 
+Node:  5:  Cost:  88  Path:  6  5 
+Node:  6:  Cost:   0  Path:  6 
+Node:  7:  Cost: 188  Path:  6 10  8  4  7 
+Node:  8:  Cost:  91  Path:  6 10  8 
+Node:  9:  Cost: 191  Path:  6 10  8 11 12 13  9 
+Node: 10:  Cost:  65  Path:  6 10 
+Node: 11:  Cost: 103  Path:  6 10  8 11 
+Node: 12:  Cost: 122  Path:  6 10  8 11 12 
+Node: 13:  Cost: 161  Path:  6 10  8 11 12 13 
+Node: 14:  Cost: 205  Path:  6 10 14 
+
+****************************** TestDijkstra10 ******************************
+Cost to reach all nodes from node 7:
+------------------------------------
+Node:  1:  Cost: 210  Path:  7  4  2  1 
+Node:  2:  Cost: 140  Path:  7  4  2 
+Node:  3:  Cost: 162  Path:  7  4  8  3 
+Node:  4:  Cost:  30  Path:  7  4 
+Node:  5:  Cost: 182  Path:  7  4  8 10  5 
+Node:  6:  Cost: 188  Path:  7  4  8 10  6 
+Node:  7:  Cost:   0  Path:  7 
+Node:  8:  Cost:  97  Path:  7  4  8 
+Node:  9:  Cost:  74  Path:  7  9 
+Node: 10:  Cost: 123  Path:  7  4  8 10 
+Node: 11:  Cost: 109  Path:  7  4  8 11 
+Node: 12:  Cost: 128  Path:  7  4  8 11 12 
+Node: 13:  Cost: 104  Path:  7  9 13 
+Node: 14:  Cost: 213  Path:  7  4  8 11 12 14 
+
+****************************** TestDijkstra10 ******************************
+Cost to reach all nodes from node 8:
+------------------------------------
+Node:  1:  Cost: 146  Path:  8 10  5  1 
+Node:  2:  Cost:  96  Path:  8  3  2 
+Node:  3:  Cost:  65  Path:  8  3 
+Node:  4:  Cost:  67  Path:  8  4 
+Node:  5:  Cost:  85  Path:  8 10  5 
+Node:  6:  Cost:  91  Path:  8 10  6 
+Node:  7:  Cost:  97  Path:  8  4  7 
+Node:  8:  Cost:   0  Path:  8 
+Node:  9:  Cost: 100  Path:  8 11 12 13  9 
+Node: 10:  Cost:  26  Path:  8 10 
+Node: 11:  Cost:  12  Path:  8 11 
+Node: 12:  Cost:  31  Path:  8 11 12 
+Node: 13:  Cost:  70  Path:  8 11 12 13 
+Node: 14:  Cost: 116  Path:  8 11 12 14 
+
+****************************** TestDijkstra10 ******************************
+Cost to reach all nodes from node 9:
+------------------------------------
+Node:  1:  Cost: 246  Path:  9 13 12 11  8 10  5  1 
+Node:  2:  Cost: 196  Path:  9 13 12 11  8  3  2 
+Node:  3:  Cost: 165  Path:  9 13 12 11  8  3 
+Node:  4:  Cost: 104  Path:  9  7  4 
+Node:  5:  Cost: 185  Path:  9 13 12 11  8 10  5 
+Node:  6:  Cost: 191  Path:  9 13 12 11  8 10  6 
+Node:  7:  Cost:  74  Path:  9  7 
+Node:  8:  Cost: 100  Path:  9 13 12 11  8 
+Node:  9:  Cost:   0  Path:  9 
+Node: 10:  Cost: 126  Path:  9 13 12 11  8 10 
+Node: 11:  Cost:  88  Path:  9 13 12 11 
+Node: 12:  Cost:  69  Path:  9 13 12 
+Node: 13:  Cost:  30  Path:  9 13 
+Node: 14:  Cost: 154  Path:  9 13 12 14 
+
+****************************** TestDijkstra10 ******************************
+Cost to reach all nodes from node 10:
+------------------------------------
+Node:  1:  Cost: 120  Path: 10  5  1 
+Node:  2:  Cost: 122  Path: 10  8  3  2 
+Node:  3:  Cost:  91  Path: 10  8  3 
+Node:  4:  Cost:  93  Path: 10  8  4 
+Node:  5:  Cost:  59  Path: 10  5 
+Node:  6:  Cost:  65  Path: 10  6 
+Node:  7:  Cost: 123  Path: 10  8  4  7 
+Node:  8:  Cost:  26  Path: 10  8 
+Node:  9:  Cost: 126  Path: 10  8 11 12 13  9 
+Node: 10:  Cost:   0  Path: 10 
+Node: 11:  Cost:  38  Path: 10  8 11 
+Node: 12:  Cost:  57  Path: 10  8 11 12 
+Node: 13:  Cost:  96  Path: 10  8 11 12 13 
+Node: 14:  Cost: 140  Path: 10 14 
+
+****************************** TestDijkstra10 ******************************
+Cost to reach all nodes from node 11:
+------------------------------------
+Node:  1:  Cost: 158  Path: 11  8 10  5  1 
+Node:  2:  Cost: 108  Path: 11  8  3  2 
+Node:  3:  Cost:  77  Path: 11  8  3 
+Node:  4:  Cost:  79  Path: 11  8  4 
+Node:  5:  Cost:  97  Path: 11  8 10  5 
+Node:  6:  Cost: 103  Path: 11  8 10  6 
+Node:  7:  Cost: 109  Path: 11  8  4  7 
+Node:  8:  Cost:  12  Path: 11  8 
+Node:  9:  Cost:  88  Path: 11 12 13  9 
+Node: 10:  Cost:  38  Path: 11  8 10 
+Node: 11:  Cost:   0  Path: 11 
+Node: 12:  Cost:  19  Path: 11 12 
+Node: 13:  Cost:  58  Path: 11 12 13 
+Node: 14:  Cost: 104  Path: 11 12 14 
+
+****************************** TestDijkstra10 ******************************
+Cost to reach all nodes from node 12:
+------------------------------------
+Node:  1:  Cost: 177  Path: 12 11  8 10  5  1 
+Node:  2:  Cost: 127  Path: 12 11  8  3  2 
+Node:  3:  Cost:  96  Path: 12 11  8  3 
+Node:  4:  Cost:  98  Path: 12 11  8  4 
+Node:  5:  Cost: 116  Path: 12 11  8 10  5 
+Node:  6:  Cost: 122  Path: 12 11  8 10  6 
+Node:  7:  Cost: 128  Path: 12 11  8  4  7 
+Node:  8:  Cost:  31  Path: 12 11  8 
+Node:  9:  Cost:  69  Path: 12 13  9 
+Node: 10:  Cost:  57  Path: 12 11  8 10 
+Node: 11:  Cost:  19  Path: 12 11 
+Node: 12:  Cost:   0  Path: 12 
+Node: 13:  Cost:  39  Path: 12 13 
+Node: 14:  Cost:  85  Path: 12 14 
+
+****************************** TestDijkstra10 ******************************
+Cost to reach all nodes from node 13:
+------------------------------------
+Node:  1:  Cost: 216  Path: 13 12 11  8 10  5  1 
+Node:  2:  Cost: 166  Path: 13 12 11  8  3  2 
+Node:  3:  Cost: 135  Path: 13 12 11  8  3 
+Node:  4:  Cost: 134  Path: 13  9  7  4 
+Node:  5:  Cost: 155  Path: 13 12 11  8 10  5 
+Node:  6:  Cost: 161  Path: 13 12 11  8 10  6 
+Node:  7:  Cost: 104  Path: 13  9  7 
+Node:  8:  Cost:  70  Path: 13 12 11  8 
+Node:  9:  Cost:  30  Path: 13  9 
+Node: 10:  Cost:  96  Path: 13 12 11  8 10 
+Node: 11:  Cost:  58  Path: 13 12 11 
+Node: 12:  Cost:  39  Path: 13 12 
+Node: 13:  Cost:   0  Path: 13 
+Node: 14:  Cost: 124  Path: 13 12 14 
+
+****************************** TestDijkstra10 ******************************
+Cost to reach all nodes from node 14:
+------------------------------------
+Node:  1:  Cost: 260  Path: 14 10  5  1 
+Node:  2:  Cost: 212  Path: 14 12 11  8  3  2 
+Node:  3:  Cost: 181  Path: 14 12 11  8  3 
+Node:  4:  Cost: 183  Path: 14 12 11  8  4 
+Node:  5:  Cost: 199  Path: 14 10  5 
+Node:  6:  Cost: 205  Path: 14 10  6 
+Node:  7:  Cost: 213  Path: 14 12 11  8  4  7 
+Node:  8:  Cost: 116  Path: 14 12 11  8 
+Node:  9:  Cost: 154  Path: 14 12 13  9 
+Node: 10:  Cost: 140  Path: 14 10 
+Node: 11:  Cost: 104  Path: 14 12 11 
+Node: 12:  Cost:  85  Path: 14 12 
+Node: 13:  Cost: 124  Path: 14 12 13 
+Node: 14:  Cost:   0  Path: 14 

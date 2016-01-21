@@ -1,0 +1,104 @@
+\hypertarget{ALGraph_8h}{\section{A\-L\-Graph.\-h File Reference}
+\label{ALGraph_8h}\index{A\-L\-Graph.\-h@{A\-L\-Graph.\-h}}
+}
+
+
+Prototypes of Graph implementation.  
+
+
+{\ttfamily \#include $<$vector$>$}\\*
+{\ttfamily \#include $<$list$>$}\\*
+{\ttfamily \#include $<$algorithm$>$}\\*
+{\ttfamily \#include $<$queue$>$}\\*
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structDijkstraInfo}{Dijkstra\-Info}
+\begin{DoxyCompactList}\small\item\em dijkstra results \end{DoxyCompactList}\item 
+struct \hyperlink{structAdjacencyInfo}{Adjacency\-Info}
+\begin{DoxyCompactList}\small\item\em node information used in adjacency list \end{DoxyCompactList}\item 
+class \hyperlink{classALGraph}{A\-L\-Graph}
+\begin{DoxyCompactList}\small\item\em grapgh object \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{ALGraph_8h_a1f16d160191420f6fe90229eabb6c48a}{typedef std\-::vector\\*
+$<$ std\-::vector$<$ \hyperlink{structAdjacencyInfo}{Adjacency\-Info} $>$ $>$ \hyperlink{ALGraph_8h_a1f16d160191420f6fe90229eabb6c48a}{A\-L\-I\-S\-T}}\label{ALGraph_8h_a1f16d160191420f6fe90229eabb6c48a}
+
+\begin{DoxyCompactList}\small\item\em communicat with driver \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{ALGraph_8h_a50aad0af7f2f76480a0ba675198e8bc3}{operator$<$} (const \hyperlink{structAdjacencyInfo}{Adjacency\-Info} \&lhs, const \hyperlink{structAdjacencyInfo}{Adjacency\-Info} \&rhs)
+\begin{DoxyCompactList}\small\item\em used to compare adjacency info structs for sorting \end{DoxyCompactList}\item 
+bool \hyperlink{ALGraph_8h_a2613fadf2139994f6d8b83afe4536c91}{operator$>$} (const \hyperlink{structAdjacencyInfo}{Adjacency\-Info} \&lhs, const \hyperlink{structAdjacencyInfo}{Adjacency\-Info} \&rhs)
+\begin{DoxyCompactList}\small\item\em used to compare adjacency info structs for sorting \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Prototypes of Graph implementation. \begin{DoxyAuthor}{Author}
+Haven Breithaupt 
+\end{DoxyAuthor}
+\begin{DoxyParagraph}{D\-P email\-: h.breithaupt@digipen.edu}
+
+\end{DoxyParagraph}
+\begin{DoxyParagraph}{Course\-: C\-S280}
+
+\end{DoxyParagraph}
+\begin{DoxyParagraph}{Assignment 6}
+
+\end{DoxyParagraph}
+\begin{DoxyDate}{Date}
+11/24/15 
+\end{DoxyDate}
+
+
+\subsection{Function Documentation}
+\hypertarget{ALGraph_8h_a50aad0af7f2f76480a0ba675198e8bc3}{\index{A\-L\-Graph.\-h@{A\-L\-Graph.\-h}!operator$<$@{operator$<$}}
+\index{operator$<$@{operator$<$}!ALGraph.h@{A\-L\-Graph.\-h}}
+\subsubsection[{operator$<$}]{\setlength{\rightskip}{0pt plus 5cm}bool operator$<$ (
+\begin{DoxyParamCaption}
+\item[{const {\bf Adjacency\-Info} \&}]{lhs, }
+\item[{const {\bf Adjacency\-Info} \&}]{rhs}
+\end{DoxyParamCaption}
+)}}\label{ALGraph_8h_a50aad0af7f2f76480a0ba675198e8bc3}
+
+
+used to compare adjacency info structs for sorting 
+
+used to compare adjacency info structs for sorting
+
+
+\begin{DoxyParams}{Parameters}
+{\em lhs} & left hand Node\\
+\hline
+{\em rhs} & right hand ndoe\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True/\-False 
+\end{DoxyReturn}
+\hypertarget{ALGraph_8h_a2613fadf2139994f6d8b83afe4536c91}{\index{A\-L\-Graph.\-h@{A\-L\-Graph.\-h}!operator$>$@{operator$>$}}
+\index{operator$>$@{operator$>$}!ALGraph.h@{A\-L\-Graph.\-h}}
+\subsubsection[{operator$>$}]{\setlength{\rightskip}{0pt plus 5cm}bool operator$>$ (
+\begin{DoxyParamCaption}
+\item[{const {\bf Adjacency\-Info} \&}]{lhs, }
+\item[{const {\bf Adjacency\-Info} \&}]{rhs}
+\end{DoxyParamCaption}
+)}}\label{ALGraph_8h_a2613fadf2139994f6d8b83afe4536c91}
+
+
+used to compare adjacency info structs for sorting 
+
+used to compare adjacency info structs for sorting
+
+
+\begin{DoxyParams}{Parameters}
+{\em lhs} & left hand node\\
+\hline
+{\em rhs} & right hand node\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True/\-False 
+\end{DoxyReturn}

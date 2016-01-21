@@ -1,0 +1,104 @@
+\hypertarget{ALGraph_8cpp}{\section{A\-L\-Graph.\-cpp File Reference}
+\label{ALGraph_8cpp}\index{A\-L\-Graph.\-cpp@{A\-L\-Graph.\-cpp}}
+}
+
+
+Implementation of using Dijkstra's algorithm on a graph.  
+
+
+{\ttfamily \#include \char`\"{}A\-L\-Graph.\-h\char`\"{}}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{ALGraph_8cpp_a50aad0af7f2f76480a0ba675198e8bc3}{operator$<$} (const \hyperlink{structAdjacencyInfo}{Adjacency\-Info} \&lhs, const \hyperlink{structAdjacencyInfo}{Adjacency\-Info} \&rhs)
+\begin{DoxyCompactList}\small\item\em Compares to \hyperlink{structAdjacencyInfo}{Adjacency\-Info} node for sorting. \end{DoxyCompactList}\item 
+bool \hyperlink{ALGraph_8cpp_a2613fadf2139994f6d8b83afe4536c91}{operator$>$} (const \hyperlink{structAdjacencyInfo}{Adjacency\-Info} \&lhs, const \hyperlink{structAdjacencyInfo}{Adjacency\-Info} \&rhs)
+\begin{DoxyCompactList}\small\item\em compare \hyperlink{structAdjacencyInfo}{Adjacency\-Info} nodes for sorting (calls operator$<$) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Implementation of using Dijkstra's algorithm on a graph. \begin{DoxyAuthor}{Author}
+Haven Breithaupt 
+\end{DoxyAuthor}
+\begin{DoxyParagraph}{D\-P email\-: h.breithaupt@digipen.edu}
+
+\end{DoxyParagraph}
+\begin{DoxyParagraph}{Course\-: C\-S280}
+
+\end{DoxyParagraph}
+\begin{DoxyParagraph}{Assignment 6}
+
+\end{DoxyParagraph}
+\begin{DoxyDate}{Date}
+11/24/15
+\end{DoxyDate}
+Functions Include\-:
+\begin{DoxyItemize}
+\item Constructor
+\item Destructor (compiler generated one is used)
+\item operator $<$/$>$ comparison for sorting
+\item Add\-D\-Edge add directed edge between two nodes
+\item Add\-U\-Edge add undirected edge between two nodes
+\item Search\-From searching the graph (not implemented)
+\item Dijkstra dijkstra algorithm
+\item Get\-A\-List get adjacency matrix of the graph for the driver
+\item Implmeneted\-Searches not implemented
+\end{DoxyItemize}
+
+Hours spent on assignment\-: 4
+
+Specific portions that gave you the most trouble\-:
+\begin{DoxyItemize}
+\item being able to use the S\-T\-L made this really easy
+\item hardest thing was implementatin the algorithm but with the pseudo code and pictures provided made it easier to translate to code 
+\end{DoxyItemize}
+
+\subsection{Function Documentation}
+\hypertarget{ALGraph_8cpp_a50aad0af7f2f76480a0ba675198e8bc3}{\index{A\-L\-Graph.\-cpp@{A\-L\-Graph.\-cpp}!operator$<$@{operator$<$}}
+\index{operator$<$@{operator$<$}!ALGraph.cpp@{A\-L\-Graph.\-cpp}}
+\subsubsection[{operator$<$}]{\setlength{\rightskip}{0pt plus 5cm}bool operator$<$ (
+\begin{DoxyParamCaption}
+\item[{const {\bf Adjacency\-Info} \&}]{lhs, }
+\item[{const {\bf Adjacency\-Info} \&}]{rhs}
+\end{DoxyParamCaption}
+)}}\label{ALGraph_8cpp_a50aad0af7f2f76480a0ba675198e8bc3}
+
+
+Compares to \hyperlink{structAdjacencyInfo}{Adjacency\-Info} node for sorting. 
+
+used to compare adjacency info structs for sorting
+
+
+\begin{DoxyParams}{Parameters}
+{\em lhs} & left hand Node\\
+\hline
+{\em rhs} & right hand ndoe\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True/\-False 
+\end{DoxyReturn}
+\hypertarget{ALGraph_8cpp_a2613fadf2139994f6d8b83afe4536c91}{\index{A\-L\-Graph.\-cpp@{A\-L\-Graph.\-cpp}!operator$>$@{operator$>$}}
+\index{operator$>$@{operator$>$}!ALGraph.cpp@{A\-L\-Graph.\-cpp}}
+\subsubsection[{operator$>$}]{\setlength{\rightskip}{0pt plus 5cm}bool operator$>$ (
+\begin{DoxyParamCaption}
+\item[{const {\bf Adjacency\-Info} \&}]{lhs, }
+\item[{const {\bf Adjacency\-Info} \&}]{rhs}
+\end{DoxyParamCaption}
+)}}\label{ALGraph_8cpp_a2613fadf2139994f6d8b83afe4536c91}
+
+
+compare \hyperlink{structAdjacencyInfo}{Adjacency\-Info} nodes for sorting (calls operator$<$) 
+
+used to compare adjacency info structs for sorting
+
+
+\begin{DoxyParams}{Parameters}
+{\em lhs} & left hand node\\
+\hline
+{\em rhs} & right hand node\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True/\-False 
+\end{DoxyReturn}

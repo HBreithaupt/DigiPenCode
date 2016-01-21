@@ -1,0 +1,79 @@
+
+==================== Board: [5x5]board5-1.txt ====================
+Moves: 0
++-----------+-----------+-----------+-----------+-----------+
+| R V T   P |     Q     | J B   G   | I Y O   E | N A F M   |
+| B   D   X |   Y   N F | A     L R | C S   H U |   P Q G   |
+|   F   M   | G     V L | Y S O I P |   K   B   | U     E J |
+|     A K U | O     C   |   W X   E |   N Q G V | R         |
+|     O   I | E D A   S | T N M   U | W   F   P |   K V   L |
++-----------+-----------+-----------+-----------+-----------+
+| K J   D Y | Q L U O A | E H S     | P F M N I | V X     R |
+| F B       | R X S K Y |   G   J   | T V C D   | E   M A   |
+| N Q L W   |   G H     | O   U     | Y     X   |   D K   S |
+|   M S     | N W F J   | I X A     | H G     L | C Q P O T |
+|   T   O G | B     M I | K F   D C | R Q A     |     H L N |
++-----------+-----------+-----------+-----------+-----------+
+| Q A   H W | F     L V |     D   S | N P Y   C | J G X T O |
+| I Y G T M | S O   W Q |           |   J U A F |   L   D H |
+| L N F C B | M   K I J | G A Y P Q | X T H   D | S U R V W |
+| P K   X   | Y C G A   |           | L B   V R | Q I N F M |
+| S O R V J | T   X D U | H   N     | Q I     M | A E   Y K |
++-----------+-----------+-----------+-----------+-----------+
+| Y D W     |     J P O | C U   E X | V M     G | H S   Q   |
+| A P V I C | W     S X |     G N K |   U L Y H |     O R   |
+| O   Q J   |   B     R |     L   H |     W T   |   V U X A |
+|   E M   R |   H Y G N |   J   A   | O X I P Q |       W C |
+| X     G K | V Q L U M |     W R I | F A E C S | T Y   N P |
++-----------+-----------+-----------+-----------+-----------+
+| M   P L   | U   I   E | V   F W A | B   R Q J | X   T     |
+|         N | C M V Q   | R   J S   |   W     K | I O A     |
+| E U     V |   J   R   | Q P B M T | G L     X |   F   C   |
+|   R K Q   | L N   B G | U E     O | A C   F   | M   Y   V |
+|   I J B T | X   D F P |   K   C G |     V     | L   E U Q |
++-----------+-----------+-----------+-----------+-----------+
+  Basesize: 5
+     Moves: 0
+    Placed: 0
+Backtracks: 0
+  Filename: board5-1.txt
+
+Solution found in 40901 moves.
+Moves: 40901
++-----------+-----------+-----------+-----------+-----------+
+| R V T S P | K U Q H W | J B C G D | I Y O L E | N A F M X |
+| B W D E X | J Y M N F | A V K L R | C S T H U | O P Q G I |
+| H F N M Q | G T R V L | Y S O I P | D K X B A | U C W E J |
+| J L A K U | O I P C B | F W X H E | M N Q G V | R T D S Y |
+| C G O Y I | E D A X S | T N M Q U | W R F J P | B K V H L |
++-----------+-----------+-----------+-----------+-----------+
+| K J C D Y | Q L U O A | E H S T W | P F M N I | V X G B R |
+| F B I P H | R X S K Y | L G Q J N | T V C D O | E W M A U |
+| N Q L W A | P G H T C | O R U V M | Y E J X B | F D K I S |
+| V M S R E | N W F J D | I X A B Y | H G K U L | C Q P O T |
+| U T X O G | B V E M I | K F P D C | R Q A S W | Y J H L N |
++-----------+-----------+-----------+-----------+-----------+
+| Q A E H W | F R B L V | M I D U S | N P Y K C | J G X T O |
+| I Y G T M | S O N W Q | X C R K V | E J U A F | P L B D H |
+| L N F C B | M E K I J | G A Y P Q | X T H O D | S U R V W |
+| P K U X D | Y C G A H | W T E O J | L B S V R | Q I N F M |
+| S O R V J | T P X D U | H L N F B | Q I G W M | A E C Y K |
++-----------+-----------+-----------+-----------+-----------+
+| Y D W N L | A K J P O | C U T E X | V M B R G | H S I Q F |
+| A P V I C | W F T S X | B Q G N K | J U L Y H | D M O R E |
+| O S Q J F | I B C E R | P M L Y H | K D W T N | G V U X A |
+| T E M U R | D H Y G N | S J V A F | O X I P Q | K B L W C |
+| X H B G K | V Q L U M | D O W R I | F A E C S | T Y J N P |
++-----------+-----------+-----------+-----------+-----------+
+| M C P L O | U S I Y E | V D F W A | B H R Q J | X N T K G |
+| G X H F N | C M V Q T | R Y J S L | U W D E K | I O A P B |
+| E U Y A V | H J O R K | Q P B M T | G L N I X | W F S C D |
+| D R K Q S | L N W B G | U E I X O | A C P F T | M H Y J V |
+| W I J B T | X A D F P | N K H C G | S O V M Y | L R E U Q |
++-----------+-----------+-----------+-----------+-----------+
+  Basesize: 5
+     Moves: 40901
+    Placed: 218
+Backtracks: 1526
+  Filename: board5-1.txt
+

@@ -1,0 +1,32 @@
+\hypertarget{ObjectAllocator_8cpp}{\section{Object\-Allocator.\-cpp File Reference}
+\label{ObjectAllocator_8cpp}\index{Object\-Allocator.\-cpp@{Object\-Allocator.\-cpp}}
+}
+
+
+Implementation of custom memory manager.  
+
+
+{\ttfamily \#include \char`\"{}Object\-Allocator.\-h\char`\"{}}\\*
+
+
+\subsection{Detailed Description}
+Implementation of custom memory manager. \begin{DoxyAuthor}{Author}
+Haven Breithaupt 
+\end{DoxyAuthor}
+\begin{DoxyParagraph}{D\-P email\-: h.breithaupt@digipen.edu}
+
+\end{DoxyParagraph}
+\begin{DoxyParagraph}{Course\-: C\-S280}
+
+\end{DoxyParagraph}
+\begin{DoxyParagraph}{Assignment 1}
+
+\end{DoxyParagraph}
+\begin{DoxyDate}{Date}
+9/8/15
+\end{DoxyDate}
+Functions Include\-: Constructor/\-Destructor Get\-Config -\/ returns configuration of this instantiation Get\-Stats -\/ Get statistics from this instantiation Get\-Page\-List -\/ returns pointer to internal page list write\-\_\-signatures -\/ writes signatures to an entire page Implemented\-Extra\-Credit allocate\-\_\-new\-\_\-page -\/ allocates new page of memory for use (if permitted) Allocate -\/ gives free node to client header\-\_\-free -\/ does housekeeping on header when a node is given back to the manager header\-\_\-assignment -\/ writes header data to node being given to client Dump\-Memory\-In\-Use -\/ dumps memory being used by the client, calls a callback function defined by the client Free\-Empty\-Pages -\/ removes pages where all nodes aree free (not implemented) Free -\/ returns node back to manager Validate\-Pages -\/ checks fro corruption over the entire memory being used by the manageer hand\-\_\-over\-\_\-node -\/ does some house-\/keeping when giving a node to the client check\-\_\-bounds -\/ checks the bounds of a pointer for verification that it is an object check\-\_\-padding -\/ checks padding for corruption on a given object
+
+Hours spent on assignment\-: 20
+
+Specific portions that gave you the most trouble\-: n/a 

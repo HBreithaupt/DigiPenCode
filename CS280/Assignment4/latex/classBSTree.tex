@@ -1,0 +1,515 @@
+\hypertarget{classBSTree}{\section{B\-S\-Tree$<$ T $>$ Class Template Reference}
+\label{classBSTree}\index{B\-S\-Tree$<$ T $>$@{B\-S\-Tree$<$ T $>$}}
+}
+
+
+binary search tree class  
+
+
+
+
+{\ttfamily \#include $<$B\-S\-Tree.\-h$>$}
+
+Inheritance diagram for B\-S\-Tree$<$ T $>$\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classBSTree}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structBSTree_1_1BinTreeNode}{Bin\-Tree\-Node}
+\begin{DoxyCompactList}\small\item\em node class used in the binary tree \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classBSTree_ae961195e523a45be64a981840e953b67}{typedef \hyperlink{structBSTree_1_1BinTreeNode}{Bin\-Tree\-Node} $\ast$ \hyperlink{classBSTree_ae961195e523a45be64a981840e953b67}{Bin\-Tree}}\label{classBSTree_ae961195e523a45be64a981840e953b67}
+
+\begin{DoxyCompactList}\small\item\em simplification for ease of use \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classBSTree_ab5ad17b82195c7758ebbb9b6f41229e6}{B\-S\-Tree} (Object\-Allocator $\ast$O\-A=0, bool Share\-O\-A=false)
+\begin{DoxyCompactList}\small\item\em Constructor for B\-S\-T. \end{DoxyCompactList}\item 
+\hyperlink{classBSTree_ac05b0777b5942ea93fe292cbe4c67059}{B\-S\-Tree} (const \hyperlink{classBSTree}{B\-S\-Tree} \&rhs)
+\begin{DoxyCompactList}\small\item\em Copy constructor. \end{DoxyCompactList}\item 
+\hypertarget{classBSTree_a9e318eddca027a4ca500e6b7c84c749f}{virtual \hyperlink{classBSTree_a9e318eddca027a4ca500e6b7c84c749f}{$\sim$\-B\-S\-Tree} ()}\label{classBSTree_a9e318eddca027a4ca500e6b7c84c749f}
+
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+\hyperlink{classBSTree}{B\-S\-Tree}$<$ T $>$ \& \hyperlink{classBSTree_a7f20b5a0e6a3114b402085b00b7878ab}{operator=} (const \hyperlink{classBSTree}{B\-S\-Tree} \&rhs)
+\begin{DoxyCompactList}\small\item\em Assignment operator. \end{DoxyCompactList}\item 
+const \hyperlink{structBSTree_1_1BinTreeNode}{Bin\-Tree\-Node} $\ast$ \hyperlink{classBSTree_ad0369e593a64399537242a6ee3656a69}{operator\mbox{[}$\,$\mbox{]}} (int index) const 
+\begin{DoxyCompactList}\small\item\em Indexing operator (not implemented). \end{DoxyCompactList}\item 
+virtual void \hyperlink{classBSTree_aa7fc7600f30d0ecc0a75b25e11f6cc57}{insert} (const T \&value)
+\begin{DoxyCompactList}\small\item\em Public insert function. Redirects to private recursive function to handle insertion. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classBSTree_a6b930b09010b674ca6b09c88bd3effeb}{remove} (const T \&value)
+\begin{DoxyCompactList}\small\item\em Public removal function. Redirects to private recursive function. \end{DoxyCompactList}\item 
+\hypertarget{classBSTree_ab4ec7dcce20e9bf8a3e09b371d3af73d}{void \hyperlink{classBSTree_ab4ec7dcce20e9bf8a3e09b371d3af73d}{clear} (void)}\label{classBSTree_ab4ec7dcce20e9bf8a3e09b371d3af73d}
+
+\begin{DoxyCompactList}\small\item\em Removes all nodes from the tree. Calls recursive function. \end{DoxyCompactList}\item 
+bool \hyperlink{classBSTree_a4c789a7e91d8a21074ae6ed6be42ac4a}{find} (const T \&value, unsigned \&compares) const 
+\begin{DoxyCompactList}\small\item\em Finds an item in the tree. Calls recursive function to do the work. \end{DoxyCompactList}\item 
+bool \hyperlink{classBSTree_aef431a55bc9069dcd17c15b4ddacf48e}{empty} (void) const 
+\begin{DoxyCompactList}\small\item\em Checks if the tree is empty. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{classBSTree_acaf31244510bb689f8bf1cf83fb4b212}{size} (void) const 
+\begin{DoxyCompactList}\small\item\em Returns number of nodes in the tree. \end{DoxyCompactList}\item 
+int \hyperlink{classBSTree_a4f2b0cd077e99415954cf1162c282306}{height} (void) const 
+\begin{DoxyCompactList}\small\item\em Checks height of the tree. \end{DoxyCompactList}\item 
+\hyperlink{classBSTree_ae961195e523a45be64a981840e953b67}{Bin\-Tree} \hyperlink{classBSTree_a84c029bf53eb4e50b4d14f610a46ef2a}{root} (void) const 
+\begin{DoxyCompactList}\small\item\em Returns root of the tree. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static bool \hyperlink{classBSTree_afed4448d4cf9b7cf36bf0efb79405931}{Implemented\-Indexing} (void)
+\begin{DoxyCompactList}\small\item\em Checks for extra credit implementation. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classBSTree_ae961195e523a45be64a981840e953b67}{Bin\-Tree} \hyperlink{classBSTree_a246963de859d3fc8cb7c9d5a2c2bf87f}{make\-\_\-node} (const T \&value)
+\begin{DoxyCompactList}\small\item\em Makes a node to put in the tree. \end{DoxyCompactList}\item 
+void \hyperlink{classBSTree_ad1c3dedcd1d2172d767058a5afc48700}{Free\-Node} (\hyperlink{classBSTree_ae961195e523a45be64a981840e953b67}{Bin\-Tree} node)
+\begin{DoxyCompactList}\small\item\em First deleted underlying node in the allocator and then gives back thta memory to the allocator. \end{DoxyCompactList}\item 
+int \hyperlink{classBSTree_aaa3acfb629509ec0797c149e0307b59e}{tree\-\_\-height} (\hyperlink{classBSTree_ae961195e523a45be64a981840e953b67}{Bin\-Tree} tree) const 
+\begin{DoxyCompactList}\small\item\em Calculate height of the tree. \end{DoxyCompactList}\item 
+void \hyperlink{classBSTree_a7c864388c9ce422b7329e7561c30a316}{Find\-Predecessor} (\hyperlink{classBSTree_ae961195e523a45be64a981840e953b67}{Bin\-Tree} tree, \hyperlink{classBSTree_ae961195e523a45be64a981840e953b67}{Bin\-Tree} \&predecessor) const 
+\begin{DoxyCompactList}\small\item\em Finds predecessor of a node. \end{DoxyCompactList}\item 
+void \hyperlink{classBSTree_a9aee3782f0daf87e0e2ec1f3aedb4f5e}{Clear\-Rec} (\hyperlink{classBSTree_ae961195e523a45be64a981840e953b67}{Bin\-Tree} tree)
+\begin{DoxyCompactList}\small\item\em removes all nodes in the tree \end{DoxyCompactList}\item 
+virtual void \hyperlink{classBSTree_aa32cf54d2ea8cfc413293d0538446aad}{Insert\-Item} (\hyperlink{classBSTree_ae961195e523a45be64a981840e953b67}{Bin\-Tree} \&tree, const T \&value, int depth)
+\begin{DoxyCompactList}\small\item\em Recursively inserts an item into the tree. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classBSTree_acbccf64f8c26330090cbc5d8d9001195}{\hyperlink{classBSTree_ae961195e523a45be64a981840e953b67}{Bin\-Tree} \hyperlink{classBSTree_acbccf64f8c26330090cbc5d8d9001195}{Root}}\label{classBSTree_acbccf64f8c26330090cbc5d8d9001195}
+
+\begin{DoxyCompactList}\small\item\em the head of the tree \end{DoxyCompactList}\item 
+\hypertarget{classBSTree_a5e6cde514ed0ba271e1c017ed402b1f9}{Object\-Allocator $\ast$ \hyperlink{classBSTree_a5e6cde514ed0ba271e1c017ed402b1f9}{allocator}}\label{classBSTree_a5e6cde514ed0ba271e1c017ed402b1f9}
+
+\begin{DoxyCompactList}\small\item\em pointer to object allocator \end{DoxyCompactList}\item 
+\hypertarget{classBSTree_a427ba240384aabc139b442e1c8b6125c}{int \hyperlink{classBSTree_a427ba240384aabc139b442e1c8b6125c}{Height}}\label{classBSTree_a427ba240384aabc139b442e1c8b6125c}
+
+\begin{DoxyCompactList}\small\item\em height of the tree \end{DoxyCompactList}\item 
+\hypertarget{classBSTree_ae77fc08bcf3775741578e616d8f98b66}{unsigned int \hyperlink{classBSTree_ae77fc08bcf3775741578e616d8f98b66}{Num\-Nodes}}\label{classBSTree_ae77fc08bcf3775741578e616d8f98b66}
+
+\begin{DoxyCompactList}\small\item\em number of nodes in the tree \end{DoxyCompactList}\item 
+bool \hyperlink{classBSTree_afcb0096e560f0d4a7a44c23bf17883f1}{Own\-O\-A}
+\item 
+bool \hyperlink{classBSTree_aa93a52c804477d1683cc2197da61bc1f}{Share\-Alloc}
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classBSTree_ab62ef6fa7acb74aefd5177977aeb4636}{Copy\-Helper} (\hyperlink{classBSTree_ae961195e523a45be64a981840e953b67}{Bin\-Tree} \&destination, const \hyperlink{classBSTree_ae961195e523a45be64a981840e953b67}{Bin\-Tree} \&source)
+\begin{DoxyCompactList}\small\item\em Recursive copy function used in copy construcotr and assignment. \end{DoxyCompactList}\item 
+virtual void \hyperlink{classBSTree_acce425c45a5c61fd887627740d123d0d}{Delete\-Item} (\hyperlink{classBSTree_ae961195e523a45be64a981840e953b67}{Bin\-Tree} \&tree, const T \&Data)
+\begin{DoxyCompactList}\small\item\em Recursive function to remove an item from the tree. \end{DoxyCompactList}\item 
+bool \hyperlink{classBSTree_a2ff8b3553c3ae8f6aeadab1598ca22d3}{Find\-Item} (\hyperlink{classBSTree_ae961195e523a45be64a981840e953b67}{Bin\-Tree} tree, const T \&Data, unsigned \&compares) const 
+\begin{DoxyCompactList}\small\item\em Finds an item in the tree. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$typename T$>$class B\-S\-Tree$<$ T $>$}
+
+binary search tree class 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classBSTree_ab5ad17b82195c7758ebbb9b6f41229e6}{\index{B\-S\-Tree@{B\-S\-Tree}!B\-S\-Tree@{B\-S\-Tree}}
+\index{B\-S\-Tree@{B\-S\-Tree}!BSTree@{B\-S\-Tree}}
+\subsubsection[{B\-S\-Tree}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ {\bf B\-S\-Tree}$<$ T $>$\-::{\bf B\-S\-Tree} (
+\begin{DoxyParamCaption}
+\item[{Object\-Allocator $\ast$}]{O\-A = {\ttfamily 0}, }
+\item[{bool}]{Share\-O\-A = {\ttfamily false}}
+\end{DoxyParamCaption}
+)}}\label{classBSTree_ab5ad17b82195c7758ebbb9b6f41229e6}
+
+
+Constructor for B\-S\-T. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em O\-A} & Object\-Allocator to use with the tree (either provided or created).\\
+\hline
+{\em Share\-O\-A} & Flag to indicate sharing of the object allocator with copies of the object. \\
+\hline
+\end{DoxyParams}
+\hypertarget{classBSTree_ac05b0777b5942ea93fe292cbe4c67059}{\index{B\-S\-Tree@{B\-S\-Tree}!B\-S\-Tree@{B\-S\-Tree}}
+\index{B\-S\-Tree@{B\-S\-Tree}!BSTree@{B\-S\-Tree}}
+\subsubsection[{B\-S\-Tree}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ {\bf B\-S\-Tree}$<$ T $>$\-::{\bf B\-S\-Tree} (
+\begin{DoxyParamCaption}
+\item[{const {\bf B\-S\-Tree}$<$ T $>$ \&}]{rhs}
+\end{DoxyParamCaption}
+)}}\label{classBSTree_ac05b0777b5942ea93fe292cbe4c67059}
+
+
+Copy constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & Object being copied \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classBSTree_a9aee3782f0daf87e0e2ec1f3aedb4f5e}{\index{B\-S\-Tree@{B\-S\-Tree}!Clear\-Rec@{Clear\-Rec}}
+\index{Clear\-Rec@{Clear\-Rec}!BSTree@{B\-S\-Tree}}
+\subsubsection[{Clear\-Rec}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ void {\bf B\-S\-Tree}$<$ T $>$\-::Clear\-Rec (
+\begin{DoxyParamCaption}
+\item[{{\bf Bin\-Tree}}]{tree}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classBSTree_a9aee3782f0daf87e0e2ec1f3aedb4f5e}
+
+
+removes all nodes in the tree 
+
+Recursive functio to delete all nodes in the tree.
+
+
+\begin{DoxyParams}{Parameters}
+{\em tree} & node being removed \\
+\hline
+\end{DoxyParams}
+\hypertarget{classBSTree_ab62ef6fa7acb74aefd5177977aeb4636}{\index{B\-S\-Tree@{B\-S\-Tree}!Copy\-Helper@{Copy\-Helper}}
+\index{Copy\-Helper@{Copy\-Helper}!BSTree@{B\-S\-Tree}}
+\subsubsection[{Copy\-Helper}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ void {\bf B\-S\-Tree}$<$ T $>$\-::Copy\-Helper (
+\begin{DoxyParamCaption}
+\item[{{\bf Bin\-Tree} \&}]{destination, }
+\item[{const {\bf Bin\-Tree} \&}]{source}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{classBSTree_ab62ef6fa7acb74aefd5177977aeb4636}
+
+
+Recursive copy function used in copy construcotr and assignment. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em destination} & lhs object\\
+\hline
+{\em source} & rhs object \\
+\hline
+\end{DoxyParams}
+\hypertarget{classBSTree_acce425c45a5c61fd887627740d123d0d}{\index{B\-S\-Tree@{B\-S\-Tree}!Delete\-Item@{Delete\-Item}}
+\index{Delete\-Item@{Delete\-Item}!BSTree@{B\-S\-Tree}}
+\subsubsection[{Delete\-Item}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T$>$ void {\bf B\-S\-Tree}$<$ T $>$\-::Delete\-Item (
+\begin{DoxyParamCaption}
+\item[{{\bf Bin\-Tree} \&}]{tree, }
+\item[{const T \&}]{Data}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}, {\ttfamily [virtual]}}}\label{classBSTree_acce425c45a5c61fd887627740d123d0d}
+
+
+Recursive function to remove an item from the tree. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tree} & Starts at the root of the tree\\
+\hline
+{\em Data} & Data being removed from the tree. \\
+\hline
+\end{DoxyParams}
+\hypertarget{classBSTree_aef431a55bc9069dcd17c15b4ddacf48e}{\index{B\-S\-Tree@{B\-S\-Tree}!empty@{empty}}
+\index{empty@{empty}!BSTree@{B\-S\-Tree}}
+\subsubsection[{empty}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ bool {\bf B\-S\-Tree}$<$ T $>$\-::empty (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+) const}}\label{classBSTree_aef431a55bc9069dcd17c15b4ddacf48e}
+
+
+Checks if the tree is empty. 
+
+\begin{DoxyReturn}{Returns}
+True if it's empty, false if there are nodes in it. 
+\end{DoxyReturn}
+\hypertarget{classBSTree_a4c789a7e91d8a21074ae6ed6be42ac4a}{\index{B\-S\-Tree@{B\-S\-Tree}!find@{find}}
+\index{find@{find}!BSTree@{B\-S\-Tree}}
+\subsubsection[{find}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T$>$ bool {\bf B\-S\-Tree}$<$ T $>$\-::find (
+\begin{DoxyParamCaption}
+\item[{const T \&}]{value, }
+\item[{unsigned \&}]{compares}
+\end{DoxyParamCaption}
+) const}}\label{classBSTree_a4c789a7e91d8a21074ae6ed6be42ac4a}
+
+
+Finds an item in the tree. Calls recursive function to do the work. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Value looking for.\\
+\hline
+{\em compares} & How many comparisons it took to find (or not) the item.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the item was found. False if it was node 
+\end{DoxyReturn}
+\hypertarget{classBSTree_a2ff8b3553c3ae8f6aeadab1598ca22d3}{\index{B\-S\-Tree@{B\-S\-Tree}!Find\-Item@{Find\-Item}}
+\index{Find\-Item@{Find\-Item}!BSTree@{B\-S\-Tree}}
+\subsubsection[{Find\-Item}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T$>$ bool {\bf B\-S\-Tree}$<$ T $>$\-::Find\-Item (
+\begin{DoxyParamCaption}
+\item[{{\bf Bin\-Tree}}]{tree, }
+\item[{const T \&}]{Data, }
+\item[{unsigned \&}]{compares}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [private]}}}\label{classBSTree_a2ff8b3553c3ae8f6aeadab1598ca22d3}
+
+
+Finds an item in the tree. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tree} & Starts at root of the tree\\
+\hline
+{\em Data} & Data looking for\\
+\hline
+{\em compares} & Number of comparisons it took to find (or not find) the item.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if item was found, False if it wasnt; 
+\end{DoxyReturn}
+\hypertarget{classBSTree_a7c864388c9ce422b7329e7561c30a316}{\index{B\-S\-Tree@{B\-S\-Tree}!Find\-Predecessor@{Find\-Predecessor}}
+\index{Find\-Predecessor@{Find\-Predecessor}!BSTree@{B\-S\-Tree}}
+\subsubsection[{Find\-Predecessor}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ void {\bf B\-S\-Tree}$<$ T $>$\-::Find\-Predecessor (
+\begin{DoxyParamCaption}
+\item[{{\bf Bin\-Tree}}]{tree, }
+\item[{{\bf Bin\-Tree} \&}]{predecessor}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [protected]}}}\label{classBSTree_a7c864388c9ce422b7329e7561c30a316}
+
+
+Finds predecessor of a node. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tree} & Starting node (left of the node being removed).\\
+\hline
+{\em predecessor} & Reference to a pointer that will be used in deleting after predecessor is found. \\
+\hline
+\end{DoxyParams}
+\hypertarget{classBSTree_ad1c3dedcd1d2172d767058a5afc48700}{\index{B\-S\-Tree@{B\-S\-Tree}!Free\-Node@{Free\-Node}}
+\index{Free\-Node@{Free\-Node}!BSTree@{B\-S\-Tree}}
+\subsubsection[{Free\-Node}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ void {\bf B\-S\-Tree}$<$ T $>$\-::Free\-Node (
+\begin{DoxyParamCaption}
+\item[{{\bf Bin\-Tree}}]{node}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classBSTree_ad1c3dedcd1d2172d767058a5afc48700}
+
+
+First deleted underlying node in the allocator and then gives back thta memory to the allocator. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em node} & node being freed. \\
+\hline
+\end{DoxyParams}
+\hypertarget{classBSTree_a4f2b0cd077e99415954cf1162c282306}{\index{B\-S\-Tree@{B\-S\-Tree}!height@{height}}
+\index{height@{height}!BSTree@{B\-S\-Tree}}
+\subsubsection[{height}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ int {\bf B\-S\-Tree}$<$ T $>$\-::height (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+) const}}\label{classBSTree_a4f2b0cd077e99415954cf1162c282306}
+
+
+Checks height of the tree. 
+
+\begin{DoxyReturn}{Returns}
+Height of the tree. 
+\end{DoxyReturn}
+\hypertarget{classBSTree_afed4448d4cf9b7cf36bf0efb79405931}{\index{B\-S\-Tree@{B\-S\-Tree}!Implemented\-Indexing@{Implemented\-Indexing}}
+\index{Implemented\-Indexing@{Implemented\-Indexing}!BSTree@{B\-S\-Tree}}
+\subsubsection[{Implemented\-Indexing}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ bool {\bf B\-S\-Tree}$<$ T $>$\-::Implemented\-Indexing (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classBSTree_afed4448d4cf9b7cf36bf0efb79405931}
+
+
+Checks for extra credit implementation. 
+
+\begin{DoxyReturn}{Returns}
+True if extra credit was implementated. False if not. 
+\end{DoxyReturn}
+\hypertarget{classBSTree_aa7fc7600f30d0ecc0a75b25e11f6cc57}{\index{B\-S\-Tree@{B\-S\-Tree}!insert@{insert}}
+\index{insert@{insert}!BSTree@{B\-S\-Tree}}
+\subsubsection[{insert}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T$>$ void {\bf B\-S\-Tree}$<$ T $>$\-::insert (
+\begin{DoxyParamCaption}
+\item[{const T \&}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classBSTree_aa7fc7600f30d0ecc0a75b25e11f6cc57}
+
+
+Public insert function. Redirects to private recursive function to handle insertion. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Balue being inserted. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \hyperlink{classAVLTree_ae389876cfbb5921623bed8111b921794}{A\-V\-L\-Tree$<$ T $>$}.
+
+\hypertarget{classBSTree_aa32cf54d2ea8cfc413293d0538446aad}{\index{B\-S\-Tree@{B\-S\-Tree}!Insert\-Item@{Insert\-Item}}
+\index{Insert\-Item@{Insert\-Item}!BSTree@{B\-S\-Tree}}
+\subsubsection[{Insert\-Item}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T$>$ void {\bf B\-S\-Tree}$<$ T $>$\-::Insert\-Item (
+\begin{DoxyParamCaption}
+\item[{{\bf Bin\-Tree} \&}]{tree, }
+\item[{const T \&}]{value, }
+\item[{int}]{depth}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{classBSTree_aa32cf54d2ea8cfc413293d0538446aad}
+
+
+Recursively inserts an item into the tree. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tree} & Starts at the root of the tree\\
+\hline
+{\em value} & value being inserted into the tree\\
+\hline
+{\em depth} & how deep down the tree we went. Used to update height \\
+\hline
+\end{DoxyParams}
+\hypertarget{classBSTree_a246963de859d3fc8cb7c9d5a2c2bf87f}{\index{B\-S\-Tree@{B\-S\-Tree}!make\-\_\-node@{make\-\_\-node}}
+\index{make\-\_\-node@{make\-\_\-node}!BSTree@{B\-S\-Tree}}
+\subsubsection[{make\-\_\-node}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T$>$ {\bf B\-S\-Tree}$<$ T $>$\-::{\bf Bin\-Tree} {\bf B\-S\-Tree}$<$ T $>$\-::make\-\_\-node (
+\begin{DoxyParamCaption}
+\item[{const T \&}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classBSTree_a246963de859d3fc8cb7c9d5a2c2bf87f}
+
+
+Makes a node to put in the tree. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Value to store increated node\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Pointer to node created. 
+\end{DoxyReturn}
+\hypertarget{classBSTree_a7f20b5a0e6a3114b402085b00b7878ab}{\index{B\-S\-Tree@{B\-S\-Tree}!operator=@{operator=}}
+\index{operator=@{operator=}!BSTree@{B\-S\-Tree}}
+\subsubsection[{operator=}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ {\bf B\-S\-Tree}$<$ T $>$ \& {\bf B\-S\-Tree}$<$ T $>$\-::operator= (
+\begin{DoxyParamCaption}
+\item[{const {\bf B\-S\-Tree}$<$ T $>$ \&}]{rhs}
+\end{DoxyParamCaption}
+)}}\label{classBSTree_a7f20b5a0e6a3114b402085b00b7878ab}
+
+
+Assignment operator. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & Object being assigned from.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Reference to lhs object. 
+\end{DoxyReturn}
+\hypertarget{classBSTree_ad0369e593a64399537242a6ee3656a69}{\index{B\-S\-Tree@{B\-S\-Tree}!operator\mbox{[}$\,$\mbox{]}@{operator[]}}
+\index{operator\mbox{[}$\,$\mbox{]}@{operator[]}!BSTree@{B\-S\-Tree}}
+\subsubsection[{operator[]}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ const {\bf B\-S\-Tree}$<$ T $>$\-::{\bf Bin\-Tree\-Node} $\ast$ {\bf B\-S\-Tree}$<$ T $>$\-::operator\mbox{[}$\,$\mbox{]} (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+) const}}\label{classBSTree_ad0369e593a64399537242a6ee3656a69}
+
+
+Indexing operator (not implemented). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & Node requested from the tree\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Pointer to node requested 
+\end{DoxyReturn}
+\hypertarget{classBSTree_a6b930b09010b674ca6b09c88bd3effeb}{\index{B\-S\-Tree@{B\-S\-Tree}!remove@{remove}}
+\index{remove@{remove}!BSTree@{B\-S\-Tree}}
+\subsubsection[{remove}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T$>$ void {\bf B\-S\-Tree}$<$ T $>$\-::remove (
+\begin{DoxyParamCaption}
+\item[{const T \&}]{value}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classBSTree_a6b930b09010b674ca6b09c88bd3effeb}
+
+
+Public removal function. Redirects to private recursive function. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Value being removed from the tree. \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \hyperlink{classAVLTree_a53cda767b01115a3be8c1d839ef6d6c3}{A\-V\-L\-Tree$<$ T $>$}.
+
+\hypertarget{classBSTree_a84c029bf53eb4e50b4d14f610a46ef2a}{\index{B\-S\-Tree@{B\-S\-Tree}!root@{root}}
+\index{root@{root}!BSTree@{B\-S\-Tree}}
+\subsubsection[{root}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ {\bf B\-S\-Tree}$<$ T $>$\-::{\bf Bin\-Tree} {\bf B\-S\-Tree}$<$ T $>$\-::root (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+) const}}\label{classBSTree_a84c029bf53eb4e50b4d14f610a46ef2a}
+
+
+Returns root of the tree. 
+
+\begin{DoxyReturn}{Returns}
+Root of the tree. 
+\end{DoxyReturn}
+\hypertarget{classBSTree_acaf31244510bb689f8bf1cf83fb4b212}{\index{B\-S\-Tree@{B\-S\-Tree}!size@{size}}
+\index{size@{size}!BSTree@{B\-S\-Tree}}
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ unsigned int {\bf B\-S\-Tree}$<$ T $>$\-::size (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+) const}}\label{classBSTree_acaf31244510bb689f8bf1cf83fb4b212}
+
+
+Returns number of nodes in the tree. 
+
+\begin{DoxyReturn}{Returns}
+Number of ndoes in the tree. 
+\end{DoxyReturn}
+\hypertarget{classBSTree_aaa3acfb629509ec0797c149e0307b59e}{\index{B\-S\-Tree@{B\-S\-Tree}!tree\-\_\-height@{tree\-\_\-height}}
+\index{tree\-\_\-height@{tree\-\_\-height}!BSTree@{B\-S\-Tree}}
+\subsubsection[{tree\-\_\-height}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ int {\bf B\-S\-Tree}$<$ T $>$\-::tree\-\_\-height (
+\begin{DoxyParamCaption}
+\item[{{\bf Bin\-Tree}}]{tree}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [protected]}}}\label{classBSTree_aaa3acfb629509ec0797c149e0307b59e}
+
+
+Calculate height of the tree. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tree} & Root of the tree\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Height of the tree. 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classBSTree_afcb0096e560f0d4a7a44c23bf17883f1}{\index{B\-S\-Tree@{B\-S\-Tree}!Own\-O\-A@{Own\-O\-A}}
+\index{Own\-O\-A@{Own\-O\-A}!BSTree@{B\-S\-Tree}}
+\subsubsection[{Own\-O\-A}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T$>$ bool {\bf B\-S\-Tree}$<$ T $>$\-::Own\-O\-A\hspace{0.3cm}{\ttfamily [protected]}}}\label{classBSTree_afcb0096e560f0d4a7a44c23bf17883f1}
+bool to indicate whether the object or client owns the object allocator for thi object \hypertarget{classBSTree_aa93a52c804477d1683cc2197da61bc1f}{\index{B\-S\-Tree@{B\-S\-Tree}!Share\-Alloc@{Share\-Alloc}}
+\index{Share\-Alloc@{Share\-Alloc}!BSTree@{B\-S\-Tree}}
+\subsubsection[{Share\-Alloc}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T$>$ bool {\bf B\-S\-Tree}$<$ T $>$\-::Share\-Alloc\hspace{0.3cm}{\ttfamily [protected]}}}\label{classBSTree_aa93a52c804477d1683cc2197da61bc1f}
+bool to indicate wheter or not copies of this object wil be sharing the same allocator 
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{BSTree_8h}{B\-S\-Tree.\-h}\item 
+\hyperlink{BSTree_8cpp}{B\-S\-Tree.\-cpp}\end{DoxyCompactItemize}

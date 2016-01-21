@@ -1,0 +1,3 @@
+# very easy
+# basesize: 4, moves: 60837, backtracks: 3738
+.B.O..PH.MNCIE...MDLGAFC.IK.J...E...NJMI..APGD.BIAP..B..J..GC..MK....NOLAG.....IH.AC...M.ED.L..G.DL..HK.F....PAOGI.N.D.E.BP.HF....HB.IG.C.O.P.EDLEC....F.PI..BN.P..G.LN.K...FM.CD.....HABJE....LO..KD..P..C..LINB.EPKM..IHGD...F...D.CI.NKBJMGP...MIFEB.PA..D.H.

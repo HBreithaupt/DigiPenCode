@@ -1,0 +1,114 @@
+\hypertarget{classOAException}{\section{O\-A\-Exception Class Reference}
+\label{classOAException}\index{O\-A\-Exception@{O\-A\-Exception}}
+}
+
+
+{\ttfamily \#include $<$Object\-Allocator.\-h$>$}
+
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{classOAException_a7b7c4b5031a4f065e894d02ac7c97a32}{O\-A\-\_\-\-E\-X\-C\-E\-P\-T\-I\-O\-N} \{ \\*
+\hyperlink{classOAException_a7b7c4b5031a4f065e894d02ac7c97a32ae18f5cbb3503fde484739545afcc9161}{E\-\_\-\-N\-O\-\_\-\-M\-E\-M\-O\-R\-Y}, 
+\hyperlink{classOAException_a7b7c4b5031a4f065e894d02ac7c97a32a00b488cc53e8fb49d4b2dd75291b7f82}{E\-\_\-\-N\-O\-\_\-\-P\-A\-G\-E\-S}, 
+\hyperlink{classOAException_a7b7c4b5031a4f065e894d02ac7c97a32a8c562017500215f88c804392775c6b1b}{E\-\_\-\-B\-A\-D\-\_\-\-B\-O\-U\-N\-D\-A\-R\-Y}, 
+\hyperlink{classOAException_a7b7c4b5031a4f065e894d02ac7c97a32a2123fdbb5bd50beb07f893ac38688bce}{E\-\_\-\-M\-U\-L\-T\-I\-P\-L\-E\-\_\-\-F\-R\-E\-E}, 
+\\*
+\hyperlink{classOAException_a7b7c4b5031a4f065e894d02ac7c97a32ae4bfdc0e26752fbd32d5fdfe183e52c0}{E\-\_\-\-C\-O\-R\-R\-U\-P\-T\-E\-D\-\_\-\-B\-L\-O\-C\-K}
+ \}
+\begin{DoxyCompactList}\small\item\em $<$ Possible exception codes \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classOAException_a80250ef41d10e8f7e73b9601ca3cdf3d}{O\-A\-Exception} (\hyperlink{classOAException_a7b7c4b5031a4f065e894d02ac7c97a32}{O\-A\-\_\-\-E\-X\-C\-E\-P\-T\-I\-O\-N} Err\-Code, const std\-::string \&Message)
+\begin{DoxyCompactList}\small\item\em Constructor for exception class used in \hyperlink{classObjectAllocator}{Object\-Allocator}. \end{DoxyCompactList}\item 
+\hyperlink{classOAException_a7b7c4b5031a4f065e894d02ac7c97a32}{O\-A\-\_\-\-E\-X\-C\-E\-P\-T\-I\-O\-N} \hyperlink{classOAException_ad54a0c8dd1deff601e6350e99170febe}{code} (void) const 
+\begin{DoxyCompactList}\small\item\em returns error code of exception thrown \end{DoxyCompactList}\item 
+virtual const char $\ast$ \hyperlink{classOAException_a599ea1b52cdbd3c2838828ea3a2468ef}{what} (void) const 
+\begin{DoxyCompactList}\small\item\em returns string of error that occured \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Exception class used in Object Allocator 
+
+\subsection{Member Enumeration Documentation}
+\hypertarget{classOAException_a7b7c4b5031a4f065e894d02ac7c97a32}{\index{O\-A\-Exception@{O\-A\-Exception}!O\-A\-\_\-\-E\-X\-C\-E\-P\-T\-I\-O\-N@{O\-A\-\_\-\-E\-X\-C\-E\-P\-T\-I\-O\-N}}
+\index{O\-A\-\_\-\-E\-X\-C\-E\-P\-T\-I\-O\-N@{O\-A\-\_\-\-E\-X\-C\-E\-P\-T\-I\-O\-N}!OAException@{O\-A\-Exception}}
+\subsubsection[{O\-A\-\_\-\-E\-X\-C\-E\-P\-T\-I\-O\-N}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf O\-A\-Exception\-::\-O\-A\-\_\-\-E\-X\-C\-E\-P\-T\-I\-O\-N}}}\label{classOAException_a7b7c4b5031a4f065e894d02ac7c97a32}
+
+
+$<$ Possible exception codes 
+
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{E\-\_\-\-N\-O\-\_\-\-M\-E\-M\-O\-R\-Y@{E\-\_\-\-N\-O\-\_\-\-M\-E\-M\-O\-R\-Y}!O\-A\-Exception@{O\-A\-Exception}}\index{O\-A\-Exception@{O\-A\-Exception}!E\-\_\-\-N\-O\-\_\-\-M\-E\-M\-O\-R\-Y@{E\-\_\-\-N\-O\-\_\-\-M\-E\-M\-O\-R\-Y}}\item[{\em 
+\hypertarget{classOAException_a7b7c4b5031a4f065e894d02ac7c97a32ae18f5cbb3503fde484739545afcc9161}{E\-\_\-\-N\-O\-\_\-\-M\-E\-M\-O\-R\-Y}\label{classOAException_a7b7c4b5031a4f065e894d02ac7c97a32ae18f5cbb3503fde484739545afcc9161}
+}]out of physical memory (operator new fails) \index{E\-\_\-\-N\-O\-\_\-\-P\-A\-G\-E\-S@{E\-\_\-\-N\-O\-\_\-\-P\-A\-G\-E\-S}!O\-A\-Exception@{O\-A\-Exception}}\index{O\-A\-Exception@{O\-A\-Exception}!E\-\_\-\-N\-O\-\_\-\-P\-A\-G\-E\-S@{E\-\_\-\-N\-O\-\_\-\-P\-A\-G\-E\-S}}\item[{\em 
+\hypertarget{classOAException_a7b7c4b5031a4f065e894d02ac7c97a32a00b488cc53e8fb49d4b2dd75291b7f82}{E\-\_\-\-N\-O\-\_\-\-P\-A\-G\-E\-S}\label{classOAException_a7b7c4b5031a4f065e894d02ac7c97a32a00b488cc53e8fb49d4b2dd75291b7f82}
+}]out of logical memory (max pages has been reached) \index{E\-\_\-\-B\-A\-D\-\_\-\-B\-O\-U\-N\-D\-A\-R\-Y@{E\-\_\-\-B\-A\-D\-\_\-\-B\-O\-U\-N\-D\-A\-R\-Y}!O\-A\-Exception@{O\-A\-Exception}}\index{O\-A\-Exception@{O\-A\-Exception}!E\-\_\-\-B\-A\-D\-\_\-\-B\-O\-U\-N\-D\-A\-R\-Y@{E\-\_\-\-B\-A\-D\-\_\-\-B\-O\-U\-N\-D\-A\-R\-Y}}\item[{\em 
+\hypertarget{classOAException_a7b7c4b5031a4f065e894d02ac7c97a32a8c562017500215f88c804392775c6b1b}{E\-\_\-\-B\-A\-D\-\_\-\-B\-O\-U\-N\-D\-A\-R\-Y}\label{classOAException_a7b7c4b5031a4f065e894d02ac7c97a32a8c562017500215f88c804392775c6b1b}
+}]block address is on a page, but not on any block-\/boundary \index{E\-\_\-\-M\-U\-L\-T\-I\-P\-L\-E\-\_\-\-F\-R\-E\-E@{E\-\_\-\-M\-U\-L\-T\-I\-P\-L\-E\-\_\-\-F\-R\-E\-E}!O\-A\-Exception@{O\-A\-Exception}}\index{O\-A\-Exception@{O\-A\-Exception}!E\-\_\-\-M\-U\-L\-T\-I\-P\-L\-E\-\_\-\-F\-R\-E\-E@{E\-\_\-\-M\-U\-L\-T\-I\-P\-L\-E\-\_\-\-F\-R\-E\-E}}\item[{\em 
+\hypertarget{classOAException_a7b7c4b5031a4f065e894d02ac7c97a32a2123fdbb5bd50beb07f893ac38688bce}{E\-\_\-\-M\-U\-L\-T\-I\-P\-L\-E\-\_\-\-F\-R\-E\-E}\label{classOAException_a7b7c4b5031a4f065e894d02ac7c97a32a2123fdbb5bd50beb07f893ac38688bce}
+}]block has already been freed \index{E\-\_\-\-C\-O\-R\-R\-U\-P\-T\-E\-D\-\_\-\-B\-L\-O\-C\-K@{E\-\_\-\-C\-O\-R\-R\-U\-P\-T\-E\-D\-\_\-\-B\-L\-O\-C\-K}!O\-A\-Exception@{O\-A\-Exception}}\index{O\-A\-Exception@{O\-A\-Exception}!E\-\_\-\-C\-O\-R\-R\-U\-P\-T\-E\-D\-\_\-\-B\-L\-O\-C\-K@{E\-\_\-\-C\-O\-R\-R\-U\-P\-T\-E\-D\-\_\-\-B\-L\-O\-C\-K}}\item[{\em 
+\hypertarget{classOAException_a7b7c4b5031a4f065e894d02ac7c97a32ae4bfdc0e26752fbd32d5fdfe183e52c0}{E\-\_\-\-C\-O\-R\-R\-U\-P\-T\-E\-D\-\_\-\-B\-L\-O\-C\-K}\label{classOAException_a7b7c4b5031a4f065e894d02ac7c97a32ae4bfdc0e26752fbd32d5fdfe183e52c0}
+}]block has been corrupted (pad bytes have been overwritten) \end{description}
+\end{Desc}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classOAException_a80250ef41d10e8f7e73b9601ca3cdf3d}{\index{O\-A\-Exception@{O\-A\-Exception}!O\-A\-Exception@{O\-A\-Exception}}
+\index{O\-A\-Exception@{O\-A\-Exception}!OAException@{O\-A\-Exception}}
+\subsubsection[{O\-A\-Exception}]{\setlength{\rightskip}{0pt plus 5cm}O\-A\-Exception\-::\-O\-A\-Exception (
+\begin{DoxyParamCaption}
+\item[{{\bf O\-A\-\_\-\-E\-X\-C\-E\-P\-T\-I\-O\-N}}]{Err\-Code, }
+\item[{const std\-::string \&}]{Message}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classOAException_a80250ef41d10e8f7e73b9601ca3cdf3d}
+
+
+Constructor for exception class used in \hyperlink{classObjectAllocator}{Object\-Allocator}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Err\-Code} & Error code chosen from enum above for type of error that occured\\
+\hline
+{\em Message} & Human readable string to describe the error that occured \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classOAException_ad54a0c8dd1deff601e6350e99170febe}{\index{O\-A\-Exception@{O\-A\-Exception}!code@{code}}
+\index{code@{code}!OAException@{O\-A\-Exception}}
+\subsubsection[{code}]{\setlength{\rightskip}{0pt plus 5cm}{\bf O\-A\-\_\-\-E\-X\-C\-E\-P\-T\-I\-O\-N} O\-A\-Exception\-::code (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}}}\label{classOAException_ad54a0c8dd1deff601e6350e99170febe}
+
+
+returns error code of exception thrown 
+
+\begin{DoxyReturn}{Returns}
+Returns O\-A\-\_\-\-E\-X\-C\-E\-P\-T\-I\-O\-N code for error that occured 
+\end{DoxyReturn}
+\hypertarget{classOAException_a599ea1b52cdbd3c2838828ea3a2468ef}{\index{O\-A\-Exception@{O\-A\-Exception}!what@{what}}
+\index{what@{what}!OAException@{O\-A\-Exception}}
+\subsubsection[{what}]{\setlength{\rightskip}{0pt plus 5cm}virtual const char$\ast$ O\-A\-Exception\-::what (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classOAException_a599ea1b52cdbd3c2838828ea3a2468ef}
+
+
+returns string of error that occured 
+
+\begin{DoxyReturn}{Returns}
+Returns human readable string to describe the error that occured 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{ObjectAllocator_8h}{Object\-Allocator.\-h}\end{DoxyCompactItemize}

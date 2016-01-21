@@ -1,0 +1,57 @@
+Moves: 0
++---------+---------+---------+---------+
+|       C |       K |   J A M | P   F   |
+| P   J E | C     F | K       |   M   L |
+|   G   F | O J N   |   C     | D       |
+| M K H   | P A     |   D F   |   N   J |
++---------+---------+---------+---------+
+|   D     |   B O A |     C   | F L     |
+|       K |     F I |   H B   | G   N   |
+|         |     H   |     P   | K   A   |
+| A H C   | G P   N |       E | B O     |
++---------+---------+---------+---------+
+|     N I | A       | G   J L |   F M D |
+|   L   H |   I     |   N     |         |
+|   C   D |   F M   | O K     | E       |
+|     G M |   O     | A B E   |     I   |
++---------+---------+---------+---------+
+| H   F   |   M C   |     K N |   D E G |
+|       A |     G   |   I O P | N   J   |
+| C   K   |       P | L     D | M I   F |
+|   N   B | K L I   | C       | A       |
++---------+---------+---------+---------+
+  Basesize: 4
+     Moves: 0
+    Placed: 0
+Backtracks: 0
+  Filename: board4-3.txt
+
+Solution found in 29266186 moves.
+Moves: 29266186
++---------+---------+---------+---------+
+| N O D C | I G L K | E J A M | P B F H |
+| P A J E | C H D F | K O N B | I M G L |
+| B G I F | O J N M | P C L H | D E K A |
+| M K H L | P A B E | I D F G | O N C J |
++---------+---------+---------+---------+
+| I D M N | E B O A | J G C K | F L H P |
+| L P O K | M C F I | D H B A | G J N E |
+| F E B G | L D H J | N M P O | K C A I |
+| A H C J | G P K N | F L I E | B O D M |
++---------+---------+---------+---------+
+| O B N I | A K E H | G P J L | C F M D |
+| E L A H | B I P C | M N D F | J G O K |
+| J C P D | N F M G | O K H I | E A L B |
+| K F G M | D O J L | A B E C | H P I N |
++---------+---------+---------+---------+
+| H I F P | J M C O | B A K N | L D E G |
+| D M L A | F E G B | H I O P | N K J C |
+| C J K O | H N A P | L E G D | M I B F |
+| G N E B | K L I D | C F M J | A H P O |
++---------+---------+---------+---------+
+  Basesize: 4
+     Moves: 29266186
+    Placed: 140
+Backtracks: 1829062
+  Filename: board4-3.txt
+

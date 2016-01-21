@@ -1,0 +1,59 @@
+\hypertarget{ChHashTable_8h}{\section{Ch\-Hash\-Table.\-h File Reference}
+\label{ChHashTable_8h}\index{Ch\-Hash\-Table.\-h@{Ch\-Hash\-Table.\-h}}
+}
+
+
+Prototypes for hash table class.  
+
+
+{\ttfamily \#include $<$string$>$}\\*
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include \char`\"{}Object\-Allocator.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}support.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}cmath\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Ch\-Hash\-Table.\-cpp\char`\"{}}\\*
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classHashTableException}{Hash\-Table\-Exception}
+\begin{DoxyCompactList}\small\item\em exception class \end{DoxyCompactList}\item 
+struct \hyperlink{structHTStats}{H\-T\-Stats}
+\begin{DoxyCompactList}\small\item\em Hash\-Table statistical info. \end{DoxyCompactList}\item 
+class \hyperlink{classChHashTable}{Ch\-Hash\-Table$<$ T $>$}
+\begin{DoxyCompactList}\small\item\em hash table class \end{DoxyCompactList}\item 
+struct \hyperlink{structChHashTable_1_1HTConfig}{Ch\-Hash\-Table$<$ T $>$\-::\-H\-T\-Config}
+\begin{DoxyCompactList}\small\item\em configuration struct to use for the hash tab;e \end{DoxyCompactList}\item 
+struct \hyperlink{structChHashTable_1_1ChHTNode}{Ch\-Hash\-Table$<$ T $>$\-::\-Ch\-H\-T\-Node}
+\begin{DoxyCompactList}\small\item\em Nodes that will hold the key/data pairs. \end{DoxyCompactList}\item 
+struct \hyperlink{structChHashTable_1_1ChHTHeadNode}{Ch\-Hash\-Table$<$ T $>$\-::\-Ch\-H\-T\-Head\-Node}
+\begin{DoxyCompactList}\small\item\em Each list has a special head pointer. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{ChHashTable_8h_a2e5c3d6d9eb14baf05abe0760e4a6a5a}{typedef unsigned($\ast$ \hyperlink{ChHashTable_8h_a2e5c3d6d9eb14baf05abe0760e4a6a5a}{H\-A\-S\-H\-F\-U\-N\-C} )(const char $\ast$, unsigned)}\label{ChHashTable_8h_a2e5c3d6d9eb14baf05abe0760e4a6a5a}
+
+\begin{DoxyCompactList}\small\item\em client-\/provided hash function\-: takes a key and table size, \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{ChHashTable_8h_ac07178281e212a9f6e265a6b21ae7d7f}{const unsigned \hyperlink{ChHashTable_8h_ac07178281e212a9f6e265a6b21ae7d7f}{M\-A\-X\-\_\-\-K\-E\-Y\-L\-E\-N} = 10}\label{ChHashTable_8h_ac07178281e212a9f6e265a6b21ae7d7f}
+
+\begin{DoxyCompactList}\small\item\em Max length of our \char`\"{}string\char`\"{} keys. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Prototypes for hash table class. \begin{DoxyAuthor}{Author}
+Haven Breithaupt 
+\end{DoxyAuthor}
+\begin{DoxyParagraph}{D\-P email\-: h.breithaupt@digipen.edu}
+
+\end{DoxyParagraph}
+\begin{DoxyParagraph}{Course\-: C\-S170}
+
+\end{DoxyParagraph}
+\begin{DoxyParagraph}{Assignment 5}
+
+\end{DoxyParagraph}
+\begin{DoxyDate}{Date}
+11/13/15 
+\end{DoxyDate}

@@ -1,0 +1,48 @@
+============================== Test leak...
+Object size = 40, Page size = 188, Pad bytes = 0, ObjectsPerPage = 4, MaxPages = 8, MaxObjects = 32
+Alignment = 0, LeftAlign = 0, InterAlign = 0, HeaderBlocks = Basic, Header size = 5
+Pages in use: 1, Objects in use: 0, Available objects: 4, Allocs: 0, Frees: 0
+Pages in use: 8, Objects in use: 32, Available objects: 0, Allocs: 32, Frees: 0
+Pages in use: 8, Objects in use: 16, Available objects: 16, Allocs: 32, Frees: 16
+Most employees in use: 32
+
+Checking for leaks...
+Detected memory leaks!
+Dumping objects ->
+Block at 0x00000000, 40 bytes long.
+ Data: <        Eton-Hog> BB BB BB BB BB BB BB BB 45 74 6F 6E 2D 48 6F 67
+Block at 0x00000000, 40 bytes long.
+ Data: <        St.Hubbi> BB BB BB BB BB BB BB BB 53 74 2E 48 75 62 62 69
+Block at 0x00000000, 40 bytes long.
+ Data: <        Besser  > BB BB BB BB BB BB BB BB 42 65 73 73 65 72 00 BB
+Block at 0x00000000, 40 bytes long.
+ Data: <        Savage  > BB BB BB BB BB BB BB BB 53 61 76 61 67 65 00 BB
+Block at 0x00000000, 40 bytes long.
+ Data: <        Faith   > BB BB BB BB BB BB BB BB 46 61 69 74 68 00 BB BB
+Block at 0x00000000, 40 bytes long.
+ Data: <        Waters  > BB BB BB BB BB BB BB BB 57 61 74 65 72 73 00 BB
+Block at 0x00000000, 40 bytes long.
+ Data: <        Mason   > BB BB BB BB BB BB BB BB 4D 61 73 6F 6E 00 BB BB
+Block at 0x00000000, 40 bytes long.
+ Data: <        Floyd   > BB BB BB BB BB BB BB BB 46 6C 6F 79 64 00 BB BB
+Block at 0x00000000, 40 bytes long.
+ Data: <        Fufkin  > BB BB BB BB BB BB BB BB 46 75 66 6B 69 6E 00 BB
+Block at 0x00000000, 40 bytes long.
+ Data: <        Pettibon> BB BB BB BB BB BB BB BB 50 65 74 74 69 62 6F 6E
+Block at 0x00000000, 40 bytes long.
+ Data: <        Pudding > BB BB BB BB BB BB BB BB 50 75 64 64 69 6E 67 00
+Block at 0x00000000, 40 bytes long.
+ Data: <        Upham   > BB BB BB BB BB BB BB BB 55 70 68 61 6D 00 BB BB
+Block at 0x00000000, 40 bytes long.
+ Data: <        Fleckman> BB BB BB BB BB BB BB BB 46 6C 65 63 6B 6D 61 6E
+Block at 0x00000000, 40 bytes long.
+ Data: <        Smalls  > BB BB BB BB BB BB BB BB 53 6D 61 6C 6C 73 00 BB
+Block at 0x00000000, 40 bytes long.
+ Data: <        Shrimpto> BB BB BB BB BB BB BB BB 53 68 72 69 6D 70 74 6F
+Block at 0x00000000, 40 bytes long.
+ Data: <        Tufnel  > BB BB BB BB BB BB BB BB 54 75 66 6E 65 6C 00 BB
+Object dump complete. [16]
+
+Checking for leaks...
+No leaks detected.
+

@@ -1,0 +1,57 @@
+Moves: 0
++---------+---------+---------+---------+
+|         | K D   G | N   B H | P L     |
+| P       |   B     | F     G |   N K H |
+|   L     |     C   | P I A   |     O J |
+| A G     | L O     | J     M |     F   |
++---------+---------+---------+---------+
+| C     M |   A     |         |     H G |
+| L   D P | M     J |     G   |     C B |
+| O   B H |       C | M   J   | A   I D |
+|   A   J | P E D   |     C   |   M     |
++---------+---------+---------+---------+
+|     F   |   L     |   B I J | H   E   |
+| D H   B |   J   F | G       | O I   P |
+| K J     |   P     | E     F | D G   M |
+| E C     |         |     P   | K     N |
++---------+---------+---------+---------+
+|   M     | B     P |     K O |     D F |
+| F B     |   N H K |   J     |     P   |
+| N D J   | O     L |     F   |       I |
+|     P L | A C   I | D   N B |         |
++---------+---------+---------+---------+
+  Basesize: 4
+     Moves: 0
+    Placed: 0
+Backtracks: 0
+  Filename: board4-2.txt
+
+Solution found in 2294078761 moves.
+Moves: 2294078761
++---------+---------+---------+---------+
+| J E O F | K D I G | N C B H | P L M A |
+| P I M D | J B A E | F L O G | C N K H |
+| B L K N | H F C M | P I A E | G D O J |
+| A G H C | L O P N | J K D M | I B F E |
++---------+---------+---------+---------+
+| C N E M | F A B O | I P L D | J K H G |
+| L K D P | M I N J | H O G A | F E C B |
+| O F B H | G K L C | M E J N | A P I D |
+| G A I J | P E D H | B F C K | L M N O |
++---------+---------+---------+---------+
+| M P F O | N L G D | K B I J | H A E C |
+| D H N B | E J K F | G A M C | O I L P |
+| K J L I | C P O A | E N H F | D G B M |
+| E C G A | I H M B | O D P L | K F J N |
++---------+---------+---------+---------+
+| I M A E | B G J P | L H K O | N C D F |
+| F B C G | D N H K | A J E I | M O P L |
+| N D J K | O M E L | C G F P | B H A I |
+| H O P L | A C F I | D M N B | E J G K |
++---------+---------+---------+---------+
+  Basesize: 4
+     Moves: 2294078761
+    Placed: 140
+Backtracks: 143379849
+  Filename: board4-2.txt
+

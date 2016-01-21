@@ -1,0 +1,3 @@
+# diabolical from ksudoku, olga: 351 seconds (maya: 247s)
+# basesize: 4, moves: 2294078761, bactracks: 143379849
+....KD.GN.BHPL..P....B..F..G.NKH.L....C.PIA...OJAG..LO..J..M..F.C..M.A........HGL.DPM..J..G...CBO.BH...CM.J.A.ID.A.JPED...C..M....F..L...BIJH.E.DH.B.J.FG...OI.PKJ...P..E..FDG.MEC........P.K..N.M..B..P..KO..DFFB...NHK.J....P.NDJ.O..L..F....I..PLAC.ID.NB....
