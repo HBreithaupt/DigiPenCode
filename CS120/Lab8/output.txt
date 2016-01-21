@@ -1,0 +1,208 @@
+
+31
+Prime #0001:     2
+Prime #0002:     3
+Prime #0003:     5
+Prime #0004:     7
+Prime #0005:    11
+Prime #0006:    13
+Prime #0007:    17
+Prime #0008:    19
+Prime #0009:    23
+Prime #0010:    29
+Prime #0011:    31
+Prime #0012:    37
+Prime #0013:    41
+Prime #0014:    43
+Prime #0015:    47
+Prime #0016:    53
+Prime #0017:    59
+Prime #0018:    61
+Prime #0019:    67
+Prime #0020:    71
+Prime #0021:    73
+Prime #0022:    79
+Prime #0023:    83
+Prime #0024:    89
+Prime #0025:    97
+Prime #0026:   101
+Prime #0027:   103
+Prime #0028:   107
+Prime #0029:   109
+Prime #0030:   113
+Prime #0031:   127
+Prime #0032:   131
+Prime #0033:   137
+Prime #0034:   139
+Prime #0035:   149
+Prime #0036:   151
+Prime #0037:   157
+Prime #0038:   163
+Prime #0039:   167
+Prime #0040:   173
+Prime #0041:   179
+Prime #0042:   181
+Prime #0043:   191
+Prime #0044:   193
+Prime #0045:   197
+Prime #0046:   199
+Prime #0047:   211
+Prime #0048:   223
+Prime #0049:   227
+Prime #0050:   229
+Prime #0051:   233
+Prime #0052:   239
+Prime #0053:   241
+Prime #0054:   251
+Prime #0055:   257
+Prime #0056:   263
+Prime #0057:   269
+Prime #0058:   271
+Prime #0059:   277
+Prime #0060:   281
+Prime #0061:   283
+Prime #0062:   293
+Prime #0063:   307
+Prime #0064:   311
+Prime #0065:   313
+Prime #0066:   317
+Prime #0067:   331
+Prime #0068:   337
+Prime #0069:   347
+Prime #0070:   349
+Prime #0071:   353
+Prime #0072:   359
+Prime #0073:   367
+Prime #0074:   373
+Prime #0075:   379
+Prime #0076:   383
+Prime #0077:   389
+Prime #0078:   397
+Prime #0079:   401
+Prime #0080:   409
+Prime #0081:   419
+Prime #0082:   421
+Prime #0083:   431
+Prime #0084:   433
+Prime #0085:   439
+Prime #0086:   443
+Prime #0087:   449
+Prime #0088:   457
+Prime #0089:   461
+Prime #0090:   463
+Prime #0091:   467
+Prime #0092:   479
+Prime #0093:   487
+Prime #0094:   491
+Prime #0095:   499
+Prime #0096:   503
+Prime #0097:   509
+Prime #0098:   521
+Prime #0099:   523
+Prime #0100:   541
+Prime #0101:   547
+Prime #0102:   557
+Prime #0103:   563
+Prime #0104:   569
+Prime #0105:   571
+Prime #0106:   577
+Prime #0107:   587
+Prime #0108:   593
+Prime #0109:   599
+Prime #0110:   601
+Prime #0111:   607
+Prime #0112:   613
+Prime #0113:   617
+Prime #0114:   619
+Prime #0115:   631
+Prime #0116:   641
+Prime #0117:   643
+Prime #0118:   647
+Prime #0119:   653
+Prime #0120:   659
+Prime #0121:   661
+Prime #0122:   673
+Prime #0123:   677
+Prime #0124:   683
+Prime #0125:   691
+Prime #0126:   701
+Prime #0127:   709
+Prime #0128:   719
+Prime #0129:   727
+Prime #0130:   733
+Prime #0131:   739
+Prime #0132:   743
+Prime #0133:   751
+Prime #0134:   757
+Prime #0135:   761
+Prime #0136:   769
+Prime #0137:   773
+Prime #0138:   787
+Prime #0139:   797
+Prime #0140:   809
+Prime #0141:   811
+Prime #0142:   821
+Prime #0143:   823
+Prime #0144:   827
+Prime #0145:   829
+Prime #0146:   839
+Prime #0147:   853
+Prime #0148:   857
+Prime #0149:   859
+Prime #0150:   863
+Prime #0151:   877
+Prime #0152:   881
+Prime #0153:   883
+Prime #0154:   887
+Prime #0155:   907
+Prime #0156:   911
+Prime #0157:   919
+Prime #0158:   929
+Prime #0159:   937
+Prime #0160:   941
+Prime #0161:   947
+Prime #0162:   953
+Prime #0163:   967
+Prime #0164:   971
+Prime #0165:   977
+Prime #0166:   983
+Prime #0167:   991
+Prime #0168:   997
+168 primes found between 0 and 1000.
+twin prime #   1:    3 and    5
+twin prime #   2:    5 and    7
+twin prime #   3:   11 and   13
+twin prime #   4:   17 and   19
+twin prime #   5:   29 and   31
+twin prime #   6:   41 and   43
+twin prime #   7:   59 and   61
+twin prime #   8:   71 and   73
+twin prime #   9:  101 and  103
+twin prime #  10:  107 and  109
+twin prime #  11:  137 and  139
+twin prime #  12:  149 and  151
+twin prime #  13:  179 and  181
+twin prime #  14:  191 and  193
+twin prime #  15:  197 and  199
+twin prime #  16:  227 and  229
+twin prime #  17:  239 and  241
+twin prime #  18:  269 and  271
+twin prime #  19:  281 and  283
+twin prime #  20:  311 and  313
+twin prime #  21:  347 and  349
+twin prime #  22:  419 and  421
+twin prime #  23:  431 and  433
+twin prime #  24:  461 and  463
+twin prime #  25:  521 and  523
+twin prime #  26:  569 and  571
+twin prime #  27:  599 and  601
+twin prime #  28:  617 and  619
+twin prime #  29:  641 and  643
+twin prime #  30:  659 and  661
+twin prime #  31:  809 and  811
+twin prime #  32:  821 and  823
+twin prime #  33:  827 and  829
+twin prime #  34:  857 and  859
+twin prime #  35:  881 and  883
+35 twin primes found between 0 and 1000.
+Brun's constant with 35 twin primes is 1.518032463560.

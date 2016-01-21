@@ -1,0 +1,12 @@
+
+==== SCALAR MULTIPLICATION =================
+vector pE1 formatted:
+   0   1   4   9  16  25  36  49  64  81 100 121 144 169 196 225 256 289 324 361
+vector pE2 formatted:
+   0   0  19   0  18   0  17   0  16   0  15   0  14   0  13   0  12   0  11   0  10   0 9   0   8   0   7   0   6   0   5   0   4   0   3   0   2   0   1
+vector pE3 formatted:
+   0   0   1   0   0 -18   3   0   0 -16   5   0   0 -14   7   0   0 -12   9   0   0 -10  11   0   0  -8  13   0   0  -6  15   0   0  -4  17   0   0  -2  19   0
+scalar product pE1 and pE2 = 14700
+scalar product pE2 and pE3 = 670
+scalar product pE3 and pE1 = -2680
+scalar product pE1 and pE1 = 562666

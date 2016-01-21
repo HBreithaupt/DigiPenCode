@@ -1,0 +1,30 @@
+Count of letters is: 51, spaces: 11, other: 3
+A:****
+B:
+C:***
+D:*
+E:******
+F:
+G:
+H:***
+I:*****
+J:
+K:
+L:*
+M:*
+N:*****
+O:**
+P:***
+Q:
+R:*
+S:*******
+T:******
+U:**
+V:
+W:*
+X:
+Y:
+Z:
+Average: 24.03846, max letter: S, max count: 7
+
+

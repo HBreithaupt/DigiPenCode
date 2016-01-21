@@ -1,0 +1,26 @@
+
+===== TRANSPOSITION ========================
+original as list of rows
+row 0: 1 at pos 1000, 2 at pos 2000, 3 at pos 3000, 5 at pos 5000, 6 at pos 6000, 7 at pos 7000, 9 at pos 9000, 
+row 1000: 10 at pos 0, 11 at pos 1000, 12 at pos 2000, 14 at pos 4000, 15 at pos 5000, 16 at pos 6000, 18 at pos 8000, 19 at pos 9000, 
+row 2000: 20 at pos 0, 21 at pos 1000, 23 at pos 3000, 24 at pos 4000, 25 at pos 5000, 27 at pos 7000, 28 at pos 8000, 29 at pos 9000, 
+row 3000: 30 at pos 0, 32 at pos 2000, 33 at pos 3000, 34 at pos 4000, 36 at pos 6000, 37 at pos 7000, 38 at pos 8000, 
+row 4000: 41 at pos 1000, 42 at pos 2000, 43 at pos 3000, 45 at pos 5000, 46 at pos 6000, 47 at pos 7000, 49 at pos 9000, 
+row 5000: 50 at pos 0, 51 at pos 1000, 52 at pos 2000, 54 at pos 4000, 55 at pos 5000, 56 at pos 6000, 58 at pos 8000, 59 at pos 9000, 
+row 6000: 60 at pos 0, 61 at pos 1000, 63 at pos 3000, 64 at pos 4000, 65 at pos 5000, 67 at pos 7000, 68 at pos 8000, 69 at pos 9000, 
+row 7000: 70 at pos 0, 72 at pos 2000, 73 at pos 3000, 74 at pos 4000, 76 at pos 6000, 77 at pos 7000, 78 at pos 8000, 
+row 8000: 81 at pos 1000, 82 at pos 2000, 83 at pos 3000, 85 at pos 5000, 86 at pos 6000, 87 at pos 7000, 89 at pos 9000, 
+row 9000: 90 at pos 0, 91 at pos 1000, 92 at pos 2000, 94 at pos 4000, 95 at pos 5000, 96 at pos 6000, 98 at pos 8000, 99 at pos 9000, 
+
+transposed as list of rows
+row 0: 10 at pos 1000, 20 at pos 2000, 30 at pos 3000, 50 at pos 5000, 60 at pos 6000, 70 at pos 7000, 90 at pos 9000, 
+row 1000: 1 at pos 0, 11 at pos 1000, 21 at pos 2000, 41 at pos 4000, 51 at pos 5000, 61 at pos 6000, 81 at pos 8000, 91 at pos 9000, 
+row 2000: 2 at pos 0, 12 at pos 1000, 32 at pos 3000, 42 at pos 4000, 52 at pos 5000, 72 at pos 7000, 82 at pos 8000, 92 at pos 9000, 
+row 3000: 3 at pos 0, 23 at pos 2000, 33 at pos 3000, 43 at pos 4000, 63 at pos 6000, 73 at pos 7000, 83 at pos 8000, 
+row 4000: 14 at pos 1000, 24 at pos 2000, 34 at pos 3000, 54 at pos 5000, 64 at pos 6000, 74 at pos 7000, 94 at pos 9000, 
+row 5000: 5 at pos 0, 15 at pos 1000, 25 at pos 2000, 45 at pos 4000, 55 at pos 5000, 65 at pos 6000, 85 at pos 8000, 95 at pos 9000, 
+row 6000: 6 at pos 0, 16 at pos 1000, 36 at pos 3000, 46 at pos 4000, 56 at pos 5000, 76 at pos 7000, 86 at pos 8000, 96 at pos 9000, 
+row 7000: 7 at pos 0, 27 at pos 2000, 37 at pos 3000, 47 at pos 4000, 67 at pos 6000, 77 at pos 7000, 87 at pos 8000, 
+row 8000: 18 at pos 1000, 28 at pos 2000, 38 at pos 3000, 58 at pos 5000, 68 at pos 6000, 78 at pos 7000, 98 at pos 9000, 
+row 9000: 9 at pos 0, 19 at pos 1000, 29 at pos 2000, 49 at pos 4000, 59 at pos 5000, 69 at pos 6000, 89 at pos 8000, 99 at pos 9000, 
+

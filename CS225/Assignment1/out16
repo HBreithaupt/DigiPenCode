@@ -1,0 +1,48 @@
+
+====== INSERT ELEMENTS IN ROW LIST =========
+100800100800100800100800100800
+000000000000000000000000000000
+800100800100800100800100800100
+000000000000000000000000000000
+100800100800100800100800100800
+000000000000000000000000000000
+800100800100800100800100800100
+000000000000000000000000000000
+100800100800100800100800100800
+000000000000000000000000000000
+800100800100800100800100800100
+000000000000000000000000000000
+100800100800100800100800100800
+000000000000000000000000000000
+800100800100800100800100800100
+000000000000000000000000000000
+100800100800100800100800100800
+000000000000000000000000000000
+800100800100800100800100800100
+000000000000000000000000000000
+100800100800100800100800100800
+000000000000000000000000000000
+800100800100800100800100800100
+000000000000000000000000000000
+100800100800100800100800100800
+000000000000000000000000000000
+800100800100800100800100800100
+000000000000000000000000000000
+100800100800100800100800100800
+000000000000000000000000000000
+
+row 0: 1 at pos 0, 8 at pos 3, 1 at pos 6, 8 at pos 9, 1 at pos 12, 8 at pos 15, 1 at pos 18, 8 at pos 21, 1 at pos 24, 8 at pos 27, 
+row 2: 8 at pos 0, 1 at pos 3, 8 at pos 6, 1 at pos 9, 8 at pos 12, 1 at pos 15, 8 at pos 18, 1 at pos 21, 8 at pos 24, 1 at pos 27, 
+row 4: 1 at pos 0, 8 at pos 3, 1 at pos 6, 8 at pos 9, 1 at pos 12, 8 at pos 15, 1 at pos 18, 8 at pos 21, 1 at pos 24, 8 at pos 27, 
+row 6: 8 at pos 0, 1 at pos 3, 8 at pos 6, 1 at pos 9, 8 at pos 12, 1 at pos 15, 8 at pos 18, 1 at pos 21, 8 at pos 24, 1 at pos 27, 
+row 8: 1 at pos 0, 8 at pos 3, 1 at pos 6, 8 at pos 9, 1 at pos 12, 8 at pos 15, 1 at pos 18, 8 at pos 21, 1 at pos 24, 8 at pos 27, 
+row 10: 8 at pos 0, 1 at pos 3, 8 at pos 6, 1 at pos 9, 8 at pos 12, 1 at pos 15, 8 at pos 18, 1 at pos 21, 8 at pos 24, 1 at pos 27, 
+row 12: 1 at pos 0, 8 at pos 3, 1 at pos 6, 8 at pos 9, 1 at pos 12, 8 at pos 15, 1 at pos 18, 8 at pos 21, 1 at pos 24, 8 at pos 27, 
+row 14: 8 at pos 0, 1 at pos 3, 8 at pos 6, 1 at pos 9, 8 at pos 12, 1 at pos 15, 8 at pos 18, 1 at pos 21, 8 at pos 24, 1 at pos 27, 
+row 16: 1 at pos 0, 8 at pos 3, 1 at pos 6, 8 at pos 9, 1 at pos 12, 8 at pos 15, 1 at pos 18, 8 at pos 21, 1 at pos 24, 8 at pos 27, 
+row 18: 8 at pos 0, 1 at pos 3, 8 at pos 6, 1 at pos 9, 8 at pos 12, 1 at pos 15, 8 at pos 18, 1 at pos 21, 8 at pos 24, 1 at pos 27, 
+row 20: 1 at pos 0, 8 at pos 3, 1 at pos 6, 8 at pos 9, 1 at pos 12, 8 at pos 15, 1 at pos 18, 8 at pos 21, 1 at pos 24, 8 at pos 27, 
+row 22: 8 at pos 0, 1 at pos 3, 8 at pos 6, 1 at pos 9, 8 at pos 12, 1 at pos 15, 8 at pos 18, 1 at pos 21, 8 at pos 24, 1 at pos 27, 
+row 24: 1 at pos 0, 8 at pos 3, 1 at pos 6, 8 at pos 9, 1 at pos 12, 8 at pos 15, 1 at pos 18, 8 at pos 21, 1 at pos 24, 8 at pos 27, 
+row 26: 8 at pos 0, 1 at pos 3, 8 at pos 6, 1 at pos 9, 8 at pos 12, 1 at pos 15, 8 at pos 18, 1 at pos 21, 8 at pos 24, 1 at pos 27, 
+row 28: 1 at pos 0, 8 at pos 3, 1 at pos 6, 8 at pos 9, 1 at pos 12, 8 at pos 15, 1 at pos 18, 8 at pos 21, 1 at pos 24, 8 at pos 27, 

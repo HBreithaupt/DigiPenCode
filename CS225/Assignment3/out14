@@ -1,0 +1,4 @@
+int give_my_array(...) result.Print();   (2) (4) (6) (8) (10) (12) (14) (16) (18) 
+in test result from give_my_array     (2) (4) (6) (8) (10) (12) (14) (16) (18) 
+live  nodes  9
+total nodes  18

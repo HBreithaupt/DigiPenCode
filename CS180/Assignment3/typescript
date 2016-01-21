@@ -1,0 +1,365 @@
+Script started on Mon 22 Jun 2015 09:50:25 AM PDT
+[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment3 $[00m date
+Mon Jun 22 09:50:26 PDT 2015
+[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment3 $[00m uptime
+ 09:50:28 up 10:44,  2 users,  load average: 0.11, 0.32, 0.21
+[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment3 $[00m echo Haven Breithaupt
+Haven Breithaupt
+[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment3 $[00m pwd
+/media/sf_DigiPenCode/CS180/Assignment3
+[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment3 $[00m whoami
+haven
+[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment3 $[00m uname -a
+Linux HavenLinux 3.13.0-24-generic #47-Ubuntu SMP Fri May 2 23:30:00 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux
+[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment3 $[00m cat /proc/cpuinfo
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 70
+model name	: Intel(R) Core(TM) i7-4850HQ CPU @ 2.30GHz
+stepping	: 1
+microcode	: 0x19
+cpu MHz		: 2299.896
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 0
+cpu cores	: 8
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 lahf_lm
+bogomips	: 4599.79
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 70
+model name	: Intel(R) Core(TM) i7-4850HQ CPU @ 2.30GHz
+stepping	: 1
+microcode	: 0x19
+cpu MHz		: 2299.896
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 1
+cpu cores	: 8
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 lahf_lm
+bogomips	: 4599.79
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 70
+model name	: Intel(R) Core(TM) i7-4850HQ CPU @ 2.30GHz
+stepping	: 1
+microcode	: 0x19
+cpu MHz		: 2299.896
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 2
+cpu cores	: 8
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 lahf_lm
+bogomips	: 4599.79
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 70
+model name	: Intel(R) Core(TM) i7-4850HQ CPU @ 2.30GHz
+stepping	: 1
+microcode	: 0x19
+cpu MHz		: 2299.896
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 3
+cpu cores	: 8
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 lahf_lm
+bogomips	: 4599.79
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 4
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 70
+model name	: Intel(R) Core(TM) i7-4850HQ CPU @ 2.30GHz
+stepping	: 1
+microcode	: 0x19
+cpu MHz		: 2299.896
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 4
+cpu cores	: 8
+apicid		: 4
+initial apicid	: 4
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 lahf_lm
+bogomips	: 4599.79
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 5
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 70
+model name	: Intel(R) Core(TM) i7-4850HQ CPU @ 2.30GHz
+stepping	: 1
+microcode	: 0x19
+cpu MHz		: 2299.896
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 5
+cpu cores	: 8
+apicid		: 5
+initial apicid	: 5
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 lahf_lm
+bogomips	: 4599.79
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 6
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 70
+model name	: Intel(R) Core(TM) i7-4850HQ CPU @ 2.30GHz
+stepping	: 1
+microcode	: 0x19
+cpu MHz		: 2299.896
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 6
+cpu cores	: 8
+apicid		: 6
+initial apicid	: 6
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 lahf_lm
+bogomips	: 4599.79
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 7
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 70
+model name	: Intel(R) Core(TM) i7-4850HQ CPU @ 2.30GHz
+stepping	: 1
+microcode	: 0x19
+cpu MHz		: 2299.896
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 7
+cpu cores	: 8
+apicid		: 7
+initial apicid	: 7
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 lahf_lm
+bogomips	: 4599.79
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment3 $[00m cat /proc/cpuinfo[K[K[K[K[K[K[Kmeminfo 
+MemTotal:        4047612 kB
+MemFree:         2994380 kB
+Buffers:           57764 kB
+Cached:           577576 kB
+SwapCached:            0 kB
+Active:           620680 kB
+Inactive:         308556 kB
+Active(anon):     294700 kB
+Inactive(anon):    17592 kB
+Active(file):     325980 kB
+Inactive(file):   290964 kB
+Unevictable:          16 kB
+Mlocked:              16 kB
+SwapTotal:       4192252 kB
+SwapFree:        4192252 kB
+Dirty:                12 kB
+Writeback:             0 kB
+AnonPages:        293948 kB
+Mapped:            83796 kB
+Shmem:             18392 kB
+Slab:              61328 kB
+SReclaimable:      37344 kB
+SUnreclaim:        23984 kB
+KernelStack:        2872 kB
+PageTables:        15888 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     6216056 kB
+Committed_AS:    1463168 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       55228 kB
+VmallocChunk:   34359610023 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:    108544 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:       53184 kB
+DirectMap2M:     4141056 kB
+[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment3 $[00m gcc -D_XOPEN_SOURCE -Wall -Wextra -ansi -pedantic -O -Wno-unused-result parent-matrix.c -o parent-matrix
+[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment3 $[00m gcc -D_XOPEN_SOURCE -Wall -Wextra -ansi -pedantic -O -Wno-unused-result child-matrix.c -o child-matrix
+[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment3 $[00m ./parent-matrix mat16.txt child-matrix | tee output.txt
+     -10      -1       3       4       9      -7       9      -3       3      -5       4       6      -8       9       9      10
+      -9      -2       4       7       1      -2       5      -3      -2      -7       0      -7       4       1       2       0
+      -2      -4      -2      10      -2      -2       5      -2     -10       5       4       9     -10       5       0       5
+       4       6       2       9     -10      -6       7       5      -7       9      -6       3       8       9      -6       4
+      -8      -1      -5      -9      -5      -5       2     -10       8       0       2       3      -1       5       0       4
+       5       5       4      -7      -6      -8       3       7      10      10      10       5      -9       0      -5      -6
+      -7       1       0     -10      -2      -9      -3       3       7       3       3       2      -2      -6       1       2
+      10       4       3       7       2       4      10       1      10       6      -2     -10      -7      -4      -5      -2
+       2      -5     -10      -6      -8     -10      -9      -3       1       0       2       7       1      -6      -9       4
+      -5       2      -1       6       2      -1      -9     -10      -3      -5      10       7       2      10      10       8
+      -1      -2       3       3       9      10       4      -3      10       0       3      -7       4      -1       9      -4
+      -6      -6      -6       7      -1       5      -4       6       8       5      -1      -8      -3      -2       0      -1
+       8       6       0       2       8      -7       6     -10      -1      -5       8       5      -8      -1       8      -4
+       5      -8      -3       0      -9      -7       7       2       2       5     -10       2       7      -8       3       5
+      -3      -2       9      10       6       9       9       6      -3      -6     -10      -7       9      -1       0       1
+       9       9       7      -2       6      -3      -3       0      -7      -6     -10       0       3      -9       1       3
+
+     -46    -140     -39     -64    -199      49     -36     149     -16      73    -453    -149     364    -284    -125      99
+     149      71      33     -64    -126     -54      87      56    -164      92    -124      51     106     -71    -114     -76
+     -62      10      71     137     -88     139     -38     223       3     166    -228    -133     243      39      55      83
+      81     108      63     303      18    -212     121     -36    -194       7     -50      63      -6      43     200     170
+      13    -154    -140    -211     -20      44    -355      11     -50    -142    -111     -26     216    -307      14     -45
+    -255    -254    -165     170      85     135    -175    -123     163     -46     164     -92     -29      19     127     146
+      -4     -84     -89      22     145     254    -257    -115     -33    -186     -12    -162      56    -144     -12     -53
+    -197      52     -36    -138    -172    -392     -51     -86      -1      53     220     314     -82     202     -77     248
+      67       6     -96     -17     240     228    -306     -64     -36    -194     -14    -130      22     -67     103     -80
+      75     -88     102     202      24     188     162     108    -108     -45    -370    -174     375    -110      90     -38
+     -23       8     -18    -167    -141    -219      83     -62      99      65     154     219     -19      46    -100      18
+     272     139     -14     -88    -190     -48     -98      29       4     125      11      70     107      15    -229     -33
+    -511    -228      10      46      62     109      88      32      78    -115    -123    -123     212     122     123     136
+      65     165      31      44     198     -63    -163      -3    -176    -159      15      92    -102     -20      40      87
+     216     239      67     -92    -221    -370     263      48     -63     256      64     234    -251      30    -210     -20
+    -206      67     106     134     173     -44     191     -99    -184    -184      19      14    -223     188      36      70
+
+[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment3 $[00m diff output16.txt output.txt
+[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment3 $[00m valgrind -q --leak-check=full --show-reachable=yes --trace-children=yes --tool=memcheck ./parent-matrix mat5.txt ./chil d-matrix
+      16      14      16      12      15
+       8       8     -16     -19      -6
+     -17      -2      20      11       5
+     -15      -6     -10       5      19
+      16      -4      16      10       5
+
+     156     172     472     312     539
+     653     346    -226    -387    -399
+    -713    -380     130     159      91
+     111    -344     -90      39     -49
+    -118      80     620     544     559
+
+[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment3 $[00m doxygen
+[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment3 $[00m ls -al html/
+total 304
+drwxrwx--- 1 root vboxsf   1462 Jun 22 09:51 [0m[01;34m.[0m
+drwxrwx--- 1 root vboxsf    782 Jun 22 09:51 [01;34m..[0m
+-rwxrwx--- 1 root vboxsf    676 Jun 22 09:51 [01;32mbc_s.png[0m
+-rwxrwx--- 1 root vboxsf    147 Jun 22 09:51 [01;32mbdwn.png[0m
+-rwxrwx--- 1 root vboxsf   5356 Jun 22 09:51 [01;32mchild-matrix_8c.html[0m
+-rwxrwx--- 1 root vboxsf    132 Jun 22 09:51 [01;32mclosed.png[0m
+-rwxrwx--- 1 root vboxsf  23935 Jun 22 09:51 [01;32mdoxygen.css[0m
+-rwxrwx--- 1 root vboxsf   3779 Jun 22 09:51 [01;32mdoxygen.png[0m
+-rwxrwx--- 1 root vboxsf   2983 Jun 22 09:51 [01;32mdynsections.js[0m
+-rwxrwx--- 1 root vboxsf   4894 Jun 22 09:51 [01;32mfiles.html[0m
+-rwxrwx--- 1 root vboxsf     86 Jun 22 09:51 [01;32mftv2blank.png[0m
+-rwxrwx--- 1 root vboxsf    453 Jun 22 09:51 [01;32mftv2cl.png[0m
+-rwxrwx--- 1 root vboxsf    746 Jun 22 09:51 [01;32mftv2doc.png[0m
+-rwxrwx--- 1 root vboxsf    616 Jun 22 09:51 [01;32mftv2folderclosed.png[0m
+-rwxrwx--- 1 root vboxsf    597 Jun 22 09:51 [01;32mftv2folderopen.png[0m
+-rwxrwx--- 1 root vboxsf     86 Jun 22 09:51 [01;32mftv2lastnode.png[0m
+-rwxrwx--- 1 root vboxsf    746 Jun 22 09:51 [01;32mftv2link.png[0m
+-rwxrwx--- 1 root vboxsf    246 Jun 22 09:51 [01;32mftv2mlastnode.png[0m
+-rwxrwx--- 1 root vboxsf    246 Jun 22 09:51 [01;32mftv2mnode.png[0m
+-rwxrwx--- 1 root vboxsf    403 Jun 22 09:51 [01;32mftv2mo.png[0m
+-rwxrwx--- 1 root vboxsf     86 Jun 22 09:51 [01;32mftv2node.png[0m
+-rwxrwx--- 1 root vboxsf    388 Jun 22 09:51 [01;32mftv2ns.png[0m
+-rwxrwx--- 1 root vboxsf    229 Jun 22 09:51 [01;32mftv2plastnode.png[0m
+-rwxrwx--- 1 root vboxsf    229 Jun 22 09:51 [01;32mftv2pnode.png[0m
+-rwxrwx--- 1 root vboxsf    314 Jun 22 09:51 [01;32mftv2splitbar.png[0m
+-rwxrwx--- 1 root vboxsf     86 Jun 22 09:51 [01;32mftv2vertline.png[0m
+-rwxrwx--- 1 root vboxsf   4468 Jun 22 09:51 [01;32mglobals_func.html[0m
+-rwxrwx--- 1 root vboxsf   4569 Jun 22 09:51 [01;32mglobals.html[0m
+-rwxrwx--- 1 root vboxsf   3765 Jun 22 09:51 [01;32mindex.html[0m
+-rwxrwx--- 1 root vboxsf 104693 Jun 22 09:51 [01;32mjquery.js[0m
+-rwxrwx--- 1 root vboxsf    153 Jun 22 09:51 [01;32mnav_f.png[0m
+-rwxrwx--- 1 root vboxsf     95 Jun 22 09:51 [01;32mnav_g.png[0m
+-rwxrwx--- 1 root vboxsf     98 Jun 22 09:51 [01;32mnav_h.png[0m
+-rwxrwx--- 1 root vboxsf    123 Jun 22 09:51 [01;32mopen.png[0m
+-rwxrwx--- 1 root vboxsf  10728 Jun 22 09:51 [01;32mparent-matrix_8c.html[0m
+drwxrwx--- 1 root vboxsf    952 Jun 22 09:49 [01;34msearch[0m
+-rwxrwx--- 1 root vboxsf    853 Jun 22 09:51 [01;32msync_off.png[0m
+-rwxrwx--- 1 root vboxsf    845 Jun 22 09:51 [01;32msync_on.png[0m
+-rwxrwx--- 1 root vboxsf    142 Jun 22 09:51 [01;32mtab_a.png[0m
+-rwxrwx--- 1 root vboxsf    169 Jun 22 09:51 [01;32mtab_b.png[0m
+-rwxrwx--- 1 root vboxsf    177 Jun 22 09:51 [01;32mtab_h.png[0m
+-rwxrwx--- 1 root vboxsf   1163 Jun 22 09:51 [01;32mtabs.css[0m
+-rwxrwx--- 1 root vboxsf    184 Jun 22 09:51 [01;32mtab_s.png[0m
+[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment3 $[00m exit
+
+Script done on Mon 22 Jun 2015 09:51:50 AM PDT

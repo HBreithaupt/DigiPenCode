@@ -1,0 +1,43 @@
+System:Initialize
+GSM:Initialize
+GSM:Update
+Level1:Load
+Level1:Initialize
+Input:Handle
+Level1:Update
+Level1:Draw
+Frametime: 23.00ms
+Input:Handle
+Level1:Update
+Level1:Draw
+Frametime: 23.00ms
+Input:Handle
+Level1:Update
+Level1:Draw
+Frametime: 23.00ms
+Level1:Free
+Level1:Unload
+GSM:Update
+Level2:Load
+Level2:Initialize
+Input:Handle
+Level2:Update
+Level2:Draw
+Frametime: 23.00ms
+Input:Handle
+Level2:Update
+Level2:Draw
+Frametime: 23.00ms
+Level2:Free
+Level2:Initialize
+Input:Handle
+Level2:Update
+Level2:Draw
+Frametime: 23.00ms
+Input:Handle
+Level2:Update
+Level2:Draw
+Frametime: 23.00ms
+Level2:Free
+Level2:Unload
+System:Exit

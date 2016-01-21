@@ -1,0 +1,108 @@
+\hypertarget{filter_8c}{\section{filter.\-c File Reference}
+\label{filter_8c}\index{filter.\-c@{filter.\-c}}
+}
+
+
+Implementation of a text filter by parsing the command line using getopt.  
+
+
+{\ttfamily \#include $<$unistd.\-h$>$}\\*
+{\ttfamily \#include $<$getopt.\-h$>$}\\*
+{\ttfamily \#include $<$stdio.\-h$>$}\\*
+{\ttfamily \#include $<$stdlib.\-h$>$}\\*
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{filter_8c_ad58a1fbfc85c7e4790fc55e654f50221}{T\-A\-B}~'\textbackslash{}t'
+\item 
+\#define \hyperlink{filter_8c_a806511f4930171733227c99101dc0606}{N\-E\-W\-L\-I\-N\-E}~'\textbackslash{}n'
+\item 
+\#define \hyperlink{filter_8c_a370ce4fc7e063d66638371a98d9f9493}{D\-E\-F\-A\-U\-L\-T\-\_\-\-T\-A\-B\-S}~8
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{filter_8c_a3c04138a5bfe5d72780bb7e82a18e627}{main} (int argc, char $\ast$$\ast$argv)
+\begin{DoxyCompactList}\small\item\em Objective of main is to filter file(s) passed by command line. Offloads arguments to helper functions. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Implementation of a text filter by parsing the command line using getopt. \begin{DoxyAuthor}{Author}
+Haven Breithaupt 
+\end{DoxyAuthor}
+\begin{DoxyParagraph}{D\-P email\-: h.breithaupt@digipen.edu}
+
+\end{DoxyParagraph}
+\begin{DoxyParagraph}{Course\-: C\-S180}
+
+\end{DoxyParagraph}
+\begin{DoxyParagraph}{Assignment 2 }
+
+\end{DoxyParagraph}
+\begin{DoxyDate}{Date}
+5/28/15
+\end{DoxyDate}
+Filter options include\-:
+\begin{DoxyItemize}
+\item help screen
+\item removing blank lines
+\item deleting a certain character
+\item turning everything lower/upper case
+\item display line numbers
+\item replace characters
+\item expanding tabs
+\end{DoxyItemize}
+
+Function List\-:
+\begin{DoxyItemize}
+\item parse\-\_\-line \-: grabs options set and number of files to be filtered
+\item assign\-\_\-files \-: if files provided grab them from comment line and store in array
+\item to\-\_\-upper \-: uppercases a character
+\item to\-\_\-lower \-: lowercases a character
+\item tab\-\_\-expand \-: expands a tab character into desired number of spaces
+\item delete\-\_\-chars \-: deletes all occurences of a character in the file
+\item filter\-\_\-file \-: takes a file pointer to filter the file according to options provided
+\end{DoxyItemize}
+
+Hours spent on assignment\-: 6
+
+Specific portions that gave you the most trouble\-:
+\begin{DoxyItemize}
+\item overall understanding of get opt took longer to acclimate to than expected. 
+\end{DoxyItemize}
+
+\subsection{Macro Definition Documentation}
+\hypertarget{filter_8c_a370ce4fc7e063d66638371a98d9f9493}{\index{filter.\-c@{filter.\-c}!D\-E\-F\-A\-U\-L\-T\-\_\-\-T\-A\-B\-S@{D\-E\-F\-A\-U\-L\-T\-\_\-\-T\-A\-B\-S}}
+\index{D\-E\-F\-A\-U\-L\-T\-\_\-\-T\-A\-B\-S@{D\-E\-F\-A\-U\-L\-T\-\_\-\-T\-A\-B\-S}!filter.c@{filter.\-c}}
+\subsubsection[{D\-E\-F\-A\-U\-L\-T\-\_\-\-T\-A\-B\-S}]{\setlength{\rightskip}{0pt plus 5cm}\#define D\-E\-F\-A\-U\-L\-T\-\_\-\-T\-A\-B\-S~8}}\label{filter_8c_a370ce4fc7e063d66638371a98d9f9493}
+macro for default number of spaces to use if expand tabs flag is set and no arguments were provided \hypertarget{filter_8c_a806511f4930171733227c99101dc0606}{\index{filter.\-c@{filter.\-c}!N\-E\-W\-L\-I\-N\-E@{N\-E\-W\-L\-I\-N\-E}}
+\index{N\-E\-W\-L\-I\-N\-E@{N\-E\-W\-L\-I\-N\-E}!filter.c@{filter.\-c}}
+\subsubsection[{N\-E\-W\-L\-I\-N\-E}]{\setlength{\rightskip}{0pt plus 5cm}\#define N\-E\-W\-L\-I\-N\-E~'\textbackslash{}n'}}\label{filter_8c_a806511f4930171733227c99101dc0606}
+macro for newline to use in comparison \hypertarget{filter_8c_ad58a1fbfc85c7e4790fc55e654f50221}{\index{filter.\-c@{filter.\-c}!T\-A\-B@{T\-A\-B}}
+\index{T\-A\-B@{T\-A\-B}!filter.c@{filter.\-c}}
+\subsubsection[{T\-A\-B}]{\setlength{\rightskip}{0pt plus 5cm}\#define T\-A\-B~'\textbackslash{}t'}}\label{filter_8c_ad58a1fbfc85c7e4790fc55e654f50221}
+macro for tab to use in comparison 
+
+\subsection{Function Documentation}
+\hypertarget{filter_8c_a3c04138a5bfe5d72780bb7e82a18e627}{\index{filter.\-c@{filter.\-c}!main@{main}}
+\index{main@{main}!filter.c@{filter.\-c}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}int main (
+\begin{DoxyParamCaption}
+\item[{int}]{argc, }
+\item[{char $\ast$$\ast$}]{argv}
+\end{DoxyParamCaption}
+)}}\label{filter_8c_a3c04138a5bfe5d72780bb7e82a18e627}
+
+
+Objective of main is to filter file(s) passed by command line. Offloads arguments to helper functions. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em argc} & Number of arguments passed in command line.\\
+\hline
+{\em argv} & Nul-\/terminated arrayof strings of arguments from command line.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+just returns 0 when operations are complete. 
+\end{DoxyReturn}

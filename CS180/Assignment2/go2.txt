@@ -1,0 +1,10 @@
+#!/bin/bash
+
+./filter input1.txt decl.txt --tolower
+./filter input1.txt decl.txt --toupper
+./filter input1.txt decl.txt --replace eX
+./filter input1.txt decl.txt --delete e
+./filter input1.txt decl.txt --remove-blank-lines
+./filter input1.txt decl.txt --line-numbers
+./filter input1.txt decl.txt --expand-tabs=4
+./filter input1.txt decl.txt --toupper --expand-tabs=2 --replace .Z --line-numbers

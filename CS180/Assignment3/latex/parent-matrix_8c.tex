@@ -1,0 +1,111 @@
+\hypertarget{parent-matrix_8c}{\section{parent-\/matrix.c File Reference}
+\label{parent-matrix_8c}\index{parent-\/matrix.\-c@{parent-\/matrix.\-c}}
+}
+
+
+Implementation of parent process to perform matrix multiplication. This will spawn childrent to do the labor while the parent does nothing but wait.  
+
+
+{\ttfamily \#include $<$stdio.\-h$>$}\\*
+{\ttfamily \#include $<$stdlib.\-h$>$}\\*
+{\ttfamily \#include $<$sys/shm.\-h$>$}\\*
+{\ttfamily \#include $<$unistd.\-h$>$}\\*
+{\ttfamily \#include $<$sys/wait.\-h$>$}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int $\ast$ \hyperlink{parent-matrix_8c_a2dcbc9f37a8a160f754c9799f5e505bd}{get\-\_\-matrix} (const char $\ast$filename, int $\ast$width)
+\begin{DoxyCompactList}\small\item\em Gets matrix data from a file. \end{DoxyCompactList}\item 
+void \hyperlink{parent-matrix_8c_a62514f596204ff609ea148da4b58293a}{print\-\_\-matrix} (int $\ast$matrix, int width)
+\begin{DoxyCompactList}\small\item\em Prints out a matrix. \end{DoxyCompactList}\item 
+int \hyperlink{parent-matrix_8c_a3c04138a5bfe5d72780bb7e82a18e627}{main} (int argc, char $\ast$$\ast$argv)
+\begin{DoxyCompactList}\small\item\em Handles spawning all the children and waiting for their return from the labor they perform. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Implementation of parent process to perform matrix multiplication. This will spawn childrent to do the labor while the parent does nothing but wait. \begin{DoxyAuthor}{Author}
+Haven Breithaupt 
+\end{DoxyAuthor}
+\begin{DoxyParagraph}{D\-P email\-: h.breithaupt@digipen.edu}
+
+\end{DoxyParagraph}
+\begin{DoxyParagraph}{Course\-: C\-S180}
+
+\end{DoxyParagraph}
+\begin{DoxyParagraph}{assignment 3}
+
+\end{DoxyParagraph}
+\begin{DoxyDate}{Date}
+6/17/2015
+\end{DoxyDate}
+Hours spent on assignment\-: 10
+
+Specific portions that gave you the most trouble\-:
+\begin{DoxyItemize}
+\item understanding how exec works when passing parameters was tricky examples from class showed only no paramters so it took some research to understand how that works 
+\end{DoxyItemize}
+
+\subsection{Function Documentation}
+\hypertarget{parent-matrix_8c_a2dcbc9f37a8a160f754c9799f5e505bd}{\index{parent-\/matrix.\-c@{parent-\/matrix.\-c}!get\-\_\-matrix@{get\-\_\-matrix}}
+\index{get\-\_\-matrix@{get\-\_\-matrix}!parent-matrix.c@{parent-\/matrix.\-c}}
+\subsubsection[{get\-\_\-matrix}]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$ get\-\_\-matrix (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{filename, }
+\item[{int $\ast$}]{width}
+\end{DoxyParamCaption}
+)}}\label{parent-matrix_8c_a2dcbc9f37a8a160f754c9799f5e505bd}
+
+
+Gets matrix data from a file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & Pointer to file to retrieve information from.\\
+\hline
+{\em width} & Width of the matrix ( matrices will be square)\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Pointer to matrix data. 
+\end{DoxyReturn}
+\hypertarget{parent-matrix_8c_a3c04138a5bfe5d72780bb7e82a18e627}{\index{parent-\/matrix.\-c@{parent-\/matrix.\-c}!main@{main}}
+\index{main@{main}!parent-matrix.c@{parent-\/matrix.\-c}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}int main (
+\begin{DoxyParamCaption}
+\item[{int}]{argc, }
+\item[{char $\ast$$\ast$}]{argv}
+\end{DoxyParamCaption}
+)}}\label{parent-matrix_8c_a3c04138a5bfe5d72780bb7e82a18e627}
+
+
+Handles spawning all the children and waiting for their return from the labor they perform. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em argc} & Number of arguments from cmd line\\
+\hline
+{\em argv} & Array of strings that are the arguments from the cmd line\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Normal return from main 
+\end{DoxyReturn}
+\hypertarget{parent-matrix_8c_a62514f596204ff609ea148da4b58293a}{\index{parent-\/matrix.\-c@{parent-\/matrix.\-c}!print\-\_\-matrix@{print\-\_\-matrix}}
+\index{print\-\_\-matrix@{print\-\_\-matrix}!parent-matrix.c@{parent-\/matrix.\-c}}
+\subsubsection[{print\-\_\-matrix}]{\setlength{\rightskip}{0pt plus 5cm}void print\-\_\-matrix (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{matrix, }
+\item[{int}]{width}
+\end{DoxyParamCaption}
+)}}\label{parent-matrix_8c_a62514f596204ff609ea148da4b58293a}
+
+
+Prints out a matrix. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em matrix} & Pointer to the matrix to print\\
+\hline
+{\em width} & Width of the matrix \\
+\hline
+\end{DoxyParams}

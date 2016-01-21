@@ -1,0 +1,9 @@
+myArray1.Print();   [1] [2] [3] (44) (55) [6] 
+myArray2.Print();   [1] [2] [3] 
+Assign myArray2 = myArray1;
+myArray2.Print();   [1] [2] [3] (44) (55) [6] 
+Modify myArray2
+myArray1.Print();   [1] [2] [3] (44) (55) [6] 
+myArray2.Print();   [1] (22) [3] (44) (55) [6] 
+live  nodes  12
+total nodes  18

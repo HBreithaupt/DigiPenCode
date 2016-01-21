@@ -1,0 +1,8 @@
+/media/sf_DigiPenCode/CS180/Assignment1/slist.h:21: warning: Compound sll_node is not documented.
+/media/sf_DigiPenCode/CS180/Assignment1/slist.c:37: warning: The following parameters of make_node(int value, const char *label) are not documented:
+  parameter 'value'
+/media/sf_DigiPenCode/CS180/Assignment1/slist.h:17: warning: Member LABEL_SIZE (macro definition) of file slist.h is not documented.
+/media/sf_DigiPenCode/CS180/Assignment1/slist.h:25: warning: Member sll_node (typedef) of file slist.h is not documented.
+/media/sf_DigiPenCode/CS180/Assignment1/slist.h:22: warning: Member label[LABEL_SIZE] (variable) of class sll_node is not documented.
+/media/sf_DigiPenCode/CS180/Assignment1/slist.h:23: warning: Member value (variable) of class sll_node is not documented.
+/media/sf_DigiPenCode/CS180/Assignment1/slist.h:24: warning: Member next (variable) of class sll_node is not documented.

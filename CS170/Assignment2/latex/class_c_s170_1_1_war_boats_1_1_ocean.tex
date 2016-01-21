@@ -1,0 +1,156 @@
+\hypertarget{class_c_s170_1_1_war_boats_1_1_ocean}{\section{C\-S170\-:\-:War\-Boats\-:\-:Ocean Class Reference}
+\label{class_c_s170_1_1_war_boats_1_1_ocean}\index{C\-S170\-::\-War\-Boats\-::\-Ocean@{C\-S170\-::\-War\-Boats\-::\-Ocean}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_c_s170_1_1_war_boats_1_1_ocean_aa24370d9bdf2ffc1f57df283ec31d00a}{Ocean} (int num\-\_\-boats, int x\-\_\-quadrants, int y\-\_\-quadrants)
+\begin{DoxyCompactList}\small\item\em Constructor to make the class. \end{DoxyCompactList}\item 
+\hypertarget{class_c_s170_1_1_war_boats_1_1_ocean_a657f333fe90845012972ce4ee07e31f4}{\hyperlink{class_c_s170_1_1_war_boats_1_1_ocean_a657f333fe90845012972ce4ee07e31f4}{$\sim$\-Ocean} ()}\label{class_c_s170_1_1_war_boats_1_1_ocean_a657f333fe90845012972ce4ee07e31f4}
+
+\begin{DoxyCompactList}\small\item\em Destructor of the class that deletes all allocated memory. \end{DoxyCompactList}\item 
+const int $\ast$ \hyperlink{class_c_s170_1_1_war_boats_1_1_ocean_a6b7459821811e3338724388f3e4c6a91}{Get\-Grid} (void) const 
+\begin{DoxyCompactList}\small\item\em Gets the grid values of the board. \end{DoxyCompactList}\item 
+\hyperlink{struct_c_s170_1_1_war_boats_1_1_point}{Point} \hyperlink{class_c_s170_1_1_war_boats_1_1_ocean_a7decdd1fb8f8ec107f4d909dba221290}{Get\-Dimensions} (void) const 
+\begin{DoxyCompactList}\small\item\em Makes a point struct with the dimensions of the grid. \end{DoxyCompactList}\item 
+Boat\-Placement \hyperlink{class_c_s170_1_1_war_boats_1_1_ocean_a4637bc3cc8dbb84f787d0af5a469629d}{Place\-Boat} (const \hyperlink{struct_c_s170_1_1_war_boats_1_1_boat}{Boat} \&boat)
+\begin{DoxyCompactList}\small\item\em Places a boat on the board. \end{DoxyCompactList}\item 
+Shot\-Result \hyperlink{class_c_s170_1_1_war_boats_1_1_ocean_aee6e2778bfc6ebe7aea804d189469bd6}{Take\-Shot} (const \hyperlink{struct_c_s170_1_1_war_boats_1_1_point}{Point} \&coordinate)
+\begin{DoxyCompactList}\small\item\em Takes a shit on the board. \end{DoxyCompactList}\item 
+\hyperlink{struct_c_s170_1_1_war_boats_1_1_shot_stats}{Shot\-Stats} \hyperlink{class_c_s170_1_1_war_boats_1_1_ocean_aa9c0ac3fcdb5184cfeadb7851aeef351}{Get\-Shot\-Stats} () const 
+\begin{DoxyCompactList}\small\item\em Returns the results of the shots you've taken in this session. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_c_s170_1_1_war_boats_1_1_ocean_ab0b461fc4b00fdd29058b46e62c80d92}{int $\ast$ {\bfseries grid\-\_\-}}\label{class_c_s170_1_1_war_boats_1_1_ocean_ab0b461fc4b00fdd29058b46e62c80d92}
+
+\item 
+\hypertarget{class_c_s170_1_1_war_boats_1_1_ocean_ac7aab6138b627ee13b22918c12586caf}{int {\bfseries x\-\_\-quadrants\-\_\-}}\label{class_c_s170_1_1_war_boats_1_1_ocean_ac7aab6138b627ee13b22918c12586caf}
+
+\item 
+\hypertarget{class_c_s170_1_1_war_boats_1_1_ocean_a4da8cd909858b7a048d7d88db1774990}{int {\bfseries y\-\_\-quadrants\-\_\-}}\label{class_c_s170_1_1_war_boats_1_1_ocean_a4da8cd909858b7a048d7d88db1774990}
+
+\item 
+\hypertarget{class_c_s170_1_1_war_boats_1_1_ocean_a5d3e87f3a2f4f9fe31a587e1080e44bb}{int {\bfseries num\-\_\-boats\-\_\-}}\label{class_c_s170_1_1_war_boats_1_1_ocean_a5d3e87f3a2f4f9fe31a587e1080e44bb}
+
+\item 
+\hypertarget{class_c_s170_1_1_war_boats_1_1_ocean_a74b996826cba2a1ea15884ef68efec89}{\hyperlink{struct_c_s170_1_1_war_boats_1_1_boat}{Boat} $\ast$ {\bfseries boats\-\_\-}}\label{class_c_s170_1_1_war_boats_1_1_ocean_a74b996826cba2a1ea15884ef68efec89}
+
+\item 
+\hypertarget{class_c_s170_1_1_war_boats_1_1_ocean_a20070ea47587def0b4b4e5a33f23796f}{\hyperlink{struct_c_s170_1_1_war_boats_1_1_shot_stats}{Shot\-Stats} {\bfseries stats\-\_\-}}\label{class_c_s170_1_1_war_boats_1_1_ocean_a20070ea47587def0b4b4e5a33f23796f}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_c_s170_1_1_war_boats_1_1_ocean_aa24370d9bdf2ffc1f57df283ec31d00a}{\index{C\-S170\-::\-War\-Boats\-::\-Ocean@{C\-S170\-::\-War\-Boats\-::\-Ocean}!Ocean@{Ocean}}
+\index{Ocean@{Ocean}!CS170::WarBoats::Ocean@{C\-S170\-::\-War\-Boats\-::\-Ocean}}
+\subsubsection[{Ocean}]{\setlength{\rightskip}{0pt plus 5cm}{\bf C\-S170\-::\-War\-Boats\-::\-Ocean\-::\-Ocean} (
+\begin{DoxyParamCaption}
+\item[{int}]{num\-\_\-boats, }
+\item[{int}]{x\-\_\-quadrants, }
+\item[{int}]{y\-\_\-quadrants}
+\end{DoxyParamCaption}
+)}}\label{class_c_s170_1_1_war_boats_1_1_ocean_aa24370d9bdf2ffc1f57df283ec31d00a}
+
+
+Constructor to make the class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em num\-\_\-boats} & Number of boats to be on the board.\\
+\hline
+{\em x\-\_\-quadrants} & Width of the board.\\
+\hline
+{\em y\-\_\-quadrants} & Height of the board. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_c_s170_1_1_war_boats_1_1_ocean_a7decdd1fb8f8ec107f4d909dba221290}{\index{C\-S170\-::\-War\-Boats\-::\-Ocean@{C\-S170\-::\-War\-Boats\-::\-Ocean}!Get\-Dimensions@{Get\-Dimensions}}
+\index{Get\-Dimensions@{Get\-Dimensions}!CS170::WarBoats::Ocean@{C\-S170\-::\-War\-Boats\-::\-Ocean}}
+\subsubsection[{Get\-Dimensions}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Point} {\bf C\-S170\-::\-War\-Boats\-::\-Ocean\-::\-Get\-Dimensions} (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+) const}}\label{class_c_s170_1_1_war_boats_1_1_ocean_a7decdd1fb8f8ec107f4d909dba221290}
+
+
+Makes a point struct with the dimensions of the grid. 
+
+\begin{DoxyReturn}{Returns}
+A point struct the if the dimensions of the grid. 
+\end{DoxyReturn}
+\hypertarget{class_c_s170_1_1_war_boats_1_1_ocean_a6b7459821811e3338724388f3e4c6a91}{\index{C\-S170\-::\-War\-Boats\-::\-Ocean@{C\-S170\-::\-War\-Boats\-::\-Ocean}!Get\-Grid@{Get\-Grid}}
+\index{Get\-Grid@{Get\-Grid}!CS170::WarBoats::Ocean@{C\-S170\-::\-War\-Boats\-::\-Ocean}}
+\subsubsection[{Get\-Grid}]{\setlength{\rightskip}{0pt plus 5cm}const int $\ast$ {\bf C\-S170\-::\-War\-Boats\-::\-Ocean\-::\-Get\-Grid} (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+) const}}\label{class_c_s170_1_1_war_boats_1_1_ocean_a6b7459821811e3338724388f3e4c6a91}
+
+
+Gets the grid values of the board. 
+
+\begin{DoxyReturn}{Returns}
+The grid array with the values from the game session. 
+\end{DoxyReturn}
+\hypertarget{class_c_s170_1_1_war_boats_1_1_ocean_aa9c0ac3fcdb5184cfeadb7851aeef351}{\index{C\-S170\-::\-War\-Boats\-::\-Ocean@{C\-S170\-::\-War\-Boats\-::\-Ocean}!Get\-Shot\-Stats@{Get\-Shot\-Stats}}
+\index{Get\-Shot\-Stats@{Get\-Shot\-Stats}!CS170::WarBoats::Ocean@{C\-S170\-::\-War\-Boats\-::\-Ocean}}
+\subsubsection[{Get\-Shot\-Stats}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Shot\-Stats} {\bf C\-S170\-::\-War\-Boats\-::\-Ocean\-::\-Get\-Shot\-Stats} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_c_s170_1_1_war_boats_1_1_ocean_aa9c0ac3fcdb5184cfeadb7851aeef351}
+
+
+Returns the results of the shots you've taken in this session. 
+
+\begin{DoxyReturn}{Returns}
+How results of the shots you've taken. 
+\end{DoxyReturn}
+\hypertarget{class_c_s170_1_1_war_boats_1_1_ocean_a4637bc3cc8dbb84f787d0af5a469629d}{\index{C\-S170\-::\-War\-Boats\-::\-Ocean@{C\-S170\-::\-War\-Boats\-::\-Ocean}!Place\-Boat@{Place\-Boat}}
+\index{Place\-Boat@{Place\-Boat}!CS170::WarBoats::Ocean@{C\-S170\-::\-War\-Boats\-::\-Ocean}}
+\subsubsection[{Place\-Boat}]{\setlength{\rightskip}{0pt plus 5cm}Boat\-Placement {\bf C\-S170\-::\-War\-Boats\-::\-Ocean\-::\-Place\-Boat} (
+\begin{DoxyParamCaption}
+\item[{const {\bf Boat} \&}]{boat}
+\end{DoxyParamCaption}
+)}}\label{class_c_s170_1_1_war_boats_1_1_ocean_a4637bc3cc8dbb84f787d0af5a469629d}
+
+
+Places a boat on the board. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em boat} & A constant reference to a boat struct\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bp\-A\-C\-C\-E\-P\-T\-E\-D if boat placement is ok, bp\-R\-E\-J\-E\-C\-T\-E\-D if it is not. 
+\end{DoxyReturn}
+\hypertarget{class_c_s170_1_1_war_boats_1_1_ocean_aee6e2778bfc6ebe7aea804d189469bd6}{\index{C\-S170\-::\-War\-Boats\-::\-Ocean@{C\-S170\-::\-War\-Boats\-::\-Ocean}!Take\-Shot@{Take\-Shot}}
+\index{Take\-Shot@{Take\-Shot}!CS170::WarBoats::Ocean@{C\-S170\-::\-War\-Boats\-::\-Ocean}}
+\subsubsection[{Take\-Shot}]{\setlength{\rightskip}{0pt plus 5cm}Shot\-Result {\bf C\-S170\-::\-War\-Boats\-::\-Ocean\-::\-Take\-Shot} (
+\begin{DoxyParamCaption}
+\item[{const {\bf Point} \&}]{coordinate}
+\end{DoxyParamCaption}
+)}}\label{class_c_s170_1_1_war_boats_1_1_ocean_aee6e2778bfc6ebe7aea804d189469bd6}
+
+
+Takes a shit on the board. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em coordinate} & A constant reference to a point structure.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Results can be H\-I\-T, M\-I\-S\-S, D\-U\-P\-L\-I\-C\-A\-T\-E, S\-U\-N\-K, I\-L\-L\-E\-G\-A\-L for the result of the shot. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_ocean_8h}{Ocean.\-h}\item 
+\hyperlink{_ocean_8cpp}{Ocean.\-cpp}\end{DoxyCompactItemize}

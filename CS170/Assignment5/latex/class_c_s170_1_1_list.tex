@@ -1,0 +1,275 @@
+\hypertarget{class_c_s170_1_1_list}{\section{C\-S170\-:\-:List$<$ T $>$ Class Template Reference}
+\label{class_c_s170_1_1_list}\index{C\-S170\-::\-List$<$ T $>$@{C\-S170\-::\-List$<$ T $>$}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct {\bfseries Node}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_c_s170_1_1_list_a320f4140d33bc532545c9fea4c4125fd}{\hyperlink{class_c_s170_1_1_list_a320f4140d33bc532545c9fea4c4125fd}{List} ()}\label{class_c_s170_1_1_list_a320f4140d33bc532545c9fea4c4125fd}
+
+\begin{DoxyCompactList}\small\item\em Templated constructor for \hyperlink{class_c_s170_1_1_list}{List} class. \end{DoxyCompactList}\item 
+\hyperlink{class_c_s170_1_1_list_a1bf1d571284795381f5ce9681c0e3b31}{List} (const \hyperlink{class_c_s170_1_1_list}{List} \&list)
+\begin{DoxyCompactList}\small\item\em Templated copy construcotr for \hyperlink{class_c_s170_1_1_list}{List} class. \end{DoxyCompactList}\item 
+\hyperlink{class_c_s170_1_1_list_a44c17beed6649a2dc3860eaa4adcee58}{List} (const T $\ast$array, int \hyperlink{class_c_s170_1_1_list_a888f823e05765669c8e207a104eef36e}{size})
+\begin{DoxyCompactList}\small\item\em Templated non-\/default constructor for \hyperlink{class_c_s170_1_1_list}{List} class. \end{DoxyCompactList}\item 
+\hypertarget{class_c_s170_1_1_list_aafd84ac74f3354124a7aaa6158be96bf}{\hyperlink{class_c_s170_1_1_list_aafd84ac74f3354124a7aaa6158be96bf}{$\sim$\-List} ()}\label{class_c_s170_1_1_list_aafd84ac74f3354124a7aaa6158be96bf}
+
+\begin{DoxyCompactList}\small\item\em Templated destructor for \hyperlink{class_c_s170_1_1_list}{List} class. \end{DoxyCompactList}\item 
+void \hyperlink{class_c_s170_1_1_list_a237ad2fcb2214d61f72003ad50b74c98}{push\-\_\-front} (const T \&Value)
+\begin{DoxyCompactList}\small\item\em Pushes an object to the front of the list. \end{DoxyCompactList}\item 
+void \hyperlink{class_c_s170_1_1_list_a6f682cf4ca0a6b4f28fdd7ec8307ce7b}{push\-\_\-back} (const T \&Value)
+\begin{DoxyCompactList}\small\item\em Pushses an object to the back of the list. \end{DoxyCompactList}\item 
+\hypertarget{class_c_s170_1_1_list_a7fc65348f9263907a2c431a15c09acbf}{void \hyperlink{class_c_s170_1_1_list_a7fc65348f9263907a2c431a15c09acbf}{pop\-\_\-front} ()}\label{class_c_s170_1_1_list_a7fc65348f9263907a2c431a15c09acbf}
+
+\begin{DoxyCompactList}\small\item\em Pops the front piece of data in the list. \end{DoxyCompactList}\item 
+\hypertarget{class_c_s170_1_1_list_a6af6e8fde524307f9a629bf36139d89a}{T \hyperlink{class_c_s170_1_1_list_a6af6e8fde524307f9a629bf36139d89a}{front} () const }\label{class_c_s170_1_1_list_a6af6e8fde524307f9a629bf36139d89a}
+
+\begin{DoxyCompactList}\small\item\em Checks the value of the first data in the list. \end{DoxyCompactList}\item 
+int \hyperlink{class_c_s170_1_1_list_a888f823e05765669c8e207a104eef36e}{size} () const 
+\begin{DoxyCompactList}\small\item\em Checks the size of the object. \end{DoxyCompactList}\item 
+bool \hyperlink{class_c_s170_1_1_list_a636fc31e26447e2a58a4f31d5af0e9cc}{empty} () const 
+\begin{DoxyCompactList}\small\item\em Checks if the object is empty. \end{DoxyCompactList}\item 
+\hypertarget{class_c_s170_1_1_list_a4f8c628dff02f39eb45df0187e391837}{void \hyperlink{class_c_s170_1_1_list_a4f8c628dff02f39eb45df0187e391837}{clear} ()}\label{class_c_s170_1_1_list_a4f8c628dff02f39eb45df0187e391837}
+
+\begin{DoxyCompactList}\small\item\em Removes all of the nodes in the list. \end{DoxyCompactList}\item 
+\hyperlink{class_c_s170_1_1_list}{List} \& \hyperlink{class_c_s170_1_1_list_abfc9fde7b86f5b234ea75c8652c8abbe}{operator=} (const \hyperlink{class_c_s170_1_1_list}{List} \&list)
+\begin{DoxyCompactList}\small\item\em Overloads operator = for assignment. \end{DoxyCompactList}\item 
+\hyperlink{class_c_s170_1_1_list}{List} \hyperlink{class_c_s170_1_1_list_aa70b894161e3db320ec80f39eb762503}{operator+} (const \hyperlink{class_c_s170_1_1_list}{List} \&list) const 
+\begin{DoxyCompactList}\small\item\em Overloads operator + to make a list and assigns it with the values of the left hand and right hand lists. \end{DoxyCompactList}\item 
+\hyperlink{class_c_s170_1_1_list}{List} \& \hyperlink{class_c_s170_1_1_list_a556309385bee40d175c4d9ded4ec19ff}{operator+=} (const \hyperlink{class_c_s170_1_1_list}{List} \&list)
+\begin{DoxyCompactList}\small\item\em Overloads operator += that concatenates the right hand list to the left hand list. \end{DoxyCompactList}\item 
+const T \& \hyperlink{class_c_s170_1_1_list_aad16c5bfe582bfd9ef802603d21caf9f}{operator\mbox{[}$\,$\mbox{]}} (int index) const 
+\begin{DoxyCompactList}\small\item\em Overloads subscript operator for rvalues. \end{DoxyCompactList}\item 
+T \& \hyperlink{class_c_s170_1_1_list_a949b9a73a93b1ffee902dd18feefd276}{operator\mbox{[}$\,$\mbox{]}} (int index)
+\begin{DoxyCompactList}\small\item\em Overloads subcript operator for lvalues. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \hyperlink{class_c_s170_1_1_list_a793b51702740d8638d591f5b83a47b49}{node\-\_\-count} ()
+\begin{DoxyCompactList}\small\item\em Checks the number of nodes alive. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_c_s170_1_1_list_afb4b0077615ca13d54774f768bed640c}{std\-::ostream \& {\bfseries operator} (std\-::ostream \&os, const \hyperlink{class_c_s170_1_1_list}{List} \&list)}\label{class_c_s170_1_1_list_afb4b0077615ca13d54774f768bed640c}
+
+\end{DoxyCompactItemize}
+\subsubsection*{template$<$typename T$>$ class C\-S170\-::\-List$<$ T $>$}
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_c_s170_1_1_list_a1bf1d571284795381f5ce9681c0e3b31}{\index{C\-S170\-::\-List@{C\-S170\-::\-List}!List@{List}}
+\index{List@{List}!CS170::List@{C\-S170\-::\-List}}
+\subsubsection[{List}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ {\bf C\-S170\-::\-List}$<$ T $>$\-::{\bf List} (
+\begin{DoxyParamCaption}
+\item[{const {\bf List}$<$ T $>$ \&}]{original}
+\end{DoxyParamCaption}
+)}}\label{class_c_s170_1_1_list_a1bf1d571284795381f5ce9681c0e3b31}
+
+
+Templated copy construcotr for \hyperlink{class_c_s170_1_1_list}{List} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em original} & A reference to the object you wish to copy. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_c_s170_1_1_list_a44c17beed6649a2dc3860eaa4adcee58}{\index{C\-S170\-::\-List@{C\-S170\-::\-List}!List@{List}}
+\index{List@{List}!CS170::List@{C\-S170\-::\-List}}
+\subsubsection[{List}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ {\bf C\-S170\-::\-List}$<$ T $>$\-::{\bf List} (
+\begin{DoxyParamCaption}
+\item[{const T $\ast$}]{array, }
+\item[{int}]{size}
+\end{DoxyParamCaption}
+)}}\label{class_c_s170_1_1_list_a44c17beed6649a2dc3860eaa4adcee58}
+
+
+Templated non-\/default constructor for \hyperlink{class_c_s170_1_1_list}{List} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em array} & The array to use to assign the data in the object. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_c_s170_1_1_list_a636fc31e26447e2a58a4f31d5af0e9cc}{\index{C\-S170\-::\-List@{C\-S170\-::\-List}!empty@{empty}}
+\index{empty@{empty}!CS170::List@{C\-S170\-::\-List}}
+\subsubsection[{empty}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ bool {\bf C\-S170\-::\-List}$<$ T $>$\-::{\bf empty} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_c_s170_1_1_list_a636fc31e26447e2a58a4f31d5af0e9cc}
+
+
+Checks if the object is empty. 
+
+\begin{DoxyReturn}{Returns}
+A boolean if the object has data in it (1) or if the object is empty (0). 
+\end{DoxyReturn}
+\hypertarget{class_c_s170_1_1_list_a793b51702740d8638d591f5b83a47b49}{\index{C\-S170\-::\-List@{C\-S170\-::\-List}!node\-\_\-count@{node\-\_\-count}}
+\index{node\-\_\-count@{node\-\_\-count}!CS170::List@{C\-S170\-::\-List}}
+\subsubsection[{node\-\_\-count}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ int {\bf C\-S170\-::\-List}$<$ T $>$\-::{\bf node\-\_\-count} (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}\label{class_c_s170_1_1_list_a793b51702740d8638d591f5b83a47b49}
+
+
+Checks the number of nodes alive. 
+
+\begin{DoxyReturn}{Returns}
+The number of nodes alive. 
+\end{DoxyReturn}
+\hypertarget{class_c_s170_1_1_list_aa70b894161e3db320ec80f39eb762503}{\index{C\-S170\-::\-List@{C\-S170\-::\-List}!operator+@{operator+}}
+\index{operator+@{operator+}!CS170::List@{C\-S170\-::\-List}}
+\subsubsection[{operator+}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ {\bf List}$<$ T $>$ {\bf C\-S170\-::\-List}$<$ T $>$\-::operator+ (
+\begin{DoxyParamCaption}
+\item[{const {\bf List}$<$ T $>$ \&}]{rhs}
+\end{DoxyParamCaption}
+) const}}\label{class_c_s170_1_1_list_aa70b894161e3db320ec80f39eb762503}
+
+
+Overloads operator + to make a list and assigns it with the values of the left hand and right hand lists. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & A reference to the list being concatenated.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The list created with the values. 
+\end{DoxyReturn}
+\hypertarget{class_c_s170_1_1_list_a556309385bee40d175c4d9ded4ec19ff}{\index{C\-S170\-::\-List@{C\-S170\-::\-List}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!CS170::List@{C\-S170\-::\-List}}
+\subsubsection[{operator+=}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ {\bf List}$<$ T $>$ \& {\bf C\-S170\-::\-List}$<$ T $>$\-::operator+= (
+\begin{DoxyParamCaption}
+\item[{const {\bf List}$<$ T $>$ \&}]{rhs}
+\end{DoxyParamCaption}
+)}}\label{class_c_s170_1_1_list_a556309385bee40d175c4d9ded4ec19ff}
+
+
+Overloads operator += that concatenates the right hand list to the left hand list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & A reference to the list being used to add to the created list.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Reference to the left hand list. 
+\end{DoxyReturn}
+\hypertarget{class_c_s170_1_1_list_abfc9fde7b86f5b234ea75c8652c8abbe}{\index{C\-S170\-::\-List@{C\-S170\-::\-List}!operator=@{operator=}}
+\index{operator=@{operator=}!CS170::List@{C\-S170\-::\-List}}
+\subsubsection[{operator=}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ {\bf List}$<$ T $>$ \& {\bf C\-S170\-::\-List}$<$ T $>$\-::operator= (
+\begin{DoxyParamCaption}
+\item[{const {\bf List}$<$ T $>$ \&}]{rhs}
+\end{DoxyParamCaption}
+)}}\label{class_c_s170_1_1_list_abfc9fde7b86f5b234ea75c8652c8abbe}
+
+
+Overloads operator = for assignment. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & A reference to the object yo use in the assignment.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A reference to the \hyperlink{class_c_s170_1_1_list}{List} thats been modified. 
+\end{DoxyReturn}
+\hypertarget{class_c_s170_1_1_list_aad16c5bfe582bfd9ef802603d21caf9f}{\index{C\-S170\-::\-List@{C\-S170\-::\-List}!operator\mbox{[}$\,$\mbox{]}@{operator[]}}
+\index{operator\mbox{[}$\,$\mbox{]}@{operator[]}!CS170::List@{C\-S170\-::\-List}}
+\subsubsection[{operator[]}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ const T \& {\bf C\-S170\-::\-List}$<$ T $>$\-::operator\mbox{[}$\,$\mbox{]} (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+) const}}\label{class_c_s170_1_1_list_aad16c5bfe582bfd9ef802603d21caf9f}
+
+
+Overloads subscript operator for rvalues. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & How far into the list to go to access the data.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The data at the specified index. 
+\end{DoxyReturn}
+\hypertarget{class_c_s170_1_1_list_a949b9a73a93b1ffee902dd18feefd276}{\index{C\-S170\-::\-List@{C\-S170\-::\-List}!operator\mbox{[}$\,$\mbox{]}@{operator[]}}
+\index{operator\mbox{[}$\,$\mbox{]}@{operator[]}!CS170::List@{C\-S170\-::\-List}}
+\subsubsection[{operator[]}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ T \& {\bf C\-S170\-::\-List}$<$ T $>$\-::operator\mbox{[}$\,$\mbox{]} (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+)}}\label{class_c_s170_1_1_list_a949b9a73a93b1ffee902dd18feefd276}
+
+
+Overloads subcript operator for lvalues. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & How far into the list to go to access the data.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A reference to the data at the specified index. 
+\end{DoxyReturn}
+\hypertarget{class_c_s170_1_1_list_a6f682cf4ca0a6b4f28fdd7ec8307ce7b}{\index{C\-S170\-::\-List@{C\-S170\-::\-List}!push\-\_\-back@{push\-\_\-back}}
+\index{push\-\_\-back@{push\-\_\-back}!CS170::List@{C\-S170\-::\-List}}
+\subsubsection[{push\-\_\-back}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ void {\bf C\-S170\-::\-List}$<$ T $>$\-::{\bf push\-\_\-back} (
+\begin{DoxyParamCaption}
+\item[{const T \&}]{Value}
+\end{DoxyParamCaption}
+)}}\label{class_c_s170_1_1_list_a6f682cf4ca0a6b4f28fdd7ec8307ce7b}
+
+
+Pushses an object to the back of the list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Value} & A reference to the data you want to put in the object. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_c_s170_1_1_list_a237ad2fcb2214d61f72003ad50b74c98}{\index{C\-S170\-::\-List@{C\-S170\-::\-List}!push\-\_\-front@{push\-\_\-front}}
+\index{push\-\_\-front@{push\-\_\-front}!CS170::List@{C\-S170\-::\-List}}
+\subsubsection[{push\-\_\-front}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ void {\bf C\-S170\-::\-List}$<$ T $>$\-::{\bf push\-\_\-front} (
+\begin{DoxyParamCaption}
+\item[{const T \&}]{Value}
+\end{DoxyParamCaption}
+)}}\label{class_c_s170_1_1_list_a237ad2fcb2214d61f72003ad50b74c98}
+
+
+Pushes an object to the front of the list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Value} & Reference to the data you want to put in the object. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_c_s170_1_1_list_a888f823e05765669c8e207a104eef36e}{\index{C\-S170\-::\-List@{C\-S170\-::\-List}!size@{size}}
+\index{size@{size}!CS170::List@{C\-S170\-::\-List}}
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ int {\bf C\-S170\-::\-List}$<$ T $>$\-::{\bf size} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_c_s170_1_1_list_a888f823e05765669c8e207a104eef36e}
+
+
+Checks the size of the object. 
+
+\begin{DoxyReturn}{Returns}
+The number of items in the list. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_list_8h}{List.\-h}\item 
+\hyperlink{_list_8cpp}{List.\-cpp}\end{DoxyCompactItemize}

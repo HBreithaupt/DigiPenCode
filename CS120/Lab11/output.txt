@@ -1,0 +1,100 @@
+# 32: (tabs: 3) |			Employee *Next;      //  4|
+# 33: (tabs: 3) |			char lastName[12];   // 12|
+# 34: (tabs: 3) |			char firstName[12];  // 12|
+# 35: (tabs: 3) |			float salary;        //  4|
+# 36: (tabs: 3) |			int years;           //  4|
+# 69: (tabs: 1) |	{"Faith", "Ian", 80000, 10},|
+# 70: (tabs: 1) |	{"Tufnel", "Nigel", 90000, 12},|
+# 71: (tabs: 1) |	{"Savage", "Viv", 50000, 4},|
+# 72: (tabs: 1) |	{"Shrimpton", "Mick", 50000, 4},|
+# 73: (tabs: 1) |	{"Besser", "Joe", 40000, 1},|
+# 74: (tabs: 1) |	{"Smalls", "Derek", 80000, 10},|
+# 75: (tabs: 1) |	{"St.Hubbins", "David", 90000, 12},|
+# 76: (tabs: 1) |	{"Fleckman", "Bobbi", 120000, 8},|
+# 77: (tabs: 1) |	{"Eton-Hogg", "Denis", 250000, 22},|
+# 78: (tabs: 1) |	{"Upham", "Denny", 60000, 5},|
+# 79: (tabs: 1) |	{"McLochness", "Ross", 60000, 5},|
+# 80: (tabs: 1) |	{"Pudding", "Ronnie", 50000, 2},|
+# 81: (tabs: 1) |	{"Schindler", "Danny", 60000, 3},|
+# 82: (tabs: 1) |	{"Pettibone", "Jeanine", 85000, 3},|
+# 83: (tabs: 1) |	{"Fame", "Duke", 95000, 8},|
+# 84: (tabs: 1) |	{"Fufkin", "Artie", 45000, 1},|
+# 85: (tabs: 1) |	{"DiBergi", "Marty", 15000, 7},|
+# 86: (tabs: 1) |	{"Floyd", "Pink", 25000, 6},|
+# 87: (tabs: 1) |	{"Zeppelin", "Led", 35000, 3},|
+# 88: (tabs: 1) |	{"Mason", "Nick", 15000, 7},|
+# 89: (tabs: 1) |	{"Wright", "Richard", 17000, 9},|
+# 90: (tabs: 1) |	{"Waters", "Roger", 10000, 3},|
+# 91: (tabs: 1) |	{"Gilmore", "David", 19000, 5}|
+#1372: (tabs: 1) |	const unsigned char *pages = static_cast<const unsigned char *>(nm->GetPageList());|
+#1373: (tabs: 1) |	while (pages)|
+*****  TABS IN USE  *****: Number of tabs in the file is 40.
+#114: ( 99) |  unsigned char *data = const_cast<unsigned char*>(reinterpret_cast<const unsigned char *>(block));|
+#137: ( 84) |  data = const_cast<unsigned char*>(reinterpret_cast<const unsigned char *>(block));|
+#173: (102) |//****************************************************************************************************|
+#174: (102) |//****************************************************************************************************|
+#223: ( 84) |    cout << "============================== Test free checking (stress)..." << endl;|
+#227: ( 85) |    cout << "============================== Test stress using new/delete..." << endl;|
+#230: ( 84) |    cout << "============================== Test stress using allocator..." << endl;|
+#322: ( 82) |    cout << "Exception thrown during construction of Student in Stress."  << endl;|
+#361: (111) |    cout << ", ObjectsPerPage = " << objects << ", MaxPages = " << pages << ", MaxObjects = " << total << endl;|
+#387: ( 82) |    cout << "Exception thrown during construction of Student in Stress."  << endl;|
+#417: ( 94) |    unsigned width = oa->GetStats().ObjectSize_ + 2 * oa->GetConfig().PadBytes_ + header_size;|
+#474: ( 82) |    cout << "Exception thrown during construction of Student in Stress."  << endl;|
+#501: ( 94) |    unsigned width = oa->GetStats().ObjectSize_ + 2 * oa->GetConfig().PadBytes_ + header_size;|
+#535: ( 82) |    cout << "Exception thrown during construction of Student in Stress."  << endl;|
+#543: (102) |//****************************************************************************************************|
+#544: (102) |//****************************************************************************************************|
+#568: ( 90) |    total_size = oa->GetStats().ObjectSize_ + 2 * oa->GetConfig().PadBytes_ + header_size;|
+#575: ( 85) |    cout << "Exception thrown during construction of Student in TestDebug."  << endl;|
+#624: (102) |//****************************************************************************************************|
+#625: (102) |//****************************************************************************************************|
+#639: ( 88) |    cout << "Exception thrown during construction of Student in TestLazyInit."  << endl;|
+#656: (102) |//****************************************************************************************************|
+#657: (102) |//****************************************************************************************************|
+#664: (102) |//****************************************************************************************************|
+#665: (102) |//****************************************************************************************************|
+#722: ( 81) |      pStudent4[i] = reinterpret_cast<Student *>( studentObjectMgr->Allocate() );|
+#763: ( 88) |  cout << "Most students in use: " << studentObjectMgr->GetStats().MostObjects_ << endl;|
+#767: (102) |//****************************************************************************************************|
+#768: (102) |//****************************************************************************************************|
+#825: ( 82) |        // ******************************************* Puts &employeeObjMgr in ecx|
+#831: ( 82) |         // ******************** Hoses the ecx register containing &employeeObjMgr|
+#843: ( 81) |    // ************************* blindly pushes ecx as if it still has &empObjMgr|
+#912: ( 91) |    cout << "Exception thrown from FreeObject (Freeing address on bad boundary)."  << endl;|
+#920: ( 89) |  cout << "Most employees in use: " << employeeObjectMgr->GetStats().MostObjects_<< endl;|
+#924: (102) |//****************************************************************************************************|
+#925: (102) |//****************************************************************************************************|
+#977: ( 81) |      pStudent4[i] = reinterpret_cast<Student *>( studentObjectMgr->Allocate() );|
+#1041: ( 88) |  cout << "Most students in use: " << studentObjectMgr->GetStats().MostObjects_ << endl;|
+#1045: (102) |//****************************************************************************************************|
+#1046: (102) |//****************************************************************************************************|
+#1065: (101) |    cout << "Exception thrown during construction/allocation of Student in TestCorruption."  << endl;|
+#1071: ( 96) |  p = const_cast<unsigned char*>(reinterpret_cast<const unsigned char *>(pStudent1)) - padbytes;|
+#1076: (103) |  p = const_cast<unsigned char*>(reinterpret_cast<const unsigned char *>(pStudent2)) + sizeof(Student);|
+#1090: ( 85) |      cout << "Exception thrown from FreeObject: E_CORRUPTED_BLOCK on left"  << endl;|
+#1092: ( 83) |      cout << "****** Unknown OAException thrown from FreeObject. ******"  << endl;|
+#1110: ( 86) |      cout << "Exception thrown from FreeObject: E_CORRUPTED_BLOCK on right"  << endl;|
+#1112: ( 83) |      cout << "****** Unknown OAException thrown from FreeObject. ******"  << endl;|
+#1123: (102) |//****************************************************************************************************|
+#1124: (102) |//****************************************************************************************************|
+#1155: (100) |  count = employeeObjectMgr->GetConfig().MaxPages_ * employeeObjectMgr->GetConfig().ObjectsPerPage_;|
+#1201: ( 89) |  cout << "Most employees in use: " << employeeObjectMgr->GetStats().MostObjects_<< endl;|
+#1232: (102) |//****************************************************************************************************|
+#1233: (102) |//****************************************************************************************************|
+#1257: (101) |    cout << "Exception thrown during construction/allocation of Student in TestCorruption."  << endl;|
+#1274: ( 85) |      cout << "Exception thrown from FreeObject: E_CORRUPTED_BLOCK on left"  << endl;|
+#1276: ( 83) |      cout << "****** Unknown OAException thrown from FreeObject. ******"  << endl;|
+#1285: ( 96) |  p = const_cast<unsigned char*>(reinterpret_cast<const unsigned char *>(pStudent1)) - padbytes;|
+#1290: (103) |  p = const_cast<unsigned char*>(reinterpret_cast<const unsigned char *>(pStudent2)) + sizeof(Student);|
+#1306: ( 85) |      cout << "Exception thrown from FreeObject: E_CORRUPTED_BLOCK on left"  << endl;|
+#1308: ( 83) |      cout << "****** Unknown OAException thrown from FreeObject. ******"  << endl;|
+#1317: ( 96) |  p = const_cast<unsigned char*>(reinterpret_cast<const unsigned char *>(pStudent7)) - padbytes;|
+#1322: (103) |  p = const_cast<unsigned char*>(reinterpret_cast<const unsigned char *>(pStudent7)) + sizeof(Student);|
+#1338: ( 85) |      cout << "Exception thrown from FreeObject: E_CORRUPTED_BLOCK on left"  << endl;|
+#1340: ( 83) |      cout << "****** Unknown OAException thrown from FreeObject. ******"  << endl;|
+#1372: ( 84) |	const unsigned char *pages = static_cast<const unsigned char *>(nm->GetPageList());|
+#1392: (108) |    pages = reinterpret_cast<const unsigned char *>((reinterpret_cast<const GenericObject *>(pages))->Next);|
+#1398: ( 85) |  const unsigned char *pages = static_cast<const unsigned char *>(nm->GetPageList());|
+#1478: (111) |    pages = reinterpret_cast<const unsigned char *>((reinterpret_cast<const GenericObject *>(realpage))->Next);|
+***** LINE TOO LONG *****: 68 lines longer than 80. Longest line is 361 at 111 chars.

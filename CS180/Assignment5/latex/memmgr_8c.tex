@@ -1,0 +1,195 @@
+\hypertarget{memmgr_8c}{\section{memmgr.\-c File Reference}
+\label{memmgr_8c}\index{memmgr.\-c@{memmgr.\-c}}
+}
+
+
+Implementation of a memory manager using a linked list;.  
+
+
+{\ttfamily \#include \char`\"{}memmgr.\-h\char`\"{}}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{structblock__info}{block\-\_\-info} $\ast$ \hyperlink{memmgr_8c_a0a494bfd2caf947f7e8d6d3b5ccd85fa}{mm\-\_\-create} (size\-\_\-t bytes, enum M\-M\-Policy policy)
+\begin{DoxyCompactList}\small\item\em Allocates block of memory to use in the manager. \end{DoxyCompactList}\item 
+void $\ast$ \hyperlink{memmgr_8c_a52e9bd1933db787a6e9a3b569c80a345}{allocate\-\_\-firstfit} (\hyperlink{structblock__info}{block\-\_\-info} $\ast$heap, size\-\_\-t bytes, char $\ast$label)
+\begin{DoxyCompactList}\small\item\em Allocates nodes using first fit algorithm. \end{DoxyCompactList}\item 
+void $\ast$ \hyperlink{memmgr_8c_aac228a9f64eacc8f8a4ce0bfdfae4044}{allocate\-\_\-bestfit} (\hyperlink{structblock__info}{block\-\_\-info} $\ast$heap, size\-\_\-t bytes, char $\ast$label)
+\begin{DoxyCompactList}\small\item\em Allocates nodes usign best fit algorithm. \end{DoxyCompactList}\item 
+void $\ast$ \hyperlink{memmgr_8c_a8e7c57a06b3dbbad4fe59c0c8e9d7e89}{mm\-\_\-allocate} (\hyperlink{structblock__info}{block\-\_\-info} $\ast$heap, size\-\_\-t bytes, char $\ast$label)
+\begin{DoxyCompactList}\small\item\em Allocates node in the list. Just passes off to coreespoinding policy function to do the work. \end{DoxyCompactList}\item 
+int \hyperlink{memmgr_8c_a375c2e37555f06805d959bd6addd9844}{mm\-\_\-deallocate} (\hyperlink{structblock__info}{block\-\_\-info} $\ast$heap, void $\ast$address)
+\begin{DoxyCompactList}\small\item\em Deallocates a node from the manager. \end{DoxyCompactList}\item 
+void \hyperlink{memmgr_8c_abad55e4ba6b1c34d1a84b66975932b43}{mm\-\_\-destroy} (\hyperlink{structblock__info}{block\-\_\-info} $\ast$heap)
+\begin{DoxyCompactList}\small\item\em Destroys manager and all memory being used. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Implementation of a memory manager using a linked list;. \begin{DoxyAuthor}{Author}
+Haven Breithaupt 
+\end{DoxyAuthor}
+\begin{DoxyParagraph}{D\-P email\-: h.breithaupt@digipen.edu}
+
+\end{DoxyParagraph}
+\begin{DoxyParagraph}{Course\-: C\-S180}
+
+\end{DoxyParagraph}
+\begin{DoxyParagraph}{Assignment 5}
+
+\end{DoxyParagraph}
+\begin{DoxyDate}{Date}
+7/8/15
+\end{DoxyDate}
+Functions Include\-:
+\begin{DoxyItemize}
+\item mm\-\_\-create \-: creates block of memory to manage
+\item allocate\-\_\-firstfit \-: divides up memory using first fit algorithm
+\item allocate\-\_\-bestfit \-: divides up memory using best fit algorithm
+\item mm\-\_\-allocate \-: divides up memory (just calls correspnding management alogorithm)
+\item mm\-\_\-deallocate \-: removes a node from the list
+\item mm\-\_\-destroy \-: desroys entire memory being used, nodes included
+\end{DoxyItemize}
+
+Hours spent on assignment\-: 5
+
+Specific portions that gave you the most trouble\-:
+\begin{DoxyItemize}
+\item Fairly easy assignment, most dificult thing was trying to assign members of the struct properly but beyond that just a linked list. 
+\end{DoxyItemize}
+
+\subsection{Function Documentation}
+\hypertarget{memmgr_8c_aac228a9f64eacc8f8a4ce0bfdfae4044}{\index{memmgr.\-c@{memmgr.\-c}!allocate\-\_\-bestfit@{allocate\-\_\-bestfit}}
+\index{allocate\-\_\-bestfit@{allocate\-\_\-bestfit}!memmgr.c@{memmgr.\-c}}
+\subsubsection[{allocate\-\_\-bestfit}]{\setlength{\rightskip}{0pt plus 5cm}void$\ast$ allocate\-\_\-bestfit (
+\begin{DoxyParamCaption}
+\item[{{\bf block\-\_\-info} $\ast$}]{heap, }
+\item[{size\-\_\-t}]{bytes, }
+\item[{char $\ast$}]{label}
+\end{DoxyParamCaption}
+)}}\label{memmgr_8c_aac228a9f64eacc8f8a4ce0bfdfae4044}
+
+
+Allocates nodes usign best fit algorithm. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em heap} & List to allocate in.\\
+\hline
+{\em bytes} & Size of memory requested form the block.\\
+\hline
+{\em label} & Label to put in the node allocated.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Address of the node allocated into the list. 
+\end{DoxyReturn}
+\hypertarget{memmgr_8c_a52e9bd1933db787a6e9a3b569c80a345}{\index{memmgr.\-c@{memmgr.\-c}!allocate\-\_\-firstfit@{allocate\-\_\-firstfit}}
+\index{allocate\-\_\-firstfit@{allocate\-\_\-firstfit}!memmgr.c@{memmgr.\-c}}
+\subsubsection[{allocate\-\_\-firstfit}]{\setlength{\rightskip}{0pt plus 5cm}void$\ast$ allocate\-\_\-firstfit (
+\begin{DoxyParamCaption}
+\item[{{\bf block\-\_\-info} $\ast$}]{heap, }
+\item[{size\-\_\-t}]{bytes, }
+\item[{char $\ast$}]{label}
+\end{DoxyParamCaption}
+)}}\label{memmgr_8c_a52e9bd1933db787a6e9a3b569c80a345}
+
+
+Allocates nodes using first fit algorithm. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em heap} & List to allocate in.\\
+\hline
+{\em bytes} & Size of memory requested form the block.\\
+\hline
+{\em label} & Label to put in the node allocated.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Address of the node allocated into the list. 
+\end{DoxyReturn}
+\hypertarget{memmgr_8c_a8e7c57a06b3dbbad4fe59c0c8e9d7e89}{\index{memmgr.\-c@{memmgr.\-c}!mm\-\_\-allocate@{mm\-\_\-allocate}}
+\index{mm\-\_\-allocate@{mm\-\_\-allocate}!memmgr.c@{memmgr.\-c}}
+\subsubsection[{mm\-\_\-allocate}]{\setlength{\rightskip}{0pt plus 5cm}void$\ast$ mm\-\_\-allocate (
+\begin{DoxyParamCaption}
+\item[{{\bf block\-\_\-info} $\ast$}]{heap, }
+\item[{size\-\_\-t}]{bytes, }
+\item[{char $\ast$}]{label}
+\end{DoxyParamCaption}
+)}}\label{memmgr_8c_a8e7c57a06b3dbbad4fe59c0c8e9d7e89}
+
+
+Allocates node in the list. Just passes off to coreespoinding policy function to do the work. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em heap} & List to allocate in.\\
+\hline
+{\em bytes} & Size of memory requested form the block.\\
+\hline
+{\em label} & Label to put in the node allocated.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Address of node allocated into the list. 
+\end{DoxyReturn}
+\hypertarget{memmgr_8c_a0a494bfd2caf947f7e8d6d3b5ccd85fa}{\index{memmgr.\-c@{memmgr.\-c}!mm\-\_\-create@{mm\-\_\-create}}
+\index{mm\-\_\-create@{mm\-\_\-create}!memmgr.c@{memmgr.\-c}}
+\subsubsection[{mm\-\_\-create}]{\setlength{\rightskip}{0pt plus 5cm}{\bf block\-\_\-info}$\ast$ mm\-\_\-create (
+\begin{DoxyParamCaption}
+\item[{size\-\_\-t}]{bytes, }
+\item[{enum M\-M\-Policy}]{policy}
+\end{DoxyParamCaption}
+)}}\label{memmgr_8c_a0a494bfd2caf947f7e8d6d3b5ccd85fa}
+
+
+Allocates block of memory to use in the manager. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em bytes} & Size of block to allocate.\\
+\hline
+{\em policy} & Type of algorithm to use for allocations.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Pointer to head node containing all the memory to manage. 
+\end{DoxyReturn}
+\hypertarget{memmgr_8c_a375c2e37555f06805d959bd6addd9844}{\index{memmgr.\-c@{memmgr.\-c}!mm\-\_\-deallocate@{mm\-\_\-deallocate}}
+\index{mm\-\_\-deallocate@{mm\-\_\-deallocate}!memmgr.c@{memmgr.\-c}}
+\subsubsection[{mm\-\_\-deallocate}]{\setlength{\rightskip}{0pt plus 5cm}int mm\-\_\-deallocate (
+\begin{DoxyParamCaption}
+\item[{{\bf block\-\_\-info} $\ast$}]{heap, }
+\item[{void $\ast$}]{address}
+\end{DoxyParamCaption}
+)}}\label{memmgr_8c_a375c2e37555f06805d959bd6addd9844}
+
+
+Deallocates a node from the manager. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em heap} & List to deallocate from.\\
+\hline
+{\em address} & Address of the node to remove\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns S\-U\-C\-C\-E\-S\-S for successful deletion and F\-A\-I\-L\-U\-R\-E for unsuccessful removal. 
+\end{DoxyReturn}
+\hypertarget{memmgr_8c_abad55e4ba6b1c34d1a84b66975932b43}{\index{memmgr.\-c@{memmgr.\-c}!mm\-\_\-destroy@{mm\-\_\-destroy}}
+\index{mm\-\_\-destroy@{mm\-\_\-destroy}!memmgr.c@{memmgr.\-c}}
+\subsubsection[{mm\-\_\-destroy}]{\setlength{\rightskip}{0pt plus 5cm}void mm\-\_\-destroy (
+\begin{DoxyParamCaption}
+\item[{{\bf block\-\_\-info} $\ast$}]{heap}
+\end{DoxyParamCaption}
+)}}\label{memmgr_8c_abad55e4ba6b1c34d1a84b66975932b43}
+
+
+Destroys manager and all memory being used. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em heap} & The manager to destroy. \\
+\hline
+\end{DoxyParams}

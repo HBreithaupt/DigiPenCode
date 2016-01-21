@@ -1,0 +1,88 @@
+Implement Shape hierarchy. 
+
+Do not modify Ray and BoundingCircle classes.
+
+You may and should modify Shape, Box, Rhombus classes and also create a global function Intersect in "trace.cpp"
+
+Classes Box and Rhombus should derive from Shape.
+
+
+
+Box is an axis-aligned rectangle defined by center and sides' lengthes:
+
++----------------------+
+|                      |  s
+|                      |  i
+|                      |  d
+|        cx,cy         |  e
+|                      |  _
+|                      |  y
+|                      | 
++----------------------+
+        side_x
+
+Thus vertices of a Box are 
+(cx + side_x/2, cy + side_y/2) 
+(cx + side_x/2, cy - side_y/2) 
+(cx - side_x/2, cy + side_y/2) 
+(cx - side_x/2, cy - side_y/2) 
+
+Bounding circle of a Box has center at (cx,cy) and it's radius is a half of
+the Box's diagonal.
+
+Rhombus is defined by center and diagonal' lengths, it's diagonals are axis-aligned:
+
+      +
+     /|\
+    / | \
+   /  |  \
+  /   |<---------diag_y
+ /    |    \
++--c_x,c_y--+
+ \    |   ^ /
+  \   |   |
+   \  |  /|
+    \ | / |
+     \|/  diag_x
+      +
+
+Thus vertices of a Rhombus are 
+(cx           , cy + diag_y/2) 
+(cx           , cy - diag_y/2) 
+(cx - diag_x/2, cy           ) 
+(cx + diag_x/2, cy           ) 
+
+Bounding circle of a Rhombus has center at (cx,cy) and it's radius is a half of
+maximum of Rhombus's diagonals.
+
+Bounding circle is used as a simple test whether a ray intersects a shape: since
+bounding circle includes the shape (area-wise), then if the ray does not 
+intersects the circle, it also cannot intersect the shape. 
+
+If the ray has an intersection with circle then we have to perform a more 
+complicated intersection test using the actual shape data.
+
+For example to detect ray-circle intersection we may perform a single distance 
+from center to line calculation and if the distance is greater then the radius,
+then there is no intersection (see implementation of 
+BoundingCircle::IntersectTest for details.)
+
+If we are using the actual shape, then the test requires 4 (both Box and Rhombus
+have 4 sides) ray-segment calculations which we'll assume to be more expensive.
+
+Thus the strategy for intersection testing is:
+
+if ( ray intersects bounding circle ) {
+    if ( ray intersects actual shape ) {
+        ....;
+    } else {
+        continue; //no intersection
+} else {
+     continue; //no intersection
+}
+
+Submit files
+ - shapes.cpp
+ - shapes.h
+ - trace.cpp
+

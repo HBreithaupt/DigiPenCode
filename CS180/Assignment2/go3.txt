@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cat input1.txt | ./filter --tolower
+cat input1.txt decl.txt | ./filter --delete=o
+./filter --toupper < input1.txt 

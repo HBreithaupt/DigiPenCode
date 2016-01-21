@@ -1,0 +1,176 @@
+\hypertarget{namespace_c_s170_1_1_list_lab}{\section{C\-S170\-:\-:List\-Lab Namespace Reference}
+\label{namespace_c_s170_1_1_list_lab}\index{C\-S170\-::\-List\-Lab@{C\-S170\-::\-List\-Lab}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{struct_c_s170_1_1_list_lab_1_1_node}{Node}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{namespace_c_s170_1_1_list_lab_ad12bd3e2be905ca300fed8d86bbe451c}{Print\-List} (struct \hyperlink{struct_c_s170_1_1_list_lab_1_1_node}{Node} $\ast$list)
+\begin{DoxyCompactList}\small\item\em Takes a linked list and prints out the data of the list. \end{DoxyCompactList}\item 
+int \hyperlink{namespace_c_s170_1_1_list_lab_af7f68722128ba05e357f4b7c4649e4ba}{Count} (struct \hyperlink{struct_c_s170_1_1_list_lab_1_1_node}{Node} $\ast$list)
+\begin{DoxyCompactList}\small\item\em Counts the number of nodes in a linked list. \end{DoxyCompactList}\item 
+void \hyperlink{namespace_c_s170_1_1_list_lab_ae34c684fdc4cf1f78cc274648b722395}{Add\-To\-End} (\hyperlink{struct_c_s170_1_1_list_lab_1_1_node}{Node} $\ast$$\ast$p\-List, int value)
+\begin{DoxyCompactList}\small\item\em Inserts a node to the end of a linked list. \end{DoxyCompactList}\item 
+void \hyperlink{namespace_c_s170_1_1_list_lab_a2a5b40886095fac247a776f56b9accd1}{Add\-To\-Front} (\hyperlink{struct_c_s170_1_1_list_lab_1_1_node}{Node} $\ast$$\ast$p\-List, int value)
+\begin{DoxyCompactList}\small\item\em Adds a node to the front of a linked list. \end{DoxyCompactList}\item 
+\hyperlink{struct_c_s170_1_1_list_lab_1_1_node}{Node} $\ast$ \hyperlink{namespace_c_s170_1_1_list_lab_a8f308bba80075164265470b8f103c6c2}{Find\-Item} (\hyperlink{struct_c_s170_1_1_list_lab_1_1_node}{Node} $\ast$list, int value)
+\begin{DoxyCompactList}\small\item\em Finds a node that contains a certain value in a linked list. \end{DoxyCompactList}\item 
+void \hyperlink{namespace_c_s170_1_1_list_lab_a3b7208271dd1d4671707dfe9ce6613a2}{Free\-List} (\hyperlink{struct_c_s170_1_1_list_lab_1_1_node}{Node} $\ast$p\-List)
+\begin{DoxyCompactList}\small\item\em Frees all nodes of a linked list. \end{DoxyCompactList}\item 
+void \hyperlink{namespace_c_s170_1_1_list_lab_a1fe547398adbb7a59b6d4638f92958c9}{Insert} (\hyperlink{struct_c_s170_1_1_list_lab_1_1_node}{Node} $\ast$$\ast$p\-List, int value, int position)
+\begin{DoxyCompactList}\small\item\em Insert a node to a certain position in the list. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{namespace_c_s170_1_1_list_lab_ae34c684fdc4cf1f78cc274648b722395}{\index{C\-S170\-::\-List\-Lab@{C\-S170\-::\-List\-Lab}!Add\-To\-End@{Add\-To\-End}}
+\index{Add\-To\-End@{Add\-To\-End}!CS170::ListLab@{C\-S170\-::\-List\-Lab}}
+\subsubsection[{Add\-To\-End}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf C\-S170\-::\-List\-Lab\-::\-Add\-To\-End} (
+\begin{DoxyParamCaption}
+\item[{Node $\ast$$\ast$}]{p\-List, }
+\item[{int}]{value}
+\end{DoxyParamCaption}
+)}}\label{namespace_c_s170_1_1_list_lab_ae34c684fdc4cf1f78cc274648b722395}
+
+
+Inserts a node to the end of a linked list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\-List} & Pointer to a pointer to the first \hyperlink{struct_c_s170_1_1_list_lab_1_1_node}{Node} in a linked list.\\
+\hline
+{\em value} & The value to place in new node.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+N/\-A 
+\end{DoxyReturn}
+\hypertarget{namespace_c_s170_1_1_list_lab_a2a5b40886095fac247a776f56b9accd1}{\index{C\-S170\-::\-List\-Lab@{C\-S170\-::\-List\-Lab}!Add\-To\-Front@{Add\-To\-Front}}
+\index{Add\-To\-Front@{Add\-To\-Front}!CS170::ListLab@{C\-S170\-::\-List\-Lab}}
+\subsubsection[{Add\-To\-Front}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf C\-S170\-::\-List\-Lab\-::\-Add\-To\-Front} (
+\begin{DoxyParamCaption}
+\item[{Node $\ast$$\ast$}]{p\-List, }
+\item[{int}]{value}
+\end{DoxyParamCaption}
+)}}\label{namespace_c_s170_1_1_list_lab_a2a5b40886095fac247a776f56b9accd1}
+
+
+Adds a node to the front of a linked list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\-List} & A pointer to a pointer to the first node in a linked list.\\
+\hline
+{\em value} & The value to place in the new node.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+N/\-A 
+\end{DoxyReturn}
+\hypertarget{namespace_c_s170_1_1_list_lab_af7f68722128ba05e357f4b7c4649e4ba}{\index{C\-S170\-::\-List\-Lab@{C\-S170\-::\-List\-Lab}!Count@{Count}}
+\index{Count@{Count}!CS170::ListLab@{C\-S170\-::\-List\-Lab}}
+\subsubsection[{Count}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf C\-S170\-::\-List\-Lab\-::\-Count} (
+\begin{DoxyParamCaption}
+\item[{struct Node $\ast$}]{list}
+\end{DoxyParamCaption}
+)}}\label{namespace_c_s170_1_1_list_lab_af7f68722128ba05e357f4b7c4649e4ba}
+
+
+Counts the number of nodes in a linked list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em list} & A pointer to the first node in the list.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Number of nodes in the list. 
+\end{DoxyReturn}
+\hypertarget{namespace_c_s170_1_1_list_lab_a8f308bba80075164265470b8f103c6c2}{\index{C\-S170\-::\-List\-Lab@{C\-S170\-::\-List\-Lab}!Find\-Item@{Find\-Item}}
+\index{Find\-Item@{Find\-Item}!CS170::ListLab@{C\-S170\-::\-List\-Lab}}
+\subsubsection[{Find\-Item}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Node} $\ast$ {\bf C\-S170\-::\-List\-Lab\-::\-Find\-Item} (
+\begin{DoxyParamCaption}
+\item[{Node $\ast$}]{list, }
+\item[{int}]{value}
+\end{DoxyParamCaption}
+)}}\label{namespace_c_s170_1_1_list_lab_a8f308bba80075164265470b8f103c6c2}
+
+
+Finds a node that contains a certain value in a linked list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em list} & A pointer to the first nide in a linked list.\\
+\hline
+{\em value} & The value to look for while lookin through the list.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A pointer to the node containing value. 
+\end{DoxyReturn}
+\hypertarget{namespace_c_s170_1_1_list_lab_a3b7208271dd1d4671707dfe9ce6613a2}{\index{C\-S170\-::\-List\-Lab@{C\-S170\-::\-List\-Lab}!Free\-List@{Free\-List}}
+\index{Free\-List@{Free\-List}!CS170::ListLab@{C\-S170\-::\-List\-Lab}}
+\subsubsection[{Free\-List}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf C\-S170\-::\-List\-Lab\-::\-Free\-List} (
+\begin{DoxyParamCaption}
+\item[{Node $\ast$}]{p\-List}
+\end{DoxyParamCaption}
+)}}\label{namespace_c_s170_1_1_list_lab_a3b7208271dd1d4671707dfe9ce6613a2}
+
+
+Frees all nodes of a linked list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\-List} & A pointer to the first node in the list.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+N/\-A 
+\end{DoxyReturn}
+\hypertarget{namespace_c_s170_1_1_list_lab_a1fe547398adbb7a59b6d4638f92958c9}{\index{C\-S170\-::\-List\-Lab@{C\-S170\-::\-List\-Lab}!Insert@{Insert}}
+\index{Insert@{Insert}!CS170::ListLab@{C\-S170\-::\-List\-Lab}}
+\subsubsection[{Insert}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf C\-S170\-::\-List\-Lab\-::\-Insert} (
+\begin{DoxyParamCaption}
+\item[{Node $\ast$$\ast$}]{p\-List, }
+\item[{int}]{value, }
+\item[{int}]{position}
+\end{DoxyParamCaption}
+)}}\label{namespace_c_s170_1_1_list_lab_a1fe547398adbb7a59b6d4638f92958c9}
+
+
+Insert a node to a certain position in the list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p\-List} & A pointer to a pointer to the first node in the list.\\
+\hline
+{\em value} & The value to place in allocated node.\\
+\hline
+{\em position} & The position in the list in which to place the new node.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+N/\-A 
+\end{DoxyReturn}
+\hypertarget{namespace_c_s170_1_1_list_lab_ad12bd3e2be905ca300fed8d86bbe451c}{\index{C\-S170\-::\-List\-Lab@{C\-S170\-::\-List\-Lab}!Print\-List@{Print\-List}}
+\index{Print\-List@{Print\-List}!CS170::ListLab@{C\-S170\-::\-List\-Lab}}
+\subsubsection[{Print\-List}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf C\-S170\-::\-List\-Lab\-::\-Print\-List} (
+\begin{DoxyParamCaption}
+\item[{struct Node $\ast$}]{list}
+\end{DoxyParamCaption}
+)}}\label{namespace_c_s170_1_1_list_lab_ad12bd3e2be905ca300fed8d86bbe451c}
+
+
+Takes a linked list and prints out the data of the list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em list} & A pointer to a \hyperlink{struct_c_s170_1_1_list_lab_1_1_node}{Node} struct in a linked list.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+N/\-A 
+\end{DoxyReturn}

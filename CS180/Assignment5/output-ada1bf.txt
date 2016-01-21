@@ -1,0 +1,101 @@
+
+<<<<<<<< test_ada1 >>>>>>>>
+=========================================
+    label: one
+  address: 0x000000
+     size: 100
+allocated: true
+--
+    label: two
+  address: 0x000000
+     size: 200
+allocated: false
+--
+    label: three
+  address: 0x000000
+     size: 50
+allocated: true
+--
+    label: four
+  address: 0x000000
+     size: 50
+allocated: false
+--
+    label: five
+  address: 0x000000
+     size: 100
+allocated: true
+--
+    label: six
+  address: 0x000000
+     size: 500
+allocated: true
+--
+Allocated bytes:      750 [blocks:     4]
+     Free bytes:      250 [blocks:     2]
+=========================================
+    label: one
+  address: 0x000000
+     size: 100
+allocated: true
+--
+    label: two
+  address: 0x000000
+     size: 200
+allocated: false
+--
+    label: three
+  address: 0x000000
+     size: 50
+allocated: true
+--
+    label: seven
+  address: 0x000000
+     size: 50
+allocated: true
+--
+    label: five
+  address: 0x000000
+     size: 100
+allocated: true
+--
+    label: six
+  address: 0x000000
+     size: 500
+allocated: true
+--
+Allocated bytes:      800 [blocks:     5]
+     Free bytes:      200 [blocks:     1]
+=========================================
+    label: one
+  address: 0x000000
+     size: 100
+allocated: true
+--
+    label: eight
+  address: 0x000000
+     size: 200
+allocated: true
+--
+    label: three
+  address: 0x000000
+     size: 50
+allocated: true
+--
+    label: seven
+  address: 0x000000
+     size: 50
+allocated: true
+--
+    label: five
+  address: 0x000000
+     size: 100
+allocated: true
+--
+    label: six
+  address: 0x000000
+     size: 500
+allocated: true
+--
+Allocated bytes:     1000 [blocks:     6]
+     Free bytes:        0 [blocks:     0]

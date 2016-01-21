@@ -1,0 +1,43 @@
+﻿Build started 2/6/2015 3:11:07 PM.
+     1>Project "\\vmware-host\Shared Folders\Desktop\DigiPenCode\CS230\Project2Part1\Project2_SmokeTest.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt CS230_Project2_SmokeTest.c Math2D.c Matrix2D.c Vector2D.c
+         Vector2D.c
+     1>\\vmware-host\shared folders\desktop\digipencode\cs230\project2part1\vector2d.c(65): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>\\vmware-host\shared folders\desktop\digipencode\cs230\project2part1\vector2d.c(105): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>\\vmware-host\shared folders\desktop\digipencode\cs230\project2part1\vector2d.c(118): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>\\vmware-host\shared folders\desktop\digipencode\cs230\project2part1\vector2d.c(136): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>\\vmware-host\shared folders\desktop\digipencode\cs230\project2part1\vector2d.c(155): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>\\vmware-host\shared folders\desktop\digipencode\cs230\project2part1\vector2d.c(171): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>\\vmware-host\shared folders\desktop\digipencode\cs230\project2part1\vector2d.c(178): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>\\vmware-host\shared folders\desktop\digipencode\cs230\project2part1\vector2d.c(179): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>\\vmware-host\shared folders\desktop\digipencode\cs230\project2part1\vector2d.c(186): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>\\vmware-host\shared folders\desktop\digipencode\cs230\project2part1\vector2d.c(187): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         Matrix2D.c
+     1>\\vmware-host\shared folders\desktop\digipencode\cs230\project2part1\matrix2d.c(125): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>\\vmware-host\shared folders\desktop\digipencode\cs230\project2part1\matrix2d.c(126): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>\\vmware-host\shared folders\desktop\digipencode\cs230\project2part1\matrix2d.c(127): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>\\vmware-host\shared folders\desktop\digipencode\cs230\project2part1\matrix2d.c(128): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>\\vmware-host\shared folders\desktop\digipencode\cs230\project2part1\matrix2d.c(144): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>\\vmware-host\shared folders\desktop\digipencode\cs230\project2part1\matrix2d.c(145): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         Math2D.c
+         CS230_Project2_SmokeTest.c
+     1>\\vmware-host\shared folders\desktop\digipencode\cs230\project2part1\cs230_project2_smoketest.c(31): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>\\vmware-host\shared folders\desktop\digipencode\cs230\project2part1\cs230_project2_smoketest.c(32): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>\\vmware-host\shared folders\desktop\digipencode\cs230\project2part1\cs230_project2_smoketest.c(44): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>\\vmware-host\shared folders\desktop\digipencode\cs230\project2part1\cs230_project2_smoketest.c(228): warning C4244: 'function' : conversion from 'double' to 'float', possible loss of data
+     1>\\vmware-host\shared folders\desktop\digipencode\cs230\project2part1\cs230_project2_smoketest.c(252): warning C4244: 'function' : conversion from 'double' to 'float', possible loss of data
+     1>\\vmware-host\shared folders\desktop\digipencode\cs230\project2part1\cs230_project2_smoketest.c(268): warning C4244: 'function' : conversion from 'double' to 'float', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\vmware-host\Shared Folders\Desktop\DigiPenCode\CS230\Project2Part1\Debug\Project2_SmokeTest.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"\\vmware-host\Shared Folders\Desktop\DigiPenCode\CS230\Project2Part1\Debug\Project2_SmokeTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\vmware-host\Shared Folders\Desktop\DigiPenCode\CS230\Project2Part1\Debug\Project2_SmokeTest.lib" /MACHINE:X86 /SAFESEH Debug\CS230_Project2_SmokeTest.obj
+         Debug\Math2D.obj
+         Debug\Matrix2D.obj
+         Debug\Vector2D.obj
+     1>CS230_Project2_SmokeTest.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         Project2_SmokeTest.vcxproj -> \\vmware-host\Shared Folders\Desktop\DigiPenCode\CS230\Project2Part1\Debug\Project2_SmokeTest.exe
+     1>Done Building Project "\\vmware-host\Shared Folders\Desktop\DigiPenCode\CS230\Project2Part1\Project2_SmokeTest.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.33

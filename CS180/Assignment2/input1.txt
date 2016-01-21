@@ -1,0 +1,31 @@
+# Macros =======================================================
+
+CC=g++
+CFLAGS=-Wall -Wextra -ansi -pedantic -Werror
+EXE=program.exe
+OUTDIR=gnu/
+OBJS=$(OUTDIR)driver.o $(OUTDIR)scantext.o $(OUTDIR)jumble.o
+ERASE=rm
+
+# TARGETS ======================================================
+
+$(OUTDIR)$(EXE) : $(OBJS)
+	$(CC) $(OBJS) -o $(OUTDIR)$(EXE)
+
+$(OUTDIR)driver.o : driver.cpp scantext.h jumble.h
+	$(CC) $(CFLAGS) -c driver.cpp -o driver.o
+
+$(OUTDIR)jumble.o : jumble.cpp jumble.h
+	$(CC) $(CFLAGS) -c jumble.cpp -o jumble.o
+
+$(OUTDIR)scantext.o : scantext.cpp
+	$(CC) $(CFLAGS) -c scantext.cpp -o scantext.o
+
+clean : 
+	$(ERASE) $(OBJS) $(OUTDIR)$(EXE)
+
+rebuild :
+	$(MAKE) clean
+	$(MAKE)
+
+

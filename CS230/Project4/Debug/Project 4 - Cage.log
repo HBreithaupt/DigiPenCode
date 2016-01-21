@@ -1,0 +1,21 @@
+﻿Build started 3/25/2015 5:12:42 PM.
+     1>Project "\\vmware-host\Shared Folders\Desktop\DigiPenCode\CS230\Project4\Project 4 - Cage.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt Math2D.c
+         Math2D.c
+     1>\\vmware-host\shared folders\desktop\digipencode\cs230\project4\math2d.c(146): warning C4047: 'function' : 'Vector2D *' differs in levels of indirection from 'Vector2D **'
+     1>\\vmware-host\shared folders\desktop\digipencode\cs230\project4\math2d.c(146): warning C4024: 'Vector2DDotProduct' : different types for formal and actual parameter 1
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"\\vmware-host\Shared Folders\Desktop\DigiPenCode\CS230\Project4\Debug\Project 4 - Cage.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"\\vmware-host\Shared Folders\Desktop\DigiPenCode\CS230\Project4\Debug\Project 4 - Cage.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"\\vmware-host\Shared Folders\Desktop\DigiPenCode\CS230\Project4\Debug\Project 4 - Cage.lib" /MACHINE:X86 /SAFESEH Debug\GameStateMgr.obj
+         Debug\GameState_Play.obj
+         Debug\LineSegment2D.obj
+         Debug\main.obj
+         Debug\Math2D.obj
+         Debug\Matrix2D.obj
+         Debug\Vector2D.obj
+         Project 4 - Cage.vcxproj -> \\vmware-host\Shared Folders\Desktop\DigiPenCode\CS230\Project4\Debug\Project 4 - Cage.exe
+     1>Done Building Project "\\vmware-host\Shared Folders\Desktop\DigiPenCode\CS230\Project4\Project 4 - Cage.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.71

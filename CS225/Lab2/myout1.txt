@@ -1,0 +1,2 @@
+Intersect bounding circle center (3,2), radius 1.41421 and ray  origin(0,0), direction ( 1,0) - false
+Intersect bounding circle center (6,0), radius 1.41421 and ray  origin(0,0), direction ( 1,0) - true

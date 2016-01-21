@@ -1,0 +1,64 @@
+
+====== INSERT ELEMENTS IN ROW LIST (WITH ZEROES) ===
+010101010101010101010101010101
+101010101010101010101010101010
+010101010101010101010101010101
+101010101010101010101010101010
+010101010101010101010101010101
+101010101010101010101010101010
+010101010101010101010101010101
+101010101010101010101010101010
+010101010101010101010101010101
+101010101010101010101010101010
+010101010101010101010101010101
+101010101010101010101010101010
+010101010101010101010101010101
+101010101010101010101010101010
+010101010101010101010101010101
+101010101010101010101010101010
+010101010101010101010101010101
+101010101010101010101010101010
+010101010101010101010101010101
+101010101010101010101010101010
+010101010101010101010101010101
+101010101010101010101010101010
+010101010101010101010101010101
+101010101010101010101010101010
+010101010101010101010101010101
+101010101010101010101010101010
+010101010101010101010101010101
+101010101010101010101010101010
+010101010101010101010101010101
+101010101010101010101010101010
+
+row 0: 1 at pos 1, 1 at pos 3, 1 at pos 5, 1 at pos 7, 1 at pos 9, 1 at pos 11, 1 at pos 13, 1 at pos 15, 1 at pos 17, 1 at pos 19, 1 at pos 21, 1 at pos 23, 1 at pos 25, 1 at pos 27, 1 at pos 29, 
+row 1: 1 at pos 0, 1 at pos 2, 1 at pos 4, 1 at pos 6, 1 at pos 8, 1 at pos 10, 1 at pos 12, 1 at pos 14, 1 at pos 16, 1 at pos 18, 1 at pos 20, 1 at pos 22, 1 at pos 24, 1 at pos 26, 1 at pos 28, 
+row 2: 1 at pos 1, 1 at pos 3, 1 at pos 5, 1 at pos 7, 1 at pos 9, 1 at pos 11, 1 at pos 13, 1 at pos 15, 1 at pos 17, 1 at pos 19, 1 at pos 21, 1 at pos 23, 1 at pos 25, 1 at pos 27, 1 at pos 29, 
+row 3: 1 at pos 0, 1 at pos 2, 1 at pos 4, 1 at pos 6, 1 at pos 8, 1 at pos 10, 1 at pos 12, 1 at pos 14, 1 at pos 16, 1 at pos 18, 1 at pos 20, 1 at pos 22, 1 at pos 24, 1 at pos 26, 1 at pos 28, 
+row 4: 1 at pos 1, 1 at pos 3, 1 at pos 5, 1 at pos 7, 1 at pos 9, 1 at pos 11, 1 at pos 13, 1 at pos 15, 1 at pos 17, 1 at pos 19, 1 at pos 21, 1 at pos 23, 1 at pos 25, 1 at pos 27, 1 at pos 29, 
+row 5: 1 at pos 0, 1 at pos 2, 1 at pos 4, 1 at pos 6, 1 at pos 8, 1 at pos 10, 1 at pos 12, 1 at pos 14, 1 at pos 16, 1 at pos 18, 1 at pos 20, 1 at pos 22, 1 at pos 24, 1 at pos 26, 1 at pos 28, 
+row 6: 1 at pos 1, 1 at pos 3, 1 at pos 5, 1 at pos 7, 1 at pos 9, 1 at pos 11, 1 at pos 13, 1 at pos 15, 1 at pos 17, 1 at pos 19, 1 at pos 21, 1 at pos 23, 1 at pos 25, 1 at pos 27, 1 at pos 29, 
+row 7: 1 at pos 0, 1 at pos 2, 1 at pos 4, 1 at pos 6, 1 at pos 8, 1 at pos 10, 1 at pos 12, 1 at pos 14, 1 at pos 16, 1 at pos 18, 1 at pos 20, 1 at pos 22, 1 at pos 24, 1 at pos 26, 1 at pos 28, 
+row 8: 1 at pos 1, 1 at pos 3, 1 at pos 5, 1 at pos 7, 1 at pos 9, 1 at pos 11, 1 at pos 13, 1 at pos 15, 1 at pos 17, 1 at pos 19, 1 at pos 21, 1 at pos 23, 1 at pos 25, 1 at pos 27, 1 at pos 29, 
+row 9: 1 at pos 0, 1 at pos 2, 1 at pos 4, 1 at pos 6, 1 at pos 8, 1 at pos 10, 1 at pos 12, 1 at pos 14, 1 at pos 16, 1 at pos 18, 1 at pos 20, 1 at pos 22, 1 at pos 24, 1 at pos 26, 1 at pos 28, 
+row 10: 1 at pos 1, 1 at pos 3, 1 at pos 5, 1 at pos 7, 1 at pos 9, 1 at pos 11, 1 at pos 13, 1 at pos 15, 1 at pos 17, 1 at pos 19, 1 at pos 21, 1 at pos 23, 1 at pos 25, 1 at pos 27, 1 at pos 29, 
+row 11: 1 at pos 0, 1 at pos 2, 1 at pos 4, 1 at pos 6, 1 at pos 8, 1 at pos 10, 1 at pos 12, 1 at pos 14, 1 at pos 16, 1 at pos 18, 1 at pos 20, 1 at pos 22, 1 at pos 24, 1 at pos 26, 1 at pos 28, 
+row 12: 1 at pos 1, 1 at pos 3, 1 at pos 5, 1 at pos 7, 1 at pos 9, 1 at pos 11, 1 at pos 13, 1 at pos 15, 1 at pos 17, 1 at pos 19, 1 at pos 21, 1 at pos 23, 1 at pos 25, 1 at pos 27, 1 at pos 29, 
+row 13: 1 at pos 0, 1 at pos 2, 1 at pos 4, 1 at pos 6, 1 at pos 8, 1 at pos 10, 1 at pos 12, 1 at pos 14, 1 at pos 16, 1 at pos 18, 1 at pos 20, 1 at pos 22, 1 at pos 24, 1 at pos 26, 1 at pos 28, 
+row 14: 1 at pos 1, 1 at pos 3, 1 at pos 5, 1 at pos 7, 1 at pos 9, 1 at pos 11, 1 at pos 13, 1 at pos 15, 1 at pos 17, 1 at pos 19, 1 at pos 21, 1 at pos 23, 1 at pos 25, 1 at pos 27, 1 at pos 29, 
+row 15: 1 at pos 0, 1 at pos 2, 1 at pos 4, 1 at pos 6, 1 at pos 8, 1 at pos 10, 1 at pos 12, 1 at pos 14, 1 at pos 16, 1 at pos 18, 1 at pos 20, 1 at pos 22, 1 at pos 24, 1 at pos 26, 1 at pos 28, 
+row 16: 1 at pos 1, 1 at pos 3, 1 at pos 5, 1 at pos 7, 1 at pos 9, 1 at pos 11, 1 at pos 13, 1 at pos 15, 1 at pos 17, 1 at pos 19, 1 at pos 21, 1 at pos 23, 1 at pos 25, 1 at pos 27, 1 at pos 29, 
+row 17: 1 at pos 0, 1 at pos 2, 1 at pos 4, 1 at pos 6, 1 at pos 8, 1 at pos 10, 1 at pos 12, 1 at pos 14, 1 at pos 16, 1 at pos 18, 1 at pos 20, 1 at pos 22, 1 at pos 24, 1 at pos 26, 1 at pos 28, 
+row 18: 1 at pos 1, 1 at pos 3, 1 at pos 5, 1 at pos 7, 1 at pos 9, 1 at pos 11, 1 at pos 13, 1 at pos 15, 1 at pos 17, 1 at pos 19, 1 at pos 21, 1 at pos 23, 1 at pos 25, 1 at pos 27, 1 at pos 29, 
+row 19: 1 at pos 0, 1 at pos 2, 1 at pos 4, 1 at pos 6, 1 at pos 8, 1 at pos 10, 1 at pos 12, 1 at pos 14, 1 at pos 16, 1 at pos 18, 1 at pos 20, 1 at pos 22, 1 at pos 24, 1 at pos 26, 1 at pos 28, 
+row 20: 1 at pos 1, 1 at pos 3, 1 at pos 5, 1 at pos 7, 1 at pos 9, 1 at pos 11, 1 at pos 13, 1 at pos 15, 1 at pos 17, 1 at pos 19, 1 at pos 21, 1 at pos 23, 1 at pos 25, 1 at pos 27, 1 at pos 29, 
+row 21: 1 at pos 0, 1 at pos 2, 1 at pos 4, 1 at pos 6, 1 at pos 8, 1 at pos 10, 1 at pos 12, 1 at pos 14, 1 at pos 16, 1 at pos 18, 1 at pos 20, 1 at pos 22, 1 at pos 24, 1 at pos 26, 1 at pos 28, 
+row 22: 1 at pos 1, 1 at pos 3, 1 at pos 5, 1 at pos 7, 1 at pos 9, 1 at pos 11, 1 at pos 13, 1 at pos 15, 1 at pos 17, 1 at pos 19, 1 at pos 21, 1 at pos 23, 1 at pos 25, 1 at pos 27, 1 at pos 29, 
+row 23: 1 at pos 0, 1 at pos 2, 1 at pos 4, 1 at pos 6, 1 at pos 8, 1 at pos 10, 1 at pos 12, 1 at pos 14, 1 at pos 16, 1 at pos 18, 1 at pos 20, 1 at pos 22, 1 at pos 24, 1 at pos 26, 1 at pos 28, 
+row 24: 1 at pos 1, 1 at pos 3, 1 at pos 5, 1 at pos 7, 1 at pos 9, 1 at pos 11, 1 at pos 13, 1 at pos 15, 1 at pos 17, 1 at pos 19, 1 at pos 21, 1 at pos 23, 1 at pos 25, 1 at pos 27, 1 at pos 29, 
+row 25: 1 at pos 0, 1 at pos 2, 1 at pos 4, 1 at pos 6, 1 at pos 8, 1 at pos 10, 1 at pos 12, 1 at pos 14, 1 at pos 16, 1 at pos 18, 1 at pos 20, 1 at pos 22, 1 at pos 24, 1 at pos 26, 1 at pos 28, 
+row 26: 1 at pos 1, 1 at pos 3, 1 at pos 5, 1 at pos 7, 1 at pos 9, 1 at pos 11, 1 at pos 13, 1 at pos 15, 1 at pos 17, 1 at pos 19, 1 at pos 21, 1 at pos 23, 1 at pos 25, 1 at pos 27, 1 at pos 29, 
+row 27: 1 at pos 0, 1 at pos 2, 1 at pos 4, 1 at pos 6, 1 at pos 8, 1 at pos 10, 1 at pos 12, 1 at pos 14, 1 at pos 16, 1 at pos 18, 1 at pos 20, 1 at pos 22, 1 at pos 24, 1 at pos 26, 1 at pos 28, 
+row 28: 1 at pos 1, 1 at pos 3, 1 at pos 5, 1 at pos 7, 1 at pos 9, 1 at pos 11, 1 at pos 13, 1 at pos 15, 1 at pos 17, 1 at pos 19, 1 at pos 21, 1 at pos 23, 1 at pos 25, 1 at pos 27, 1 at pos 29, 
+row 29: 1 at pos 0, 1 at pos 2, 1 at pos 4, 1 at pos 6, 1 at pos 8, 1 at pos 10, 1 at pos 12, 1 at pos 14, 1 at pos 16, 1 at pos 18, 1 at pos 20, 1 at pos 22, 1 at pos 24, 1 at pos 26, 1 at pos 28, 
+

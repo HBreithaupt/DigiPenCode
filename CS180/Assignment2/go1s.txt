@@ -1,0 +1,11 @@
+#!/bin/bash
+
+./filter input1.txt -h
+./filter input1.txt -l
+./filter input1.txt -u
+./filter input1.txt -r Cx
+./filter input1.txt -d $
+./filter input1.txt -b
+./filter input1.txt -n
+./filter input1.txt -x2
+./filter input1.txt -x2 -b -d C -r $%

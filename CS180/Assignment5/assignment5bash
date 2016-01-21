@@ -1,0 +1,16 @@
+#!/bin/bash
+date;
+uptime;
+echo Haven Breithaupt;
+pwd;
+whoami;
+uname -a;
+cat /proc/cpuinfo;
+cat /proc/meminfo;
+gcc -O -g -Wall -Wextra -ansi -pedantic driver-sample-s.c memmgr.c -o memmgr;
+./memmgr 2 0 | tee output.txt;
+diff --strip-trailing-cr output.txt output-alloc2.txt;
+valgrind -q --leak-check=full --show-reachable=yes --tool=memcheck ./memmgr > /dev/null;
+doxygen;
+ls -al html/;
+exec bash

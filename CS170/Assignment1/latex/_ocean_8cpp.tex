@@ -1,0 +1,64 @@
+\hypertarget{_ocean_8cpp}{\section{Ocean.\-cpp File Reference}
+\label{_ocean_8cpp}\index{Ocean.\-cpp@{Ocean.\-cpp}}
+}
+
+
+This file ontains the functions to create a battleship like emulator.  
+
+
+{\ttfamily \#include \char`\"{}War\-Boats.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Ocean.\-h\char`\"{}}\\*
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$iomanip$>$}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+Ocean $\ast$ {\bfseries C\-S170\-::\-War\-Boats\-::\-Create\-Ocean} (int num\-\_\-boats, int x\-\_\-quadrants, int y\-\_\-quadrants)
+\begin{DoxyCompactList}\small\item\em Creates a new \hyperlink{struct_c_s170_1_1_war_boats_1_1_ocean}{Ocean} to use for the game. \end{DoxyCompactList}\item 
+void {\bfseries C\-S170\-::\-War\-Boats\-::\-Destroy\-Ocean} (Ocean $\ast$the\-Ocean)
+\begin{DoxyCompactList}\small\item\em deletes the components of the game \end{DoxyCompactList}\item 
+Shot\-Result {\bfseries C\-S170\-::\-War\-Boats\-::\-Take\-Shot} (Ocean \&ocean, const Point \&coordinate)
+\begin{DoxyCompactList}\small\item\em Computes result of shot information given. \end{DoxyCompactList}\item 
+Boat\-Placement {\bfseries C\-S170\-::\-War\-Boats\-::\-Place\-Boat} (Ocean \&ocean, const Boat \&boat)
+\begin{DoxyCompactList}\small\item\em Validates if the boat placement requested is valid or invalid. \end{DoxyCompactList}\item 
+Shot\-Stats {\bfseries C\-S170\-::\-War\-Boats\-::\-Get\-Shot\-Stats} (const Ocean \&ocean)
+\begin{DoxyCompactList}\small\item\em returns the shot information from the current game \end{DoxyCompactList}\item 
+void {\bfseries C\-S170\-::\-War\-Boats\-::\-Dump\-Ocean} (const \hyperlink{struct_c_s170_1_1_war_boats_1_1_ocean}{C\-S170\-::\-War\-Boats\-::\-Ocean} \&ocean, int field\-\_\-width, bool extraline, bool showboats)
+\begin{DoxyCompactList}\small\item\em Prints the grid (ocean) to the screen. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{namespace_c_s170_1_1_war_boats_a8aade0a079a1fc9975635d664a855a68}{const int {\bfseries C\-S170\-::\-War\-Boats\-::\-B\-O\-A\-T\-\_\-\-L\-E\-N\-G\-T\-H} = 4}\label{namespace_c_s170_1_1_war_boats_a8aade0a079a1fc9975635d664a855a68}
+
+\item 
+\hypertarget{namespace_c_s170_1_1_war_boats_a5ce7be8cb4fb3b8ee84864b683f24465}{const int {\bfseries C\-S170\-::\-War\-Boats\-::\-H\-I\-T\-\_\-\-O\-F\-F\-S\-E\-T} = 100}\label{namespace_c_s170_1_1_war_boats_a5ce7be8cb4fb3b8ee84864b683f24465}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This file ontains the functions to create a battleship like emulator. \begin{DoxyAuthor}{Author}
+Haven Breithaupt 
+\end{DoxyAuthor}
+\begin{DoxyParagraph}{email\-: h.breithaupt@digipen.edu}
+
+\end{DoxyParagraph}
+\begin{DoxyParagraph}{Digi\-Pen login\-: h.breithaupt}
+
+\end{DoxyParagraph}
+\begin{DoxyParagraph}{Course\-: C\-S170}
+
+\end{DoxyParagraph}
+\begin{DoxyParagraph}{Assignment \#1}
+
+\end{DoxyParagraph}
+\begin{DoxyDate}{Date}
+2/2/2015 Functions include\-: Create\-Ocean -\/ create the board Destroy\-Ocean -\/ delete all components of the game Take\-A\-Shot -\/ takes a shot and computes result Place\-Boat -\/ places boats on the board Get\-Shot\-Stats -\/ inform the player of their statisitics from the game
+\end{DoxyDate}
+Hours spent on this assignment\-: $\sim$12
+
+Specific portions that gave you the most trouble\-:
+\begin{DoxyItemize}
+\item place boat had some interesting logic implementation
+\item having to go back and initialize all components from Create Ocean to get rid of memory leaks 
+\end{DoxyItemize}

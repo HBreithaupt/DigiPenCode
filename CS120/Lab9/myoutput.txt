@@ -1,0 +1,201 @@
+1700 is not a leap year
+1900 is not a leap year
+1901 is not a leap year
+1904 is a leap year
+1999 is not a leap year
+2000 is a leap year
+2300 is not a leap year
+2400 is a leap year
+2001 is not a leap year
+2002 is not a leap year
+2003 is not a leap year
+2004 is a leap year
+2005 is not a leap year
+2006 is not a leap year
+2007 is not a leap year
+2008 is a leap year
+2009 is not a leap year
+2010 is not a leap year
+2011 is not a leap year
+2012 is a leap year
+2013 is not a leap year
+2014 is not a leap year
+2015 is not a leap year
+2016 is a leap year
+2017 is not a leap year
+2018 is not a leap year
+2019 is not a leap year
+day: 1, month: 1, year: 2014 is on day 4
+day: 1, month: 2, year: 2014 is on day 7
+day: 1, month: 3, year: 2014 is on day 7
+day: 1, month: 4, year: 2014 is on day 3
+day: 1, month: 5, year: 2014 is on day 5
+day: 1, month: 10, year: 2014 is on day 4 (Wednesday)
+day: 2, month: 10, year: 2014 is on day 5 (Thursday)
+day: 3, month: 10, year: 2014 is on day 6 (Friday)
+day: 4, month: 10, year: 2014 is on day 7 (Saturday)
+day: 5, month: 10, year: 2014 is on day 1 (Sunday)
+day: 6, month: 10, year: 2014 is on day 2 (Monday)
+day: 7, month: 10, year: 2014 is on day 3 (Tuesday)
+day: 8, month: 10, year: 2014 is on day 4 (Wednesday)
+day: 9, month: 10, year: 2014 is on day 5 (Thursday)
+day: 10, month: 10, year: 2014 is on day 6 (Friday)
+day: 11, month: 10, year: 2014 is on day 7 (Saturday)
+day: 12, month: 10, year: 2014 is on day 1 (Sunday)
+day: 13, month: 10, year: 2014 is on day 2 (Monday)
+day: 14, month: 10, year: 2014 is on day 3 (Tuesday)
+day: 15, month: 10, year: 2014 is on day 4 (Wednesday)
+day: 16, month: 10, year: 2014 is on day 5 (Thursday)
+day: 17, month: 10, year: 2014 is on day 6 (Friday)
+day: 18, month: 10, year: 2014 is on day 7 (Saturday)
+day: 19, month: 10, year: 2014 is on day 1 (Sunday)
+day: 20, month: 10, year: 2014 is on day 2 (Monday)
+day: 21, month: 10, year: 2014 is on day 3 (Tuesday)
+day: 22, month: 10, year: 2014 is on day 4 (Wednesday)
+day: 23, month: 10, year: 2014 is on day 5 (Thursday)
+day: 24, month: 10, year: 2014 is on day 6 (Friday)
+day: 25, month: 10, year: 2014 is on day 7 (Saturday)
+day: 26, month: 10, year: 2014 is on day 1 (Sunday)
+day: 27, month: 10, year: 2014 is on day 2 (Monday)
+day: 28, month: 10, year: 2014 is on day 3 (Tuesday)
+day: 29, month: 10, year: 2014 is on day 4 (Wednesday)
+day: 30, month: 10, year: 2014 is on day 5 (Thursday)
+day: 31, month: 10, year: 2014 is on day 6 (Friday)
+October, 2014
+Su Mo Tu We Th Fr Sa
+---------------------
+          1  2  3  4 
+ 5  6  7  8  9 10 11 
+12 13 14 15 16 17 18 
+19 20 21 22 23 24 25 
+26 27 28 29 30 31 
+
+July, 1776
+Su Mo Tu We Th Fr Sa
+---------------------
+    1  2  3  4  5  6 
+ 7  8  9 10 11 12 13 
+14 15 16 17 18 19 20 
+21 22 23 24 25 26 27 
+28 29 30 31 
+
+July, 2776
+Su Mo Tu We Th Fr Sa
+---------------------
+             1  2  3 
+ 4  5  6  7  8  9 10 
+11 12 13 14 15 16 17 
+18 19 20 21 22 23 24 
+25 26 27 28 29 30 31 
+
+January, 2014
+Su Mo Tu We Th Fr Sa
+---------------------
+          1  2  3  4 
+ 5  6  7  8  9 10 11 
+12 13 14 15 16 17 18 
+19 20 21 22 23 24 25 
+26 27 28 29 30 31 
+
+February, 2014
+Su Mo Tu We Th Fr Sa
+---------------------
+                   1 
+ 2  3  4  5  6  7  8 
+ 9 10 11 12 13 14 15 
+16 17 18 19 20 21 22 
+23 24 25 26 27 28 
+
+March, 2014
+Su Mo Tu We Th Fr Sa
+---------------------
+                   1 
+ 2  3  4  5  6  7  8 
+ 9 10 11 12 13 14 15 
+16 17 18 19 20 21 22 
+23 24 25 26 27 28 29 
+30 31 
+
+April, 2014
+Su Mo Tu We Th Fr Sa
+---------------------
+       1  2  3  4  5 
+ 6  7  8  9 10 11 12 
+13 14 15 16 17 18 19 
+20 21 22 23 24 25 26 
+27 28 29 30 
+
+May, 2014
+Su Mo Tu We Th Fr Sa
+---------------------
+             1  2  3 
+ 4  5  6  7  8  9 10 
+11 12 13 14 15 16 17 
+18 19 20 21 22 23 24 
+25 26 27 28 29 30 31 
+
+June, 2014
+Su Mo Tu We Th Fr Sa
+---------------------
+ 1  2  3  4  5  6  7 
+ 8  9 10 11 12 13 14 
+15 16 17 18 19 20 21 
+22 23 24 25 26 27 28 
+29 30 
+
+July, 2014
+Su Mo Tu We Th Fr Sa
+---------------------
+       1  2  3  4  5 
+ 6  7  8  9 10 11 12 
+13 14 15 16 17 18 19 
+20 21 22 23 24 25 26 
+27 28 29 30 31 
+
+August, 2014
+Su Mo Tu We Th Fr Sa
+---------------------
+                1  2 
+ 3  4  5  6  7  8  9 
+10 11 12 13 14 15 16 
+17 18 19 20 21 22 23 
+24 25 26 27 28 29 30 
+31 
+
+September, 2014
+Su Mo Tu We Th Fr Sa
+---------------------
+    1  2  3  4  5  6 
+ 7  8  9 10 11 12 13 
+14 15 16 17 18 19 20 
+21 22 23 24 25 26 27 
+28 29 30 
+
+October, 2014
+Su Mo Tu We Th Fr Sa
+---------------------
+          1  2  3  4 
+ 5  6  7  8  9 10 11 
+12 13 14 15 16 17 18 
+19 20 21 22 23 24 25 
+26 27 28 29 30 31 
+
+November, 2014
+Su Mo Tu We Th Fr Sa
+---------------------
+                   1 
+ 2  3  4  5  6  7  8 
+ 9 10 11 12 13 14 15 
+16 17 18 19 20 21 22 
+23 24 25 26 27 28 29 
+30 
+
+December, 2014
+Su Mo Tu We Th Fr Sa
+---------------------
+    1  2  3  4  5  6 
+ 7  8  9 10 11 12 13 
+14 15 16 17 18 19 20 
+21 22 23 24 25 26 27 
+28 29 30 31 
+

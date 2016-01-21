@@ -1,0 +1,89 @@
+
+== test1 ==========================================================
+|This	string	has	five	words.|
+Number of tabs is 4.
+
+== test2 ==========================================================
+|This	string	has	five	words.|
+Number of characters in the string is 27.
+With tab size of 2, the print length is 31.
+With tab size of 3, the print length is 35.
+With tab size of 6, the print length is 47.
+With tab size of 8, the print length is 55.
+
+== test3 ==========================================================
+|This	string	has	five	words.|
+Number of tabs is 4.
+Number of characters in the string is 27.
+With tab size of 4, the print length is 39.
+Replacements made: 4. After replacing tabs with spaces:
+|This string has five words.|
+Number of characters in the string is 27.
+Number of tabs is 0
+Number of characters in the string is 27.
+With tab size of 4, the print length is 27.
+
+== test4 ==========================================================
+|						|
+Number of tabs is 6.
+Number of characters in the string is 6.
+With tab size of 4, the print length is 24.
+Replacements made: 6. After replacing tabs with spaces:
+|      |
+Number of characters in the string is 6.
+Number of tabs is 0
+Number of characters in the string is 6.
+With tab size of 4, the print length is 6.
+
+== test5 ==========================================================
+|This is a simple string.|
+Word count is  5
+
+== test6 ==========================================================
+|These	words	are	separated	by	tabs.|
+Word count is  6
+
+== test7 ==========================================================
+|  This string has leading and trailing spaces.  |
+Word count is  7
+
+== test8 ==========================================================
+|  	 This	  string  	 		  has 	  	five	
+  words.
+|
+Word count is  5
+Number of tabs is 8
+
+== test9 ==========================================================
+|  	 This	  string
+  	 		  has
+ 	
+  	"more" than five 
+	
+  words.
+
+|
+Word count is  7
+Number of tabs is 8
+
+== test10 ==========================================================
+|Four
+score	and
+seven	years
+ago
+our fathers	brought
+forth	on
+this
+continent a
+new	nation.|
+Number of tabs is 5.
+Number of characters in the string is 88.
+With tab size of 4, the print length is 103.
+Replacements made: 8. After replacing newlines with spaces:
+|Four score	and seven	years ago our fathers	brought forth	on this continent a new	nation.|
+Number of characters in the string is 88.
+Number of tabs is 5
+Replacements made: 5. After replacing tabs with spaces:
+|Four score and seven years ago our fathers brought forth on this continent a new nation.|
+Number of characters in the string is 88.
+Number of tabs is 0

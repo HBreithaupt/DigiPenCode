@@ -1,0 +1,198 @@
+
+<<<<<<<< test_alloc6 >>>>>>>>
+=========================================
+    label: START
+  address: 0x000000
+     size: 150
+allocated: false
+--
+Allocated bytes:        0 [blocks:     0]
+     Free bytes:      150 [blocks:     1]
+AAAAAAAAAAAAAAAAAAA
+=========================================
+    label: one
+  address: 0x000000
+     size: 20
+allocated: true
+--
+    label: FREE
+  address: 0x000000
+     size: 130
+allocated: false
+--
+Allocated bytes:       20 [blocks:     1]
+     Free bytes:      130 [blocks:     1]
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+=========================================
+    label: one
+  address: 0x000000
+     size: 20
+allocated: true
+--
+    label: two
+  address: 0x000000
+     size: 30
+allocated: true
+--
+    label: FREE
+  address: 0x000000
+     size: 100
+allocated: false
+--
+Allocated bytes:       50 [blocks:     2]
+     Free bytes:      100 [blocks:     1]
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+=========================================
+    label: one
+  address: 0x000000
+     size: 20
+allocated: true
+--
+    label: two
+  address: 0x000000
+     size: 30
+allocated: true
+--
+    label: three
+  address: 0x000000
+     size: 40
+allocated: true
+--
+    label: FREE
+  address: 0x000000
+     size: 60
+allocated: false
+--
+Allocated bytes:       90 [blocks:     3]
+     Free bytes:       60 [blocks:     1]
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+=========================================
+    label: one
+  address: 0x000000
+     size: 20
+allocated: true
+--
+    label: two
+  address: 0x000000
+     size: 30
+allocated: true
+--
+    label: three
+  address: 0x000000
+     size: 40
+allocated: true
+--
+    label: four
+  address: 0x000000
+     size: 30
+allocated: true
+--
+    label: FREE
+  address: 0x000000
+     size: 30
+allocated: false
+--
+Allocated bytes:      120 [blocks:     4]
+     Free bytes:       30 [blocks:     1]
+AAAAAAAAAAAAAAAAAAA
+=========================================
+    label: one
+  address: 0x000000
+     size: 20
+allocated: true
+--
+    label: two
+  address: 0x000000
+     size: 30
+allocated: true
+--
+    label: three
+  address: 0x000000
+     size: 40
+allocated: true
+--
+    label: four
+  address: 0x000000
+     size: 30
+allocated: true
+--
+    label: five
+  address: 0x000000
+     size: 20
+allocated: true
+--
+    label: FREE
+  address: 0x000000
+     size: 10
+allocated: false
+--
+Allocated bytes:      140 [blocks:     5]
+     Free bytes:       10 [blocks:     1]
+********** Allocation failed. **********
+=========================================
+    label: one
+  address: 0x000000
+     size: 20
+allocated: true
+--
+    label: two
+  address: 0x000000
+     size: 30
+allocated: true
+--
+    label: three
+  address: 0x000000
+     size: 40
+allocated: true
+--
+    label: four
+  address: 0x000000
+     size: 30
+allocated: true
+--
+    label: five
+  address: 0x000000
+     size: 20
+allocated: true
+--
+    label: FREE
+  address: 0x000000
+     size: 10
+allocated: false
+--
+Allocated bytes:      140 [blocks:     5]
+     Free bytes:       10 [blocks:     1]
+********** Allocation failed. **********
+=========================================
+    label: one
+  address: 0x000000
+     size: 20
+allocated: true
+--
+    label: two
+  address: 0x000000
+     size: 30
+allocated: true
+--
+    label: three
+  address: 0x000000
+     size: 40
+allocated: true
+--
+    label: four
+  address: 0x000000
+     size: 30
+allocated: true
+--
+    label: five
+  address: 0x000000
+     size: 20
+allocated: true
+--
+    label: FREE
+  address: 0x000000
+     size: 10
+allocated: false
+--
+Allocated bytes:      140 [blocks:     5]
+     Free bytes:       10 [blocks:     1]

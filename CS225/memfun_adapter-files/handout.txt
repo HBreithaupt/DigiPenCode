@@ -1,0 +1,8 @@
+In this question you will implement a member function adapter for a member
+function that takes a single argument (STL allows only void member functions.)
+Refer to the example implementation of member function adapter with no
+arguments, see class web-site.
+
+You'll have to implement 1 class. 
+
+Your code should be in a single file memfun.adapter.h, 

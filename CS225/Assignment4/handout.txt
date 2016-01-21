@@ -1,0 +1,77 @@
+This assignment will help you become more familiar with using the STL
+containers and especially the algorithms. You will also get some practice
+implementing function objects. You are given an interface to a class called
+Statistics, which is simply an object that represents a set of integers 
+(samples from a random distribution). Here is the list of the public methods to 
+implement:
+
+2 constructors - implemented
+
+stream insertion and extraction operators - implemented. Make sure you
+    understand how ostream_iterator and back_inserter are used
+
+basic statistics functionality:
+   Average()   - sum of all values divided by the size of data
+   Size()      - size of the data
+   Minimum()   - obvious
+   Maximum()   - obvious
+   Deviation() - standard deviation is a measure of how much the data is 
+                 dispersed from the average. 
+                 formula Deviation( x_1, ... , x_n ) = sqrt ( 1/n * sum ( x_i -a )^2 )
+                 Where 'a' is the Average.
+                 Basically deviation is an average of the squares of the distances to the average.
+
+More interesting stuff:
+    OccuresMoreThan - returns values than occur more then the given multiplicity.
+                      Make sure your implementation is O( N logN ) run-time complexity.
+                      Function returns std::map<int,int>, where first int is the value 
+                      from the data and second is it's multiplicity.
+    RemoveIf        - removes values that satisfy a given condition. May be used to delete
+                      noise from the data.
+    Histogram       - data structure representing data by splitting the range of data into 
+                      smaller intervals (bins) and counting samples for each of the bins.
+                      For example data: 1 1 2 2 2 4 4 4 4 5
+                      split the range into intervals: [1,3), [3,5), [5,7)
+                      count values                     5      4      1 
+                      Note - traditionally the bins are half open intervals.
+                      The type of the return value is std::vector<int> - the vector of counts.
+                      Arguments - number of bins, beginning of the range, and of the range,
+                      for example for the above example Histogram( 3, 1, 7 );
+    DrawHistogramH  - draws histogram horizontally in ASCII. The above histogram will be 
+                      |*****
+                      |****
+                      |*
+                      Note: '|'s are not part of the output and represents the 'bottom' of the graph.
+                      Arguments - same as Histogram.
+    DrawHistogramV  - EXTRA CREDIT.
+                      draws histogram vertically in ASCII. The above histogram will be
+                      *
+                      **
+                      **
+                      **
+                      ***
+                      ---
+                      Note: '-'s are not part of the output and represents the 'bottom' of the graph
+                      Arguments - same as Histogram.
+                      
+you are to leverage the STL to do most of the work. The challenge is that you
+are not to use any looping constructs in your code. This means no for, while,
+do, recursion, or anything else. (Recursion is a form of iteration.) You
+will need to use the STL provided algorithms that iterate over the
+containers (e.g. for_each). Study the driver to see examples of using for_each.
+
+Notes: 
+    - implement template methods in the header (outside of the class declaration)
+    - make sure functions that do not modify data are const.
+    - Average may be implemented using std::accumulate.
+    - Deviation may be neatly implemented using the second overload of std::accumulate that
+      allows 4th argument.
+    - DrawHistogramH may benefit from using std::setfill and std::setw
+    - DrawHistogramV may be implemented using a dirty trick, say you need to iterate 1 to N,
+        but for-loops are prohibited, use
+        std::vector<int> v(N);
+        std::generate( v,begin(), v.end(), NextInt() );
+        std::for_each( v,begin(), v.end(), DoWork() );
+    - if you are having trouble implementing using functors and for_each, try to implement
+      first using for-loop and then convert it to for_each.
+

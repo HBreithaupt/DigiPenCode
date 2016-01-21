@@ -1,0 +1,31 @@
+
+<<<<<<<< test_dealloc1 >>>>>>>>
+=========================================
+    label: START
+  address: 0x000000
+     size: 100
+allocated: false
+--
+Allocated bytes:        0 [blocks:     0]
+     Free bytes:      100 [blocks:     1]
+=========================================
+    label: one
+  address: 0x000000
+     size: 10
+allocated: true
+--
+    label: FREE
+  address: 0x000000
+     size: 90
+allocated: false
+--
+Allocated bytes:       10 [blocks:     1]
+     Free bytes:       90 [blocks:     1]
+=========================================
+    label: one
+  address: 0x000000
+     size: 100
+allocated: false
+--
+Allocated bytes:        0 [blocks:     0]
+     Free bytes:      100 [blocks:     1]

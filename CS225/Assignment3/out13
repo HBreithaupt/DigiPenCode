@@ -1,0 +1,13 @@
+myArray1.Print();   [1] [2] [3] [4] [5] 
+myArray2.Print();   [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] 
+myArray3.Print();   [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] 
+Assign myArray3=myArray1;
+myArray1.Print();   [1] [2] [3] [4] [5] 
+myArray2.Print();   [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] 
+myArray3.Print();   [1] [2] [3] [4] [5] 
+Assign myArray3=myArray2;
+myArray1.Print();   [1] [2] [3] [4] [5] 
+myArray2.Print();   [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] 
+myArray3.Print();   [1] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] 
+live  nodes  18
+total nodes  28

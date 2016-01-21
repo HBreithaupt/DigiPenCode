@@ -1,0 +1,113 @@
+\hypertarget{main-thread_8c}{\section{main-\/thread.c File Reference}
+\label{main-thread_8c}\index{main-\/thread.\-c@{main-\/thread.\-c}}
+}
+
+
+Implmentation to spawn threads to perform matrix multplication on a square matrix;.  
+
+
+{\ttfamily \#include $<$stdio.\-h$>$}\\*
+{\ttfamily \#include $<$stdlib.\-h$>$}\\*
+{\ttfamily \#include $<$pthread.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}matrix-\/thread.\-h\char`\"{}}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int $\ast$ \hyperlink{main-thread_8c_a2dcbc9f37a8a160f754c9799f5e505bd}{get\-\_\-matrix} (const char $\ast$filename, int $\ast$width)
+\begin{DoxyCompactList}\small\item\em Gets matrix data from a text file. \end{DoxyCompactList}\item 
+void \hyperlink{main-thread_8c_a62514f596204ff609ea148da4b58293a}{print\-\_\-matrix} (int $\ast$matrix, int width)
+\begin{DoxyCompactList}\small\item\em Prints out a matrix. \end{DoxyCompactList}\item 
+int \hyperlink{main-thread_8c_a3c04138a5bfe5d72780bb7e82a18e627}{main} (int argc, char $\ast$$\ast$argv)
+\begin{DoxyCompactList}\small\item\em Main fills out matrix information and spawns threads to perform the multiplication. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Implmentation to spawn threads to perform matrix multplication on a square matrix;. \begin{DoxyAuthor}{Author}
+Haven Breithaupt 
+\end{DoxyAuthor}
+\begin{DoxyParagraph}{D\-P email\-: h.breithaupt@digipen.edu}
+
+\end{DoxyParagraph}
+\begin{DoxyParagraph}{Course\-: C\-S180}
+
+\end{DoxyParagraph}
+\begin{DoxyParagraph}{assignment 4}
+
+\end{DoxyParagraph}
+\begin{DoxyDate}{Date}
+6/26/15
+\end{DoxyDate}
+Functions include\-:
+\begin{DoxyItemize}
+\item get\-\_\-matrix \-: retrives matrix data from a file
+\item print\-\_\-matrix \-: prints out a mtrix
+\end{DoxyItemize}
+
+Hours spent on assignment\-: 1
+
+Specific portions that gave you the most trouble\-: not much any trouble, algorithms were the same just converting process function to work with threads insted. 
+
+\subsection{Function Documentation}
+\hypertarget{main-thread_8c_a2dcbc9f37a8a160f754c9799f5e505bd}{\index{main-\/thread.\-c@{main-\/thread.\-c}!get\-\_\-matrix@{get\-\_\-matrix}}
+\index{get\-\_\-matrix@{get\-\_\-matrix}!main-thread.c@{main-\/thread.\-c}}
+\subsubsection[{get\-\_\-matrix}]{\setlength{\rightskip}{0pt plus 5cm}int$\ast$ get\-\_\-matrix (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{filename, }
+\item[{int $\ast$}]{width}
+\end{DoxyParamCaption}
+)}}\label{main-thread_8c_a2dcbc9f37a8a160f754c9799f5e505bd}
+
+
+Gets matrix data from a text file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & name of the file to read from\\
+\hline
+{\em width} & this paramter is filled in from this function, actual use is in main\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+pointer to the matrix 
+\end{DoxyReturn}
+\hypertarget{main-thread_8c_a3c04138a5bfe5d72780bb7e82a18e627}{\index{main-\/thread.\-c@{main-\/thread.\-c}!main@{main}}
+\index{main@{main}!main-thread.c@{main-\/thread.\-c}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}int main (
+\begin{DoxyParamCaption}
+\item[{int}]{argc, }
+\item[{char $\ast$$\ast$}]{argv}
+\end{DoxyParamCaption}
+)}}\label{main-thread_8c_a3c04138a5bfe5d72780bb7e82a18e627}
+
+
+Main fills out matrix information and spawns threads to perform the multiplication. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em argc} & number of arguments passed to main from cmd line\\
+\hline
+{\em argv} & Strings of the arguments passed to main from cmd line\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+normal return from main 
+\end{DoxyReturn}
+\hypertarget{main-thread_8c_a62514f596204ff609ea148da4b58293a}{\index{main-\/thread.\-c@{main-\/thread.\-c}!print\-\_\-matrix@{print\-\_\-matrix}}
+\index{print\-\_\-matrix@{print\-\_\-matrix}!main-thread.c@{main-\/thread.\-c}}
+\subsubsection[{print\-\_\-matrix}]{\setlength{\rightskip}{0pt plus 5cm}void print\-\_\-matrix (
+\begin{DoxyParamCaption}
+\item[{int $\ast$}]{matrix, }
+\item[{int}]{width}
+\end{DoxyParamCaption}
+)}}\label{main-thread_8c_a62514f596204ff609ea148da4b58293a}
+
+
+Prints out a matrix. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em matrix} & Matrix to print out\\
+\hline
+{\em width} & width of the matrix \\
+\hline
+\end{DoxyParams}

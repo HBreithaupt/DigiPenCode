@@ -1,0 +1,186 @@
+\hypertarget{class_c_s170_1_1_list_lab_1_1_list}{\section{C\-S170\-:\-:List\-Lab\-:\-:List Class Reference}
+\label{class_c_s170_1_1_list_lab_1_1_list}\index{C\-S170\-::\-List\-Lab\-::\-List@{C\-S170\-::\-List\-Lab\-::\-List}}
+}
+
+
+{\ttfamily \#include $<$List.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_c_s170_1_1_list_lab_1_1_list_a566a254e6b12cebbb651ad3f9b344c2d}{List} ()
+\item 
+\hyperlink{class_c_s170_1_1_list_lab_1_1_list_aae0901e613999c253b0bf05a619f32ad}{$\sim$\-List} ()
+\begin{DoxyCompactList}\small\item\em Constructor for the class \hyperlink{class_c_s170_1_1_list_lab_1_1_list}{List}. \end{DoxyCompactList}\item 
+int \hyperlink{class_c_s170_1_1_list_lab_1_1_list_abbfb73ea737ec4b8c7addd601d8a85f9}{Count} ()
+\begin{DoxyCompactList}\small\item\em Counts the number of nodes in the list. \end{DoxyCompactList}\item 
+void \hyperlink{class_c_s170_1_1_list_lab_1_1_list_ae0d1edbf73012bb977c8e332667fb592}{Add\-To\-Front} (int value)
+\begin{DoxyCompactList}\small\item\em Adds a node to the front of the list. \end{DoxyCompactList}\item 
+void \hyperlink{class_c_s170_1_1_list_lab_1_1_list_a54d4c8da98dee27d5d837211b9920a88}{Add\-To\-End} (int value)
+\begin{DoxyCompactList}\small\item\em Adds a node to the end of the list. \end{DoxyCompactList}\item 
+\hyperlink{struct_c_s170_1_1_list_lab_1_1_node}{Node} $\ast$ \hyperlink{class_c_s170_1_1_list_lab_1_1_list_a81fbb05c8b2576d0e9eb08e56c872129}{Find\-Item} (int value)
+\begin{DoxyCompactList}\small\item\em Attempts to find a node that contains a certain value in the list. \end{DoxyCompactList}\item 
+void \hyperlink{class_c_s170_1_1_list_lab_1_1_list_a08c1c07a3356cfe4c6c7573b6af03eda}{Insert} (int value, int position)
+\begin{DoxyCompactList}\small\item\em Inserts a node into the list at a certain point in the list. \end{DoxyCompactList}\item 
+void \hyperlink{class_c_s170_1_1_list_lab_1_1_list_a059c0ffcb314345dd007a817537071d1}{Print\-List} () const 
+\begin{DoxyCompactList}\small\item\em Prints the linked list values out. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{struct_c_s170_1_1_list_lab_1_1_node}{Node} $\ast$ \hyperlink{class_c_s170_1_1_list_lab_1_1_list_afaa3089850eb49a4f608151a65ad8b29}{Make\-Node} (int value) const 
+\begin{DoxyCompactList}\small\item\em Makes a new node to add to the list. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{struct_c_s170_1_1_list_lab_1_1_node}{Node} $\ast$ \hyperlink{class_c_s170_1_1_list_lab_1_1_list_a9fcc430ed0a61fc7d5159908da33cca1}{head\-\_\-}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_c_s170_1_1_list_lab_1_1_list_a566a254e6b12cebbb651ad3f9b344c2d}{\index{C\-S170\-::\-List\-Lab\-::\-List@{C\-S170\-::\-List\-Lab\-::\-List}!List@{List}}
+\index{List@{List}!CS170::ListLab::List@{C\-S170\-::\-List\-Lab\-::\-List}}
+\subsubsection[{List}]{\setlength{\rightskip}{0pt plus 5cm}{\bf C\-S170\-::\-List\-Lab\-::\-List\-::\-List} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_s170_1_1_list_lab_1_1_list_a566a254e6b12cebbb651ad3f9b344c2d}
+\hypertarget{class_c_s170_1_1_list_lab_1_1_list_aae0901e613999c253b0bf05a619f32ad}{\index{C\-S170\-::\-List\-Lab\-::\-List@{C\-S170\-::\-List\-Lab\-::\-List}!$\sim$\-List@{$\sim$\-List}}
+\index{$\sim$\-List@{$\sim$\-List}!CS170::ListLab::List@{C\-S170\-::\-List\-Lab\-::\-List}}
+\subsubsection[{$\sim$\-List}]{\setlength{\rightskip}{0pt plus 5cm}{\bf C\-S170\-::\-List\-Lab\-::\-List\-::$\sim$\-List} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_s170_1_1_list_lab_1_1_list_aae0901e613999c253b0bf05a619f32ad}
+
+
+Constructor for the class \hyperlink{class_c_s170_1_1_list_lab_1_1_list}{List}. 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_c_s170_1_1_list_lab_1_1_list_a54d4c8da98dee27d5d837211b9920a88}{\index{C\-S170\-::\-List\-Lab\-::\-List@{C\-S170\-::\-List\-Lab\-::\-List}!Add\-To\-End@{Add\-To\-End}}
+\index{Add\-To\-End@{Add\-To\-End}!CS170::ListLab::List@{C\-S170\-::\-List\-Lab\-::\-List}}
+\subsubsection[{Add\-To\-End}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf C\-S170\-::\-List\-Lab\-::\-List\-::\-Add\-To\-End} (
+\begin{DoxyParamCaption}
+\item[{int}]{value}
+\end{DoxyParamCaption}
+)}}\label{class_c_s170_1_1_list_lab_1_1_list_a54d4c8da98dee27d5d837211b9920a88}
+
+
+Adds a node to the end of the list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Number to assign to the node created in the function. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_c_s170_1_1_list_lab_1_1_list_ae0d1edbf73012bb977c8e332667fb592}{\index{C\-S170\-::\-List\-Lab\-::\-List@{C\-S170\-::\-List\-Lab\-::\-List}!Add\-To\-Front@{Add\-To\-Front}}
+\index{Add\-To\-Front@{Add\-To\-Front}!CS170::ListLab::List@{C\-S170\-::\-List\-Lab\-::\-List}}
+\subsubsection[{Add\-To\-Front}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf C\-S170\-::\-List\-Lab\-::\-List\-::\-Add\-To\-Front} (
+\begin{DoxyParamCaption}
+\item[{int}]{value}
+\end{DoxyParamCaption}
+)}}\label{class_c_s170_1_1_list_lab_1_1_list_ae0d1edbf73012bb977c8e332667fb592}
+
+
+Adds a node to the front of the list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Value to assign the node tht is created in the function. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_c_s170_1_1_list_lab_1_1_list_abbfb73ea737ec4b8c7addd601d8a85f9}{\index{C\-S170\-::\-List\-Lab\-::\-List@{C\-S170\-::\-List\-Lab\-::\-List}!Count@{Count}}
+\index{Count@{Count}!CS170::ListLab::List@{C\-S170\-::\-List\-Lab\-::\-List}}
+\subsubsection[{Count}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf C\-S170\-::\-List\-Lab\-::\-List\-::\-Count} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_s170_1_1_list_lab_1_1_list_abbfb73ea737ec4b8c7addd601d8a85f9}
+
+
+Counts the number of nodes in the list. 
+
+\begin{DoxyReturn}{Returns}
+The number of nodes in the list. 
+\end{DoxyReturn}
+\hypertarget{class_c_s170_1_1_list_lab_1_1_list_a81fbb05c8b2576d0e9eb08e56c872129}{\index{C\-S170\-::\-List\-Lab\-::\-List@{C\-S170\-::\-List\-Lab\-::\-List}!Find\-Item@{Find\-Item}}
+\index{Find\-Item@{Find\-Item}!CS170::ListLab::List@{C\-S170\-::\-List\-Lab\-::\-List}}
+\subsubsection[{Find\-Item}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Node} $\ast$ {\bf C\-S170\-::\-List\-Lab\-::\-List\-::\-Find\-Item} (
+\begin{DoxyParamCaption}
+\item[{int}]{value}
+\end{DoxyParamCaption}
+)}}\label{class_c_s170_1_1_list_lab_1_1_list_a81fbb05c8b2576d0e9eb08e56c872129}
+
+
+Attempts to find a node that contains a certain value in the list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & The value to search for in the nodes.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Apointer to the node that contains 'value'. 
+\end{DoxyReturn}
+\hypertarget{class_c_s170_1_1_list_lab_1_1_list_a08c1c07a3356cfe4c6c7573b6af03eda}{\index{C\-S170\-::\-List\-Lab\-::\-List@{C\-S170\-::\-List\-Lab\-::\-List}!Insert@{Insert}}
+\index{Insert@{Insert}!CS170::ListLab::List@{C\-S170\-::\-List\-Lab\-::\-List}}
+\subsubsection[{Insert}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf C\-S170\-::\-List\-Lab\-::\-List\-::\-Insert} (
+\begin{DoxyParamCaption}
+\item[{int}]{value, }
+\item[{int}]{position}
+\end{DoxyParamCaption}
+)}}\label{class_c_s170_1_1_list_lab_1_1_list_a08c1c07a3356cfe4c6c7573b6af03eda}
+
+
+Inserts a node into the list at a certain point in the list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & Value to assign to the node created.\\
+\hline
+{\em position} & Position in the list in which to insert the new node. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_c_s170_1_1_list_lab_1_1_list_afaa3089850eb49a4f608151a65ad8b29}{\index{C\-S170\-::\-List\-Lab\-::\-List@{C\-S170\-::\-List\-Lab\-::\-List}!Make\-Node@{Make\-Node}}
+\index{Make\-Node@{Make\-Node}!CS170::ListLab::List@{C\-S170\-::\-List\-Lab\-::\-List}}
+\subsubsection[{Make\-Node}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Node} $\ast$ {\bf C\-S170\-::\-List\-Lab\-::\-List\-::\-Make\-Node} (
+\begin{DoxyParamCaption}
+\item[{int}]{value}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_c_s170_1_1_list_lab_1_1_list_afaa3089850eb49a4f608151a65ad8b29}
+
+
+Makes a new node to add to the list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & The number to assign to the node.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A node pointer to the node created. 
+\end{DoxyReturn}
+\hypertarget{class_c_s170_1_1_list_lab_1_1_list_a059c0ffcb314345dd007a817537071d1}{\index{C\-S170\-::\-List\-Lab\-::\-List@{C\-S170\-::\-List\-Lab\-::\-List}!Print\-List@{Print\-List}}
+\index{Print\-List@{Print\-List}!CS170::ListLab::List@{C\-S170\-::\-List\-Lab\-::\-List}}
+\subsubsection[{Print\-List}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf C\-S170\-::\-List\-Lab\-::\-List\-::\-Print\-List} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_c_s170_1_1_list_lab_1_1_list_a059c0ffcb314345dd007a817537071d1}
+
+
+Prints the linked list values out. 
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_c_s170_1_1_list_lab_1_1_list_a9fcc430ed0a61fc7d5159908da33cca1}{\index{C\-S170\-::\-List\-Lab\-::\-List@{C\-S170\-::\-List\-Lab\-::\-List}!head\-\_\-@{head\-\_\-}}
+\index{head\-\_\-@{head\-\_\-}!CS170::ListLab::List@{C\-S170\-::\-List\-Lab\-::\-List}}
+\subsubsection[{head\-\_\-}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Node}$\ast$ {\bf C\-S170\-::\-List\-Lab\-::\-List\-::head\-\_\-}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{class_c_s170_1_1_list_lab_1_1_list_a9fcc430ed0a61fc7d5159908da33cca1}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_list_8h}{List.\-h}\item 
+\hyperlink{_list_8cpp}{List.\-cpp}\end{DoxyCompactItemize}

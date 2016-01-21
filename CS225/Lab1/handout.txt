@@ -1,0 +1,3 @@
+A simple implementation of 2-dimensional matrix. 
+Only transpose, addition, and various delete functions are required.
+See matrix-partial.h for details.

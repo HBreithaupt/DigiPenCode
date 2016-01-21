@@ -1,0 +1,20 @@
+# MACROS  =============================
+
+CC=g++
+CFLAGS=-c -Wall -Wextra -Werror -ansi -pedantic
+
+ERASE=rm
+OBJECTS=hw-gnu.o
+EXE=hw-gnu.exe
+
+
+# TARGETS =============================
+
+$(EXE) : $(OBJECTS)
+	$(CC) -o $(EXE) $(OBJECTS)
+    
+hw-gnu.o : hw.cpp
+	$(CC) -o hw-gnu.o $(CFLAGS) hw.cpp
+	
+clean:
+	$(ERASE) $(EXE) $(OBJECTS)

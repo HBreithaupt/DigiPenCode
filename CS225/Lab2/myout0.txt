@@ -1,0 +1,2 @@
+Intersect shape Box( center (3,2), sides (2,2) ) and ray  origin(0,0), direction ( 1,0) - false
+Intersect shape Box( center (6,0), sides (2,2) ) and ray  origin(0,0), direction ( 1,0) - true, t = 5

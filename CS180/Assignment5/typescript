@@ -1,0 +1,910 @@
+Script started on Thu 09 Jul 2015 12:14:50 PM PDT
+[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment5 $[00m ./assignment5bash 
+Thu Jul  9 12:14:51 PDT 2015
+ 12:14:51 up 7 min,  2 users,  load average: 0.01, 0.05, 0.05
+Haven Breithaupt
+/media/sf_DigiPenCode/CS180/Assignment5
+haven
+Linux HavenLinux 3.13.0-24-generic #47-Ubuntu SMP Fri May 2 23:30:00 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 70
+model name	: Intel(R) Core(TM) i7-4850HQ CPU @ 2.30GHz
+stepping	: 1
+microcode	: 0x19
+cpu MHz		: 2299.400
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 0
+cpu cores	: 8
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 lahf_lm
+bogomips	: 4598.80
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 70
+model name	: Intel(R) Core(TM) i7-4850HQ CPU @ 2.30GHz
+stepping	: 1
+microcode	: 0x19
+cpu MHz		: 2299.400
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 1
+cpu cores	: 8
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 lahf_lm
+bogomips	: 4598.80
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 70
+model name	: Intel(R) Core(TM) i7-4850HQ CPU @ 2.30GHz
+stepping	: 1
+microcode	: 0x19
+cpu MHz		: 2299.400
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 2
+cpu cores	: 8
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 lahf_lm
+bogomips	: 4598.80
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 70
+model name	: Intel(R) Core(TM) i7-4850HQ CPU @ 2.30GHz
+stepping	: 1
+microcode	: 0x19
+cpu MHz		: 2299.400
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 3
+cpu cores	: 8
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 lahf_lm
+bogomips	: 4598.80
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 4
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 70
+model name	: Intel(R) Core(TM) i7-4850HQ CPU @ 2.30GHz
+stepping	: 1
+microcode	: 0x19
+cpu MHz		: 2299.400
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 4
+cpu cores	: 8
+apicid		: 4
+initial apicid	: 4
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 lahf_lm
+bogomips	: 4598.80
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 5
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 70
+model name	: Intel(R) Core(TM) i7-4850HQ CPU @ 2.30GHz
+stepping	: 1
+microcode	: 0x19
+cpu MHz		: 2299.400
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 5
+cpu cores	: 8
+apicid		: 5
+initial apicid	: 5
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 lahf_lm
+bogomips	: 4598.80
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 6
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 70
+model name	: Intel(R) Core(TM) i7-4850HQ CPU @ 2.30GHz
+stepping	: 1
+microcode	: 0x19
+cpu MHz		: 2299.400
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 6
+cpu cores	: 8
+apicid		: 6
+initial apicid	: 6
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 lahf_lm
+bogomips	: 4598.80
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 7
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 70
+model name	: Intel(R) Core(TM) i7-4850HQ CPU @ 2.30GHz
+stepping	: 1
+microcode	: 0x19
+cpu MHz		: 2299.400
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 7
+cpu cores	: 8
+apicid		: 7
+initial apicid	: 7
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 lahf_lm
+bogomips	: 4598.80
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+MemTotal:        4047612 kB
+MemFree:         3348996 kB
+Buffers:           51380 kB
+Cached:           304764 kB
+SwapCached:            0 kB
+Active:           365800 kB
+Inactive:         229152 kB
+Active(anon):     239624 kB
+Inactive(anon):    11076 kB
+Active(file):     126176 kB
+Inactive(file):   218076 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:       4192252 kB
+SwapFree:        4192252 kB
+Dirty:                 0 kB
+Writeback:             0 kB
+AnonPages:        238884 kB
+Mapped:            76768 kB
+Shmem:             11888 kB
+Slab:              42064 kB
+SReclaimable:      21856 kB
+SUnreclaim:        20208 kB
+KernelStack:        2904 kB
+PageTables:        15832 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     6216056 kB
+Committed_AS:    1367700 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       55260 kB
+VmallocChunk:   34359554855 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:     51200 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:       53184 kB
+DirectMap2M:     4141056 kB
+
+<<<<<<<< test_alloc2 >>>>>>>>
+=========================================
+    label: START
+  address: 0x000000
+     size: 300
+allocated: false
+--
+Allocated bytes:        0 [blocks:     0]
+     Free bytes:      300 [blocks:     1]
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+=========================================
+    label: one
+  address: 0x000000
+     size: 30
+allocated: true
+--
+    label: FREE
+  address: 0x000000
+     size: 270
+allocated: false
+--
+Allocated bytes:       30 [blocks:     1]
+     Free bytes:      270 [blocks:     1]
+Searching for include files...
+Searching for example files...
+Searching for images...
+Searching for dot files...
+Searching for msc files...
+Searching for dia files...
+Searching for files to exclude
+Searching for files to process...
+Searching for files in directory /media/sf_DigiPenCode/CS180/Assignment5
+Reading and parsing tag files
+Parsing files
+Preprocessing /media/sf_DigiPenCode/CS180/Assignment5/driver-sample-d.c...
+Parsing file /media/sf_DigiPenCode/CS180/Assignment5/driver-sample-d.c...
+Preprocessing /media/sf_DigiPenCode/CS180/Assignment5/driver-sample-s.c...
+Parsing file /media/sf_DigiPenCode/CS180/Assignment5/driver-sample-s.c...
+Preprocessing /media/sf_DigiPenCode/CS180/Assignment5/memmgr.c...
+Parsing file /media/sf_DigiPenCode/CS180/Assignment5/memmgr.c...
+Preprocessing /media/sf_DigiPenCode/CS180/Assignment5/memmgr.h...
+Parsing file /media/sf_DigiPenCode/CS180/Assignment5/memmgr.h...
+Preprocessing /media/sf_DigiPenCode/CS180/Assignment5/sample-driver-stress1.c...
+Parsing file /media/sf_DigiPenCode/CS180/Assignment5/sample-driver-stress1.c...
+Preprocessing /media/sf_DigiPenCode/CS180/Assignment5/shared.c...
+Parsing file /media/sf_DigiPenCode/CS180/Assignment5/shared.c...
+Preprocessing /media/sf_DigiPenCode/CS180/Assignment5/shared.h...
+Parsing file /media/sf_DigiPenCode/CS180/Assignment5/shared.h...
+Building group list...
+Building directory list...
+Building namespace list...
+Building file list...
+Building class list...
+Associating documentation with classes...
+Computing nesting relations for classes...
+Building example list...
+Searching for enumerations...
+Searching for documented typedefs...
+Searching for members imported via using declarations...
+Searching for included using directives...
+Searching for documented variables...
+Building interface member list...
+Building member list...
+Searching for friends...
+Searching for documented defines...
+Computing class inheritance relations...
+Computing class usage relations...
+Flushing cached template relations that have become invalid...
+Creating members for template instances...
+Computing class relations...
+/media/sf_DigiPenCode/CS180/Assignment5/shared.h:16: warning: Compound LibraryFunctions is not documented.
+Add enum values to enums...
+Searching for member function documentation...
+Building page list...
+Search for main page...
+Computing page relations...
+Determining the scope of groups...
+Sorting lists...
+Freeing entry tree
+Determining which enums are documented
+Computing member relations...
+Building full member lists recursively...
+Adding members to member groups.
+Computing member references...
+Inheriting documentation...
+Generating disk names...
+Adding source references...
+Adding xrefitems...
+Sorting member lists...
+Computing dependencies between directories...
+Generating citations page...
+Counting data structures...
+Resolving user defined references...
+Finding anchors and sections in the documentation...
+Transferring function references...
+Combining using relations...
+Adding members to index pages...
+Generating style sheet...
+Generating search indices...
+Generating example documentation...
+Generating file sources...
+Generating code for file memmgr.h...
+Generating code for file shared.h...
+Generating file documentation...
+Generating docs for file memmgr.c...
+Generating docs for file memmgr.h...
+/media/sf_DigiPenCode/CS180/Assignment5/memmgr.h:52: warning: Member MMPolicy (typedef) of file memmgr.h is not documented.
+/media/sf_DigiPenCode/CS180/Assignment5/memmgr.h:52: warning: Member MMPolicy (enumeration) of file memmgr.h is not documented.
+Generating docs for file shared.c...
+/media/sf_DigiPenCode/CS180/Assignment5/shared.c:22: warning: Member load_library(const char *libname, void **libhandle) (function) of file shared.c is not documented.
+/media/sf_DigiPenCode/CS180/Assignment5/shared.c:44: warning: Member get_functions(void *libhandle, LibraryFunctions *functions, const char **fn_names) (function) of file shared.c is not documented.
+Generating page documentation...
+Generating group documentation...
+Generating class documentation...
+Generating docs for compound block_info...
+Generating docs for compound LibraryFunctions...
+/media/sf_DigiPenCode/CS180/Assignment5/shared.h:17: warning: Member create (variable) of class LibraryFunctions is not documented.
+/media/sf_DigiPenCode/CS180/Assignment5/shared.h:18: warning: Member destroy (variable) of class LibraryFunctions is not documented.
+/media/sf_DigiPenCode/CS180/Assignment5/shared.h:19: warning: Member allocate (variable) of class LibraryFunctions is not documented.
+/media/sf_DigiPenCode/CS180/Assignment5/shared.h:20: warning: Member deallocate (variable) of class LibraryFunctions is not documented.
+Generating namespace index...
+Generating graph info page...
+Generating directory documentation...
+Generating index page...
+Generating page index...
+Generating module index...
+Generating namespace index...
+Generating namespace member index...
+Generating annotated compound index...
+Generating alphabetical compound index...
+Generating hierarchical class index...
+Generating member index...
+Generating file index...
+Generating file member index...
+Generating example index...
+finalizing index lists...
+lookup cache used 41/65536 hits=208 misses=43
+finished...
+total 460
+drwxrwx--- 1 root vboxsf   1904 Jul  9 12:14 .
+drwxrwx--- 1 root vboxsf   1428 Jul  9 12:14 ..
+-rwxrwx--- 1 root vboxsf   5352 Jul  9 12:14 annotated.html
+-rwxrwx--- 1 root vboxsf    676 Jul  9 12:14 bc_s.png
+-rwxrwx--- 1 root vboxsf    147 Jul  9 12:14 bdwn.png
+-rwxrwx--- 1 root vboxsf   5671 Jul  9 12:14 classes.html
+-rwxrwx--- 1 root vboxsf    132 Jul  9 12:14 closed.png
+-rwxrwx--- 1 root vboxsf  23935 Jul  9 12:14 doxygen.css
+-rwxrwx--- 1 root vboxsf   3779 Jul  9 12:14 doxygen.png
+-rwxrwx--- 1 root vboxsf   2983 Jul  9 12:14 dynsections.js
+-rwxrwx--- 1 root vboxsf   5952 Jul  9 12:14 files.html
+-rwxrwx--- 1 root vboxsf     86 Jul  9 12:14 ftv2blank.png
+-rwxrwx--- 1 root vboxsf    453 Jul  9 12:14 ftv2cl.png
+-rwxrwx--- 1 root vboxsf    746 Jul  9 12:14 ftv2doc.png
+-rwxrwx--- 1 root vboxsf    616 Jul  9 12:14 ftv2folderclosed.png
+-rwxrwx--- 1 root vboxsf    597 Jul  9 12:14 ftv2folderopen.png
+-rwxrwx--- 1 root vboxsf     86 Jul  9 12:14 ftv2lastnode.png
+-rwxrwx--- 1 root vboxsf    746 Jul  9 12:14 ftv2link.png
+-rwxrwx--- 1 root vboxsf    246 Jul  9 12:14 ftv2mlastnode.png
+-rwxrwx--- 1 root vboxsf    246 Jul  9 12:14 ftv2mnode.png
+-rwxrwx--- 1 root vboxsf    403 Jul  9 12:14 ftv2mo.png
+-rwxrwx--- 1 root vboxsf     86 Jul  9 12:14 ftv2node.png
+-rwxrwx--- 1 root vboxsf    388 Jul  9 12:14 ftv2ns.png
+-rwxrwx--- 1 root vboxsf    229 Jul  9 12:14 ftv2plastnode.png
+-rwxrwx--- 1 root vboxsf    229 Jul  9 12:14 ftv2pnode.png
+-rwxrwx--- 1 root vboxsf    314 Jul  9 12:14 ftv2splitbar.png
+-rwxrwx--- 1 root vboxsf     86 Jul  9 12:14 ftv2vertline.png
+-rwxrwx--- 1 root vboxsf   5448 Jul  9 12:14 functions.html
+-rwxrwx--- 1 root vboxsf   5336 Jul  9 12:14 functions_vars.html
+-rwxrwx--- 1 root vboxsf   5329 Jul  9 12:14 globals_defs.html
+-rwxrwx--- 1 root vboxsf   5990 Jul  9 12:14 globals_func.html
+-rwxrwx--- 1 root vboxsf   6710 Jul  9 12:14 globals.html
+-rwxrwx--- 1 root vboxsf   4922 Jul  9 12:14 globals_type.html
+-rwxrwx--- 1 root vboxsf   4327 Jul  9 12:14 index.html
+-rwxrwx--- 1 root vboxsf 104693 Jul  9 12:14 jquery.js
+-rwxrwx--- 1 root vboxsf  17864 Jul  9 12:14 memmgr_8c.html
+-rwxrwx--- 1 root vboxsf  23783 Jul  9 12:14 memmgr_8h.html
+-rwxrwx--- 1 root vboxsf  19462 Jul  9 12:14 memmgr_8h_source.html
+-rwxrwx--- 1 root vboxsf    153 Jul  9 12:14 nav_f.png
+-rwxrwx--- 1 root vboxsf     95 Jul  9 12:14 nav_g.png
+-rwxrwx--- 1 root vboxsf     98 Jul  9 12:14 nav_h.png
+-rwxrwx--- 1 root vboxsf    123 Jul  9 12:14 open.png
+drwxrwx--- 1 root vboxsf   1904 Jul  9 12:08 search
+-rwxrwx--- 1 root vboxsf   6513 Jul  9 12:14 shared_8c.html
+-rwxrwx--- 1 root vboxsf  12871 Jul  9 12:14 shared_8h_source.html
+-rwxrwx--- 1 root vboxsf   9159 Jul  9 12:14 structblock__info.html
+-rwxrwx--- 1 root vboxsf   5976 Jul  9 12:14 structblock__info-members.html
+-rwxrwx--- 1 root vboxsf   6586 Jul  9 12:14 structLibraryFunctions.html
+-rwxrwx--- 1 root vboxsf   5909 Jul  9 12:14 structLibraryFunctions-members.html
+-rwxrwx--- 1 root vboxsf    853 Jul  9 12:14 sync_off.png
+-rwxrwx--- 1 root vboxsf    845 Jul  9 12:14 sync_on.png
+-rwxrwx--- 1 root vboxsf    142 Jul  9 12:14 tab_a.png
+-rwxrwx--- 1 root vboxsf    169 Jul  9 12:14 tab_b.png
+-rwxrwx--- 1 root vboxsf    177 Jul  9 12:14 tab_h.png
+-rwxrwx--- 1 root vboxsf   1163 Jul  9 12:14 tabs.css
+-rwxrwx--- 1 root vboxsf    184 Jul  9 12:14 tab_s.png
+[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment5 $[00m exit
+[01;32mhaven@HavenLinux[01;34m /med    184 Jul  9 12:14 tab_s.png
+[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment5 $[00m clear
+[H[2J[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment5 $[00m exit
+[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment5 $[00m ./[K[Kscript
+Script started, file is typescript
+[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment5 $[00m ./assignment5bash 
+Thu Jul  9 12:14:51 PDT 2015
+ 12:14:51 up 7 min,  2 users,  load average: 0.01, 0.05, 0.05
+Haven Breithaupt
+/media/sf_DigiPenCode/CS180/Assignment5
+haven
+Linux HavenLinux 3.13.0-24-generic #47-Ubuntu SMP Fri May 2 23:30:00 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 70
+model name	: Intel(R) Core(TM) i7-4850HQ CPU @ 2.30GHz
+stepping	: 1
+microcode	: 0x19
+cpu MHz		: 2299.400
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 0
+cpu cores	: 8
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 lahf_lm
+bogomips	: 4598.80
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 70
+model name	: Intel(R) Core(TM) i7-4850HQ CPU @ 2.30GHz
+stepping	: 1
+microcode	: 0x19
+cpu MHz		: 2299.400
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 1
+cpu cores	: 8
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 lahf_lm
+bogomips	: 4598.80
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 70
+model name	: Intel(R) Core(TM) i7-4850HQ CPU @ 2.30GHz
+stepping	: 1
+microcode	: 0x19
+cpu MHz		: 2299.400
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 2
+cpu cores	: 8
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 lahf_lm
+bogomips	: 4598.80
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 70
+model name	: Intel(R) Core(TM) i7-4850HQ CPU @ 2.30GHz
+stepping	: 1
+microcode	: 0x19
+cpu MHz		: 2299.400
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 3
+cpu cores	: 8
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 lahf_lm
+bogomips	: 4598.80
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 4
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 70
+model name	: Intel(R) Core(TM) i7-4850HQ CPU @ 2.30GHz
+stepping	: 1
+microcode	: 0x19
+cpu MHz		: 2299.400
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 4
+cpu cores	: 8
+apicid		: 4
+initial apicid	: 4
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 lahf_lm
+bogomips	: 4598.80
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 5
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 70
+model name	: Intel(R) Core(TM) i7-4850HQ CPU @ 2.30GHz
+stepping	: 1
+microcode	: 0x19
+cpu MHz		: 2299.400
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 5
+cpu cores	: 8
+apicid		: 5
+initial apicid	: 5
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 lahf_lm
+bogomips	: 4598.80
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 6
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 70
+model name	: Intel(R) Core(TM) i7-4850HQ CPU @ 2.30GHz
+stepping	: 1
+microcode	: 0x19
+cpu MHz		: 2299.400
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 6
+cpu cores	: 8
+apicid		: 6
+initial apicid	: 6
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 lahf_lm
+bogomips	: 4598.80
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 7
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 70
+model name	: Intel(R) Core(TM) i7-4850HQ CPU @ 2.30GHz
+stepping	: 1
+microcode	: 0x19
+cpu MHz		: 2299.400
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 7
+cpu cores	: 8
+apicid		: 7
+initial apicid	: 7
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 lahf_lm
+bogomips	: 4598.80
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+MemTotal:        4047612 kB
+MemFree:         3348996 kB
+Buffers:           51380 kB
+Cached:           304764 kB
+SwapCached:            0 kB
+Active:           365800 kB
+Inactive:         229152 kB
+Active(anon):     239624 kB
+Inactive(anon):    11076 kB
+Active(file):     126176 kB
+Inactive(file):   218076 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:       4192252 kB
+SwapFree:        4192252 kB
+Dirty:                 0 kB
+Writeback:             0 kB
+AnonPages:        238884 kB
+Mapped:            76768 kB
+Shmem:             11888 kB
+Slab:              42064 kB
+SReclaimable:      21856 kB
+SUnreclaim:        20208 kB
+KernelStack:        2904 kB
+PageTables:        15832 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     6216056 kB
+Committed_AS:    1367700 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       55260 kB
+VmallocChunk:   34359554855 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:     51200 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:       53184 kB
+DirectMap2M:     4141056 kB
+
+<<<<<<<< test_alloc2 >>>>>>>>
+=========================================
+    label: START
+  address: 0x000000
+     size: 300
+allocated: false
+--
+Allocated bytes:        0 [blocks:     0]
+     Free bytes:      300 [blocks:     1]
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+=========================================
+    label: one
+  address: 0x000000
+     size: 30
+allocated: true
+--
+    label: FREE
+  address: 0x000000
+     size: 270
+allocated: false
+--
+Allocated bytes:       30 [blocks:     1]
+     Free bytes:      270 [blocks:     1]
+Searching for include files...
+Searching for example files...
+Searching for images...
+Searching for dot files...
+Searching for msc files...
+Searching for dia files...
+Searching for files to exclude
+Searching for files to process...
+Searching for files in directory /media/sf_DigiPenCode/CS180/Assignment5
+Reading and parsing tag files
+Parsing files
+Preprocessing /media/sf_DigiPenCode/CS180/Assignment5/driver-sample-d.c...
+Parsing file /media/sf_DigiPenCode/CS180/Assignment5/driver-sample-d.c...
+Preprocessing /media/sf_DigiPenCode/CS180/Assignment5/driver-sample-s.c...
+Parsing file /media/sf_DigiPenCode/CS180/Assignment5/driver-sample-s.c...
+Preprocessing /media/sf_DigiPenCode/CS180/Assignment5/memmgr.c...
+Parsing file /media/sf_DigiPenCode/CS180/Assignment5/memmgr.c...
+Preprocessing /media/sf_DigiPenCode/CS180/Assignment5/memmgr.h...
+Parsing file /media/sf_DigiPenCode/CS180/Assignment5/memmgr.h...
+Preprocessing /media/sf_DigiPenCode/CS180/Assignment5/sample-driver-stress1.c...
+Parsing file /media/sf_DigiPenCode/CS180/Assignment5/sample-driver-stress1.c...
+Preprocessing /media/sf_DigiPenCode/CS180/Assignment5/shared.c...
+Parsing file /media/sf_DigiPenCode/CS180/Assignment5/shared.c...
+Preprocessing /media/sf_DigiPenCode/CS180/Assignment5/shared.h...
+Parsing file /media/sf_DigiPenCode/CS180/Assignment5/shared.h...
+Building group list...
+Building directory list...
+Building namespace list...
+Building file list...
+Building class list...
+Associating documentation with classes...
+Computing nesting relations for classes...
+Building example list...
+Searching for enumerations...
+Searching for documented typedefs...
+Searching for members imported via using declarations...
+Searching for included using directives...
+Searching for documented variables...
+Building interface member list...
+Building member list...
+Searching for friends...
+Searching for documented defines...
+Computing class inheritance relations...
+Computing class usage relations...
+Flushing cached template relations that have become invalid...
+Creating members for template instances...
+Computing class relations...
+/media/sf_DigiPenCode/CS180/Assignment5/shared.h:16: warning: Compound LibraryFunctions is not documented.
+Add enum values to enums...
+Searching for member function documentation...
+Building page list...
+Search for main page...
+Computing page relations...
+Determining the scope of groups...
+Sorting lists...
+Freeing entry tree
+Determining which enums are documented
+Computing member relations...
+Building full member lists recursively...
+Adding members to member groups.
+Computing member references...
+Inheriting documentation...
+Generating disk names...
+Adding source references...
+Adding xrefitems...
+Sorting member lists...
+Computing dependencies between directories...
+Generating citations page...
+Counting data structures...
+Resolving user defined references...
+Finding anchors and sections in the documentation...
+Transferring function references...
+Combining using relations...
+Adding members to index pages...
+Generating style sheet...
+Generating search indices...
+Generating example documentation...
+Generating file sources...
+Generating code for file memmgr.h...
+Generating code for file shared.h...
+Generating file documentation...
+Generating docs for file memmgr.c...
+Generating docs for file memmgr.h...
+/media/sf_DigiPenCode/CS180/Assignment5/memmgr.h:52: warning: Member MMPolicy (typedef) of file memmgr.h is not documented.
+/media/sf_DigiPenCode/CS180/Assignment5/memmgr.h:52: warning: Member MMPolicy (enumeration) of file memmgr.h is not documented.
+Generating docs for file shared.c...
+/media/sf_DigiPenCode/CS180/Assignment5/shared.c:22: warning: Member load_library(const char *libname, void **libhandle) (function) of file shared.c is not documented.
+/media/sf_DigiPenCode/CS180/Assignment5/shared.c:44: warning: Member get_functions(void *libhandle, LibraryFunctions *functions, const char **fn_names) (function) of file shared.c is not documented.
+Generating page documentation...
+Generating group documentation...
+Generating class documentation...
+Generating docs for compound block_info...
+Generating docs for compound LibraryFunctions...
+/media/sf_DigiPenCode/CS180/Assignment5/shared.h:17: warning: Member create (variable) of class LibraryFunctions is not documented.
+/media/sf_DigiPenCode/CS180/Assignment5/shared.h:18: warning: Member destroy (variable) of class LibraryFunctions is not documented.
+/media/sf_DigiPenCode/CS180/Assignment5/shared.h:19: warning: Member allocate (variable) of class LibraryFunctions is not documented.
+/media/sf_DigiPenCode/CS180/Assignment5/shared.h:20: warning: Member deallocate (variable) of class LibraryFunctions is not documented.
+Generating namespace index...
+Generating graph info page...
+Generating directory documentation...
+Generating index page...
+Generating page index...
+Generating module index...
+Generating namespace index...
+Generating namespace member index...
+Generating annotated compound index...
+Generating alphabetical compound index...
+Generating hierarchical class index...
+Generating member index...
+Generating file index...
+Generating file member index...
+Generating example index...
+finalizing index lists...
+lookup cache used 41/65536 hits=208 misses=43
+finished...
+total 460
+drwxrwx--- 1 root vboxsf   1904 Jul  9 12:14 .
+drwxrwx--- 1 root vboxsf   1428 Jul  9 12:14 ..
+-rwxrwx--- 1 root vboxsf   5352 Jul  9 12:14 annotated.html
+-rwxrwx--- 1 root vboxsf    676 Jul  9 12:14 bc_s.png
+-rwxrwx--- 1 root vboxsf    147 Jul  9 12:14 bdwn.png
+-rwxrwx--- 1 root vboxsf   5671 Jul  9 12:14 classes.html
+-rwxrwx--- 1 root vboxsf    132 Jul  9 12:14 closed.png
+-rwxrwx--- 1 root vboxsf  23935 Jul  9 12:14 doxygen.css
+-rwxrwx--- 1 root vboxsf   3779 Jul  9 12:14 doxygen.png
+-rwxrwx--- 1 root vboxsf   2983 Jul  9 12:14 dynsections.js
+-rwxrwx--- 1 root vboxsf   5952 Jul  9 12:14 files.html
+-rwxrwx--- 1 root vboxsf     86 Jul  9 12:14 ftv2blank.png
+-rwxrwx--- 1 root vboxsf    453 Jul  9 12:14 ftv2cl.png
+-rwxrwx--- 1 root vboxsf    746 Jul  9 12:14 ftv2doc.png
+-rwxrwx--- 1 root vboxsf    616 Jul  9 12:14 ftv2folderclosed.png
+-rwxrwx--- 1 root vboxsf    597 Jul  9 12:14 ftv2folderopen.png
+-rwxrwx--- 1 root vboxsf     86 Jul  9 12:14 ftv2lastnode.png
+-rwxrwx--- 1 root vboxsf    746 Jul  9 12:14 ftv2link.png
+-rwxrwx--- 1 root vboxsf    246 Jul  9 12:14 ftv2mlastnode.png
+-rwxrwx--- 1 root vboxsf    246 Jul  9 12:14 ftv2mnode.png
+-rwxrwx--- 1 root vboxsf    403 Jul  9 12:14 ftv2mo.png
+-rwxrwx--- 1 root vboxsf     86 Jul  9 12:14 ftv2node.png
+-rwxrwx--- 1 root vboxsf    388 Jul  9 12:14 ftv2ns.png
+-rwxrwx--- 1 root vboxsf    229 Jul  9 12:14 ftv2plastnode.png
+-rwxrwx--- 1 root vboxsf    229 Jul  9 12:14 ftv2pnode.png
+-rwxrwx--- 1 root vboxsf    314 Jul  9 12:14 ftv2splitbar.png
+-rwxrwx--- 1 root vboxsf     86 Jul  9 12:14 ftv2vertline.png
+-rwxrwx--- 1 root vboxsf   5448 Jul  9 12:14 functions.html
+-rwxrwx--- 1 root vboxsf   5336 Jul  9 12:14 functions_vars.html
+-rwxrwx--- 1 root vboxsf   5329 Jul  9 12:14 globals_defs.html
+-rwxrwx--- 1 root vboxsf   5990 Jul  9 12:14 globals_func.html
+-rwxrwx--- 1 root vboxsf   6710 Jul  9 12:14 globals.html
+-rwxrwx--- 1 root vboxsf   4922 Jul  9 12:14 globals_type.html
+-rwxrwx--- 1 root vboxsf   4327 Jul  9 12:14 index.html
+-rwxrwx--- 1 root vboxsf 104693 Jul  9 12:14 jquery.js
+-rwxrwx--- 1 root vboxsf  17864 Jul  9 12:14 memmgr_8c.html
+-rwxrwx--- 1 root vboxsf  23783 Jul  9 12:14 memmgr_8h.html
+-rwxrwx--- 1 root vboxsf  19462 Jul  9 12:14 memmgr_8h_source.html
+-rwxrwx--- 1 root vboxsf    153 Jul  9 12:14 nav_f.png
+-rwxrwx--- 1 root vboxsf     95 Jul  9 12:14 nav_g.png
+-rwxrwx--- 1 root vboxsf     98 Jul  9 12:14 nav_h.png
+-rwxrwx--- 1 root vboxsf    123 Jul  9 12:14 open.png
+drwxrwx--- 1 root vboxsf   1904 Jul  9 12:08 search
+-rwxrwx--- 1 root vboxsf   6513 Jul  9 12:14 shared_8c.html
+-rwxrwx--- 1 root vboxsf  12871 Jul  9 12:14 shared_8h_source.html
+-rwxrwx--- 1 root vboxsf   9159 Jul  9 12:14 structblock__info.html
+-rwxrwx--- 1 root vboxsf   5976 Jul  9 12:14 structblock__info-members.html
+-rwxrwx--- 1 root vboxsf   6586 Jul  9 12:14 structLibraryFunctions.html
+-rwxrwx--- 1 root vboxsf   5909 Jul  9 12:14 structLibraryFunctions-members.html
+-rwxrwx--- 1 root vboxsf    853 Jul  9 12:14 sync_off.png
+-rwxrwx--- 1 root vboxsf    845 Jul  9 12:14 sync_on.png
+-rwxrwx--- 1 root vboxsf    142 Jul  9 12:14 tab_a.png
+-rwxrwx--- 1 root vboxsf    169 Jul  9 12:14 tab_b

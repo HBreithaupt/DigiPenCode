@@ -1,0 +1,145 @@
+TestPushFront...
+   5   4   3   2   1
+Items in the list: 5
+
+TestPushBack...
+   1   2   3   4   5
+Items in the list: 5
+
+TestPushFrontBack...
+  10   9   8   7   6   5   4   3   2   1   5  10  15  20  25  30  35  40  45  50
+Items in the list: 20
+
+TestPopFront...
+   5   4   3   2   1
+First item was: 5
+New list:   4   3   2   1
+Items in the list: 4
+First item was: 4
+New list:   3   2   1
+Items in the list: 3
+First item was: 3
+New list:   2   1
+Items in the list: 2
+First item was: 2
+New list:   1
+Items in the list: 1
+First item was: 1
+New list:
+Items in the list: 0
+
+TestArray1...
+   4   7  12   5   9  23   7  11  15   2
+Items in the list: 10
+
+TestArray2...
+   4   7  12   5   9  23   7  11  15   2
+Items in the list: 10
+
+TestCopyConstructor1...
+List 1:   30  27  24  21  18  15  12   9   6   3
+List 2:   30  27  24  21  18  15  12   9   6   3
+
+TestCopyConstructor2...
+List 1:   30  27  24  21  18  15  12   9   6   3
+List 2:   30  27  24  21  18  15  12   9   6   3
+List 2 is not empty
+Items in List2: 10
+
+TestAssignment1...
+Before assignment:
+List 1:   20  18  16  14  12  10   8   6   4   2
+List 2: 
+After assignment:
+List 1:   20  18  16  14  12  10   8   6   4   2
+List 2:   20  18  16  14  12  10   8   6   4   2
+
+TestAssignment2...
+Before assignment:
+List 1:   20  18  16  14  12  10   8   6   4   2
+List 2: 
+List 3: 
+After assignment:
+List 1:   20  18  16  14  12  10   8   6   4   2
+List 2:   20  18  16  14  12  10   8   6   4   2
+List 3:   20  18  16  14  12  10   8   6   4   2
+
+TestAddAssign1...
+Before addition:
+List 1:    5   4   3   2   1
+List 2:   50  40  30  20  10
+After addition:
+List 1:    5   4   3   2   1  50  40  30  20  10
+List 2:   50  40  30  20  10
+Items in the list: 10
+
+TestAddAssign2...
+Before addition:
+List 1:    5   4   3   2   1
+List 2: 
+After addition:
+List 1:    5   4   3   2   1
+List 2: 
+Items in the list: 5
+
+TestAddAssign3...
+Before addition:
+List 1:    5   4   3   2   1
+List 2: 
+After addition:
+List 1:    5   4   3   2   1
+List 2:    5   4   3   2   1
+Items in the list: 5
+
+TestAddAssign4...
+Before addition:
+List 1:    5   4   3   2   1
+List 2:   10   8   6   4   2
+List 3:   25  20  15  10   5
+After addition:
+List 1:    5   4   3   2   1  10   8   6   4   2  25  20  15  10   5
+List 2:   10   8   6   4   2  25  20  15  10   5
+List 3:   25  20  15  10   5
+Items in the list: 15
+
+TestSubscript1...
+list[0] = 1
+list[5] = 6
+list[9] = 10
+
+TestSubscript2...
+Original list:
+   1   2   3   4   5   6   7   8   9  10
+Modified list:
+  10   2   3   4   5  20   7   3   9  30
+
+============================================
+Total number of Lists created: 26
+============================================
+
+TestAddition1...
+Before addition:
+List 1:    5   4   3   2   1
+List 2:   50  40  30  20  10
+After addition:
+List 1:    5   4   3   2   1
+List 2:   50  40  30  20  10
+List 3:    5   4   3   2   1  50  40  30  20  10
+
+TestAddition2...
+Before addition:
+List 1:    5   4   3   2   1
+List 2:   50  40  30  20  10
+List 3:    5   4   3   2   1  50  40  30  20  10
+After addition:
+List 4:    5   4   3   2   1  50  40  30  20  10   5   4   3   2   1  50  40  30  20  10
+Items in the list: 20
+
+============================================
+Total number of Lists created: 36
+============================================
+
+============================================
+Total number of nodes alive: 0
+============================================
+

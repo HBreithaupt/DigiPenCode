@@ -1,0 +1,11 @@
+#!/bin/bash
+
+./filter input1.txt --help
+./filter input1.txt --tolower
+./filter input1.txt --toupper
+./filter input1.txt --replace=Cx
+./filter input1.txt --delete=$
+./filter input1.txt --remove-blank-lines
+./filter input1.txt --line-numbers
+./filter input1.txt --expand-tabs=2
+./filter input1.txt --expand-tabs=2 --remove-blank-lines --delete=C --replace=$%

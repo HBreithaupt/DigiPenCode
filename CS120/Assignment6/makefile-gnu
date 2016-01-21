@@ -1,0 +1,25 @@
+# Macros ========================================
+
+CC=gcc
+CFLAGS=-c -Wall -Wextra -Werror -ansi -pedantic
+DIR=gnu/
+OBJECTS=$(DIR)main.o $(DIR)scantext.o
+EXE=program.exe
+
+# Targets ========================================
+
+$(DIR)$(EXE) : $(OBJECTS)
+	$(CC) $(OBJECTS) -o $(DIR)$(EXE)
+
+$(DIR)main.o : main.c
+	$(CC) $(CFLAGS) main.c -o $(DIR)main.o
+
+$(DIR)scantext.o : scantext.c scantext.h
+	$(CC) $(CFLAGS) scantext.c -o $(DIR)scantext.o
+
+clean :
+	rm $(DIR)$(EXE) $(OBJECTS)
+
+rebuild : 
+	$(MAKE) clean
+	$(MAKE)

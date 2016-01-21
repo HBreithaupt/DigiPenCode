@@ -1,0 +1,323 @@
+\hypertarget{class_c_s170_1_1_list}{\section{C\-S170\-:\-:List Class Reference}
+\label{class_c_s170_1_1_list}\index{C\-S170\-::\-List@{C\-S170\-::\-List}}
+}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct {\bfseries Node}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_c_s170_1_1_list_a7fc656150f082a148d4aac5b180e6041}{\hyperlink{class_c_s170_1_1_list_a7fc656150f082a148d4aac5b180e6041}{List} ()}\label{class_c_s170_1_1_list_a7fc656150f082a148d4aac5b180e6041}
+
+\begin{DoxyCompactList}\small\item\em Default constructor for \hyperlink{class_c_s170_1_1_list}{List}. \end{DoxyCompactList}\item 
+\hyperlink{class_c_s170_1_1_list_a31b18e24e063fd8790e3e85534cf39fc}{List} (const \hyperlink{class_c_s170_1_1_list}{List} \&original)
+\begin{DoxyCompactList}\small\item\em Copy constructor for \hyperlink{class_c_s170_1_1_list}{List}. \end{DoxyCompactList}\item 
+\hyperlink{class_c_s170_1_1_list_ac2dcf97233395ca6728c54db2d675567}{List} (const int $\ast$array, int length)
+\begin{DoxyCompactList}\small\item\em Non-\/default constructor for \hyperlink{class_c_s170_1_1_list}{List}. \end{DoxyCompactList}\item 
+\hypertarget{class_c_s170_1_1_list_a60a713545daaafef1718fce43bfc7da9}{\hyperlink{class_c_s170_1_1_list_a60a713545daaafef1718fce43bfc7da9}{$\sim$\-List} ()}\label{class_c_s170_1_1_list_a60a713545daaafef1718fce43bfc7da9}
+
+\begin{DoxyCompactList}\small\item\em Destructor for list class. \end{DoxyCompactList}\item 
+void \hyperlink{class_c_s170_1_1_list_aa4df5e17fcab71423695ff6be85714d4}{push\-\_\-front} (int value)
+\begin{DoxyCompactList}\small\item\em Push a node to the front of the list. \end{DoxyCompactList}\item 
+void \hyperlink{class_c_s170_1_1_list_aabda8988f5d8ba94dcf3b7ead4f0a601}{push\-\_\-back} (int value)
+\begin{DoxyCompactList}\small\item\em Pushes a node the back of the list. \end{DoxyCompactList}\item 
+int \hyperlink{class_c_s170_1_1_list_a8ff551128c175ece5bc4ef1b1d8651fc}{pop\-\_\-front} ()
+\begin{DoxyCompactList}\small\item\em Pops the first node in the list. \end{DoxyCompactList}\item 
+int \hyperlink{class_c_s170_1_1_list_ad1fff6513ecabae741f4a994f02c0743}{size} () const 
+\begin{DoxyCompactList}\small\item\em Returns the number of nodes in the list. \end{DoxyCompactList}\item 
+int \hyperlink{class_c_s170_1_1_list_ab3ca8534ee9519f46a5834e45e2176ea}{empty} () const 
+\begin{DoxyCompactList}\small\item\em Checks if the list is empty. \end{DoxyCompactList}\item 
+\hypertarget{class_c_s170_1_1_list_a3c855f1af11b27061da04658291d7330}{void \hyperlink{class_c_s170_1_1_list_a3c855f1af11b27061da04658291d7330}{clear} ()}\label{class_c_s170_1_1_list_a3c855f1af11b27061da04658291d7330}
+
+\begin{DoxyCompactList}\small\item\em Removes all nodes from a list. \end{DoxyCompactList}\item 
+\hyperlink{class_c_s170_1_1_list}{List} \& \hyperlink{class_c_s170_1_1_list_ab98cfaebce3d7b36575c8fe2154a46f6}{operator=} (const \hyperlink{class_c_s170_1_1_list}{List} \&rhs)
+\begin{DoxyCompactList}\small\item\em Overloads = operator to assign the right hand operand to the left. \end{DoxyCompactList}\item 
+\hyperlink{class_c_s170_1_1_list}{List} \& \hyperlink{class_c_s170_1_1_list_ab12061a5dc8b1ffceb6320c1a3c32b1a}{operator+=} (const \hyperlink{class_c_s170_1_1_list}{List} \&rhs)
+\begin{DoxyCompactList}\small\item\em Overloads += to concatenate the right hand list to the left hand list. \end{DoxyCompactList}\item 
+\hyperlink{class_c_s170_1_1_list}{List} \hyperlink{class_c_s170_1_1_list_a39e4fe39225c678bb53a73b374b08f1c}{operator+} (const \hyperlink{class_c_s170_1_1_list}{List} \&rhs) const 
+\begin{DoxyCompactList}\small\item\em Overloads + operator to create a list and make it a combination of the left hand list and right hand list. \end{DoxyCompactList}\item 
+int \hyperlink{class_c_s170_1_1_list_a308ed69a3c37f10c057196426e810f68}{operator\mbox{[}$\,$\mbox{]}} (int index) const 
+\begin{DoxyCompactList}\small\item\em Overloads subscript operator to read a number from the list. \end{DoxyCompactList}\item 
+int \& \hyperlink{class_c_s170_1_1_list_ac400d5a9390e48d65e346656699f036a}{operator\mbox{[}$\,$\mbox{]}} (int index)
+\begin{DoxyCompactList}\small\item\em Overloads subscript operator to write over the data portion at a certain index of the list. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \hyperlink{class_c_s170_1_1_list_ac067e7e382b2b3e0d41927a7c71d0dc1}{list\-\_\-count} ()
+\begin{DoxyCompactList}\small\item\em Returns how many lists have been created. \end{DoxyCompactList}\item 
+static int \hyperlink{class_c_s170_1_1_list_afcb51f27f210b74d88a0439dd1fc1dc6}{node\-\_\-count} ()
+\begin{DoxyCompactList}\small\item\em Returns how many nodes are alive. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\-::ostream \& \hyperlink{class_c_s170_1_1_list_a48a7115024c3620abdc6fd050c2351bc}{operator$<$$<$} (std\-::ostream \&os, const \hyperlink{class_c_s170_1_1_list}{List} \&list)
+\begin{DoxyCompactList}\small\item\em Overloads $<$$<$ to print out the list. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_c_s170_1_1_list_a31b18e24e063fd8790e3e85534cf39fc}{\index{C\-S170\-::\-List@{C\-S170\-::\-List}!List@{List}}
+\index{List@{List}!CS170::List@{C\-S170\-::\-List}}
+\subsubsection[{List}]{\setlength{\rightskip}{0pt plus 5cm}{\bf C\-S170\-::\-List\-::\-List} (
+\begin{DoxyParamCaption}
+\item[{const {\bf List} \&}]{original}
+\end{DoxyParamCaption}
+)}}\label{class_c_s170_1_1_list_a31b18e24e063fd8790e3e85534cf39fc}
+
+
+Copy constructor for \hyperlink{class_c_s170_1_1_list}{List}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em original} & The \hyperlink{class_c_s170_1_1_list}{List} to copy over. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_c_s170_1_1_list_ac2dcf97233395ca6728c54db2d675567}{\index{C\-S170\-::\-List@{C\-S170\-::\-List}!List@{List}}
+\index{List@{List}!CS170::List@{C\-S170\-::\-List}}
+\subsubsection[{List}]{\setlength{\rightskip}{0pt plus 5cm}{\bf C\-S170\-::\-List\-::\-List} (
+\begin{DoxyParamCaption}
+\item[{const int $\ast$}]{array, }
+\item[{int}]{length}
+\end{DoxyParamCaption}
+)}}\label{class_c_s170_1_1_list_ac2dcf97233395ca6728c54db2d675567}
+
+
+Non-\/default constructor for \hyperlink{class_c_s170_1_1_list}{List}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em array} & An array integers you want to make into a \hyperlink{class_c_s170_1_1_list}{List}. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_c_s170_1_1_list_ab3ca8534ee9519f46a5834e45e2176ea}{\index{C\-S170\-::\-List@{C\-S170\-::\-List}!empty@{empty}}
+\index{empty@{empty}!CS170::List@{C\-S170\-::\-List}}
+\subsubsection[{empty}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf C\-S170\-::\-List\-::empty} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_c_s170_1_1_list_ab3ca8534ee9519f46a5834e45e2176ea}
+
+
+Checks if the list is empty. 
+
+\begin{DoxyReturn}{Returns}
+Returns 1 if the list is empty, or 0 if the list is not empty. 
+\end{DoxyReturn}
+\hypertarget{class_c_s170_1_1_list_ac067e7e382b2b3e0d41927a7c71d0dc1}{\index{C\-S170\-::\-List@{C\-S170\-::\-List}!list\-\_\-count@{list\-\_\-count}}
+\index{list\-\_\-count@{list\-\_\-count}!CS170::List@{C\-S170\-::\-List}}
+\subsubsection[{list\-\_\-count}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf C\-S170\-::\-List\-::list\-\_\-count} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}\label{class_c_s170_1_1_list_ac067e7e382b2b3e0d41927a7c71d0dc1}
+
+
+Returns how many lists have been created. 
+
+\begin{DoxyReturn}{Returns}
+Number of lists created. 
+\end{DoxyReturn}
+\hypertarget{class_c_s170_1_1_list_afcb51f27f210b74d88a0439dd1fc1dc6}{\index{C\-S170\-::\-List@{C\-S170\-::\-List}!node\-\_\-count@{node\-\_\-count}}
+\index{node\-\_\-count@{node\-\_\-count}!CS170::List@{C\-S170\-::\-List}}
+\subsubsection[{node\-\_\-count}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf C\-S170\-::\-List\-::node\-\_\-count} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}\label{class_c_s170_1_1_list_afcb51f27f210b74d88a0439dd1fc1dc6}
+
+
+Returns how many nodes are alive. 
+
+\begin{DoxyReturn}{Returns}
+Number of Nodes alive. 
+\end{DoxyReturn}
+\hypertarget{class_c_s170_1_1_list_a39e4fe39225c678bb53a73b374b08f1c}{\index{C\-S170\-::\-List@{C\-S170\-::\-List}!operator+@{operator+}}
+\index{operator+@{operator+}!CS170::List@{C\-S170\-::\-List}}
+\subsubsection[{operator+}]{\setlength{\rightskip}{0pt plus 5cm}{\bf List} C\-S170\-::\-List\-::operator+ (
+\begin{DoxyParamCaption}
+\item[{const {\bf List} \&}]{rhs}
+\end{DoxyParamCaption}
+) const}}\label{class_c_s170_1_1_list_a39e4fe39225c678bb53a73b374b08f1c}
+
+
+Overloads + operator to create a list and make it a combination of the left hand list and right hand list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & A reference to a \hyperlink{class_c_s170_1_1_list}{List} to copy.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A list that has been copied and concatenated from the left and right hand operands. 
+\end{DoxyReturn}
+\hypertarget{class_c_s170_1_1_list_ab12061a5dc8b1ffceb6320c1a3c32b1a}{\index{C\-S170\-::\-List@{C\-S170\-::\-List}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!CS170::List@{C\-S170\-::\-List}}
+\subsubsection[{operator+=}]{\setlength{\rightskip}{0pt plus 5cm}{\bf List} \& C\-S170\-::\-List\-::operator+= (
+\begin{DoxyParamCaption}
+\item[{const {\bf List} \&}]{rhs}
+\end{DoxyParamCaption}
+)}}\label{class_c_s170_1_1_list_ab12061a5dc8b1ffceb6320c1a3c32b1a}
+
+
+Overloads += to concatenate the right hand list to the left hand list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & A list reference to concatenate with.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A reference to the left hand list. 
+\end{DoxyReturn}
+\hypertarget{class_c_s170_1_1_list_ab98cfaebce3d7b36575c8fe2154a46f6}{\index{C\-S170\-::\-List@{C\-S170\-::\-List}!operator=@{operator=}}
+\index{operator=@{operator=}!CS170::List@{C\-S170\-::\-List}}
+\subsubsection[{operator=}]{\setlength{\rightskip}{0pt plus 5cm}{\bf List} \& C\-S170\-::\-List\-::operator= (
+\begin{DoxyParamCaption}
+\item[{const {\bf List} \&}]{rhs}
+\end{DoxyParamCaption}
+)}}\label{class_c_s170_1_1_list_ab98cfaebce3d7b36575c8fe2154a46f6}
+
+
+Overloads = operator to assign the right hand operand to the left. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rhs} & A \hyperlink{class_c_s170_1_1_list}{List} reference to assign to the left hand operand.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A list reference to the left hand list. 
+\end{DoxyReturn}
+\hypertarget{class_c_s170_1_1_list_a308ed69a3c37f10c057196426e810f68}{\index{C\-S170\-::\-List@{C\-S170\-::\-List}!operator\mbox{[}$\,$\mbox{]}@{operator[]}}
+\index{operator\mbox{[}$\,$\mbox{]}@{operator[]}!CS170::List@{C\-S170\-::\-List}}
+\subsubsection[{operator[]}]{\setlength{\rightskip}{0pt plus 5cm}int C\-S170\-::\-List\-::operator\mbox{[}$\,$\mbox{]} (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+) const}}\label{class_c_s170_1_1_list_a308ed69a3c37f10c057196426e810f68}
+
+
+Overloads subscript operator to read a number from the list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & How far into the list to go.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The integer portion of the container at the specified index. 
+\end{DoxyReturn}
+\hypertarget{class_c_s170_1_1_list_ac400d5a9390e48d65e346656699f036a}{\index{C\-S170\-::\-List@{C\-S170\-::\-List}!operator\mbox{[}$\,$\mbox{]}@{operator[]}}
+\index{operator\mbox{[}$\,$\mbox{]}@{operator[]}!CS170::List@{C\-S170\-::\-List}}
+\subsubsection[{operator[]}]{\setlength{\rightskip}{0pt plus 5cm}int \& C\-S170\-::\-List\-::operator\mbox{[}$\,$\mbox{]} (
+\begin{DoxyParamCaption}
+\item[{int}]{index}
+\end{DoxyParamCaption}
+)}}\label{class_c_s170_1_1_list_ac400d5a9390e48d65e346656699f036a}
+
+
+Overloads subscript operator to write over the data portion at a certain index of the list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & How far into the list to go.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A reference to the integer you want to write over. 
+\end{DoxyReturn}
+\hypertarget{class_c_s170_1_1_list_a8ff551128c175ece5bc4ef1b1d8651fc}{\index{C\-S170\-::\-List@{C\-S170\-::\-List}!pop\-\_\-front@{pop\-\_\-front}}
+\index{pop\-\_\-front@{pop\-\_\-front}!CS170::List@{C\-S170\-::\-List}}
+\subsubsection[{pop\-\_\-front}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf C\-S170\-::\-List\-::pop\-\_\-front} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_c_s170_1_1_list_a8ff551128c175ece5bc4ef1b1d8651fc}
+
+
+Pops the first node in the list. 
+
+\begin{DoxyReturn}{Returns}
+Return the integer -\/1 if the list was already empty or the integer from the container removed. 
+\end{DoxyReturn}
+\hypertarget{class_c_s170_1_1_list_aabda8988f5d8ba94dcf3b7ead4f0a601}{\index{C\-S170\-::\-List@{C\-S170\-::\-List}!push\-\_\-back@{push\-\_\-back}}
+\index{push\-\_\-back@{push\-\_\-back}!CS170::List@{C\-S170\-::\-List}}
+\subsubsection[{push\-\_\-back}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf C\-S170\-::\-List\-::push\-\_\-back} (
+\begin{DoxyParamCaption}
+\item[{int}]{value}
+\end{DoxyParamCaption}
+)}}\label{class_c_s170_1_1_list_aabda8988f5d8ba94dcf3b7ead4f0a601}
+
+
+Pushes a node the back of the list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & The value you want to assign the node being pushed. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_c_s170_1_1_list_aa4df5e17fcab71423695ff6be85714d4}{\index{C\-S170\-::\-List@{C\-S170\-::\-List}!push\-\_\-front@{push\-\_\-front}}
+\index{push\-\_\-front@{push\-\_\-front}!CS170::List@{C\-S170\-::\-List}}
+\subsubsection[{push\-\_\-front}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf C\-S170\-::\-List\-::push\-\_\-front} (
+\begin{DoxyParamCaption}
+\item[{int}]{value}
+\end{DoxyParamCaption}
+)}}\label{class_c_s170_1_1_list_aa4df5e17fcab71423695ff6be85714d4}
+
+
+Push a node to the front of the list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & The vale you want to assign the node being pushed. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_c_s170_1_1_list_ad1fff6513ecabae741f4a994f02c0743}{\index{C\-S170\-::\-List@{C\-S170\-::\-List}!size@{size}}
+\index{size@{size}!CS170::List@{C\-S170\-::\-List}}
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf C\-S170\-::\-List\-::size} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_c_s170_1_1_list_ad1fff6513ecabae741f4a994f02c0743}
+
+
+Returns the number of nodes in the list. 
+
+\begin{DoxyReturn}{Returns}
+How many nodes are in the list. 
+\end{DoxyReturn}
+
+
+\subsection{Friends And Related Function Documentation}
+\hypertarget{class_c_s170_1_1_list_a48a7115024c3620abdc6fd050c2351bc}{\index{C\-S170\-::\-List@{C\-S170\-::\-List}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!CS170::List@{C\-S170\-::\-List}}
+\subsubsection[{operator$<$$<$}]{\setlength{\rightskip}{0pt plus 5cm}std\-::ostream\& operator$<$$<$ (
+\begin{DoxyParamCaption}
+\item[{std\-::ostream \&}]{os, }
+\item[{const {\bf List} \&}]{list}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}friend\mbox{]}}}}\label{class_c_s170_1_1_list_a48a7115024c3620abdc6fd050c2351bc}
+
+
+Overloads $<$$<$ to print out the list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em os} & The stream you want to print to.\\
+\hline
+{\em list} & The list you want to print out.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A reference to the stream you're using. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_list_8h}{List.\-h}\item 
+\hyperlink{_list_8cpp}{List.\-cpp}\end{DoxyCompactItemize}

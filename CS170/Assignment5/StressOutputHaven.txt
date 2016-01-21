@@ -1,0 +1,36 @@
+
+TestStress1...
+Items in the list: 100000
+Sum of 10%: 10333
+
+
+TestStress2...
+Items in the list: 1000000
+
+
+TestStress3...
+Items in the list: 1000000
+
+
+TestStress4...
+Items in the list: 50000
+The number 3 appears 2796 times in the list
+
+
+TestStress5...
+The number 1 appears 1129 times in the list
+The number 2 appears 541 times in the list
+The number 3 appears 574 times in the list
+The number 4 appears 581 times in the list
+The number 5 appears 575 times in the list
+The number 6 appears 523 times in the list
+The number 7 appears 559 times in the list
+The number 8 appears 547 times in the list
+The number 9 appears 510 times in the list
+Items in the list: 10000
+Items in the list: 5539
+
+============================================
+Total number of Nodes in use: 0
+============================================
+

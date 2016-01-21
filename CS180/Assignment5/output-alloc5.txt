@@ -1,0 +1,19 @@
+
+<<<<<<<< test_alloc5 >>>>>>>>
+=========================================
+    label: START
+  address: 0x000000
+     size: 50
+allocated: false
+--
+Allocated bytes:        0 [blocks:     0]
+     Free bytes:       50 [blocks:     1]
+********** Allocation failed. **********
+=========================================
+    label: START
+  address: 0x000000
+     size: 50
+allocated: false
+--
+Allocated bytes:        0 [blocks:     0]
+     Free bytes:       50 [blocks:     1]

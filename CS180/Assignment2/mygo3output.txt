@@ -1,0 +1,99 @@
+# macros =======================================================
+
+cc=g++
+cflags=-wall -wextra -ansi -pedantic -werror
+exe=program.exe
+outdir=gnu/
+objs=$(outdir)driver.o $(outdir)scantext.o $(outdir)jumble.o
+erase=rm
+
+# targets ======================================================
+
+$(outdir)$(exe) : $(objs)
+	$(cc) $(objs) -o $(outdir)$(exe)
+
+$(outdir)driver.o : driver.cpp scantext.h jumble.h
+	$(cc) $(cflags) -c driver.cpp -o driver.o
+
+$(outdir)jumble.o : jumble.cpp jumble.h
+	$(cc) $(cflags) -c jumble.cpp -o jumble.o
+
+$(outdir)scantext.o : scantext.cpp
+	$(cc) $(cflags) -c scantext.cpp -o scantext.o
+
+clean : 
+	$(erase) $(objs) $(outdir)$(exe)
+
+rebuild :
+	$(make) clean
+	$(make)
+
+
+# Macrs =======================================================
+
+CC=g++
+CFLAGS=-Wall -Wextra -ansi -pedantic -Werrr
+EXE=prgram.exe
+OUTDIR=gnu/
+OBJS=$(OUTDIR)driver. $(OUTDIR)scantext. $(OUTDIR)jumble.
+ERASE=rm
+
+# TARGETS ======================================================
+
+$(OUTDIR)$(EXE) : $(OBJS)
+	$(CC) $(OBJS) - $(OUTDIR)$(EXE)
+
+$(OUTDIR)driver. : driver.cpp scantext.h jumble.h
+	$(CC) $(CFLAGS) -c driver.cpp - driver.
+
+$(OUTDIR)jumble. : jumble.cpp jumble.h
+	$(CC) $(CFLAGS) -c jumble.cpp - jumble.
+
+$(OUTDIR)scantext. : scantext.cpp
+	$(CC) $(CFLAGS) -c scantext.cpp - scantext.
+
+clean : 
+	$(ERASE) $(OBJS) $(OUTDIR)$(EXE)
+
+rebuild :
+	$(MAKE) clean
+	$(MAKE)
+
+
+When in the Curse f human events, it becmes necessary fr ne peple t
+disslve the plitical bands which have cnnected them with anther, and t
+assume amng the pwers f the earth, the separate and equal statin t which
+the Laws f Nature and f Nature's Gd entitle them, a decent respect t the
+pinins f mankind requires that they shuld declare the causes which impel
+them t the separatin.
+# MACROS =======================================================
+
+CC=G++
+CFLAGS=-WALL -WEXTRA -ANSI -PEDANTIC -WERROR
+EXE=PROGRAM.EXE
+OUTDIR=GNU/
+OBJS=$(OUTDIR)DRIVER.O $(OUTDIR)SCANTEXT.O $(OUTDIR)JUMBLE.O
+ERASE=RM
+
+# TARGETS ======================================================
+
+$(OUTDIR)$(EXE) : $(OBJS)
+	$(CC) $(OBJS) -O $(OUTDIR)$(EXE)
+
+$(OUTDIR)DRIVER.O : DRIVER.CPP SCANTEXT.H JUMBLE.H
+	$(CC) $(CFLAGS) -C DRIVER.CPP -O DRIVER.O
+
+$(OUTDIR)JUMBLE.O : JUMBLE.CPP JUMBLE.H
+	$(CC) $(CFLAGS) -C JUMBLE.CPP -O JUMBLE.O
+
+$(OUTDIR)SCANTEXT.O : SCANTEXT.CPP
+	$(CC) $(CFLAGS) -C SCANTEXT.CPP -O SCANTEXT.O
+
+CLEAN : 
+	$(ERASE) $(OBJS) $(OUTDIR)$(EXE)
+
+REBUILD :
+	$(MAKE) CLEAN
+	$(MAKE)
+
+

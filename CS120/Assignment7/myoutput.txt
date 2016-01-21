@@ -1,0 +1,133 @@
+
+Test1--------------------------------------------------------
+Word: Four (FOUR)
+Word: score (SCORE)
+Word: and (AND)
+Word: seven (SEVEN)
+Word: years (YEARS)
+Word: ago (AGO)
+Word: our (OUR)
+Word: fathers (FATHERS)
+Word: brought (BROUGHT)
+Word: forth (FORTH)
+Word: on (ON)
+Word: this (THIS)
+Word: continent (CONTINENT)
+Word: a (A)
+Word: new (NEW)
+Word: NATION (NATION)
+Word: fast123 (FAST123)
+Word: 123  abc (123  ABC)
+Word: Hello!! (HELLO!!)
+Word:  ()
+Word: *&^%$#8UPPERlower (*&^%$#8UPPERLOWER)
+
+Test2--------------------------------------------------------
+Dictionary: lexicon.txt
+Number of words: 12
+Shortest word: 4 letters
+Longest word: 10 letters
+
+Test2--------------------------------------------------------
+Dictionary: small.txt
+Number of words: 35
+Shortest word: 2 letters
+Longest word: 12 letters
+
+Test2--------------------------------------------------------
+Dictionary: allwords.txt
+Number of words: 168093
+Shortest word: 1 letters
+Longest word: 15 letters
+
+Test3--------------------------------------------------------
+Dictionary: lexicon.txt
+Number of words starting with a: 1
+
+Test3--------------------------------------------------------
+Dictionary: lexicon.txt
+Number of words starting with A: 1
+
+Test3--------------------------------------------------------
+Dictionary: lexicon.txt
+Number of words starting with l: 2
+
+Test3--------------------------------------------------------
+Dictionary: lexicon.txt
+Number of words starting with $: 0
+
+Test3--------------------------------------------------------
+Dictionary: lexicon.txt
+Number of words starting with e: 0
+
+Test3--------------------------------------------------------
+Dictionary: allwords.txt
+Number of words starting with M: 9330
+
+Test3--------------------------------------------------------
+Dictionary: allwords.txt
+Number of words starting with q: 804
+
+Test3--------------------------------------------------------
+Dictionary: allwords.txt
+Number of words starting with 5: 0
+
+Test4--------------------------------------------------------
+The word APPLE is spelled correctly.
+
+Test4--------------------------------------------------------
+The word Apple is spelled correctly.
+
+Test4--------------------------------------------------------
+The word apple is spelled correctly.
+
+Test4--------------------------------------------------------
+The word appl is misspelled.
+
+Test4--------------------------------------------------------
+The word abalone is spelled correctly.
+
+Test4--------------------------------------------------------
+The word interdigitation is spelled correctly.
+
+Test4--------------------------------------------------------
+The word interdigalizing is misspelled.
+
+Test5--------------------------------------------------------
+Misspelled words: *** None ***
+
+Test6--------------------------------------------------------
+Misspelled words: sevn fawthers foarth contnent nashun 
+
+Test7--------------------------------------------------------
+Dictionary: allwords.txt
+Number of words of length  1 is      1
+Number of words of length  2 is     96
+Number of words of length  3 is    972
+Number of words of length  4 is   3903
+Number of words of length  5 is   8636
+Total number of words counted: 13608
+
+Test7--------------------------------------------------------
+Dictionary: allwords.txt
+Number of words of length  1 is      1
+Number of words of length  2 is     96
+Number of words of length  3 is    972
+Number of words of length  4 is   3903
+Number of words of length  5 is   8636
+Number of words of length  6 is  15232
+Number of words of length  7 is  23109
+Number of words of length  8 is  28419
+Number of words of length  9 is  24792
+Number of words of length 10 is  20194
+Number of words of length 11 is  15407
+Number of words of length 12 is  11273
+Number of words of length 13 is   7781
+Number of words of length 14 is   5100
+Number of words of length 15 is   3178
+Number of words of length 16 is      0
+Number of words of length 17 is      0
+Number of words of length 18 is      0
+Number of words of length 19 is      0
+Number of words of length 20 is      0
+Total number of words counted: 168093

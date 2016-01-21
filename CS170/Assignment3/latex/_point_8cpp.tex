@@ -1,0 +1,54 @@
+\hypertarget{_point_8cpp}{\section{Point.\-cpp File Reference}
+\label{_point_8cpp}\index{Point.\-cpp@{Point.\-cpp}}
+}
+
+
+Overloads operators to perform mathematical operations on Point class.  
+
+
+{\ttfamily \#include \char`\"{}Point.\-h\char`\"{}}\\*
+{\ttfamily \#include $<$cmath$>$}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+std\-::ostream \& {\bfseries C\-S170\-::operator$<$$<$} (std\-::ostream \&os, const Point \&point)
+\begin{DoxyCompactList}\small\item\em Overloads operator $<$$<$ to print out the \hyperlink{class_c_s170_1_1_point}{Point} members. \end{DoxyCompactList}\item 
+\hypertarget{namespace_c_s170_a52971d41b3751eb37ae4757805cdff73}{std\-::istream \& {\bfseries C\-S170\-::operator$>$$>$} (std\-::istream \&is, Point \&point)}\label{namespace_c_s170_a52971d41b3751eb37ae4757805cdff73}
+
+\item 
+\hypertarget{namespace_c_s170_a27ffa53f6c64e0d4dc9de6ed67f058af}{Point {\bfseries C\-S170\-::operator+} (double lhs, const Point \&rhs)}\label{namespace_c_s170_a27ffa53f6c64e0d4dc9de6ed67f058af}
+
+\item 
+\hypertarget{namespace_c_s170_ac234110f2b535777492400dc5f6b85d9}{Point {\bfseries C\-S170\-::operator$\ast$} (double lhs, const Point \&rhs)}\label{namespace_c_s170_ac234110f2b535777492400dc5f6b85d9}
+
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{namespace_c_s170_a307a9cad22a6c0c8c53af14300f38e26}{const double {\bfseries C\-S170\-::\-P\-I} = 3.\-1415926535897}\label{namespace_c_s170_a307a9cad22a6c0c8c53af14300f38e26}
+
+\item 
+\hypertarget{namespace_c_s170_ad6ae203e8e81651dcf56dcf6ae103f14}{const double {\bfseries C\-S170\-::\-E\-P\-S\-I\-L\-O\-N} = 0.\-00001}\label{namespace_c_s170_ad6ae203e8e81651dcf56dcf6ae103f14}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Overloads operators to perform mathematical operations on Point class. \begin{DoxyAuthor}{Author}
+Haven Breithaupt 
+\end{DoxyAuthor}
+\begin{DoxyParagraph}{D\-P email\-: h.breithaupt@digipen.edu}
+
+\end{DoxyParagraph}
+\begin{DoxyParagraph}{Course\-: C\-S170}
+
+\end{DoxyParagraph}
+\begin{DoxyParagraph}{Assignment 3 }
+
+\end{DoxyParagraph}
+\begin{DoxyDate}{Date}
+2-\/17-\/2015
+\end{DoxyDate}
+Hours spent on assignment\-: 3
+
+Specific portions that gave you the most trouble\-: -\/\-Implenting the non-\/member non-\/friend functions gave me some trouble when trying to figure out the syntax -\/\-Fixing the pre and post decrement/increments to not allow ++p1++, still not sure 100\% why the fix works the way it does 

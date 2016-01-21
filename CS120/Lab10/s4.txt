@@ -1,0 +1,30 @@
+Count of letters is: 56, spaces: 1, other: 29
+A:**
+B:**
+C:**
+D:**
+E:**
+F:**
+G:**
+H:**
+I:**
+J:**
+K:**
+L:**
+M:**
+N:**
+O:**
+P:**
+Q:**
+R:**
+S:****
+T:****
+U:**
+V:**
+W:**
+X:**
+Y:**
+Z:**
+Average: 30.00000, max letter: S, max count: 4
+
+

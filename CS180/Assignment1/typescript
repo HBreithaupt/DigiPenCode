@@ -1,0 +1,424 @@
+Script started on Fri 15 May 2015 08:20:51 PM PDT
+[01;32mhaven@HavenLinux[01;34m /media/sf_LinuxShared/CS180/Assignment1 $[00m date
+Fri May 15 20:20:51 PDT 2015
+[01;32mhaven@HavenLinux[01;34m /media/sf_LinuxShared/CS180/Assignment1 $[00m uptime
+ 20:20:53 up 31 min,  2 users,  load average: 0.19, 0.21, 0.18
+[01;32mhaven@HavenLinux[01;34m /media/sf_LinuxShared/CS180/Assignment1 $[00m echo HJave[K[K[K[Kaven Breithaupt [A
+Haven Breithaupt
+[01;32mhaven@HavenLinux[01;34m /media/sf_LinuxShared/CS180/Assignment1 $[00m pwd
+/media/sf_LinuxShared/CS180/Assignment1
+[01;32mhaven@HavenLinux[01;34m /media/sf_LinuxShared/CS180/Assignment1 $[00m whoami
+haven
+[01;32mhaven@HavenLinux[01;34m /media/sf_LinuxShared/CS180/Assignment1 $[00m uname -a
+Linux HavenLinux 3.13.0-24-generic #47-Ubuntu SMP Fri May 2 23:30:00 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux
+[01;32mhaven@HavenLinux[01;34m /media/sf_LinuxShared/CS180/Assignment1 $[00m cat /proc/cpuinfo
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 45
+model name	: Intel(R) Core(TM) i7-3820 CPU @ 3.60GHz
+stepping	: 7
+microcode	: 0x616
+cpu MHz		: 3602.175
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 4
+core id		: 0
+cpu cores	: 4
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 lahf_lm
+bogomips	: 7204.35
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 45
+model name	: Intel(R) Core(TM) i7-3820 CPU @ 3.60GHz
+stepping	: 7
+microcode	: 0x616
+cpu MHz		: 3602.175
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 4
+core id		: 1
+cpu cores	: 4
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 lahf_lm
+bogomips	: 7204.35
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 45
+model name	: Intel(R) Core(TM) i7-3820 CPU @ 3.60GHz
+stepping	: 7
+microcode	: 0x616
+cpu MHz		: 3602.175
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 4
+core id		: 2
+cpu cores	: 4
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 lahf_lm
+bogomips	: 7204.35
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 45
+model name	: Intel(R) Core(TM) i7-3820 CPU @ 3.60GHz
+stepping	: 7
+microcode	: 0x616
+cpu MHz		: 3602.175
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 4
+core id		: 3
+cpu cores	: 4
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 lahf_lm
+bogomips	: 7204.35
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 46 bits physical, 48 bits virtual
+power management:
+
+[01;32mhaven@HavenLinux[01;34m /media/sf_LinuxShared/CS180/Assignment1 $[00m cat /proc/meminfo
+MemTotal:        4048076 kB
+MemFree:         2489232 kB
+Buffers:           95192 kB
+Cached:           777524 kB
+SwapCached:            0 kB
+Active:           866888 kB
+Inactive:         563008 kB
+Active(anon):     557992 kB
+Inactive(anon):    40496 kB
+Active(file):     308896 kB
+Inactive(file):   522512 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:       4192252 kB
+SwapFree:        4192252 kB
+Dirty:                20 kB
+Writeback:             0 kB
+AnonPages:        557204 kB
+Mapped:           168544 kB
+Shmem:             41308 kB
+Slab:              64844 kB
+SReclaimable:      45384 kB
+SUnreclaim:        19460 kB
+KernelStack:        3008 kB
+PageTables:        21864 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     6216288 kB
+Committed_AS:    2007168 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       57276 kB
+VmallocChunk:   34359581128 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:    227328 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:       59328 kB
+DirectMap2M:     4134912 kB
+[01;32mhaven@HavenLinux[01;34m /media/sf_LinuxShared/CS180/Assignment1 $[00m gcc -g -Wall -Wextra  -ansi -pedantic sample-driver.c slist.c PRNG.c -o slist
+[01;32mhaven@HavenLinux[01;34m /media/sf_LinuxShared/CS180/Assignment1 $[00m ./slist | tee output. txt
+==================
+   1: one
+   2: two
+   3: three
+   4: four
+   5: five
+   6: six
+   7: seven
+==================
+   1: one
+   2: two
+   3: three
+   4: four
+   5: five
+   6: six
+   7: seven
+==================
+   1: one
+   2: two
+   3: three
+   5: five
+   6: six
+   7: seven
+==================
+   1: one
+   2: two
+   3: three
+   6: six
+   7: seven
+==================
+   2: two
+   3: three
+   6: six
+   7: seven
+==================
+   2: two
+   3: three
+   6: six
+==================
+   1: one
+   2: two
+   3: three
+   4: four
+   5: five
+   6: six
+   7: seven
+==================
+   1: one
+   2: two
+   3: three
+   4: four
+   5: five
+   6: six
+   7: seven
+==================
+   1: one
+   2: two
+   3: three
+   5: five
+   6: six
+   7: seven
+==================
+   1: one
+   2: two
+   3: three
+   6: six
+   7: seven
+==================
+   2: two
+   3: three
+   6: six
+   7: seven
+==================
+   2: two
+   3: three
+   6: six
+==================
+   2: two
+   6: six
+==================
+   2: two
+==================
+==================
+==================
+   1: one
+   2: two
+   3: three
+   4: four
+==================
+   1: one
+   2: two
+ 101: fred
+   3: three
+   4: four
+==================
+ 102: barney
+   1: one
+   2: two
+ 101: fred
+   3: three
+   4: four
+==================
+ 102: barney
+   1: one
+   2: two
+ 101: fred
+   3: three
+ 103: wilma
+   4: four
+==================
+ 104: betty
+ 102: barney
+   1: one
+   2: two
+ 101: fred
+   3: three
+ 103: wilma
+   4: four
+==================
+ 104: betty
+ 102: barney
+   1: one
+   2: two
+ 101: fred
+   3: three
+ 103: wilma
+   4: four
+==================
+   1: one
+   2: two
+   3: three
+   4: four
+==================
+   1: one
+   2: two
+ 101: fred
+   3: three
+   4: four
+==================
+   1: one
+   2: two
+ 101: fred
+   3: three
+   4: four
+ 102: barney
+==================
+   1: one
+ 103: wilma
+   2: two
+ 101: fred
+   3: three
+   4: four
+ 102: barney
+==================
+   1: one
+ 103: wilma
+   2: two
+ 101: fred
+   3: three
+   4: four
+ 102: barney
+ 104: betty
+==================
+   1: one
+ 103: wilma
+   2: two
+ 101: fred
+   3: three
+   4: four
+ 102: barney
+ 104: betty
+==================
+5122: 00005122
+6115: 00006115
+6759: 00006759
+ 578: 00000578
+6354: 00006354
+ 814: 00000814
+ 980: 00000980
+1082: 00001082
+5835: 00005835
+1417: 00001417
+8040: 00008040
+8707: 00008707
+5873: 00005873
+7440: 00007440
+2479: 00002479
+3156: 00003156
+3724: 00003724
+8566: 00008566
+4420: 00004420
+4472: 00004472
+[01;32mhaven@HavenLinux[01;34m /media/sf_LinuxShared/CS180/Assignment1 $[00m diff output.txt outpu t-all.txt
+[01;32mhaven@HavenLinux[01;34m /media/sf_LinuxShared/CS180/Assignment1 $[00m valgrind -q --leak-ch eck=full --show-reachable=yes --tool=memcheck ./slist > /dev/null
+[01;32mhaven@HavenLinux[01;34m /media/sf_LinuxShared/CS180/Assignment1 $[00m doxygen
+[01;32mhaven@HavenLinux[01;34m /media/sf_LinuxShared/CS180/Assignment1 $[00m ls -al html/
+total 446
+drwxrwx--- 1 root vboxsf  12288 May 15 20:21 [0m[01;34m.[0m
+drwxrwx--- 1 root vboxsf   4096 May 15 20:21 [01;34m..[0m
+-rwxrwx--- 1 root vboxsf   3244 May 15 20:21 [01;32mannotated.html[0m
+-rwxrwx--- 1 root vboxsf     82 May 15 20:21 [01;32mannotated.js[0m
+-rwxrwx--- 1 root vboxsf    676 May 15 20:21 [01;32mbc_s.png[0m
+-rwxrwx--- 1 root vboxsf    147 May 15 20:21 [01;32mbdwn.png[0m
+-rwxrwx--- 1 root vboxsf   3400 May 15 20:21 [01;32mclasses.html[0m
+-rwxrwx--- 1 root vboxsf    132 May 15 20:21 [01;32mclosed.png[0m
+-rwxrwx--- 1 root vboxsf  23935 May 15 20:21 [01;32mdoxygen.css[0m
+-rwxrwx--- 1 root vboxsf   3779 May 15 20:21 [01;32mdoxygen.png[0m
+-rwxrwx--- 1 root vboxsf   3265 May 15 20:21 [01;32mdynsections.js[0m
+-rwxrwx--- 1 root vboxsf   3726 May 15 20:21 [01;32mfiles.html[0m
+-rwxrwx--- 1 root vboxsf    111 May 15 20:21 [01;32mfiles.js[0m
+-rwxrwx--- 1 root vboxsf     86 May 15 20:21 [01;32mftv2blank.png[0m
+-rwxrwx--- 1 root vboxsf    453 May 15 20:21 [01;32mftv2cl.png[0m
+-rwxrwx--- 1 root vboxsf    746 May 15 20:21 [01;32mftv2doc.png[0m
+-rwxrwx--- 1 root vboxsf    616 May 15 20:21 [01;32mftv2folderclosed.png[0m
+-rwxrwx--- 1 root vboxsf    597 May 15 20:21 [01;32mftv2folderopen.png[0m
+-rwxrwx--- 1 root vboxsf     86 May 15 20:21 [01;32mftv2lastnode.png[0m
+-rwxrwx--- 1 root vboxsf    746 May 15 20:21 [01;32mftv2link.png[0m
+-rwxrwx--- 1 root vboxsf    246 May 15 20:21 [01;32mftv2mlastnode.png[0m
+-rwxrwx--- 1 root vboxsf    246 May 15 20:21 [01;32mftv2mnode.png[0m
+-rwxrwx--- 1 root vboxsf    403 May 15 20:21 [01;32mftv2mo.png[0m
+-rwxrwx--- 1 root vboxsf     86 May 15 20:21 [01;32mftv2node.png[0m
+-rwxrwx--- 1 root vboxsf    388 May 15 20:21 [01;32mftv2ns.png[0m
+-rwxrwx--- 1 root vboxsf    229 May 15 20:21 [01;32mftv2plastnode.png[0m
+-rwxrwx--- 1 root vboxsf    229 May 15 20:21 [01;32mftv2pnode.png[0m
+-rwxrwx--- 1 root vboxsf    314 May 15 20:21 [01;32mftv2splitbar.png[0m
+-rwxrwx--- 1 root vboxsf     86 May 15 20:21 [01;32mftv2vertline.png[0m
+-rwxrwx--- 1 root vboxsf   3344 May 15 20:21 [01;32mfunctions.html[0m
+-rwxrwx--- 1 root vboxsf   3261 May 15 20:21 [01;32mfunctions_vars.html[0m
+-rwxrwx--- 1 root vboxsf   3154 May 15 20:21 [01;32mglobals_defs.html[0m
+-rwxrwx--- 1 root vboxsf   4298 May 15 20:21 [01;32mglobals_func.html[0m
+-rwxrwx--- 1 root vboxsf   4596 May 15 20:21 [01;32mglobals.html[0m
+-rwxrwx--- 1 root vboxsf   3152 May 15 20:21 [01;32mglobals_type.html[0m
+-rwxrwx--- 1 root vboxsf   2560 May 15 20:21 [01;32mindex.html[0m
+-rwxrwx--- 1 root vboxsf 146351 May 15 20:21 [01;32mjquery.js[0m
+-rwxrwx--- 1 root vboxsf    153 May 15 20:21 [01;32mnav_f.png[0m
+-rwxrwx--- 1 root vboxsf     95 May 15 20:21 [01;32mnav_g.png[0m
+-rwxrwx--- 1 root vboxsf     98 May 15 20:21 [01;32mnav_h.png[0m
+-rwxrwx--- 1 root vboxsf   2036 May 15 20:21 [01;32mnavtree.css[0m
+-rwxrwx--- 1 root vboxsf   1535 May 15 20:21 [01;32mnavtreeindex0.js[0m
+-rwxrwx--- 1 root vboxsf  15543 May 15 20:21 [01;32mnavtree.js[0m
+-rwxrwx--- 1 root vboxsf    123 May 15 20:21 [01;32mopen.png[0m
+-rwxrwx--- 1 root vboxsf   2800 May 15 20:21 [01;32mresize.js[0m
+-rwxrwx--- 1 root vboxsf  57855 May 15 20:21 [01;32mslist_8c.html[0m
+-rwxrwx--- 1 root vboxsf    579 May 15 20:21 [01;32mslist_8c.js[0m
+-rwxrwx--- 1 root vboxsf  41897 May 15 20:21 [01;32mslist_8c_source.html[0m
+-rwxrwx--- 1 root vboxsf  52163 May 15 20:21 [01;32mslist_8h.html[0m
+-rwxrwx--- 1 root vboxsf    720 May 15 20:21 [01;32mslist_8h.js[0m
+-rwxrwx--- 1 root vboxsf  14197 May 15 20:21 [01;32mslist_8h_source.html[0m
+-rwxrwx--- 1 root vboxsf   7440 May 15 20:21 [01;32mstructsll__node.html[0m
+-rwxrwx--- 1 root vboxsf    267 May 15 20:21 [01;32mstructsll__node.js[0m
+-rwxrwx--- 1 root vboxsf   3647 May 15 20:21 [01;32mstructsll__node-members.html[0m
+-rwxrwx--- 1 root vboxsf    853 May 15 20:21 [01;32msync_off.png[0m
+-rwxrwx--- 1 root vboxsf    845 May 15 20:21 [01;32msync_on.png[0m
+-rwxrwx--- 1 root vboxsf    142 May 15 20:21 [01;32mtab_a.png[0m
+-rwxrwx--- 1 root vboxsf    169 May 15 20:21 [01;32mtab_b.png[0m
+-rwxrwx--- 1 root vboxsf    177 May 15 20:21 [01;32mtab_h.png[0m
+-rwxrwx--- 1 root vboxsf   1163 May 15 20:21 [01;32mtabs.css[0m
+-rwxrwx--- 1 root vboxsf    184 May 15 20:21 [01;32mtab_s.png[0m
+[01;32mhaven@HavenLinux[01;34m /media/sf_LinuxShared/CS180/Assignment1 $[00m exit
+
+Script done on Fri 15 May 2015 08:22:00 PM PDT

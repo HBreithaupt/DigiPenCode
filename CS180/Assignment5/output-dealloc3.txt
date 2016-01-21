@@ -1,0 +1,96 @@
+
+<<<<<<<< test_dealloc3 >>>>>>>>
+=========================================
+    label: one
+  address: 0x000000
+     size: 10
+allocated: true
+--
+    label: two
+  address: 0x000000
+     size: 20
+allocated: true
+--
+    label: three
+  address: 0x000000
+     size: 30
+allocated: true
+--
+    label: four
+  address: 0x000000
+     size: 15
+allocated: true
+--
+    label: five
+  address: 0x000000
+     size: 10
+allocated: true
+--
+    label: FREE
+  address: 0x000000
+     size: 15
+allocated: false
+--
+Allocated bytes:       85 [blocks:     5]
+     Free bytes:       15 [blocks:     1]
+=========================================
+    label: one
+  address: 0x000000
+     size: 10
+allocated: true
+--
+    label: two
+  address: 0x000000
+     size: 20
+allocated: false
+--
+    label: three
+  address: 0x000000
+     size: 30
+allocated: true
+--
+    label: four
+  address: 0x000000
+     size: 15
+allocated: true
+--
+    label: five
+  address: 0x000000
+     size: 10
+allocated: true
+--
+    label: FREE
+  address: 0x000000
+     size: 15
+allocated: false
+--
+Allocated bytes:       65 [blocks:     4]
+     Free bytes:       35 [blocks:     2]
+=========================================
+    label: one
+  address: 0x000000
+     size: 10
+allocated: true
+--
+    label: two
+  address: 0x000000
+     size: 50
+allocated: false
+--
+    label: four
+  address: 0x000000
+     size: 15
+allocated: true
+--
+    label: five
+  address: 0x000000
+     size: 10
+allocated: true
+--
+    label: FREE
+  address: 0x000000
+     size: 15
+allocated: false
+--
+Allocated bytes:       35 [blocks:     3]
+     Free bytes:       65 [blocks:     2]

@@ -1,0 +1,57 @@
+
+******************** TestMerge1 ********************
+List1 ( 3 nodes): 12   21   70   
+List2 ( 3 nodes): 23   67   88   
+Merge list2 into list1:
+List1 ( 6 nodes): 12   21   23   67   70   88   
+List2 ( 0 nodes): 
+
+******************** TestMerge2 ********************
+List1 ( 8 nodes): 12   21   22   27   34   38   56   94   
+List2 ( 8 nodes): 10   17   19   23   30   59   67   88   
+Merge list2 into list1:
+List1 (16 nodes): 10   12   17   19   21   22   23   27   30   34   38   56   59   67   88   94   
+List2 ( 0 nodes): 
+
+******************** TestMerge3 ********************
+List1 ( 4 nodes): 12   21   34   56   
+List2 ( 8 nodes): 10   17   19   23   30   59   67   88   
+Merge list2 into list1:
+List1 (12 nodes): 10   12   17   19   21   23   30   34   56   59   67   88   
+List2 ( 0 nodes): 
+
+******************** TestMerge4 ********************
+List1 ( 8 nodes): 12   21   22   27   34   38   56   94   
+List2 ( 3 nodes): 23   67   88   
+Merge list2 into list1:
+List1 (11 nodes): 12   21   22   23   27   34   38   56   67   88   94   
+List2 ( 0 nodes): 
+
+******************** TestMerge5 ********************
+List1 ( 8 nodes): 12   21   22   27   34   38   56   94   
+List2 ( 0 nodes): 
+Merge list2 into list1:
+List1 ( 8 nodes): 12   21   22   27   34   38   56   94   
+List2 ( 0 nodes): 
+
+******************** TestMerge6 ********************
+List1 ( 0 nodes): 
+List2 ( 8 nodes): 10   17   19   23   30   59   67   88   
+Merge list2 into list1:
+List1 ( 8 nodes): 10   17   19   23   30   59   67   88   
+List2 ( 0 nodes): 
+
+******************** TestMerge7 ********************
+List1 ( 8 nodes): 12   12   12   12   22   27   34   56   
+List2 ( 8 nodes): 12   12   12   12   12   17   59   88   
+Merge list2 into list1:
+List1 (16 nodes): 12   12   12   12   12   12   12   12   12   17   22   27   34   56   59   88   
+List2 ( 0 nodes): 
+
+******************** TestMerge8 ********************
+Merging a list into itself...
+List1 (11 nodes): 8   12   12   12   20   21   21   43   55   56   70   
+List2 (11 nodes): 8   12   12   12   20   21   21   43   55   56   70   
+Merge list2 into list1:
+List1 (22 nodes): 8   8   12   12   12   12   12   12   20   20   21   21   21   21   43   43   55   55   56   56   70   70   
+List2 ( 0 nodes): 

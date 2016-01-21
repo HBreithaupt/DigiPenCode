@@ -1,0 +1,58 @@
+\hypertarget{child-matrix_8c}{\section{child-\/matrix.c File Reference}
+\label{child-matrix_8c}\index{child-\/matrix.\-c@{child-\/matrix.\-c}}
+}
+
+
+Implementation of child exectuable to perform marix multiplication.  
+
+
+{\ttfamily \#include $<$sys/shm.\-h$>$}\\*
+{\ttfamily \#include $<$stdlib.\-h$>$}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{child-matrix_8c_a3c04138a5bfe5d72780bb7e82a18e627}{main} (int argc, char $\ast$$\ast$argv)
+\begin{DoxyCompactList}\small\item\em This is launched via exec from \hyperlink{parent-matrix_8c}{parent-\/matrix.\-c}. The child will perform matrix multiplication on one row and column via shared memory. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Implementation of child exectuable to perform marix multiplication. \begin{DoxyAuthor}{Author}
+Haven Breithaupt 
+\end{DoxyAuthor}
+\begin{DoxyParagraph}{D\-P email\-: h.breithaupt@digipen.edu}
+
+\end{DoxyParagraph}
+\begin{DoxyParagraph}{Course\-: C\-S180}
+
+\end{DoxyParagraph}
+\begin{DoxyParagraph}{assignment 3}
+
+\end{DoxyParagraph}
+\begin{DoxyDate}{Date}
+6/17/2015 
+\end{DoxyDate}
+
+
+\subsection{Function Documentation}
+\hypertarget{child-matrix_8c_a3c04138a5bfe5d72780bb7e82a18e627}{\index{child-\/matrix.\-c@{child-\/matrix.\-c}!main@{main}}
+\index{main@{main}!child-matrix.c@{child-\/matrix.\-c}}
+\subsubsection[{main}]{\setlength{\rightskip}{0pt plus 5cm}int main (
+\begin{DoxyParamCaption}
+\item[{int}]{argc, }
+\item[{char $\ast$$\ast$}]{argv}
+\end{DoxyParamCaption}
+)}}\label{child-matrix_8c_a3c04138a5bfe5d72780bb7e82a18e627}
+
+
+This is launched via exec from \hyperlink{parent-matrix_8c}{parent-\/matrix.\-c}. The child will perform matrix multiplication on one row and column via shared memory. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em argc} & Number of arguments given to the exectuable\\
+\hline
+{\em argv} & Array of the arguments passed to child-\/matrix\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Normal return from main 
+\end{DoxyReturn}

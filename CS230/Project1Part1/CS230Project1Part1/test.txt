@@ -1,0 +1,9 @@
+FrameStart: 7269699
+FrameEnd: 7269716
+Frametime: 17.000000
+FrameStart: 7269716
+FrameEnd: 7269733
+Frametime: 17.000000
+FrameStart: 7269643
+FrameEnd: 7269660
+Frametime: 17.000000

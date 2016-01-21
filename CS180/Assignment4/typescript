@@ -1,0 +1,490 @@
+Script started on Sun 28 Jun 2015 01:34:16 PM PDT
+[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment4 $[00m date
+Sun Jun 28 13:34:19 PDT 2015
+[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment4 $[00m uptime
+ 13:34:20 up 11:15,  2 users,  load average: 0.05, 0.07, 0.11
+[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment4 $[00m echo haven [K[K[K[K[K[KHaven Breithaupt
+Haven Breithaupt
+[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment4 $[00m pwd
+/media/sf_DigiPenCode/CS180/Assignment4
+[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment4 $[00m whoami
+haven
+[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment4 $[00m uname -a
+Linux HavenLinux 3.13.0-24-generic #47-Ubuntu SMP Fri May 2 23:30:00 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux
+[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment4 $[00m cat /proc.[K/cpuinfo 
+processor	: 0
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 70
+model name	: Intel(R) Core(TM) i7-4850HQ CPU @ 2.30GHz
+stepping	: 1
+microcode	: 0x19
+cpu MHz		: 2299.896
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 0
+cpu cores	: 8
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 lahf_lm
+bogomips	: 4599.79
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 1
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 70
+model name	: Intel(R) Core(TM) i7-4850HQ CPU @ 2.30GHz
+stepping	: 1
+microcode	: 0x19
+cpu MHz		: 2299.896
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 1
+cpu cores	: 8
+apicid		: 1
+initial apicid	: 1
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 lahf_lm
+bogomips	: 4599.79
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 2
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 70
+model name	: Intel(R) Core(TM) i7-4850HQ CPU @ 2.30GHz
+stepping	: 1
+microcode	: 0x19
+cpu MHz		: 2299.896
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 2
+cpu cores	: 8
+apicid		: 2
+initial apicid	: 2
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 lahf_lm
+bogomips	: 4599.79
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 3
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 70
+model name	: Intel(R) Core(TM) i7-4850HQ CPU @ 2.30GHz
+stepping	: 1
+microcode	: 0x19
+cpu MHz		: 2299.896
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 3
+cpu cores	: 8
+apicid		: 3
+initial apicid	: 3
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 lahf_lm
+bogomips	: 4599.79
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 4
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 70
+model name	: Intel(R) Core(TM) i7-4850HQ CPU @ 2.30GHz
+stepping	: 1
+microcode	: 0x19
+cpu MHz		: 2299.896
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 4
+cpu cores	: 8
+apicid		: 4
+initial apicid	: 4
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 lahf_lm
+bogomips	: 4599.79
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 5
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 70
+model name	: Intel(R) Core(TM) i7-4850HQ CPU @ 2.30GHz
+stepping	: 1
+microcode	: 0x19
+cpu MHz		: 2299.896
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 5
+cpu cores	: 8
+apicid		: 5
+initial apicid	: 5
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 lahf_lm
+bogomips	: 4599.79
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 6
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 70
+model name	: Intel(R) Core(TM) i7-4850HQ CPU @ 2.30GHz
+stepping	: 1
+microcode	: 0x19
+cpu MHz		: 2299.896
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 6
+cpu cores	: 8
+apicid		: 6
+initial apicid	: 6
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 lahf_lm
+bogomips	: 4599.79
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+processor	: 7
+vendor_id	: GenuineIntel
+cpu family	: 6
+model		: 70
+model name	: Intel(R) Core(TM) i7-4850HQ CPU @ 2.30GHz
+stepping	: 1
+microcode	: 0x19
+cpu MHz		: 2299.896
+cache size	: 6144 KB
+physical id	: 0
+siblings	: 8
+core id		: 7
+cpu cores	: 8
+apicid		: 7
+initial apicid	: 7
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 5
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx rdtscp lm constant_tsc rep_good nopl pni ssse3 lahf_lm
+bogomips	: 4599.79
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 39 bits physical, 48 bits virtual
+power management:
+
+[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment4 $[00m cat /proc/cpuinfo [K[K[K[K[K[K[K[Kmeminfo 
+MemTotal:        4047612 kB
+MemFree:         3016964 kB
+Buffers:           58708 kB
+Cached:           592296 kB
+SwapCached:            0 kB
+Active:           596440 kB
+Inactive:         309036 kB
+Active(anon):     255268 kB
+Inactive(anon):    22920 kB
+Active(file):     341172 kB
+Inactive(file):   286116 kB
+Unevictable:          16 kB
+Mlocked:              16 kB
+SwapTotal:       4192252 kB
+SwapFree:        4192252 kB
+Dirty:                 8 kB
+Writeback:             0 kB
+AnonPages:        254520 kB
+Mapped:            89244 kB
+Shmem:             23720 kB
+Slab:              62888 kB
+SReclaimable:      37944 kB
+SUnreclaim:        24944 kB
+KernelStack:        2888 kB
+PageTables:        15924 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:     6216056 kB
+Committed_AS:    1432684 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       55228 kB
+VmallocChunk:   34359604731 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:     67584 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:       53184 kB
+DirectMap2M:     4141056 kB
+[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment4 $[00m gcc -Wall -Wextra -ansi -pedantic -pthread main-thread.c matrix-thread.c -o matrix-threads
+[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment4 $[00m ./matrix-threads mat16.txt | tee output.txt
+      -1       4      -4       7      -1       1       6       1       6       7      10       5     -10      -7      -2      -9
+       8      -2       3       8       9       1       9      -3       6      -6      -6       9       5      -9      -4      -6
+      -9      -1      -9       8      -7      10       9      -5      -6      -4       7     -10      -1      -6       7      -4
+      -9      -1       6       1       2      -6      10      -1      10       0      -4       4      -1       8       8      -6
+      -2       3      -5      -3      -3      -3       2       4       4       9       1      -3      -8      -1       5      -1
+       4       0       8      -8       5      -5       4     -10       4       6      -7      -7       1       5      -3      -2
+      -6       5       2       4       7       5      10      -2      -5      -4      -7       4      -8      -1     -10      -4
+       6       2      -4      -3       2       7       8      -6     -10      10       9       4     -10      -8      -3      -9
+       0      -6      -2       3       1     -10      -2     -10       8       0       2       5      -7      -7       1      -6
+      -6      10      -3       3       1      -3      -7      -1      -8      -5       6       7     -10      10      -7      10
+       5       8       5       4      -1       5      -4       8      -9      -5      -3      -5       5       2       0       9
+      -2      -4       5       1       0       3       6       9       3      -1       7      -8      -5       1      -3       1
+      -5       2      -1       1      -6      -1       6       8      -6      -2       8      -8     -10       9      -8      -3
+       2       1       4     -10     -10      -6       4      -4      -2      -4     -10       7      -9       6       6       8
+      -9      -4      -4       8      -3      -8      -3       9      -7       9     -10       4      -4      -1      -2      -7
+      10       2       2      -7      -2       5      -6      -2       7      -1       0       8      -1      -6       1       0
+
+     -56      71     129     207     288     -37      35     -26      14     -83     -62      63      71      20     -82      42
+    -288     -84     -40     172      94     -14     375      48     274     124     220    -207    -218     -55     -33    -340
+     -51      29     265     -12     239    -129     -63      32     -77     -22    -509     -16     337     256    -111      26
+    -295    -133     -80     106     -80    -138     131     -35    -122     -85    -189      48    -212       3      35     -45
+      44      50     -40      85     131     -71    -180     -74    -118      -6     -87     280     -20     -69    -108      56
+    -163      54    -222      91    -134     -39     -51    -106      -7    -140      54      56    -146     -29      23      83
+      -5     -40     121     -98     209      98     277    -173     199     -62    -147     -78     121     -18      49     -30
+     -39     243     113     160     265     107     -39     122     -97     -51     -54     -88     132     124    -208     206
+    -195    -105     -49     188       6    -121    -211     167     148     -57      54     -50     131       4     118      76
+     387     -22     254    -231      -4     128     -21      23     211    -186    -216     129     294     -65     232     248
+     166      18       2     -71     -23     156     248    -102      53     102      31      68      -8    -134      43    -229
+      67     107     -28     -52      30     128      53    -230    -163      30     -44      27     -25    -102      54     -24
+     219     131     133    -143      87     177      61    -209    -191    -154    -236     155     175     -18      71     181
+      51    -162     -49      22     -57     123     -61     -26      33     -87     -91     169      46    -257     -11     -16
+    -159     -17     -32     -76      49      -8      -7      20    -128       6     125      87     -31     206      23      87
+      73     -95     -46     136      34      -3     -26      -5     151      98     223    -107     -15    -204     -69    -130
+
+[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment4 $[00m diff --strip-trailing-cr output16.txt output.txt
+[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment4 $[00m valgrind -q --leak-check=full --show-reachable=yes --trace-children=yes --tool=memcheck ./matrix-threads mat16.txt
+      -1       4      -4       7      -1       1       6       1       6       7      10       5     -10      -7      -2      -9
+       8      -2       3       8       9       1       9      -3       6      -6      -6       9       5      -9      -4      -6
+      -9      -1      -9       8      -7      10       9      -5      -6      -4       7     -10      -1      -6       7      -4
+      -9      -1       6       1       2      -6      10      -1      10       0      -4       4      -1       8       8      -6
+      -2       3      -5      -3      -3      -3       2       4       4       9       1      -3      -8      -1       5      -1
+       4       0       8      -8       5      -5       4     -10       4       6      -7      -7       1       5      -3      -2
+      -6       5       2       4       7       5      10      -2      -5      -4      -7       4      -8      -1     -10      -4
+       6       2      -4      -3       2       7       8      -6     -10      10       9       4     -10      -8      -3      -9
+       0      -6      -2       3       1     -10      -2     -10       8       0       2       5      -7      -7       1      -6
+      -6      10      -3       3       1      -3      -7      -1      -8      -5       6       7     -10      10      -7      10
+       5       8       5       4      -1       5      -4       8      -9      -5      -3      -5       5       2       0       9
+      -2      -4       5       1       0       3       6       9       3      -1       7      -8      -5       1      -3       1
+      -5       2      -1       1      -6      -1       6       8      -6      -2       8      -8     -10       9      -8      -3
+       2       1       4     -10     -10      -6       4      -4      -2      -4     -10       7      -9       6       6       8
+      -9      -4      -4       8      -3      -8      -3       9      -7       9     -10       4      -4      -1      -2      -7
+      10       2       2      -7      -2       5      -6      -2       7      -1       0       8      -1      -6       1       0
+
+     -56      71     129     207     288     -37      35     -26      14     -83     -62      63      71      20     -82      42
+    -288     -84     -40     172      94     -14     375      48     274     124     220    -207    -218     -55     -33    -340
+     -51      29     265     -12     239    -129     -63      32     -77     -22    -509     -16     337     256    -111      26
+    -295    -133     -80     106     -80    -138     131     -35    -122     -85    -189      48    -212       3      35     -45
+      44      50     -40      85     131     -71    -180     -74    -118      -6     -87     280     -20     -69    -108      56
+    -163      54    -222      91    -134     -39     -51    -106      -7    -140      54      56    -146     -29      23      83
+      -5     -40     121     -98     209      98     277    -173     199     -62    -147     -78     121     -18      49     -30
+     -39     243     113     160     265     107     -39     122     -97     -51     -54     -88     132     124    -208     206
+    -195    -105     -49     188       6    -121    -211     167     148     -57      54     -50     131       4     118      76
+     387     -22     254    -231      -4     128     -21      23     211    -186    -216     129     294     -65     232     248
+     166      18       2     -71     -23     156     248    -102      53     102      31      68      -8    -134      43    -229
+      67     107     -28     -52      30     128      53    -230    -163      30     -44      27     -25    -102      54     -24
+     219     131     133    -143      87     177      61    -209    -191    -154    -236     155     175     -18      71     181
+      51    -162     -49      22     -57     123     -61     -26      33     -87     -91     169      46    -257     -11     -16
+    -159     -17     -32     -76      49      -8      -7      20    -128       6     125      87     -31     206      23      87
+      73     -95     -46     136      34      -3     -26      -5     151      98     223    -107     -15    -204     -69    -130
+
+[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment4 $[00m doxygen
+Searching for include files...
+Searching for example files...
+Searching for images...
+Searching for dot files...
+Searching for msc files...
+Searching for dia files...
+Searching for files to exclude
+Searching for files to process...
+Searching for files in directory /media/sf_DigiPenCode/CS180/Assignment4
+Reading and parsing tag files
+Parsing files
+Preprocessing /media/sf_DigiPenCode/CS180/Assignment4/main-thread.c...
+Parsing file /media/sf_DigiPenCode/CS180/Assignment4/main-thread.c...
+Preprocessing /media/sf_DigiPenCode/CS180/Assignment4/matrix-thread.c...
+Parsing file /media/sf_DigiPenCode/CS180/Assignment4/matrix-thread.c...
+Preprocessing /media/sf_DigiPenCode/CS180/Assignment4/matrix-thread.h...
+Parsing file /media/sf_DigiPenCode/CS180/Assignment4/matrix-thread.h...
+Building group list...
+Building directory list...
+Building namespace list...
+Building file list...
+Building class list...
+Associating documentation with classes...
+Computing nesting relations for classes...
+Building example list...
+Searching for enumerations...
+Searching for documented typedefs...
+Searching for members imported via using declarations...
+Searching for included using directives...
+Searching for documented variables...
+Building interface member list...
+Building member list...
+Searching for friends...
+Searching for documented defines...
+Computing class inheritance relations...
+Computing class usage relations...
+Flushing cached template relations that have become invalid...
+Creating members for template instances...
+Computing class relations...
+Add enum values to enums...
+Searching for member function documentation...
+Building page list...
+Search for main page...
+Computing page relations...
+Determining the scope of groups...
+Sorting lists...
+Freeing entry tree
+Determining which enums are documented
+Computing member relations...
+Building full member lists recursively...
+Adding members to member groups.
+Computing member references...
+Inheriting documentation...
+Generating disk names...
+Adding source references...
+Adding xrefitems...
+Sorting member lists...
+Computing dependencies between directories...
+Generating citations page...
+Counting data structures...
+Resolving user defined references...
+Finding anchors and sections in the documentation...
+Transferring function references...
+Combining using relations...
+Adding members to index pages...
+Generating style sheet...
+Generating search indices...
+Generating example documentation...
+Generating file sources...
+Generating code for file matrix-thread.h...
+Generating file documentation...
+Generating docs for file main-thread.c...
+Generating docs for file matrix-thread.c...
+Generating docs for file matrix-thread.h...
+Generating page documentation...
+Generating group documentation...
+Generating class documentation...
+Generating docs for compound thread_info...
+Generating namespace index...
+Generating graph info page...
+Generating directory documentation...
+Generating index page...
+Generating page index...
+Generating module index...
+Generating namespace index...
+Generating namespace member index...
+Generating annotated compound index...
+Generating alphabetical compound index...
+Generating hierarchical class index...
+Generating member index...
+Generating file index...
+Generating file member index...
+Generating example index...
+finalizing index lists...
+lookup cache used 12/65536 hits=19 misses=12
+finished...
+[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment4 $[00m ls -al html/
+total 376
+drwxrwx--- 1 root vboxsf   1734 Jun 28 13:35 [0m[01;34m.[0m
+drwxrwx--- 1 root vboxsf    544 Jun 28 13:35 [01;34m..[0m
+-rwxrwx--- 1 root vboxsf   4820 Jun 28 13:35 [01;32mannotated.html[0m
+-rwxrwx--- 1 root vboxsf    676 Jun 28 13:35 [01;32mbc_s.png[0m
+-rwxrwx--- 1 root vboxsf    147 Jun 28 13:35 [01;32mbdwn.png[0m
+-rwxrwx--- 1 root vboxsf   4994 Jun 28 13:35 [01;32mclasses.html[0m
+-rwxrwx--- 1 root vboxsf    132 Jun 28 13:35 [01;32mclosed.png[0m
+-rwxrwx--- 1 root vboxsf  23935 Jun 28 13:35 [01;32mdoxygen.css[0m
+-rwxrwx--- 1 root vboxsf   3779 Jun 28 13:35 [01;32mdoxygen.png[0m
+-rwxrwx--- 1 root vboxsf   2983 Jun 28 13:35 [01;32mdynsections.js[0m
+-rwxrwx--- 1 root vboxsf   5526 Jun 28 13:35 [01;32mfiles.html[0m
+-rwxrwx--- 1 root vboxsf     86 Jun 28 13:35 [01;32mftv2blank.png[0m
+-rwxrwx--- 1 root vboxsf    453 Jun 28 13:35 [01;32mftv2cl.png[0m
+-rwxrwx--- 1 root vboxsf    746 Jun 28 13:35 [01;32mftv2doc.png[0m
+-rwxrwx--- 1 root vboxsf    616 Jun 28 13:35 [01;32mftv2folderclosed.png[0m
+-rwxrwx--- 1 root vboxsf    597 Jun 28 13:35 [01;32mftv2folderopen.png[0m
+-rwxrwx--- 1 root vboxsf     86 Jun 28 13:35 [01;32mftv2lastnode.png[0m
+-rwxrwx--- 1 root vboxsf    746 Jun 28 13:35 [01;32mftv2link.png[0m
+-rwxrwx--- 1 root vboxsf    246 Jun 28 13:35 [01;32mftv2mlastnode.png[0m
+-rwxrwx--- 1 root vboxsf    246 Jun 28 13:35 [01;32mftv2mnode.png[0m
+-rwxrwx--- 1 root vboxsf    403 Jun 28 13:35 [01;32mftv2mo.png[0m
+-rwxrwx--- 1 root vboxsf     86 Jun 28 13:35 [01;32mftv2node.png[0m
+-rwxrwx--- 1 root vboxsf    388 Jun 28 13:35 [01;32mftv2ns.png[0m
+-rwxrwx--- 1 root vboxsf    229 Jun 28 13:35 [01;32mftv2plastnode.png[0m
+-rwxrwx--- 1 root vboxsf    229 Jun 28 13:35 [01;32mftv2pnode.png[0m
+-rwxrwx--- 1 root vboxsf    314 Jun 28 13:35 [01;32mftv2splitbar.png[0m
+-rwxrwx--- 1 root vboxsf     86 Jun 28 13:35 [01;32mftv2vertline.png[0m
+-rwxrwx--- 1 root vboxsf   5191 Jun 28 13:35 [01;32mfunctions.html[0m
+-rwxrwx--- 1 root vboxsf   5079 Jun 28 13:35 [01;32mfunctions_vars.html[0m
+-rwxrwx--- 1 root vboxsf   4985 Jun 28 13:35 [01;32mglobals_func.html[0m
+-rwxrwx--- 1 root vboxsf   5086 Jun 28 13:35 [01;32mglobals.html[0m
+-rwxrwx--- 1 root vboxsf   4056 Jun 28 13:35 [01;32mindex.html[0m
+-rwxrwx--- 1 root vboxsf 104693 Jun 28 13:35 [01;32mjquery.js[0m
+-rwxrwx--- 1 root vboxsf  10966 Jun 28 13:35 [01;32mmain-thread_8c.html[0m
+-rwxrwx--- 1 root vboxsf   6894 Jun 28 13:35 [01;32mmatrix-thread_8c.html[0m
+-rwxrwx--- 1 root vboxsf   7471 Jun 28 13:35 [01;32mmatrix-thread_8h.html[0m
+-rwxrwx--- 1 root vboxsf   9832 Jun 28 13:35 [01;32mmatrix-thread_8h_source.html[0m
+-rwxrwx--- 1 root vboxsf    153 Jun 28 13:35 [01;32mnav_f.png[0m
+-rwxrwx--- 1 root vboxsf     95 Jun 28 13:35 [01;32mnav_g.png[0m
+-rwxrwx--- 1 root vboxsf     98 Jun 28 13:35 [01;32mnav_h.png[0m
+-rwxrwx--- 1 root vboxsf    123 Jun 28 13:35 [01;32mopen.png[0m
+drwxrwx--- 1 root vboxsf   1428 Jun 28 13:31 [01;34msearch[0m
+-rwxrwx--- 1 root vboxsf   8568 Jun 28 13:35 [01;32mstructthread__info.html[0m
+-rwxrwx--- 1 root vboxsf   5727 Jun 28 13:35 [01;32mstructthread__info-members.html[0m
+-rwxrwx--- 1 root vboxsf    853 Jun 28 13:35 [01;32msync_off.png[0m
+-rwxrwx--- 1 root vboxsf    845 Jun 28 13:35 [01;32msync_on.png[0m
+-rwxrwx--- 1 root vboxsf    142 Jun 28 13:35 [01;32mtab_a.png[0m
+-rwxrwx--- 1 root vboxsf    169 Jun 28 13:35 [01;32mtab_b.png[0m
+-rwxrwx--- 1 root vboxsf    177 Jun 28 13:35 [01;32mtab_h.png[0m
+-rwxrwx--- 1 root vboxsf   1163 Jun 28 13:35 [01;32mtabs.css[0m
+-rwxrwx--- 1 root vboxsf    184 Jun 28 13:35 [01;32mtab_s.png[0m
+[01;32mhaven@HavenLinux[01;34m /media/sf_DigiPenCode/CS180/Assignment4 $[00m exit
+
+Script done on Sun 28 Jun 2015 01:35:30 PM PDT
